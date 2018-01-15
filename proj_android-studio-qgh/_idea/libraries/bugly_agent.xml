@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bugly_agent">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/bugly_agent.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

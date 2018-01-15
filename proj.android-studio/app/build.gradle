@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+
+def cmd = 'svn info --show-item revision'
+def svnVersion = cmd.execute().text.trim().toInteger()
+def buildTime() {return new Date().format("yyyy.MM.dd.HH", TimeZone.getDefault())}
+def timeVersion = "1.${buildTime()}.1"
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.tencent.tmgp.summoner"
+        minSdkVersion 10
+        targetSdkVersion 22
+        versionCode svnVersion
+        versionName timeVersion
+    }
+
+    sourceSets.main {
+        java.srcDir "src"
+        res.srcDir "res"
+        jniLibs.srcDir "libs"
+        manifest.srcFile "AndroidManifest.xml"
+        assets.srcDir "assets"
+    }
+
+    signingConfigs {
+        release {
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                storeFile file(RELEASE_STORE_FILE)
+                storePassword RELEASE_STORE_PASSWORD
+                keyAlias RELEASE_KEY_ALIAS
+                keyPassword RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.release
+            }
+
+            //applicationVariants.all { variant ->
+            //    variant.outputs.each { output ->
+            //        def outputFile = output.outputFile
+			//
+            //        logger.info('==========================1')
+            //        println outputFile
+            //        logger.info('==========================2')
+            //
+            //        if (outputFile != null && outputFile.name.endsWith('.apk')) {
+            //            def fileName = outputFile.name.replace(".apk", "-${defaultConfig.versionName}.apk")
+            //            logger.info('==========================3')
+            //            println fileName
+            //            logger.info('==========================4')
+            //            output.outputFile = new File(outputFile.parent, fileName)
+            //            logger.info('==========================5')
+            //            println  output.outputFile
+            //            logger.info('==========================6')
+            //        }
+            //    }
+            //}
+        }
+    }
+}
+
+repositories{
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':libcocos2dx')
+    compile files('libs/libPluginProtocol.jar')
+
+    compile 'com.android.support:support-v4:22.2.1'
+}

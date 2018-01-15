@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "88ab96c4-d3bc-4409-8e00-8198d990fc03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "88ab96c4-d3bc-4409-8e00-8198d990fc03" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "88ab96c4-d3bc-4409-8e00-8198d990fc03" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F69FBFBC-0C03-4112-9AB3-C03B449703DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "88ab96c4-d3bc-4409-8e00-8198d990fc03" : "SUM_Client\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "summoner",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "summoner\/proj.ios_mac\/summoner.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.100.1\/SUM-Client",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88ab96c4-d3bc-4409-8e00-8198d990fc03"
+    }
+  ]
+}
