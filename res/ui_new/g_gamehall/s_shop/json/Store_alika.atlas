@@ -1,0 +1,174 @@
+
+Store_alika.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+store_bear_body
+  rotate: true
+  xy: 231, 236
+  size: 19, 24
+  orig: 19, 24
+  offset: 0, 0
+  index: -1
+store_bear_hand
+  rotate: true
+  xy: 170, 161
+  size: 9, 17
+  orig: 9, 17
+  offset: 0, 0
+  index: -1
+store_bear_head
+  rotate: false
+  xy: 115, 135
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+store_body
+  rotate: true
+  xy: 170, 171
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1
+store_ear_L
+  rotate: true
+  xy: 143, 146
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+store_ear_R
+  rotate: false
+  xy: 231, 221
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+store_eye_L_c
+  rotate: false
+  xy: 143, 135
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+store_eye_L_o
+  rotate: false
+  xy: 203, 160
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+store_eye_R_c
+  rotate: true
+  xy: 157, 158
+  size: 17, 12
+  orig: 17, 12
+  offset: 0, 0
+  index: -1
+store_eye_R_o
+  rotate: false
+  xy: 188, 160
+  size: 14, 10
+  orig: 14, 10
+  offset: 0, 0
+  index: -1
+store_hair01
+  rotate: false
+  xy: 170, 213
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+store_hair02
+  rotate: true
+  xy: 125, 161
+  size: 14, 31
+  orig: 14, 31
+  offset: 0, 0
+  index: -1
+store_hair03
+  rotate: false
+  xy: 60, 64
+  size: 8, 27
+  orig: 8, 27
+  offset: 0, 0
+  index: -1
+store_hair04
+  rotate: false
+  xy: 29, 162
+  size: 46, 93
+  orig: 46, 93
+  offset: 0, 0
+  index: -1
+store_hair05
+  rotate: true
+  xy: 1, 1
+  size: 27, 67
+  orig: 27, 67
+  offset: 0, 0
+  index: -1
+store_hair06
+  rotate: false
+  xy: 125, 176
+  size: 44, 79
+  orig: 44, 79
+  offset: 0, 0
+  index: -1
+store_hair07
+  rotate: false
+  xy: 1, 29
+  size: 29, 88
+  orig: 29, 88
+  offset: 0, 0
+  index: -1
+store_hair08
+  rotate: false
+  xy: 76, 166
+  size: 48, 89
+  orig: 48, 89
+  offset: 0, 0
+  index: -1
+store_hand_L
+  rotate: false
+  xy: 78, 127
+  size: 36, 38
+  orig: 36, 38
+  offset: 0, 0
+  index: -1
+store_hand_R
+  rotate: false
+  xy: 31, 58
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+store_head
+  rotate: true
+  xy: 29, 122
+  size: 39, 48
+  orig: 39, 48
+  offset: 0, 0
+  index: -1
+store_sidai01
+  rotate: false
+  xy: 31, 92
+  size: 38, 29
+  orig: 38, 29
+  offset: 0, 0
+  index: -1
+store_sidai02
+  rotate: true
+  xy: 31, 30
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+store_wuqi
+  rotate: false
+  xy: 1, 118
+  size: 27, 137
+  orig: 27, 137
+  offset: 0, 0
+  index: -1

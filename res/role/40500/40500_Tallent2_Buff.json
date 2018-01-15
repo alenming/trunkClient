@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "Rl9R5J24YN0q4kr9b26/mHQBqQU", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40500_Tallent2_Buff" },
+	{ "name": "Tallent2_Buff", "parent": "40500_Tallent2_Buff", "scaleX": 1.523, "scaleY": 1.523 }
+],
+"slots": [
+	{ "name": "Soldier_Export_DeBuff2_Yellow01", "bone": "Tallent2_Buff" }
+],
+"skins": {
+	"default": {
+		"Soldier_Export_DeBuff2_Yellow01": {
+			"40500_Attack_Buff1_FaZhen_TX01": { "scaleY": 0.41, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"40500_Tallent2_Buff": {
+		"slots": {
+			"Soldier_Export_DeBuff2_Yellow01": {
+				"attachment": [
+					{ "time": 0, "name": "40500_Attack_Buff1_FaZhen_TX01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff7e" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Tallent2_Buff": {
+				"scale": [
+					{ "time": 0, "x": 1.641, "y": 1.313 },
+					{ "time": 0.3333, "x": 1.116, "y": 0.984 },
+					{ "time": 1, "x": 0.525, "y": 0.328 }
+				]
+			}
+		}
+	}
+}
+}

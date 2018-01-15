@@ -1,0 +1,62 @@
+
+20500_Skill2_Buff.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+20500_Eff_LiZi_01
+  rotate: false
+  xy: 90, 115
+  size: 86, 109
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+20500_Eff_LiZi_02
+  rotate: false
+  xy: 1, 114
+  size: 86, 110
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+20500_Eff_LiZi_03
+  rotate: false
+  xy: 90, 4
+  size: 86, 108
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+20500_Eff_LiZi_04
+  rotate: false
+  xy: 1, 1
+  size: 86, 110
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+20500_Eff_LiZi_05
+  rotate: false
+  xy: 179, 10
+  size: 86, 103
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+20500_Eff_LiZi_06
+  rotate: false
+  xy: 268, 127
+  size: 86, 97
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+20500_Eff_LiZi_07
+  rotate: false
+  xy: 179, 116
+  size: 86, 108
+  orig: 86, 110
+  offset: 0, 0
+  index: -1
+20500_Eff_LiZi_08
+  rotate: false
+  xy: 268, 56
+  size: 53, 68
+  orig: 70, 90
+  offset: 7, 8
+  index: -1

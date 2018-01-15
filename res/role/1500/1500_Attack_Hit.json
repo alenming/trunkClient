@@ -1,0 +1,84 @@
+{
+"skeleton": { "hash": "sIHSsl0dIMcs3sWlt1iLmQLIy3w", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "1500_Attack_Hit" },
+	{ "name": "1500_Attack_Hit_jn", "parent": "1500_Attack_Hit" },
+	{ "name": "1500_Attack_Hit_pt", "parent": "1500_Attack_Hit" }
+],
+"slots": [
+	{ "name": "1500_Attack_Hit_jn01", "bone": "1500_Attack_Hit_jn", "blend": "additive" },
+	{ "name": "1500_Attack_Hit_pt01", "bone": "1500_Attack_Hit_pt", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"1500_Attack_Hit_jn01": {
+			"1500_Attack_Hit_jn01": { "width": 160, "height": 154 },
+			"1500_Attack_Hit_jn02": { "width": 160, "height": 154 },
+			"1500_Attack_Hit_jn03": { "width": 160, "height": 154 },
+			"1500_Attack_Hit_jn04": { "width": 160, "height": 154 },
+			"1500_Attack_Hit_jn05": { "width": 160, "height": 154 },
+			"1500_Attack_Hit_jn06": { "width": 160, "height": 154 },
+			"1500_Attack_Hit_jn07": { "width": 160, "height": 154 },
+			"1500_Attack_Hit_jn08": { "width": 160, "height": 154 }
+		},
+		"1500_Attack_Hit_pt01": {
+			"1500_Attack_Hit_pt01": { "width": 187, "height": 166 },
+			"1500_Attack_Hit_pt02": { "width": 187, "height": 166 },
+			"1500_Attack_Hit_pt03": { "width": 187, "height": 166 },
+			"1500_Attack_Hit_pt04": { "width": 187, "height": 166 },
+			"1500_Attack_Hit_pt05": { "width": 187, "height": 166 },
+			"1500_Attack_Hit_pt06": { "width": 187, "height": 166 },
+			"1500_Attack_Hit_pt07": { "width": 187, "height": 166 }
+		}
+	}
+},
+"animations": {
+	"Hit1": {
+		"slots": {
+			"1500_Attack_Hit_pt01": {
+				"attachment": [
+					{ "time": 0, "name": "1500_Attack_Hit_pt01" },
+					{ "time": 0.0666, "name": "1500_Attack_Hit_pt02" },
+					{ "time": 0.1333, "name": "1500_Attack_Hit_pt03" },
+					{ "time": 0.2, "name": "1500_Attack_Hit_pt04" },
+					{ "time": 0.2666, "name": "1500_Attack_Hit_pt05" },
+					{ "time": 0.3333, "name": "1500_Attack_Hit_pt06" },
+					{ "time": 0.4, "name": "1500_Attack_Hit_pt07" },
+					{ "time": 0.4666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"1500_Attack_Hit_pt": {
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 }
+				]
+			}
+		}
+	},
+	"Hit2": {
+		"slots": {
+			"1500_Attack_Hit_jn01": {
+				"attachment": [
+					{ "time": 0, "name": "1500_Attack_Hit_jn01" },
+					{ "time": 0.0666, "name": "1500_Attack_Hit_jn02" },
+					{ "time": 0.1333, "name": "1500_Attack_Hit_jn03" },
+					{ "time": 0.2, "name": "1500_Attack_Hit_jn04" },
+					{ "time": 0.2666, "name": "1500_Attack_Hit_jn05" },
+					{ "time": 0.3333, "name": "1500_Attack_Hit_jn06" },
+					{ "time": 0.4, "name": "1500_Attack_Hit_jn07" },
+					{ "time": 0.4666, "name": "1500_Attack_Hit_jn08" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"1500_Attack_Hit_jn": {
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

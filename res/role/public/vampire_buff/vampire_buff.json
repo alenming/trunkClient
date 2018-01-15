@@ -1,0 +1,39 @@
+{
+"skeleton": { "hash": "eJUZ7Lvzwf8oYIZxy4nV8cCcaOc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "vampire_buff", "parent": "root", "y": 1 }
+],
+"slots": [
+	{ "name": "vampire_buff_biaoji_0", "bone": "vampire_buff" }
+],
+"skins": {
+	"default": {
+		"vampire_buff_biaoji_0": {
+			"vampire_buff_biaoji_0": { "y": 34, "width": 200, "height": 160 },
+			"vampire_buff_biaoji_2": { "y": 34, "width": 200, "height": 160 },
+			"vampire_buff_biaoji_4": { "y": 34, "width": 200, "height": 160 },
+			"vampire_buff_biaoji_6": { "y": 34, "width": 200, "height": 160 },
+			"vampire_buff_biaoji_8": { "y": 34, "width": 200, "height": 160 },
+			"vampire_buff_biaoji_9": { "y": 34, "width": 200, "height": 160 }
+		}
+	}
+},
+"animations": {
+	"vampire_buff": {
+		"slots": {
+			"vampire_buff_biaoji_0": {
+				"attachment": [
+					{ "time": 0, "name": "vampire_buff_biaoji_0" },
+					{ "time": 0.1666, "name": "vampire_buff_biaoji_2" },
+					{ "time": 0.3333, "name": "vampire_buff_biaoji_4" },
+					{ "time": 0.5, "name": "vampire_buff_biaoji_6" },
+					{ "time": 0.6666, "name": "vampire_buff_biaoji_8" },
+					{ "time": 0.8333, "name": "vampire_buff_biaoji_9" },
+					{ "time": 1, "name": null }
+				]
+			}
+		}
+	}
+}
+}

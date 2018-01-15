@@ -1,0 +1,367 @@
+{
+"skeleton": { "hash": "QwkjUC6z48+WZuUGZk47cGacbls", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "40100_Attack1_Effect1_TX", "parent": "root", "x": 11.03, "y": 107.7, "scaleX": 3.5, "scaleY": 3.5 },
+	{ "name": "40100_Born1_Effect1_Smoke_TX", "parent": "root", "y": 88.3, "scaleX": 2.5, "scaleY": 2.5 },
+	{ "name": "40100_Death1_Effect1_20", "parent": "root", "length": 181.4, "x": 142.44, "y": 0.2, "rotation": 90.45 },
+	{ "name": "40100_Death1_Effect1_KuLouTou_00", "parent": "root", "length": 138.01, "x": 220.52, "y": 19.95, "rotation": 90.9 },
+	{ "name": "40100_Death1_Effect1_bone31", "parent": "root", "x": 16.26, "y": 2.69, "scaleX": -1.09, "scaleY": 1.45 },
+	{ "name": "40100_Death1_Effect1_bone32", "parent": "root", "x": -12.05, "y": 9.23 },
+	{
+		"name": "40100_Death1_Effect1_2001",
+		"parent": "40100_Death1_Effect1_20",
+		"length": 68.03,
+		"x": -4.91,
+		"y": 1.8,
+		"rotation": 0.45
+	}
+],
+"slots": [
+	{ "name": "MuNaiYi_SiWang_fire_000", "bone": "40100_Death1_Effect1_bone31" },
+	{ "name": "40105_Born_Zi_Smoke_TX_01", "bone": "40100_Born1_Effect1_Smoke_TX" },
+	{ "name": "40100_Death1_Effect1_20", "bone": "40100_Death1_Effect1_20" },
+	{ "name": "40100_Death1_Effect1_2001", "bone": "40100_Death1_Effect1_2001", "blend": "additive" },
+	{ "name": "40100_Death1_Effect1_KuLouTou_00", "bone": "40100_Death1_Effect1_KuLouTou_00", "blend": "additive" },
+	{ "name": "MuNaiYi_SiWang_fire_0", "bone": "40100_Death1_Effect1_bone32" },
+	{ "name": "40100_Zhua_GongJi_TX_01", "bone": "40100_Attack1_Effect1_TX" }
+],
+"skins": {
+	"default": {
+		"40100_Death1_Effect1_20": {
+			"40105-Death1_20": { "x": 100.78, "y": -23.23, "rotation": -90.45, "width": 203, "height": 220 }
+		},
+		"40100_Death1_Effect1_2001": {
+			"40103-Death1_2001": { "x": 87.56, "y": 4.46, "rotation": -90.9, "width": 124, "height": 203 }
+		},
+		"40100_Death1_Effect1_KuLouTou_00": {
+			"40105_KuLouTou_00": {
+				"type": "mesh",
+				"uvs": [ 0.82929, 0.11328, 1, 0.39454, 1, 0.67572, 0.85011, 0.87971, 0.73385, 0.99549, 0.33303, 0.99999, 0.17485, 0.89733, 0, 0.68533, 0, 0.37453, 0.16537, 0.1131, 0.46969, 0, 0.4959, 0.41433, 0.5145, 0.73227 ],
+				"triangles": [ 11, 10, 0, 11, 0, 1, 9, 10, 11, 8, 9, 11, 11, 1, 2, 7, 8, 11, 12, 11, 2, 7, 11, 12, 3, 12, 2, 6, 7, 12, 4, 12, 3, 5, 6, 12, 5, 12, 4 ],
+				"vertices": [ 110.41, -34.95, 67.94, -52.55, 25.77, -51.9, -4.57, -35.39, -21.74, -22.68, -21.75, 20.2, -6.08, 36.89, 25.99, 55.1, 72.61, 54.38, 111.54, 36.07, 128, 3.25, 65.81, 1.41, 18.1, 0.16 ],
+				"hull": 11,
+				"edges": [ 18, 20, 20, 0, 0, 2, 18, 16, 14, 16, 14, 12, 2, 4, 6, 4, 20, 22, 22, 24, 10, 12, 24, 10, 6, 8, 24, 8, 8, 10 ],
+				"width": 107,
+				"height": 150
+			}
+		},
+		"40100_Zhua_GongJi_TX_01": {
+			"40100_Zhua_GongJi_TX_01": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_02": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_03": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_04": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_05": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_06": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_07": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_08": { "width": 120, "height": 90 },
+			"40100_Zhua_GongJi_TX_09": { "width": 120, "height": 90 }
+		},
+		"40105_Born_Zi_Smoke_TX_01": {
+			"40105_Born_Zi_Smoke_TX_01": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_02": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_03": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_04": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_05": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_06": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_07": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_08": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_09": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_10": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_11": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_12": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_13": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_14": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_15": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_16": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_17": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_18": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_19": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_20": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_21": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_22": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_23": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_24": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_25": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_26": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_27": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_28": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_29": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_30": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_31": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_32": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_33": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_34": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_35": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_36": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_37": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_38": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_39": { "width": 120, "height": 130 },
+			"40105_Born_Zi_Smoke_TX_40": { "width": 120, "height": 130 }
+		},
+		"MuNaiYi_SiWang_fire_0": {
+			"MuNaiYi_SiWang_fire_000": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_001": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_002": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_003": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_004": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_005": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_006": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_007": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 }
+		},
+		"MuNaiYi_SiWang_fire_000": {
+			"MuNaiYi_SiWang_fire_000": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_001": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_002": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_003": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_004": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_005": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_006": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 },
+			"MuNaiYi_SiWang_fire_007": { "x": -3.9, "y": 59.39, "width": 173, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"40100_Attack1_Effect1": {
+		"slots": {
+			"40100_Zhua_GongJi_TX_01": {
+				"attachment": [
+					{ "time": 1, "name": null },
+					{ "time": 1.0666, "name": "40100_Zhua_GongJi_TX_01" },
+					{ "time": 1.1, "name": "40100_Zhua_GongJi_TX_02" },
+					{ "time": 1.1333, "name": "40100_Zhua_GongJi_TX_03" },
+					{ "time": 1.2, "name": "40100_Zhua_GongJi_TX_04" },
+					{ "time": 1.2666, "name": "40100_Zhua_GongJi_TX_05" },
+					{ "time": 1.3333, "name": "40100_Zhua_GongJi_TX_06" },
+					{ "time": 1.4, "name": "40100_Zhua_GongJi_TX_07" },
+					{ "time": 1.4666, "name": "40100_Zhua_GongJi_TX_08" },
+					{ "time": 1.5333, "name": "40100_Zhua_GongJi_TX_09" },
+					{ "time": 1.6, "name": null },
+					{ "time": 2.1333, "name": null }
+				]
+			}
+		}
+	},
+	"40100_Born1_Effect1": {
+		"slots": {
+			"40105_Born_Zi_Smoke_TX_01": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.6, "name": "40105_Born_Zi_Smoke_TX_01" },
+					{ "time": 0.6666, "name": "40105_Born_Zi_Smoke_TX_02" },
+					{ "time": 0.7333, "name": "40105_Born_Zi_Smoke_TX_03" },
+					{ "time": 0.8, "name": "40105_Born_Zi_Smoke_TX_04" },
+					{ "time": 0.8666, "name": "40105_Born_Zi_Smoke_TX_05" },
+					{ "time": 0.9333, "name": "40105_Born_Zi_Smoke_TX_06" },
+					{ "time": 1, "name": "40105_Born_Zi_Smoke_TX_07" },
+					{ "time": 1.0666, "name": "40105_Born_Zi_Smoke_TX_08" },
+					{ "time": 1.1333, "name": "40105_Born_Zi_Smoke_TX_09" },
+					{ "time": 1.2, "name": "40105_Born_Zi_Smoke_TX_10" },
+					{ "time": 1.2666, "name": "40105_Born_Zi_Smoke_TX_11" },
+					{ "time": 1.3333, "name": "40105_Born_Zi_Smoke_TX_12" },
+					{ "time": 1.4, "name": "40105_Born_Zi_Smoke_TX_13" },
+					{ "time": 1.4666, "name": "40105_Born_Zi_Smoke_TX_14" },
+					{ "time": 1.5333, "name": "40105_Born_Zi_Smoke_TX_15" },
+					{ "time": 1.6, "name": "40105_Born_Zi_Smoke_TX_16" },
+					{ "time": 1.6666, "name": "40105_Born_Zi_Smoke_TX_17" },
+					{ "time": 1.7333, "name": "40105_Born_Zi_Smoke_TX_18" },
+					{ "time": 1.8, "name": "40105_Born_Zi_Smoke_TX_19" },
+					{ "time": 1.8666, "name": "40105_Born_Zi_Smoke_TX_20" },
+					{ "time": 1.9333, "name": "40105_Born_Zi_Smoke_TX_21" },
+					{ "time": 2, "name": "40105_Born_Zi_Smoke_TX_22" },
+					{ "time": 2.0666, "name": "40105_Born_Zi_Smoke_TX_23" },
+					{ "time": 2.1333, "name": "40105_Born_Zi_Smoke_TX_24" },
+					{ "time": 2.2, "name": "40105_Born_Zi_Smoke_TX_25" },
+					{ "time": 2.2666, "name": "40105_Born_Zi_Smoke_TX_26" },
+					{ "time": 2.3333, "name": "40105_Born_Zi_Smoke_TX_27" },
+					{ "time": 2.4, "name": "40105_Born_Zi_Smoke_TX_28" },
+					{ "time": 2.4666, "name": "40105_Born_Zi_Smoke_TX_29" },
+					{ "time": 2.5333, "name": "40105_Born_Zi_Smoke_TX_30" },
+					{ "time": 2.6, "name": "40105_Born_Zi_Smoke_TX_31" },
+					{ "time": 2.6666, "name": "40105_Born_Zi_Smoke_TX_32" },
+					{ "time": 2.7333, "name": "40105_Born_Zi_Smoke_TX_33" },
+					{ "time": 2.8, "name": "40105_Born_Zi_Smoke_TX_34" },
+					{ "time": 2.8666, "name": "40105_Born_Zi_Smoke_TX_35" },
+					{ "time": 2.9333, "name": "40105_Born_Zi_Smoke_TX_36" },
+					{ "time": 3, "name": "40105_Born_Zi_Smoke_TX_37" },
+					{ "time": 3.0666, "name": "40105_Born_Zi_Smoke_TX_38" },
+					{ "time": 3.1333, "name": "40105_Born_Zi_Smoke_TX_39" },
+					{ "time": 3.2, "name": "40105_Born_Zi_Smoke_TX_40" },
+					{ "time": 3.2666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 2.8666, "angle": 0, "curve": "stepped" },
+					{ "time": 3.1666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 2.8666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 3.1666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"40100_Death1_Effect1": {
+		"slots": {
+			"40100_Death1_Effect1_20": {
+				"attachment": [
+					{ "time": 0.6666, "name": "40105-Death1_20" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 0.9666, "color": "ffffff00" }
+				]
+			},
+			"40100_Death1_Effect1_2001": {
+				"attachment": [
+					{ "time": 0.6666, "name": "40103-Death1_2001" }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffff00" },
+					{ "time": 0.8333, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.4666, "color": "ffffff00" }
+				]
+			},
+			"40100_Death1_Effect1_KuLouTou_00": {
+				"attachment": [
+					{ "time": 0.4, "name": "40105_KuLouTou_00" }
+				],
+				"color": [
+					{ "time": 0.4, "color": "5db2ff00" },
+					{ "time": 0.5333, "color": "5db2ffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "5db2ffff" },
+					{ "time": 1.4666, "color": "5db2ff00" }
+				]
+			},
+			"MuNaiYi_SiWang_fire_000": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.3, "name": "MuNaiYi_SiWang_fire_000" },
+					{ "time": 0.4, "name": "MuNaiYi_SiWang_fire_001" },
+					{ "time": 0.5, "name": "MuNaiYi_SiWang_fire_002" },
+					{ "time": 0.6, "name": "MuNaiYi_SiWang_fire_003" },
+					{ "time": 0.7, "name": "MuNaiYi_SiWang_fire_004" },
+					{ "time": 0.8, "name": "MuNaiYi_SiWang_fire_005" },
+					{ "time": 0.9, "name": "MuNaiYi_SiWang_fire_006" },
+					{ "time": 1, "name": "MuNaiYi_SiWang_fire_007" },
+					{ "time": 1.1, "name": null }
+				]
+			},
+			"MuNaiYi_SiWang_fire_0": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.3, "name": "MuNaiYi_SiWang_fire_000" },
+					{ "time": 0.4, "name": "MuNaiYi_SiWang_fire_001" },
+					{ "time": 0.5, "name": "MuNaiYi_SiWang_fire_002" },
+					{ "time": 0.6, "name": "MuNaiYi_SiWang_fire_003" },
+					{ "time": 0.7, "name": "MuNaiYi_SiWang_fire_004" },
+					{ "time": 0.8, "name": "MuNaiYi_SiWang_fire_005" },
+					{ "time": 0.9, "name": "MuNaiYi_SiWang_fire_006" },
+					{ "time": 1, "name": "MuNaiYi_SiWang_fire_007" },
+					{ "time": 1.1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"40100_Death1_Effect1_20": {
+				"translate": [
+					{ "time": 0.6666, "x": -147.65, "y": -1.16 },
+					{ "time": 0.8333, "x": -147.88, "y": 10.73 },
+					{ "time": 1.2, "x": -148.02, "y": 28.05 }
+				],
+				"scale": [
+					{ "time": 0.6666, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.19, "y": 0.59 },
+					{ "time": 1.2, "x": 1.26, "y": 0.35 }
+				]
+			},
+			"40100_Death1_Effect1_2001": {
+				"translate": [
+					{ "time": 0.8333, "x": 15.49, "y": -1.79 },
+					{ "time": 1.2, "x": 19.72, "y": -1.66 }
+				],
+				"scale": [
+					{ "time": 0.6666, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 1.07, "y": 1.44 },
+					{ "time": 1.2, "x": 1.28, "y": 1.74 }
+				]
+			},
+			"40100_Death1_Effect1_KuLouTou_00": {
+				"translate": [
+					{ "time": 0.4, "x": -229.4, "y": -16.59 },
+					{ "time": 1.4666, "x": -234.32, "y": 293.48 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1.68, "y": 1.29 },
+					{ "time": 1.4666, "x": 1.16, "y": 0.77 }
+				]
+			},
+			"40100_Death1_Effect1_bone31": {
+				"translate": [
+					{ "time": 0.3, "x": -4.51, "y": -7.05, "curve": "stepped" },
+					{ "time": 0.4, "x": -7.09, "y": 11.35, "curve": "stepped" },
+					{ "time": 0.5, "x": -5.15, "y": 1.79, "curve": "stepped" },
+					{ "time": 0.6, "x": -1.28, "y": -21.17, "curve": "stepped" },
+					{ "time": 0.7, "x": -1.28, "y": -33.42 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1.325, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1.307, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1.393, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1.559, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1.63 }
+				]
+			},
+			"40100_Death1_Effect1_bone32": {
+				"translate": [
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3, "x": 0, "y": -12.4, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": -0.66, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": -14.29, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": -20.15, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": -34.99 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3, "x": 1, "y": 1.472, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1.435, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1.741, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1.784, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1.877 }
+				]
+			}
+		},
+		"ffd": {
+			"default": {
+				"40100_Death1_Effect1_KuLouTou_00": {
+					"40105_KuLouTou_00": [
+						{
+							"time": 0.4,
+							"vertices": [ -3.03067, 0.26878, 2.05263, 5.69582, 2.31341, 7.13825, 3.12686, -13.06731, 4.16904, -18.2739, 2.88819, -25.80207, -5.83153, 9.08178, -5.00783, 20.4801, -6.893, 24.46685, 0.42543, 21.13312, -2.95051, 16.97969, -3.34508, 14.41048, -0.44197, 0.9863 ]
+						},
+						{
+							"time": 0.7666,
+							"vertices": [ -0.59596, -43.05447, -10.60827, -51.12364, -17.09301, -28.71986, -2.99357, -5.26545, -4.45622, 14.61793, 0.36753, 26.15026, -2.82385, 46.06503, 15.17306, 20.62709, 23.6982, 14.99511, 24.15028, -11.72934, 9.86427, -33.60545, -6.83108, -23.49098, -0.05072, 5.75931 ]
+						},
+						{
+							"time": 1.1333,
+							"vertices": [ 17.59674, 1.94238, 19.13494, -28.69542, 14.91071, -15.44201, 5.11603, -39.59829, -3.56933, -27.17537, -7.98772, -29.8413, -6.89751, 5.84537, 1.51328, 34.43118, 12.98867, 39.71735, 15.79714, 30.72768, 12.50835, 8.6807, -4.8971, 19.21768, -4.15064, -0.9556 ]
+						},
+						{
+							"time": 1.4666,
+							"vertices": [ 16.5355, -36.81831, -0.12631, -46.21654, -4.72393, -23.24705, -2.71774, -7.30904, -9.81089, 22.4712, -20.45829, 36.44452, -6.22638, 43.82692, 13.14176, 11.16003, 20.72388, 16.61885, 35.58487, -8.31601, 24.5437, -23.75529, -6.43227, -23.17383, -0.65041, 4.55914 ]
+						}
+					]
+				}
+			}
+		}
+	}
+}
+}

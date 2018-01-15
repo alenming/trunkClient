@@ -1,0 +1,202 @@
+
+Leader_Buff.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+leaderbuff_001_01
+  rotate: true
+  xy: 444, 259
+  size: 121, 161
+  orig: 150, 300
+  offset: 11, 69
+  index: -1
+leaderbuff_001_02
+  rotate: true
+  xy: 770, 265
+  size: 122, 159
+  orig: 150, 300
+  offset: 11, 72
+  index: -1
+leaderbuff_001_03
+  rotate: true
+  xy: 774, 388
+  size: 123, 164
+  orig: 150, 300
+  offset: 10, 69
+  index: -1
+leaderbuff_001_04
+  rotate: false
+  xy: 137, 31
+  size: 122, 152
+  orig: 150, 300
+  offset: 9, 73
+  index: -1
+leaderbuff_001_05
+  rotate: true
+  xy: 608, 266
+  size: 121, 161
+  orig: 150, 300
+  offset: 15, 65
+  index: -1
+leaderbuff_001_06
+  rotate: true
+  xy: 608, 388
+  size: 123, 165
+  orig: 150, 300
+  offset: 9, 66
+  index: -1
+leaderbuff_001_07
+  rotate: true
+  xy: 279, 252
+  size: 121, 162
+  orig: 150, 300
+  offset: 14, 69
+  index: -1
+leaderbuff_002_01
+  rotate: false
+  xy: 132, 184
+  size: 130, 157
+  orig: 140, 173
+  offset: 4, 5
+  index: -1
+leaderbuff_002_02
+  rotate: false
+  xy: 1, 168
+  size: 130, 173
+  orig: 140, 173
+  offset: 4, 0
+  index: -1
+leaderbuff_002_03
+  rotate: true
+  xy: 444, 381
+  size: 130, 163
+  orig: 140, 173
+  offset: 2, 4
+  index: -1
+leaderbuff_002_04
+  rotate: false
+  xy: 1, 1
+  size: 135, 166
+  orig: 140, 173
+  offset: 0, 2
+  index: -1
+leaderbuff_002_05
+  rotate: false
+  xy: 138, 348
+  size: 140, 163
+  orig: 140, 173
+  offset: 0, 3
+  index: -1
+leaderbuff_002_06
+  rotate: false
+  xy: 1, 342
+  size: 136, 169
+  orig: 140, 173
+  offset: 2, 2
+  index: -1
+leaderbuff_002_07
+  rotate: true
+  xy: 279, 374
+  size: 137, 164
+  orig: 140, 173
+  offset: 3, 0
+  index: -1
+leaderbuff_003_01
+  rotate: true
+  xy: 442, 161
+  size: 97, 135
+  orig: 101, 151
+  offset: 3, 9
+  index: -1
+leaderbuff_003_02
+  rotate: true
+  xy: 263, 153
+  size: 98, 145
+  orig: 101, 151
+  offset: 3, 2
+  index: -1
+leaderbuff_003_03
+  rotate: true
+  xy: 260, 54
+  size: 98, 142
+  orig: 101, 151
+  offset: 3, 7
+  index: -1
+leaderbuff_003_04
+  rotate: true
+  xy: 578, 68
+  size: 99, 129
+  orig: 101, 151
+  offset: 2, 4
+  index: -1
+leaderbuff_003_05
+  rotate: true
+  xy: 742, 165
+  size: 99, 130
+  orig: 101, 151
+  offset: 2, 5
+  index: -1
+leaderbuff_003_06
+  rotate: true
+  xy: 873, 160
+  size: 101, 130
+  orig: 101, 151
+  offset: 0, 7
+  index: -1
+leaderbuff_003_07
+  rotate: true
+  xy: 606, 168
+  size: 97, 135
+  orig: 101, 151
+  offset: 3, 7
+  index: -1
+leaderbuff_004_01
+  rotate: true
+  xy: 409, 193
+  size: 58, 31
+  orig: 94, 110
+  offset: 29, 0
+  index: -1
+leaderbuff_004_02
+  rotate: false
+  xy: 939, 357
+  size: 84, 59
+  orig: 94, 110
+  offset: 3, 1
+  index: -1
+leaderbuff_004_03
+  rotate: false
+  xy: 708, 95
+  size: 90, 69
+  orig: 94, 110
+  offset: 4, 11
+  index: -1
+leaderbuff_004_04
+  rotate: true
+  xy: 939, 417
+  size: 94, 84
+  orig: 94, 110
+  offset: 0, 16
+  index: -1
+leaderbuff_004_05
+  rotate: true
+  xy: 930, 262
+  size: 94, 74
+  orig: 94, 110
+  offset: 0, 36
+  index: -1
+leaderbuff_004_06
+  rotate: true
+  xy: 799, 73
+  size: 91, 56
+  orig: 94, 110
+  offset: 0, 54
+  index: -1
+leaderbuff_004_07
+  rotate: false
+  xy: 708, 57
+  size: 37, 37
+  orig: 94, 110
+  offset: 8, 68
+  index: -1

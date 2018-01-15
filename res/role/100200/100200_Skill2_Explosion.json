@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "pWEfO4xoN4PnQwJCQFcHLd436aI", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "100200_Skill2_Explosion" },
+	{ "name": "Skill2_Explosion", "parent": "100200_Skill2_Explosion", "x": -1.49, "y": 2 }
+],
+"slots": [
+	{ "name": "100200_du01", "bone": "Skill2_Explosion" }
+],
+"skins": {
+	"default": {
+		"100200_du01": {
+			"100200_du01": { "width": 185, "height": 154 },
+			"100200_du02": { "width": 185, "height": 154 },
+			"100200_du03": { "width": 185, "height": 154 },
+			"100200_du04": { "width": 185, "height": 154 },
+			"100200_du05": { "width": 185, "height": 154 },
+			"100200_du06": { "width": 185, "height": 154 }
+		}
+	}
+},
+"animations": {
+	"Skill2_Explosion": {
+		"slots": {
+			"100200_du01": {
+				"attachment": [
+					{ "time": 0, "name": "100200_du01" },
+					{ "time": 0.1, "name": "100200_du02" },
+					{ "time": 0.2, "name": "100200_du03" },
+					{ "time": 0.3, "name": "100200_du04" },
+					{ "time": 0.4, "name": "100200_du05" },
+					{ "time": 0.5, "name": "100200_du06" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Skill2_Explosion": {
+				"translate": [
+					{ "time": 0, "x": 4, "y": 36 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

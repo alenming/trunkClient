@@ -1,0 +1,118 @@
+
+412901.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+412900_Eff_Birth_01
+  rotate: true
+  xy: 305, 2
+  size: 85, 61
+  orig: 150, 95
+  offset: 38, 3
+  index: -1
+412900_Eff_Birth_02
+  rotate: false
+  xy: 753, 343
+  size: 107, 74
+  orig: 150, 95
+  offset: 22, 2
+  index: -1
+412900_Eff_Birth_03
+  rotate: false
+  xy: 895, 430
+  size: 120, 80
+  orig: 150, 95
+  offset: 13, 2
+  index: -1
+412900_Eff_Birth_04
+  rotate: false
+  xy: 622, 327
+  size: 129, 90
+  orig: 150, 95
+  offset: 9, 2
+  index: -1
+412900_Eff_Birth_05
+  rotate: false
+  xy: 488, 278
+  size: 132, 92
+  orig: 150, 95
+  offset: 9, 3
+  index: -1
+412900_Eff_Birth_06
+  rotate: false
+  xy: 313, 89
+  size: 134, 92
+  orig: 150, 95
+  offset: 8, 3
+  index: -1
+412900_Eff_Birth_07
+  rotate: false
+  xy: 336, 183
+  size: 141, 91
+  orig: 150, 95
+  offset: 5, 4
+  index: -1
+412900_Eff_Birth_08
+  rotate: false
+  xy: 746, 419
+  size: 147, 91
+  orig: 150, 95
+  offset: 2, 4
+  index: -1
+412900_Eff_Birth_09
+  rotate: false
+  xy: 594, 419
+  size: 150, 91
+  orig: 150, 95
+  offset: 0, 4
+  index: -1
+412900_Eff_Birth_10
+  rotate: false
+  xy: 336, 276
+  size: 150, 94
+  orig: 150, 95
+  offset: 0, 1
+  index: -1
+412900_Eff_dilie2
+  rotate: false
+  xy: 2, 25
+  size: 188, 189
+  orig: 189, 189
+  offset: 0, 0
+  index: -1
+412900_all
+  rotate: false
+  xy: 2, 216
+  size: 165, 294
+  orig: 165, 294
+  offset: 0, 0
+  index: -1
+412900_down
+  rotate: false
+  xy: 192, 98
+  size: 119, 117
+  orig: 119, 117
+  offset: 0, 0
+  index: -1
+412900_shader
+  rotate: false
+  xy: 336, 372
+  size: 256, 138
+  orig: 256, 138
+  offset: 0, 0
+  index: -1
+412900_u_1
+  rotate: true
+  xy: 192, 20
+  size: 76, 111
+  orig: 76, 111
+  offset: 0, 0
+  index: -1
+412900_up
+  rotate: false
+  xy: 169, 217
+  size: 165, 293
+  orig: 165, 293
+  offset: 0, 0
+  index: -1

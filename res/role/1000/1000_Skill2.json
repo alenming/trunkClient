@@ -1,0 +1,120 @@
+{
+"skeleton": { "hash": "xauCKOwB7dKirT7PC7EEALL376U", "spine": "2.1.27", "width": 241, "height": 133, "images": "./images/" },
+"bones": [
+	{ "name": "1000_Skill2" },
+	{ "name": "FireRain_Hit", "parent": "1000_Skill2", "length": 54.44, "x": 0.32, "y": 9.99 }
+],
+"slots": [
+	{ "name": "10700_huoqiu_00", "bone": "1000_Skill2" },
+	{ "name": "1000_dimian_00000", "bone": "FireRain_Hit", "attachment": "1000_dimian_00001" }
+],
+"skins": {
+	"default": {
+		"1000_dimian_00000": {
+			"1000_dimian_00000": { "y": 10.13, "width": 241, "height": 115 },
+			"1000_dimian_00001": { "width": 241, "height": 133 },
+			"1000_dimian_00002": { "y": 10.13, "width": 241, "height": 165 },
+			"1000_dimian_00003": { "y": 34.12, "width": 241, "height": 205 },
+			"1000_dimian_00004": { "y": 37.95, "width": 259, "height": 223 },
+			"1000_dimian_00005": { "y": 37.97, "width": 261, "height": 233 },
+			"1000_dimian_00006": { "x": 1.84, "y": 35.83, "width": 245, "height": 219 },
+			"1000_dimian_00007": { "x": 4.96, "y": 41.16, "width": 251, "height": 229 },
+			"1000_dimian_00008": { "y": 45.66, "width": 241, "height": 237 },
+			"1000_dimian_00009": { "y": 47.74, "width": 241, "height": 247 },
+			"1000_dimian_00010": { "y": -8.7, "width": 241, "height": 135 },
+			"1000_dimian_00011": { "y": -8.74, "width": 241, "height": 83 }
+		},
+		"10700_huoqiu_00": {
+			"10700_huoqiu_00": { "width": 307, "height": 140 },
+			"10700_huoqiu_01": { "width": 307, "height": 140 },
+			"10700_huoqiu_02": { "width": 307, "height": 140 },
+			"10700_huoqiu_03": { "width": 307, "height": 140 },
+			"10700_huoqiu_04": { "width": 307, "height": 140 },
+			"10700_huoqiu_05": { "width": 307, "height": 140 },
+			"10700_huoqiu_06": { "width": 307, "height": 140 },
+			"10700_huoqiu_07": { "width": 307, "height": 140 },
+			"10700_huoqiu_08": { "width": 307, "height": 140 }
+		}
+	}
+},
+"animations": {
+	"FireRain": {
+		"slots": {
+			"1000_dimian_00000": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"10700_huoqiu_00": {
+				"attachment": [
+					{ "time": 0, "name": "10700_huoqiu_00" },
+					{ "time": 0.0666, "name": "10700_huoqiu_01" },
+					{ "time": 0.1333, "name": "10700_huoqiu_02" },
+					{ "time": 0.2, "name": "10700_huoqiu_03" },
+					{ "time": 0.2666, "name": "10700_huoqiu_04" },
+					{ "time": 0.3333, "name": "10700_huoqiu_05" },
+					{ "time": 0.4, "name": "10700_huoqiu_06" },
+					{ "time": 0.4666, "name": "10700_huoqiu_07" },
+					{ "time": 0.5333, "name": "10700_huoqiu_08" }
+				]
+			}
+		},
+		"bones": {
+			"1000_Skill2": {
+				"rotate": [
+					{ "time": 0, "angle": 300, "curve": "stepped" },
+					{ "time": 0.5333, "angle": 300 }
+				],
+				"translate": [
+					{ "time": 0, "x": -612.78, "y": 1061.21 },
+					{ "time": 0.0666, "x": -479.16, "y": 829.8 },
+					{ "time": 0.1333, "x": -337.16, "y": 583.9 },
+					{ "time": 0.2, "x": -297.72, "y": 515.58 },
+					{ "time": 0.2666, "x": -223.1, "y": 386.35 },
+					{ "time": 0.3333, "x": -188.92, "y": 327.16 },
+					{ "time": 0.4, "x": -136.42, "y": 236.23 },
+					{ "time": 0.4666, "x": -94.56, "y": 163.74 },
+					{ "time": 0.5333, "x": -58.82, "y": 101.86 }
+				]
+			}
+		}
+	},
+	"FireRain_Hit": {
+		"slots": {
+			"1000_dimian_00000": {
+				"attachment": [
+					{ "time": 0, "name": "1000_dimian_00000" },
+					{ "time": 0.1333, "name": "1000_dimian_00001" },
+					{ "time": 0.2666, "name": "1000_dimian_00002" },
+					{ "time": 0.4, "name": "1000_dimian_00003" },
+					{ "time": 0.5333, "name": "1000_dimian_00004" },
+					{ "time": 0.6666, "name": "1000_dimian_00005" },
+					{ "time": 0.8, "name": "1000_dimian_00006" },
+					{ "time": 0.9333, "name": "1000_dimian_00007" },
+					{ "time": 1.0666, "name": "1000_dimian_00008" },
+					{ "time": 1.2, "name": "1000_dimian_00009" },
+					{ "time": 1.3333, "name": "1000_dimian_00010" },
+					{ "time": 1.4666, "name": "1000_dimian_00011" },
+					{ "time": 1.6, "name": "1000_dimian_00011" }
+				],
+				"color": [
+					{ "time": 1.4666, "color": "ffffff76" },
+					{ "time": 1.6, "color": "ffffff25" }
+				]
+			},
+			"10700_huoqiu_00": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"FireRain_Hit": {
+				"translate": [
+					{ "time": 0, "x": -0.32, "y": -2.99 }
+				]
+			}
+		}
+	}
+}
+}

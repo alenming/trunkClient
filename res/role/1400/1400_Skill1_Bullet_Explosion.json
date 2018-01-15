@@ -1,0 +1,71 @@
+{
+"skeleton": { "hash": "J1c7knxUeEf1rP2doVFKZ3UPeEI", "spine": "2.1.27", "width": 336, "height": 153.6, "images": "./images/" },
+"bones": [
+	{ "name": "1400_Skill1_Bullet_Explosion" },
+	{ "name": "1400_Skill1_Bullet_Explosion01", "parent": "1400_Skill1_Bullet_Explosion", "scaleX": 1.2, "scaleY": 1.2 }
+],
+"slots": [
+	{
+		"name": "1400_skill2_bullet_01",
+		"bone": "1400_Skill1_Bullet_Explosion01",
+		"attachment": "1400_skill2_bullet_01",
+		"blend": "additive"
+	}
+],
+"skins": {
+	"default": {
+		"1400_skill2_bullet_01": {
+			"1400_skill2_bullet_01": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_03": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_04": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_05": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_06": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_07": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_08": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_09": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_10": { "width": 280, "height": 128 },
+			"1400_skill2_bullet_11": { "width": 280, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"1400_Skill1_Bullet_Explosion": {
+		"slots": {
+			"1400_skill2_bullet_01": {
+				"attachment": [
+					{ "time": 0, "name": "1400_skill2_bullet_01" },
+					{ "time": 0.0666, "name": "1400_skill2_bullet_01" },
+					{ "time": 0.1333, "name": "1400_skill2_bullet_03" },
+					{ "time": 0.2, "name": "1400_skill2_bullet_04" },
+					{ "time": 0.2666, "name": "1400_skill2_bullet_05" },
+					{ "time": 0.3333, "name": "1400_skill2_bullet_06" },
+					{ "time": 0.4, "name": "1400_skill2_bullet_07" },
+					{ "time": 0.4666, "name": "1400_skill2_bullet_08" },
+					{ "time": 0.5333, "name": "1400_skill2_bullet_09" },
+					{ "time": 0.6, "name": "1400_skill2_bullet_10" },
+					{ "time": 0.6666, "name": "1400_skill2_bullet_11" },
+					{ "time": 0.8, "name": null }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff49" }
+				]
+			}
+		},
+		"bones": {
+			"1400_Skill1_Bullet_Explosion01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1.03, "y": 1.03 }
+				]
+			}
+		}
+	}
+}
+}

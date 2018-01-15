@@ -1,0 +1,34 @@
+
+Bear_hit.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10400_Attack1_Hit_0001
+  rotate: false
+  xy: 306, 171
+  size: 98, 79
+  orig: 168, 140
+  offset: 32, 33
+  index: -1
+10400_Attack1_Hit_0002
+  rotate: false
+  xy: 163, 138
+  size: 142, 112
+  orig: 168, 140
+  offset: 10, 17
+  index: -1
+10400_Attack1_Hit_0003
+  rotate: false
+  xy: 1, 1
+  size: 143, 115
+  orig: 168, 140
+  offset: 10, 15
+  index: -1
+10400_Attack1_Hit_0004
+  rotate: false
+  xy: 1, 117
+  size: 161, 133
+  orig: 168, 140
+  offset: 1, 6
+  index: -1

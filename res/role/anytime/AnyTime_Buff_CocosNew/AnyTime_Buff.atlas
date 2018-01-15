@@ -1,0 +1,118 @@
+
+AnyTime_Buff.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GeneralHitBuff_00
+  rotate: false
+  xy: 410, 82
+  size: 93, 93
+  orig: 128, 128
+  offset: 0, 35
+  index: -1
+GeneralHitBuff_01
+  rotate: false
+  xy: 746, 132
+  size: 120, 119
+  orig: 128, 128
+  offset: 0, 9
+  index: -1
+GeneralHitBuff_02
+  rotate: false
+  xy: 615, 123
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+GeneralHitBuff_03
+  rotate: true
+  xy: 869, 133
+  size: 118, 121
+  orig: 128, 128
+  offset: 6, 2
+  index: -1
+Vertigo_00
+  rotate: false
+  xy: 569, 64
+  size: 114, 56
+  orig: 128, 64
+  offset: 6, 3
+  index: -1
+Vertigo_01
+  rotate: false
+  xy: 869, 72
+  size: 113, 58
+  orig: 128, 64
+  offset: 4, 4
+  index: -1
+Vertigo_02
+  rotate: false
+  xy: 246, 45
+  size: 114, 58
+  orig: 128, 64
+  offset: 7, 5
+  index: -1
+Vertigo_03
+  rotate: false
+  xy: 746, 73
+  size: 115, 56
+  orig: 128, 64
+  offset: 7, 5
+  index: -1
+Vertigo_star
+  rotate: false
+  xy: 1, 1
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+dust_buff01
+  rotate: false
+  xy: 479, 181
+  size: 133, 70
+  orig: 245, 76
+  offset: 3, 0
+  index: -1
+dust_buff02
+  rotate: false
+  xy: 249, 178
+  size: 227, 73
+  orig: 245, 76
+  offset: 4, 0
+  index: -1
+dust_buff03
+  rotate: false
+  xy: 1, 178
+  size: 245, 73
+  orig: 245, 76
+  offset: 0, 0
+  index: -1
+dust_buff04
+  rotate: false
+  xy: 1, 103
+  size: 242, 72
+  orig: 245, 76
+  offset: 3, 0
+  index: -1
+dust_buff05
+  rotate: false
+  xy: 1, 28
+  size: 201, 72
+  orig: 245, 76
+  offset: 11, 1
+  index: -1
+dust_buff06
+  rotate: false
+  xy: 246, 106
+  size: 161, 69
+  orig: 245, 76
+  offset: 12, 0
+  index: -1
+dust_buff07
+  rotate: true
+  xy: 506, 69
+  size: 109, 60
+  orig: 245, 76
+  offset: 29, 2
+  index: -1

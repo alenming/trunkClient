@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "CqnyFg1xm9D62+RuqJtHuLh+hj4", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Betrayal_Eff_MuOu", "parent": "root", "length": 85.4, "rotation": 90 },
+	{ "name": "Betrayal_Eff_MuOu_01", "parent": "Betrayal_Eff_MuOu", "length": 85.4 }
+],
+"slots": [
+	{ "name": "Betrayal_DeBuff_muou2", "bone": "Betrayal_Eff_MuOu_01" },
+	{ "name": "Betrayal_DeBuff_muous2", "bone": "Betrayal_Eff_MuOu_01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Betrayal_DeBuff_muou2": {
+			"Betrayal_DeBuff_muou": { "rotation": -90, "width": 64, "height": 64 }
+		},
+		"Betrayal_DeBuff_muous2": {
+			"Betrayal_DeBuff_muous": { "rotation": -90, "width": 64, "height": 64 }
+		}
+	}
+},
+"animations": {
+	"Betrayal": {
+		"slots": {
+			"Betrayal_DeBuff_muou2": {
+				"attachment": [
+					{ "time": 0, "name": "Betrayal_DeBuff_muou" }
+				]
+			},
+			"Betrayal_DeBuff_muous2": {
+				"attachment": [
+					{ "time": 0, "name": "Betrayal_DeBuff_muous" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff48" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff48" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.6, "color": "ffffff48" }
+				]
+			}
+		},
+		"bones": {
+			"Betrayal_Eff_MuOu_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 26.54, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

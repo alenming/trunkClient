@@ -1,0 +1,69 @@
+{
+"skeleton": { "hash": "Mv3mxMcGkVJqnUedRPp/gqUgEBo", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "30104_Skill1_Bullet", "parent": "root", "length": 70.36, "rotation": 90 },
+	{ "name": "30104_Skill1_Bullet_Glow", "parent": "30104_Skill1_Bullet", "length": 70.36, "x": 94.88, "scaleX": 4, "scaleY": 3 },
+	{ "name": "30104_Skill1_Bullet_XianTiao", "parent": "30104_Skill1_Bullet", "length": 70.36, "x": 95.84, "scaleX": 1.5 }
+],
+"slots": [
+	{ "name": "30104_Eff_Skill_Glow_01", "bone": "30104_Skill1_Bullet_XianTiao", "blend": "additive" },
+	{ "name": "30104_Eff_Skill1_Rap112", "bone": "30104_Skill1_Bullet_Glow", "color": "35ff5661", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30104_Eff_Skill1_Rap112": {
+			"30100_Eff_Skill1_Rap112": { "rotation": -90, "width": 64, "height": 64 }
+		},
+		"30104_Eff_Skill_Glow_01": {
+			"301043_Eff_Skill_Glow_01": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_02": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_03": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_04": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_05": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_06": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_07": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_08": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_09": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_10": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_11": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_12": { "rotation": -90, "width": 120, "height": 186 },
+			"301043_Eff_Skill_Glow_13": { "rotation": -90, "width": 120, "height": 186 }
+		}
+	}
+},
+"animations": {
+	"Red_Light": {
+		"slots": {
+			"30104_Eff_Skill1_Rap112": {
+				"attachment": [
+					{ "time": 0, "name": "30100_Eff_Skill1_Rap112" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff00002d" },
+					{ "time": 0.1666, "color": "ff0000a7", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ff0000a7" },
+					{ "time": 1.1, "color": "ff00002d" }
+				]
+			},
+			"30104_Eff_Skill_Glow_01": {
+				"attachment": [
+					{ "time": 0, "name": "301043_Eff_Skill_Glow_01" },
+					{ "time": 0.0666, "name": "301043_Eff_Skill_Glow_02" },
+					{ "time": 0.1666, "name": "301043_Eff_Skill_Glow_03" },
+					{ "time": 0.2666, "name": "301043_Eff_Skill_Glow_04" },
+					{ "time": 0.3666, "name": "301043_Eff_Skill_Glow_05" },
+					{ "time": 0.4333, "name": "301043_Eff_Skill_Glow_06" },
+					{ "time": 0.5333, "name": "301043_Eff_Skill_Glow_07" },
+					{ "time": 0.6, "name": "301043_Eff_Skill_Glow_08" },
+					{ "time": 0.7, "name": "301043_Eff_Skill_Glow_09" },
+					{ "time": 0.8, "name": "301043_Eff_Skill_Glow_10" },
+					{ "time": 0.9, "name": "301043_Eff_Skill_Glow_11" },
+					{ "time": 1, "name": "301043_Eff_Skill_Glow_12" },
+					{ "time": 1.1, "name": "301043_Eff_Skill_Glow_13" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,62 @@
+
+30404_Attack1_Hit.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30400_Attack1_Hit_0001
+  rotate: true
+  xy: 886, 86
+  size: 169, 128
+  orig: 290, 191
+  offset: 19, 28
+  index: -1
+30400_Attack1_Hit_0002
+  rotate: true
+  xy: 146, 12
+  size: 243, 149
+  orig: 290, 191
+  offset: 11, 14
+  index: -1
+30400_Attack1_Hit_0003
+  rotate: true
+  xy: 1, 1
+  size: 254, 144
+  orig: 290, 191
+  offset: 13, 17
+  index: -1
+30400_Attack1_Hit_0004
+  rotate: true
+  xy: 296, 1
+  size: 254, 140
+  orig: 290, 191
+  offset: 23, 21
+  index: -1
+30400_Attack1_Hit_0005
+  rotate: true
+  xy: 592, 87
+  size: 168, 144
+  orig: 290, 191
+  offset: 111, 21
+  index: -1
+30400_Attack1_Hit_0006
+  rotate: true
+  xy: 437, 96
+  size: 159, 154
+  orig: 290, 191
+  offset: 125, 18
+  index: -1
+30400_Attack1_Hit_0007
+  rotate: false
+  xy: 737, 92
+  size: 148, 163
+  orig: 290, 191
+  offset: 137, 16
+  index: -1
+30400_Attack1_Hit_0008
+  rotate: true
+  xy: 437, 30
+  size: 65, 154
+  orig: 290, 191
+  offset: 199, 27
+  index: -1

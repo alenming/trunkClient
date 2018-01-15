@@ -1,0 +1,149 @@
+{
+"skeleton": { "hash": "LuNCzDa2u/GX1vhncCthFrfZeq8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "10700_Talent_Buff", "x": 0.61, "y": 0.61 },
+	{
+		"name": "10700_Eff_Talent_Fire",
+		"parent": "10700_Talent_Buff",
+		"length": 106.64,
+		"x": -1.03,
+		"y": -12.12,
+		"scaleX": 1.5,
+		"scaleY": 2,
+		"rotation": 90
+	},
+	{
+		"name": "10700_Eff_Talent_Point",
+		"parent": "10700_Talent_Buff",
+		"length": 106.64,
+		"x": -3.57,
+		"y": 35.01,
+		"scaleX": 6,
+		"scaleY": 20,
+		"rotation": 90
+	}
+],
+"slots": [
+	{ "name": "10700_Fire_Talent_Buff_02", "bone": "10700_Eff_Talent_Fire", "color": "ffffffc7" },
+	{ "name": "10700_Fire_Talent_Buff_03", "bone": "10700_Eff_Talent_Fire", "color": "ffffffc7" },
+	{ "name": "10700_Fire_Talent_Buff_01", "bone": "10700_Eff_Talent_Fire", "color": "ffffff80" },
+	{ "name": "10700_Eff_Point", "bone": "10700_Eff_Talent_Point", "color": "ff880061", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10700_Eff_Point": {
+			"10700_Point": { "x": 0.61, "y": 0.13, "rotation": -90, "width": 32, "height": 32 }
+		},
+		"10700_Fire_Talent_Buff_01": {
+			"10700_fire_01": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_02": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_03": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_04": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_05": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_06": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_07": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_08": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_09": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_10": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_11": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_12": { "x": 35, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_13": { "x": 35, "rotation": -90, "width": 128, "height": 75 }
+		},
+		"10700_Fire_Talent_Buff_02": {
+			"10700_fire_01": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_02": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_03": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_04": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_05": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_06": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_07": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_08": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_09": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_10": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_11": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_12": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_13": { "x": 35, "scaleX": -1, "rotation": -90, "width": 128, "height": 75 }
+		},
+		"10700_Fire_Talent_Buff_03": {
+			"10700_fire_01": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_02": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_03": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_04": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_05": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_06": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_07": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_08": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_09": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_10": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_11": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_12": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 },
+			"10700_fire_13": { "x": 10, "scaleX": -1, "scaleY": 0.3, "rotation": -90, "width": 128, "height": 75 }
+		}
+	}
+},
+"animations": {
+	"10700_Talent_Buff": {
+		"slots": {
+			"10700_Eff_Point": {
+				"attachment": [
+					{ "time": 0, "name": "10700_Point" }
+				]
+			},
+			"10700_Fire_Talent_Buff_01": {
+				"attachment": [
+					{ "time": 0, "name": "10700_fire_01" },
+					{ "time": 0.1, "name": "10700_fire_02" },
+					{ "time": 0.2, "name": "10700_fire_03" },
+					{ "time": 0.3333, "name": "10700_fire_04" },
+					{ "time": 0.4333, "name": "10700_fire_05" },
+					{ "time": 0.5333, "name": "10700_fire_06" },
+					{ "time": 0.6333, "name": "10700_fire_07" },
+					{ "time": 0.7333, "name": "10700_fire_08" },
+					{ "time": 0.8333, "name": "10700_fire_09" },
+					{ "time": 0.9333, "name": "10700_fire_10" },
+					{ "time": 1.0333, "name": "10700_fire_11" },
+					{ "time": 1.1333, "name": "10700_fire_12" },
+					{ "time": 1.2333, "name": "10700_fire_13" },
+					{ "time": 1.3333, "name": "10700_fire_01" }
+				]
+			},
+			"10700_Fire_Talent_Buff_02": {
+				"attachment": [
+					{ "time": 0, "name": "10700_fire_07" },
+					{ "time": 0.1, "name": "10700_fire_08" },
+					{ "time": 0.2, "name": "10700_fire_09" },
+					{ "time": 0.3333, "name": "10700_fire_10" },
+					{ "time": 0.4333, "name": "10700_fire_11" },
+					{ "time": 0.5333, "name": "10700_fire_12" },
+					{ "time": 0.6333, "name": "10700_fire_13" },
+					{ "time": 0.7333, "name": "10700_fire_01" },
+					{ "time": 0.8333, "name": "10700_fire_02" },
+					{ "time": 0.9333, "name": "10700_fire_03" },
+					{ "time": 1.0333, "name": "10700_fire_04" },
+					{ "time": 1.1333, "name": "10700_fire_05" },
+					{ "time": 1.2333, "name": "10700_fire_06" },
+					{ "time": 1.3333, "name": "10700_fire_07" }
+				]
+			},
+			"10700_Fire_Talent_Buff_03": {
+				"attachment": [
+					{ "time": 0, "name": "10700_fire_01" },
+					{ "time": 0.1, "name": "10700_fire_02" },
+					{ "time": 0.2, "name": "10700_fire_03" },
+					{ "time": 0.3333, "name": "10700_fire_04" },
+					{ "time": 0.4333, "name": "10700_fire_05" },
+					{ "time": 0.5333, "name": "10700_fire_06" },
+					{ "time": 0.6333, "name": "10700_fire_07" },
+					{ "time": 0.7333, "name": "10700_fire_08" },
+					{ "time": 0.8333, "name": "10700_fire_09" },
+					{ "time": 0.9333, "name": "10700_fire_10" },
+					{ "time": 1.0333, "name": "10700_fire_11" },
+					{ "time": 1.1333, "name": "10700_fire_12" },
+					{ "time": 1.2333, "name": "10700_fire_13" },
+					{ "time": 1.3333, "name": "10700_fire_01" }
+				]
+			}
+		}
+	}
+}
+}

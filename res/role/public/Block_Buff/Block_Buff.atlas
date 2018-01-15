@@ -1,0 +1,76 @@
+
+Block_Buff.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+50400_Skill2_Buff0001
+  rotate: false
+  xy: 1, 160
+  size: 115, 95
+  orig: 118, 101
+  offset: 0, 3
+  index: -1
+50400_Skill2_Buff0002
+  rotate: false
+  xy: 117, 162
+  size: 104, 93
+  orig: 118, 101
+  offset: 3, 4
+  index: -1
+50400_Skill2_Buff0003
+  rotate: false
+  xy: 1, 62
+  size: 102, 97
+  orig: 118, 101
+  offset: 5, 2
+  index: -1
+50400_Skill2_Buff0004
+  rotate: false
+  xy: 222, 164
+  size: 104, 91
+  orig: 118, 101
+  offset: 3, 3
+  index: -1
+50400_Skill2_Buff0005
+  rotate: true
+  xy: 104, 53
+  size: 106, 80
+  orig: 118, 101
+  offset: 4, 3
+  index: -1
+50400_Skill2_Buff0006
+  rotate: false
+  xy: 327, 166
+  size: 105, 89
+  orig: 118, 101
+  offset: 5, 3
+  index: -1
+50400_Skill2_Buff_2_0001
+  rotate: false
+  xy: 433, 184
+  size: 61, 33
+  orig: 81, 59
+  offset: 4, 12
+  index: -1
+50400_Skill2_Buff_2_0002
+  rotate: false
+  xy: 433, 218
+  size: 65, 37
+  orig: 81, 59
+  offset: 6, 16
+  index: -1
+50400_Skill2_Buff_2_0003
+  rotate: false
+  xy: 33, 27
+  size: 62, 34
+  orig: 81, 59
+  offset: 10, 20
+  index: -1
+50400_Skill2_Buff_2_0004
+  rotate: true
+  xy: 1, 1
+  size: 60, 31
+  orig: 81, 59
+  offset: 13, 24
+  index: -1

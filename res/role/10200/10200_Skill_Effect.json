@@ -1,0 +1,125 @@
+{
+"skeleton": { "hash": "5bSrFKtOcu1/QuLnJSnncm8enW8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "10202_root" },
+	{ "name": "10200_Skill1_Effect1_killqiangkou", "parent": "10202_root", "x": 86.09, "y": 66.85 },
+	{ "name": "10200_Skill1_Effect1_skillbaodian", "parent": "10202_root", "x": -16.72, "y": 35.03 },
+	{ "name": "10200_Skill1_Effect1_skillguang", "parent": "10202_root", "x": 95.88, "y": 75.42 },
+	{ "name": "10200_Skill1_Effect1_skilljulong", "parent": "10202_root", "x": 11.42, "y": 72.97 }
+],
+"slots": [
+	{ "name": "10200_1julong01", "bone": "10200_Skill1_Effect1_skilljulong", "blend": "additive" },
+	{ "name": "10200_baodian01", "bone": "10200_Skill1_Effect1_skillbaodian", "blend": "additive" },
+	{ "name": "10200_skill01", "bone": "10200_Skill1_Effect1_killqiangkou" },
+	{ "name": "10200_guang01", "bone": "10200_Skill1_Effect1_skillguang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10200_1julong01": {
+			"10200_1julong01": { "width": 184, "height": 184 }
+		},
+		"10200_baodian01": {
+			"10200_baodian01": { "width": 238, "height": 39 }
+		},
+		"10200_guang01": {
+			"10200_guang01": { "width": 72, "height": 73 }
+		},
+		"10200_skill01": {
+			"10200_skill01": { "width": 188, "height": 139 },
+			"10200_skill02": { "width": 188, "height": 139 },
+			"10200_skill03": { "width": 188, "height": 139 },
+			"10200_skill04": { "width": 188, "height": 139 },
+			"10200_skill05": { "width": 188, "height": 139 },
+			"10200_skill06": { "width": 188, "height": 139 },
+			"10200_skill07": { "width": 188, "height": 139 },
+			"10200_skill08": { "width": 188, "height": 139 },
+			"10200_skill09": { "width": 188, "height": 139 },
+			"10200_skill10": { "width": 188, "height": 139 },
+			"10200_skill11": { "width": 188, "height": 139 }
+		}
+	}
+},
+"animations": {
+	"10200_Skill1_Effect1": {
+		"slots": {
+			"10200_1julong01": {
+				"attachment": [
+					{ "time": 1.0666, "name": "10200_1julong01" },
+					{ "time": 1.2666, "name": "10200_1julong01" },
+					{ "time": 2, "name": "10200_1julong01" },
+					{ "time": 2.0666, "name": "10200_1julong01" },
+					{ "time": 2.1, "name": null }
+				],
+				"color": [
+					{ "time": 1.0666, "color": "ffffff00" },
+					{ "time": 1.2666, "color": "ffffffff" }
+				]
+			},
+			"10200_baodian01": {
+				"attachment": [
+					{ "time": 2.0666, "name": "10200_baodian01" },
+					{ "time": 2.1666, "name": null }
+				]
+			},
+			"10200_guang01": {
+				"attachment": [
+					{ "time": 1.2333, "name": "10200_guang01" },
+					{ "time": 2.1666, "name": null }
+				],
+				"color": [
+					{ "time": 1.2333, "color": "ffffff00" },
+					{ "time": 2.1666, "color": "ffffffff" }
+				]
+			},
+			"10200_skill01": {
+				"attachment": [
+					{ "time": 2.1333, "name": "10200_skill01" },
+					{ "time": 2.1666, "name": "10200_skill02" },
+					{ "time": 2.2, "name": "10200_skill03" },
+					{ "time": 2.2333, "name": "10200_skill04" },
+					{ "time": 2.2666, "name": "10200_skill05" },
+					{ "time": 2.3, "name": "10200_skill06" },
+					{ "time": 2.3333, "name": "10200_skill07" },
+					{ "time": 2.3666, "name": "10200_skill08" },
+					{ "time": 2.4, "name": "10200_skill09" },
+					{ "time": 2.4333, "name": "10200_skill10" },
+					{ "time": 2.4666, "name": "10200_skill11" },
+					{ "time": 2.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"10200_Skill1_Effect1_skilljulong": {
+				"scale": [
+					{ "time": 1.0666, "x": 1.4, "y": 1.4 },
+					{ "time": 2, "x": 0.5, "y": 0.5 },
+					{ "time": 2.0666, "x": 0.2, "y": 0.2 }
+				]
+			},
+			"10200_Skill1_Effect1_skillbaodian": {
+				"translate": [
+					{ "time": 2.0666, "x": 19.58, "y": 33.04 }
+				],
+				"scale": [
+					{ "time": 2.0666, "x": 0.6, "y": 1 },
+					{ "time": 2.1, "x": 1.1, "y": 1 },
+					{ "time": 2.1333, "x": 1.1, "y": 0.2 }
+				]
+			},
+			"10200_Skill1_Effect1_killqiangkou": {
+				"translate": [
+					{ "time": 2.1333, "x": 0, "y": 19.58 }
+				],
+				"scale": [
+					{ "time": 2.1333, "x": 1.33, "y": 1.33 }
+				]
+			},
+			"10200_Skill1_Effect1_skillguang": {
+				"translate": [
+					{ "time": 1.2333, "x": 18.35, "y": -2.44 }
+				]
+			}
+		}
+	}
+}
+}

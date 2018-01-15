@@ -1,0 +1,488 @@
+{
+"skeleton": { "hash": "exqNZNmNaNmDgT9LvUpWHN55e2o", "spine": "2.1.27", "width": 71.99, "height": 107.99, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "412700_Eff_Birth", "parent": "root", "length": 134.52, "y": 25.79, "rotation": 90 },
+	{ "name": "412700_up", "parent": "root", "length": 84.27, "x": 0.21, "y": 79.75, "rotation": 89.09 },
+	{ "name": "412700_Eff_Birth_DiLie", "parent": "412700_Eff_Birth", "length": 134.52 },
+	{ "name": "412700_Eff_Birth_smoke_01", "parent": "412700_Eff_Birth", "length": 134.52 },
+	{ "name": "412700_Eff_Birth_smoke_02", "parent": "412700_Eff_Birth", "length": 134.52, "scaleY": -1 },
+	{ "name": "412700_Eff_Birth_smoke_03", "parent": "412700_Eff_Birth", "length": 134.52 },
+	{ "name": "412700_down", "parent": "412700_up", "length": 28.18, "x": 160.13, "y": 2.93, "rotation": 0.9 },
+	{ "name": "412700_up_1", "parent": "412700_up", "length": 48.6, "x": 68.58, "y": 4.43, "color": "28f700ff" },
+	{ "name": "412700_up_2", "parent": "412700_up", "length": 28.21, "x": 87.16, "y": -36.36, "rotation": 91.35 }
+],
+"slots": [
+	{ "name": "412700_Eff_dilie2", "bone": "412700_Eff_Birth_DiLie" },
+	{ "name": "412700_down", "bone": "412700_down" },
+	{ "name": "412700_up", "bone": "412700_up" },
+	{ "name": "412700_up_2", "bone": "412700_up_2" },
+	{ "name": "412700_Eff_Birth_03", "bone": "412700_Eff_Birth_smoke_03" },
+	{ "name": "412700_Eff_Birth_02", "bone": "412700_Eff_Birth_smoke_02" },
+	{ "name": "412700_Eff_Birth_01", "bone": "412700_Eff_Birth_smoke_01" },
+	{ "name": "412700_up_1", "bone": "412700_up_1", "attachment": "412700_up_1" }
+],
+"skins": {
+	"default": {
+		"412700_Eff_Birth_01": {
+			"412700_Eff_Birth_01": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_02": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_03": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_04": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_05": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_06": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_07": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_08": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_09": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_10": { "x": 15, "rotation": -90, "width": 150, "height": 95 }
+		},
+		"412700_Eff_Birth_02": {
+			"412700_Eff_Birth_01": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_02": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_03": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_04": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_05": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_06": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_07": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_08": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_09": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_10": { "x": 15, "rotation": -90, "width": 150, "height": 95 }
+		},
+		"412700_Eff_Birth_03": {
+			"412700_Eff_Birth_01": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_02": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_03": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_04": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_05": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_06": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_07": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_08": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_09": { "x": 15, "rotation": -90, "width": 150, "height": 95 },
+			"412700_Eff_Birth_10": { "x": 15, "rotation": -90, "width": 150, "height": 95 }
+		},
+		"412700_Eff_dilie2": {
+			"412700_Eff_dilie2": { "rotation": -90, "width": 189, "height": 189 }
+		},
+		"412700_down": {
+			"412700_down": { "x": -16.06, "y": -0.4, "rotation": -89.99, "width": 96, "height": 105 }
+		},
+		"412700_up": {
+			"412700_up": { "x": 50.58, "y": 0.79, "rotation": -89.09, "width": 164, "height": 292 }
+		},
+		"412700_up_1": {
+			"412700_up_1": { "x": 38.66, "y": -2.08, "rotation": -89.09, "width": 72, "height": 108 }
+		},
+		"412700_up_2": {
+			"412700_up_2": { "x": 37.27, "y": -6.36, "rotation": 179.55, "width": 106, "height": 57 }
+		}
+	}
+},
+"animations": {
+	"Born1": {
+		"slots": {
+			"412700_Eff_Birth_01": {
+				"attachment": [
+					{ "time": 0, "name": "412700_Eff_Birth_01" },
+					{ "time": 0.1, "name": "412700_Eff_Birth_02" },
+					{ "time": 0.2, "name": "412700_Eff_Birth_03" },
+					{ "time": 0.3, "name": "412700_Eff_Birth_04" },
+					{ "time": 0.4, "name": "412700_Eff_Birth_05" },
+					{ "time": 0.5, "name": "412700_Eff_Birth_06" },
+					{ "time": 0.6, "name": "412700_Eff_Birth_07" },
+					{ "time": 0.7, "name": "412700_Eff_Birth_08" },
+					{ "time": 0.8, "name": "412700_Eff_Birth_09" },
+					{ "time": 0.9, "name": "412700_Eff_Birth_10" },
+					{ "time": 1.2, "name": "412700_Eff_Birth_01" },
+					{ "time": 1.3, "name": "412700_Eff_Birth_02" },
+					{ "time": 1.4, "name": "412700_Eff_Birth_03" },
+					{ "time": 1.5, "name": "412700_Eff_Birth_04" },
+					{ "time": 1.6, "name": "412700_Eff_Birth_05" },
+					{ "time": 1.7, "name": "412700_Eff_Birth_06" },
+					{ "time": 1.8, "name": "412700_Eff_Birth_07" },
+					{ "time": 1.9, "name": "412700_Eff_Birth_08" },
+					{ "time": 2, "name": "412700_Eff_Birth_09" },
+					{ "time": 2.1, "name": "412700_Eff_Birth_10" }
+				],
+				"color": [
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.2, "color": "ffffffff" }
+				]
+			},
+			"412700_Eff_Birth_02": {
+				"attachment": [
+					{ "time": 0.4, "name": "412700_Eff_Birth_01" },
+					{ "time": 0.5, "name": "412700_Eff_Birth_02" },
+					{ "time": 0.6, "name": "412700_Eff_Birth_03" },
+					{ "time": 0.7, "name": "412700_Eff_Birth_04" },
+					{ "time": 0.8, "name": "412700_Eff_Birth_05" },
+					{ "time": 0.9, "name": "412700_Eff_Birth_06" },
+					{ "time": 1, "name": "412700_Eff_Birth_07" },
+					{ "time": 1.1, "name": "412700_Eff_Birth_08" },
+					{ "time": 1.2, "name": "412700_Eff_Birth_09" },
+					{ "time": 1.3, "name": "412700_Eff_Birth_10" },
+					{ "time": 1.4, "name": null },
+					{ "time": 1.6, "name": "412700_Eff_Birth_01" },
+					{ "time": 1.7, "name": "412700_Eff_Birth_02" },
+					{ "time": 1.8, "name": "412700_Eff_Birth_03" },
+					{ "time": 1.9, "name": "412700_Eff_Birth_04" },
+					{ "time": 2, "name": "412700_Eff_Birth_05" },
+					{ "time": 2.1, "name": "412700_Eff_Birth_06" },
+					{ "time": 2.2, "name": "412700_Eff_Birth_07" },
+					{ "time": 2.3, "name": "412700_Eff_Birth_08" },
+					{ "time": 2.4, "name": "412700_Eff_Birth_09" },
+					{ "time": 2.5, "name": "412700_Eff_Birth_10" },
+					{ "time": 2.6, "name": null }
+				],
+				"color": [
+					{ "time": 1.2, "color": "ffffffff" },
+					{ "time": 1.4, "color": "ffffff00" },
+					{ "time": 1.6, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2.4, "color": "ffffffff" },
+					{ "time": 2.6, "color": "ffffff00" }
+				]
+			},
+			"412700_Eff_Birth_03": {
+				"attachment": [
+					{ "time": 0.8, "name": "412700_Eff_Birth_01" },
+					{ "time": 0.9, "name": "412700_Eff_Birth_02" },
+					{ "time": 1, "name": "412700_Eff_Birth_03" },
+					{ "time": 1.1, "name": "412700_Eff_Birth_04" },
+					{ "time": 1.2, "name": "412700_Eff_Birth_05" },
+					{ "time": 1.3, "name": "412700_Eff_Birth_06" },
+					{ "time": 1.4, "name": "412700_Eff_Birth_07" },
+					{ "time": 1.5, "name": "412700_Eff_Birth_08" },
+					{ "time": 1.6, "name": "412700_Eff_Birth_09" },
+					{ "time": 1.7, "name": "412700_Eff_Birth_10" },
+					{ "time": 1.8, "name": null }
+				],
+				"color": [
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 1.8, "color": "ffffff00" }
+				]
+			},
+			"412700_Eff_dilie2": {
+				"attachment": [
+					{ "time": 0, "name": "412700_Eff_dilie2" }
+				]
+			},
+			"412700_down": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": null },
+					{ "time": 3, "name": null }
+				]
+			},
+			"412700_up": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3, "name": null }
+				]
+			},
+			"412700_up_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": "412700_up_1" }
+				]
+			},
+			"412700_up_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"412700_Eff_Birth_smoke_01": {
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5, "curve": "stepped" },
+					{ "time": 1, "x": 2.5, "y": 2.5 },
+					{ "time": 1.2, "x": 2.5, "y": -2.5 }
+				]
+			},
+			"412700_Eff_Birth_smoke_02": {
+				"scale": [
+					{ "time": 0.4, "x": 2.5, "y": 2.5, "curve": "stepped" },
+					{ "time": 1.4, "x": 2.5, "y": 2.5 },
+					{ "time": 1.6, "x": 2.5, "y": -2.5 }
+				]
+			},
+			"412700_Eff_Birth_smoke_03": {
+				"scale": [
+					{ "time": 0.8, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"412700_Eff_Birth_DiLie": {
+				"translate": [
+					{ "time": 0, "x": 28.48, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.621, "y": 1.142 },
+					{ "time": 0.1, "x": 1.293, "y": 3.386 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{
+				"time": 1.2,
+				"offsets": [
+					{ "slot": "412700_Eff_Birth_01", "offset": -2 }
+				]
+			},
+			{
+				"time": 1.6,
+				"offsets": [
+					{ "slot": "412700_Eff_Birth_03", "offset": 2 }
+				]
+			}
+		]
+	},
+	"Skill1": {
+		"slots": {
+			"412700_up_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"412700_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_up": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_Eff_Birth_DiLie": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_Eff_Birth_smoke_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_Eff_Birth_smoke_02": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_Eff_Birth_smoke_03": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_up_1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_up_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			},
+			"412700_Eff_Birth": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.5, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"Skill2": {
+		"slots": {
+			"412700_Eff_Birth_01": {
+				"attachment": [
+					{ "time": 0, "name": "412700_Eff_Birth_01" },
+					{ "time": 0.1, "name": "412700_Eff_Birth_02" },
+					{ "time": 0.2, "name": "412700_Eff_Birth_03" },
+					{ "time": 0.3, "name": "412700_Eff_Birth_04" },
+					{ "time": 0.4, "name": "412700_Eff_Birth_05" },
+					{ "time": 0.5, "name": "412700_Eff_Birth_06" },
+					{ "time": 0.6, "name": "412700_Eff_Birth_07" },
+					{ "time": 0.7, "name": "412700_Eff_Birth_08" },
+					{ "time": 0.8, "name": "412700_Eff_Birth_09" },
+					{ "time": 0.9, "name": "412700_Eff_Birth_10" },
+					{ "time": 1, "name": "412700_Eff_Birth_01" },
+					{ "time": 1.1, "name": "412700_Eff_Birth_02" },
+					{ "time": 1.2, "name": "412700_Eff_Birth_03" },
+					{ "time": 1.3, "name": "412700_Eff_Birth_04" },
+					{ "time": 1.4, "name": "412700_Eff_Birth_05" },
+					{ "time": 1.5, "name": "412700_Eff_Birth_06" },
+					{ "time": 1.6, "name": "412700_Eff_Birth_07" },
+					{ "time": 1.7, "name": "412700_Eff_Birth_08" },
+					{ "time": 1.8, "name": "412700_Eff_Birth_09" },
+					{ "time": 1.9, "name": "412700_Eff_Birth_10" },
+					{ "time": 2, "name": null }
+				]
+			},
+			"412700_Eff_Birth_02": {
+				"attachment": [
+					{ "time": 0.4, "name": "412700_Eff_Birth_01" },
+					{ "time": 0.5, "name": "412700_Eff_Birth_02" },
+					{ "time": 0.6, "name": "412700_Eff_Birth_03" },
+					{ "time": 0.7, "name": "412700_Eff_Birth_04" },
+					{ "time": 0.8, "name": "412700_Eff_Birth_05" },
+					{ "time": 0.9, "name": "412700_Eff_Birth_06" },
+					{ "time": 1, "name": "412700_Eff_Birth_07" },
+					{ "time": 1.1, "name": "412700_Eff_Birth_08" },
+					{ "time": 1.2, "name": "412700_Eff_Birth_09" },
+					{ "time": 1.3, "name": "412700_Eff_Birth_10" },
+					{ "time": 1.4, "name": null }
+				]
+			},
+			"412700_Eff_Birth_03": {
+				"attachment": [
+					{ "time": 0.8, "name": "412700_Eff_Birth_01" },
+					{ "time": 0.9, "name": "412700_Eff_Birth_02" },
+					{ "time": 1, "name": "412700_Eff_Birth_03" },
+					{ "time": 1.1, "name": "412700_Eff_Birth_04" },
+					{ "time": 1.2, "name": "412700_Eff_Birth_05" },
+					{ "time": 1.3, "name": "412700_Eff_Birth_06" },
+					{ "time": 1.4, "name": "412700_Eff_Birth_07" },
+					{ "time": 1.5, "name": "412700_Eff_Birth_08" },
+					{ "time": 1.6, "name": "412700_Eff_Birth_09" },
+					{ "time": 1.7, "name": "412700_Eff_Birth_10" },
+					{ "time": 1.8, "name": null }
+				]
+			},
+			"412700_Eff_dilie2": {
+				"attachment": [
+					{ "time": 0, "name": "412700_Eff_dilie2" }
+				],
+				"color": [
+					{ "time": 1.8, "color": "ffffffff" },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			},
+			"412700_down": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"412700_up": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": null }
+				]
+			},
+			"412700_up_1": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"412700_up_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"412700_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"412700_Eff_Birth_DiLie": {
+				"scale": [
+					{ "time": 0, "x": 0.621, "y": 1.142 },
+					{ "time": 0.1, "x": 1.293, "y": 3.386 }
+				]
+			},
+			"412700_Eff_Birth_smoke_01": {
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"412700_Eff_Birth_smoke_02": {
+				"scale": [
+					{ "time": 0.4, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"412700_Eff_Birth_smoke_03": {
+				"scale": [
+					{ "time": 0.8, "x": 2.5, "y": 2.5 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 1,
+				"offsets": [
+					{ "slot": "412700_Eff_Birth_01", "offset": -2 }
+				]
+			}
+		]
+	},
+	"Stand1": {
+		"bones": {
+			"412700_down": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

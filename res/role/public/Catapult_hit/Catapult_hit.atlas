@@ -1,0 +1,83 @@
+
+Catapult_hit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+20900_Break_SmokeTu_TX_00
+  rotate: false
+  xy: 131, 137
+  size: 106, 57
+  orig: 133, 88
+  offset: 17, 10
+  index: -1
+20900_Break_SmokeTu_TX_01
+  rotate: true
+  xy: 390, 150
+  size: 125, 70
+  orig: 133, 88
+  offset: 5, 5
+  index: -1
+20900_Break_SmokeTu_TX_02
+  rotate: false
+  xy: 260, 121
+  size: 127, 76
+  orig: 133, 88
+  offset: 5, 6
+  index: -1
+20900_Break_SmokeTu_TX_03
+  rotate: false
+  xy: 1, 112
+  size: 128, 80
+  orig: 133, 88
+  offset: 5, 6
+  index: -1
+20900_Break_SmokeTu_TX_04
+  rotate: false
+  xy: 131, 195
+  size: 128, 80
+  orig: 133, 88
+  offset: 5, 8
+  index: -1
+20900_Break_SmokeTu_TX_05
+  rotate: false
+  xy: 1, 193
+  size: 129, 82
+  orig: 133, 88
+  offset: 4, 6
+  index: -1
+20900_Break_SmokeTu_TX_06
+  rotate: false
+  xy: 260, 198
+  size: 129, 77
+  orig: 133, 88
+  offset: 4, 8
+  index: -1
+20900_Break_SmokeTu_TX_07
+  rotate: false
+  xy: 1, 34
+  size: 129, 77
+  orig: 133, 88
+  offset: 4, 8
+  index: -1
+20900_Break_SmokeTu_TX_08
+  rotate: false
+  xy: 131, 68
+  size: 102, 68
+  orig: 133, 88
+  offset: 17, 18
+  index: -1
+20900_Break_SmokeTu_TX_09
+  rotate: false
+  xy: 131, 1
+  size: 103, 66
+  orig: 133, 88
+  offset: 17, 20
+  index: -1
+20902_floor
+  rotate: false
+  xy: 1, 276
+  size: 454, 234
+  orig: 454, 234
+  offset: 0, 0
+  index: -1

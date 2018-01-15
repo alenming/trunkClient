@@ -1,0 +1,31 @@
+{
+"skeleton": { "hash": "Fq8nQ571XIADxCBz+b1m4wQMqcY", "spine": "2.1.27", "width": 0, "height": 0, "images": "./../images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Defense_reduction", "parent": "root" }
+],
+"slots": [
+	{ "name": "Defense_reduction_01", "bone": "Defense_reduction" }
+],
+"skins": {
+	"default": {
+		"Defense_reduction_01": {
+			"Defense_reduction_01": { "width": 250, "height": 269 },
+			"Defense_reduction_02": { "width": 250, "height": 269 }
+		}
+	}
+},
+"animations": {
+	"Defense_reduction": {
+		"slots": {
+			"Defense_reduction_01": {
+				"attachment": [
+					{ "time": 0, "name": "Defense_reduction_01" },
+					{ "time": 0.2333, "name": "Defense_reduction_02" },
+					{ "time": 0.4666, "name": "Defense_reduction_01" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,90 @@
+
+Exploded.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10704_Skill2_Hit_01
+  rotate: false
+  xy: 1, 106
+  size: 184, 158
+  orig: 184, 158
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_02
+  rotate: false
+  xy: 1, 265
+  size: 262, 205
+  orig: 262, 206
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_03
+  rotate: false
+  xy: 348, 145
+  size: 150, 108
+  orig: 151, 109
+  offset: 1, 1
+  index: -1
+10704_Skill2_Hit_04
+  rotate: false
+  xy: 350, 42
+  size: 159, 102
+  orig: 159, 103
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_05
+  rotate: false
+  xy: 186, 145
+  size: 161, 108
+  orig: 161, 108
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_06
+  rotate: false
+  xy: 186, 45
+  size: 163, 99
+  orig: 163, 99
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_07
+  rotate: false
+  xy: 264, 254
+  size: 167, 108
+  orig: 167, 109
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_08
+  rotate: false
+  xy: 440, 365
+  size: 172, 105
+  orig: 172, 105
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_09
+  rotate: false
+  xy: 613, 369
+  size: 172, 101
+  orig: 173, 101
+  offset: 1, 0
+  index: -1
+10704_Skill2_Hit_10
+  rotate: false
+  xy: 1, 1
+  size: 176, 104
+  orig: 177, 105
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_11
+  rotate: false
+  xy: 264, 363
+  size: 175, 107
+  orig: 175, 107
+  offset: 0, 0
+  index: -1
+10704_Skill2_Hit_12
+  rotate: false
+  xy: 786, 373
+  size: 176, 97
+  orig: 177, 97
+  offset: 1, 0
+  index: -1

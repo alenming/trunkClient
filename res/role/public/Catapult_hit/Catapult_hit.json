@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "rim/eVqja7Q7eLeCKZNY5+5fcBY", "spine": "2.1.27", "width": 638.4, "height": 422.4, "images": "" },
+"bones": [
+	{ "name": "20902_Skill1_Hit_all" },
+	{ "name": "20902_Skill1_Hit_TX", "parent": "20902_Skill1_Hit_all", "x": -42.21, "y": 46.05, "scaleX": 4.8, "scaleY": 4.8 },
+	{ "name": "20902_floor", "parent": "20902_Skill1_Hit_all" }
+],
+"slots": [
+	{ "name": "20902_floor", "bone": "20902_floor", "attachment": "20902_floor" },
+	{ "name": "20900_Break_SmokeTu_TX_00", "bone": "20902_Skill1_Hit_TX", "attachment": "20900_Break_SmokeTu_TX_04" }
+],
+"skins": {
+	"default": {
+		"20900_Break_SmokeTu_TX_00": {
+			"20900_Break_SmokeTu_TX_00": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_01": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_02": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_03": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_04": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_05": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_06": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_07": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_08": { "width": 133, "height": 88 },
+			"20900_Break_SmokeTu_TX_09": { "width": 133, "height": 88 }
+		},
+		"20902_floor": {
+			"20902_floor": { "width": 454, "height": 234 }
+		}
+	}
+},
+"animations": {
+	"Catapult_hit": {
+		"slots": {
+			"20900_Break_SmokeTu_TX_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "20900_Break_SmokeTu_TX_00" },
+					{ "time": 0.1333, "name": "20900_Break_SmokeTu_TX_01" },
+					{ "time": 0.2, "name": "20900_Break_SmokeTu_TX_02" },
+					{ "time": 0.2666, "name": "20900_Break_SmokeTu_TX_03" },
+					{ "time": 0.3333, "name": "20900_Break_SmokeTu_TX_04" },
+					{ "time": 0.4, "name": "20900_Break_SmokeTu_TX_05" },
+					{ "time": 0.4666, "name": "20900_Break_SmokeTu_TX_06" },
+					{ "time": 0.5333, "name": "20900_Break_SmokeTu_TX_07" },
+					{ "time": 0.6, "name": "20900_Break_SmokeTu_TX_08" },
+					{ "time": 0.6666, "name": "20900_Break_SmokeTu_TX_09" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"20902_floor": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "20902_floor" }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

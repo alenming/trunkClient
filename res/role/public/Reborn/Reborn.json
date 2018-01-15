@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "MTczR8EqgrBaWlUSFr9m8Y3eNqM", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Reborn", "parent": "root", "y": -61.31 }
+],
+"slots": [
+	{ "name": "images/Reborn_slfh01", "bone": "Reborn" }
+],
+"skins": {
+	"default": {
+		"images/Reborn_slfh01": {
+			"images/Reborn_slfh01": { "y": 61.31, "width": 127, "height": 137 },
+			"images/Reborn_slfh02": { "y": 61.31, "width": 127, "height": 137 },
+			"images/Reborn_slfh03": { "y": 61.31, "width": 127, "height": 137 },
+			"images/Reborn_slfh04": { "y": 61.31, "width": 127, "height": 137 }
+		}
+	}
+},
+"animations": {
+	"Reborn1": {
+		"slots": {
+			"images/Reborn_slfh01": {
+				"attachment": [
+					{ "time": 0, "name": "images/Reborn_slfh01" },
+					{ "time": 0.1, "name": "images/Reborn_slfh02" },
+					{ "time": 0.2, "name": "images/Reborn_slfh03" },
+					{ "time": 0.3, "name": "images/Reborn_slfh04" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Reborn": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 58.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5 }
+				]
+			}
+		}
+	}
+}
+}

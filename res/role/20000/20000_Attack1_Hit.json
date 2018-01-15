@@ -1,0 +1,41 @@
+{
+"skeleton": { "hash": "o1/dAw6n9oghr3RpQMAOg7dvMr8", "spine": "2.1.27", "width": 120, "height": 120, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "zhuahen", "parent": "root" }
+],
+"slots": [
+	{ "name": "zhuahen", "bone": "zhuahen", "attachment": "images/zhuhen" }
+],
+"skins": {
+	"default": {
+		"zhuahen": {
+			"images/zhuhen": { "width": 120, "height": 120 }
+		}
+	}
+},
+"animations": {
+	"20000_Attack1_Hit": {
+		"slots": {
+			"zhuahen": {
+				"attachment": [
+					{ "time": 0, "name": "images/zhuhen" },
+					{ "time": 1, "name": "images/zhuhen" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff32" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"zhuahen": {
+				"flipX": [
+					{ "time": 0 }
+				]
+			}
+		}
+	}
+}
+}

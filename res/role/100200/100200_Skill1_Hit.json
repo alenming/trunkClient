@@ -1,0 +1,48 @@
+{
+"skeleton": { "hash": "klmjHaK1zBXK6n7Y4BTKwzwm5fQ", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "100200_Skill1_Hit" },
+	{ "name": "Skill1_Hit", "parent": "100200_Skill1_Hit", "x": 4.5, "y": 6 }
+],
+"slots": [
+	{ "name": "100200_attackbuff_01", "bone": "Skill1_Hit", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"100200_attackbuff_01": {
+			"100200_attackbuff_01": { "width": 146, "height": 170 },
+			"100200_attackbuff_02": { "width": 146, "height": 170 },
+			"100200_attackbuff_03": { "width": 146, "height": 170 },
+			"100200_attackbuff_04": { "width": 146, "height": 170 },
+			"100200_attackbuff_05": { "width": 146, "height": 170 },
+			"100200_attackbuff_06": { "width": 146, "height": 170 },
+			"100200_attackbuff_07": { "width": 146, "height": 170 }
+		}
+	}
+},
+"animations": {
+	"Skill1_Hit": {
+		"slots": {
+			"100200_attackbuff_01": {
+				"attachment": [
+					{ "time": 0, "name": "100200_attackbuff_01" },
+					{ "time": 0.0666, "name": "100200_attackbuff_02" },
+					{ "time": 0.1333, "name": "100200_attackbuff_03" },
+					{ "time": 0.2, "name": "100200_attackbuff_04" },
+					{ "time": 0.2666, "name": "100200_attackbuff_05" },
+					{ "time": 0.3333, "name": "100200_attackbuff_06" },
+					{ "time": 0.4, "name": "100200_attackbuff_07" },
+					{ "time": 0.4666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Skill1_Hit": {
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,3161 @@
+{
+"skeleton": { "hash": "BlEiqvUsSN8eKO7yvvdp3oSCUBU", "spine": "2.1.27", "width": 205.03, "height": 232.44, "images": "./images/" },
+"bones": [
+	{ "name": "60200", "flipX": true },
+	{ "name": "60200_body", "parent": "60200", "length": 218.75, "x": 5.01, "y": 10.93, "rotation": 90.9 },
+	{
+		"name": "60200_shader",
+		"parent": "60200",
+		"length": 41.79,
+		"x": 1.12,
+		"y": -0.49,
+		"scaleX": 2.5,
+		"scaleY": 2.5,
+		"rotation": -90.45
+	},
+	{ "name": "60200_smoke", "parent": "60200", "x": 195.17, "y": -28.24, "color": "2f9b00ff" },
+	{ "name": "60200_smoke_02", "parent": "60200", "x": 248.38, "y": -8.06, "scaleX": 1.006, "scaleY": 1.006, "color": "129b08ff" },
+	{ "name": "60200_smoke_2", "parent": "60200", "x": 248.38, "y": -8.06, "scaleX": 1.006, "scaleY": 1.006, "color": "129b08ff" },
+	{ "name": "60200_smoke_3", "parent": "60200", "x": 248.38, "y": -8.06, "scaleX": 1.006, "scaleY": 1.006, "color": "129b08ff" },
+	{ "name": "60201", "parent": "60200", "x": 0.53, "y": -2.3, "color": "05009bff" },
+	{
+		"name": "60201_shadow02",
+		"parent": "60200",
+		"length": 24.98,
+		"x": 104.77,
+		"y": -11.75,
+		"scaleX": 2,
+		"scaleY": 2,
+		"rotation": -90
+	},
+	{ "name": "60201_stone05", "parent": "60200", "x": 3.55, "y": -9.23 },
+	{ "name": "60200_body_shadow", "parent": "60200_body", "length": 255.78, "x": 27.5, "y": -6.35, "rotation": -0.45 },
+	{ "name": "60200_body_shadow01", "parent": "60200_body", "length": 351.91, "x": 69.72, "y": -12.01, "rotation": 0.45 },
+	{ "name": "60200_eye_light", "parent": "60200_body", "x": 141.37, "y": 56.56 },
+	{
+		"name": "60201_body01_red",
+		"parent": "60201",
+		"length": 71.43,
+		"x": 15.21,
+		"y": 120.51,
+		"rotation": -92.25,
+		"color": "05009bff"
+	},
+	{ "name": "60201_body02", "parent": "60201", "x": 71.67, "y": -14.61, "color": "05009bff" },
+	{
+		"name": "60201_body03_red",
+		"parent": "60201",
+		"length": 68.85,
+		"x": 57.49,
+		"y": 139.41,
+		"rotation": -100.7,
+		"color": "05009bff"
+	},
+	{ "name": "60201_bodyup", "parent": "60201", "length": 115.29, "x": -5.23, "y": 108.82, "rotation": 116.2, "color": "05009bff" },
+	{ "name": "60201_bodyup01", "parent": "60201", "length": 92.84, "x": 14.77, "y": 34.85, "rotation": 91.35, "color": "05009bff" },
+	{
+		"name": "60201_mouth_red",
+		"parent": "60201",
+		"length": 50.13,
+		"x": -54.53,
+		"y": 139.04,
+		"rotation": -149.72,
+		"color": "05009bff"
+	},
+	{ "name": "60201_stone01", "parent": "60201", "x": 98.51, "y": -4.74, "color": "05009bff" },
+	{ "name": "60201_stone02", "parent": "60201", "x": 92.26, "y": 7.97, "color": "05009bff" },
+	{ "name": "60201_stone03", "parent": "60201", "x": -80.62, "y": 4.84, "color": "05009bff" },
+	{ "name": "60201_stone04", "parent": "60201", "x": -65.61, "y": 17.36, "color": "05009bff" }
+],
+"slots": [
+	{ "name": "60200_shader", "bone": "60200_shader", "attachment": "60200_shader" },
+	{ "name": "60201_shadow02", "bone": "60201_shadow02" },
+	{ "name": "60200_body_shadow01", "bone": "60200_body_shadow01", "blend": "additive" },
+	{ "name": "60200_body", "bone": "60200_body", "attachment": "60200_body" },
+	{ "name": "60200_body_shadow", "bone": "60200_body_shadow" },
+	{ "name": "60200_body_red", "bone": "60200_body", "blend": "additive" },
+	{ "name": "60200_eye_blue", "bone": "60200_body", "attachment": "60200_eye_blue" },
+	{ "name": "60200_body_red2", "bone": "60200_body", "blend": "additive" },
+	{ "name": "60200_body_red3", "bone": "60200_body", "blend": "additive" },
+	{ "name": "60200_eye_light", "bone": "60200_eye_light", "blend": "additive" },
+	{ "name": "60201_stone04_red", "bone": "60201_stone04", "blend": "additive" },
+	{ "name": "60201_stone04", "bone": "60201_stone04" },
+	{ "name": "60201_stone03_red", "bone": "60201_stone03", "blend": "additive" },
+	{ "name": "60201_stone03", "bone": "60201_stone03" },
+	{ "name": "60201_bodyup_red", "bone": "60201_bodyup", "blend": "additive" },
+	{ "name": "60201_bodyup01_red", "bone": "60201_bodyup01", "blend": "additive" },
+	{ "name": "60201_body03_red", "bone": "60201_body03_red", "blend": "additive" },
+	{ "name": "60201_body04_red", "bone": "60201", "blend": "additive" },
+	{ "name": "60201_body04", "bone": "60201" },
+	{ "name": "60201_mouth_red", "bone": "60201_mouth_red", "blend": "additive" },
+	{ "name": "60201_mouth", "bone": "60201_mouth_red" },
+	{ "name": "60201_stone02_red", "bone": "60201_stone02", "blend": "additive" },
+	{ "name": "60201_stone02", "bone": "60201_stone02" },
+	{ "name": "60201_body02_red", "bone": "60201_body02", "blend": "additive" },
+	{ "name": "60201_body02", "bone": "60201_body02" },
+	{ "name": "60201_body", "bone": "60201" },
+	{ "name": "60201_bodyup", "bone": "60201_bodyup" },
+	{ "name": "60201_bodyup01", "bone": "60201_bodyup01" },
+	{ "name": "60201_body_red", "bone": "60201", "blend": "additive" },
+	{ "name": "60201_body_red2", "bone": "60201", "blend": "additive" },
+	{ "name": "60201_stone05", "bone": "60201_stone05", "attachment": "60201_stone05" },
+	{ "name": "60201_body01_red", "bone": "60201_body01_red", "blend": "additive" },
+	{ "name": "60201_body03", "bone": "60201_body03_red" },
+	{ "name": "60201_body01", "bone": "60201_body01_red" },
+	{ "name": "60201_stone01_red", "bone": "60201_stone01", "blend": "additive" },
+	{ "name": "60201_stone01", "bone": "60201_stone01" },
+	{ "name": "60200_Birth_0001", "bone": "60200_smoke" },
+	{ "name": "60200_smoke_0001", "bone": "60200_smoke_02" },
+	{ "name": "60200_smoke_1", "bone": "60200_smoke_2" },
+	{ "name": "60200_smoke_2", "bone": "60200_smoke_3" }
+],
+"skins": {
+	"default": {
+		"60200_Birth_0001": {
+			"60200_Birth_0001": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 },
+			"60200_Birth_0002": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 },
+			"60200_Birth_0003": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 },
+			"60200_Birth_0004": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 },
+			"60200_Birth_0005": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 },
+			"60200_Birth_0006": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 },
+			"60200_Birth_0007": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 },
+			"60200_Birth_0008": { "x": 4.82, "y": 28.24, "width": 120, "height": 67 }
+		},
+		"60200_body": {
+			"60200_body": { "x": 81.48, "y": 5.73, "rotation": -90.9, "width": 193, "height": 202 }
+		},
+		"60200_body_red": {
+			"60200_body_red": { "x": 79.48, "y": 5.76, "scaleX": 3.2, "scaleY": 3.2, "rotation": -90.9, "width": 70, "height": 74 }
+		},
+		"60200_body_red2": {
+			"60200_body_red": { "x": 79.48, "y": 5.76, "scaleX": 3.2, "scaleY": 3.2, "rotation": -90.9, "width": 70, "height": 74 }
+		},
+		"60200_body_red3": {
+			"60200_body_red": { "x": 79.48, "y": 5.76, "scaleX": 3.2, "scaleY": 3.2, "rotation": -90.9, "width": 70, "height": 74 }
+		},
+		"60200_body_shadow": {
+			"60200_body_shadow": { "x": 81.24, "y": 2.94, "scaleX": 3.5, "scaleY": 3.5, "rotation": -90.45, "width": 56, "height": 76 }
+		},
+		"60200_body_shadow01": {
+			"60200_body_shadow01": { "x": 103.47, "y": 3.4, "scaleX": 3.5, "scaleY": 3.5, "rotation": -91.36, "width": 61, "height": 90 }
+		},
+		"60200_eye_blue": {
+			"60200_eye_blue": { "x": 139.6, "y": 55.27, "rotation": -90.53, "width": 26, "height": 7 }
+		},
+		"60200_eye_light": {
+			"60200_eye_light": { "x": -1.09, "y": -1.76, "rotation": -90.9, "width": 43, "height": 22 }
+		},
+		"60200_shader": {
+			"60200_shader": { "x": -1.58, "y": 0.34, "rotation": 90.45, "width": 82, "height": 34 }
+		},
+		"60200_smoke_0001": {
+			"60200_smoke_0001": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0002": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0003": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0004": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 }
+		},
+		"60200_smoke_1": {
+			"60200_smoke_0001": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0002": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0003": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0004": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 }
+		},
+		"60200_smoke_2": {
+			"60200_smoke_0001": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0002": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0003": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 },
+			"60200_smoke_0004": { "x": 1.61, "y": 8.06, "width": 101, "height": 43 }
+		},
+		"60201_body": {
+			"60201_body": { "x": 7.67, "y": 94.32, "scaleX": 0.995, "width": 172, "height": 202 }
+		},
+		"60201_body01": {
+			"60201_body01": { "x": 27.34, "y": 7.49, "rotation": -1.9, "width": 86, "height": 59 }
+		},
+		"60201_body01_red": {
+			"60201_body01_red": { "x": 27.81, "y": 6.62, "scaleX": 2, "scaleY": 2, "rotation": -2.28, "width": 56, "height": 42 }
+		},
+		"60201_body02": {
+			"60201_body02": { "x": 2.15, "y": -1.01, "width": 31, "height": 19 }
+		},
+		"60201_body02_red": {
+			"60201_body02_red": { "x": 1.97, "y": -0.97, "scaleX": 2, "scaleY": 2, "width": 28, "height": 23 }
+		},
+		"60201_body03": {
+			"60201_body03": { "x": 28.14, "y": 7.31, "rotation": 100.7, "width": 68, "height": 154 }
+		},
+		"60201_body03_red": {
+			"60201_body03_red": { "x": 28.63, "y": 7.4, "scaleX": 2, "scaleY": 1.99, "rotation": 100.7, "width": 46, "height": 89 }
+		},
+		"60201_body04": {
+			"60201_body04": { "x": 4.15, "y": 27.36, "width": 143, "height": 68 }
+		},
+		"60201_body04_red": {
+			"60201_body04_red": { "x": 3.95, "y": 26.39, "scaleX": 2, "scaleY": 2, "width": 84, "height": 47 }
+		},
+		"60201_body_red": {
+			"60201_body_red": { "x": 6.95, "y": 92.39, "scaleX": 3.2, "scaleY": 3.2, "width": 64, "height": 74 }
+		},
+		"60201_body_red2": {
+			"60201_body_red": { "x": 6.95, "y": 92.39, "scaleX": 3.2, "scaleY": 3.2, "width": 64, "height": 74 }
+		},
+		"60201_bodyup": {
+			"60201_bodyup": { "x": 26.17, "y": -3.23, "rotation": -116.2, "width": 129, "height": 124 }
+		},
+		"60201_bodyup01": {
+			"60201_bodyup01": { "x": 46.74, "y": 5.01, "rotation": -91.35, "width": 82, "height": 114 }
+		},
+		"60201_bodyup01_red": {
+			"60201_bodyup01_red": { "x": 47.7, "y": 3.36, "scaleX": 2, "scaleY": 2, "rotation": -91.35, "width": 54, "height": 68 }
+		},
+		"60201_bodyup_red": {
+			"60201_bodyup_red": { "x": 25.82, "y": -1.97, "scaleX": 2, "scaleY": 2, "rotation": -116.2, "width": 76, "height": 73 }
+		},
+		"60201_mouth": {
+			"60201_mouth": { "x": 22.09, "y": -2.39, "rotation": 156.58, "width": 50, "height": 32 }
+		},
+		"60201_mouth_red": {
+			"60201_mouth_red": { "x": 21.24, "y": -3.11, "scaleX": 2, "scaleY": 2, "rotation": 156.58, "width": 37, "height": 28 }
+		},
+		"60201_shadow02": {
+			"60201_shadow02": { "x": 2.16, "y": -1.78, "rotation": 90, "width": 44, "height": 29 }
+		},
+		"60201_stone01": {
+			"60201_stone01": { "x": 2.65, "y": 1.34, "width": 26, "height": 11 }
+		},
+		"60201_stone01_red": {
+			"60201_stone01_red": { "x": 2.15, "y": 0.34, "scaleX": 2, "scaleY": 2, "width": 25, "height": 19 }
+		},
+		"60201_stone02": {
+			"60201_stone02": { "x": 0.33, "y": -0.75, "width": 15, "height": 12 }
+		},
+		"60201_stone02_red": {
+			"60201_stone02_red": { "x": 0.33, "y": -1.25, "scaleX": 2, "scaleY": 2, "width": 21, "height": 19 }
+		},
+		"60201_stone03": {
+			"60201_stone03": { "x": 3.64, "y": 2.05, "width": 29, "height": 18 }
+		},
+		"60201_stone03_red": {
+			"60201_stone03_red": { "x": 3.64, "y": 2.05, "scaleX": 2, "scaleY": 2, "width": 28, "height": 22 }
+		},
+		"60201_stone04": {
+			"60201_stone04": { "x": -0.23, "y": -0.66, "width": 21, "height": 9 }
+		},
+		"60201_stone04_red": {
+			"60201_stone04_red": { "x": 0.26, "y": -0.66, "scaleX": 2, "scaleY": 2, "width": 23, "height": 18 }
+		},
+		"60201_stone05": {
+			"60201_stone05": { "x": 5.43, "y": 9.82, "width": 151, "height": 46 }
+		}
+	}
+},
+"animations": {
+	"Birth1": {
+		"slots": {
+			"60200_Birth_0001": {
+				"attachment": [
+					{ "time": 0.3333, "name": "60200_Birth_0001" },
+					{ "time": 0.4, "name": "60200_Birth_0002" },
+					{ "time": 0.4666, "name": "60200_Birth_0003" },
+					{ "time": 0.5333, "name": "60200_Birth_0004" },
+					{ "time": 0.6, "name": "60200_Birth_0005" },
+					{ "time": 0.6666, "name": "60200_Birth_0006" },
+					{ "time": 0.7333, "name": "60200_Birth_0007" },
+					{ "time": 0.8, "name": "60200_Birth_0008" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"60200_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff050000", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ff050000" },
+					{ "time": 0.6666, "color": "ff0500ff" }
+				]
+			},
+			"60200_body_shadow": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_shadow" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff000cc2", "curve": "stepped" },
+					{ "time": 0.3666, "color": "ff000cc2" },
+					{ "time": 0.5333, "color": "ff000c00" }
+				]
+			},
+			"60200_body_shadow01": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_shadow01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff1900ff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ff1900ff" },
+					{ "time": 0.5, "color": "ff190000" }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60200_shader": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"60201_stone05": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "60201_stone05" }
+				]
+			}
+		},
+		"bones": {
+			"60200_body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1478.68 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.381, "y": 0.354 },
+					{ "time": 0.3333, "x": 1.087, "y": 1.087 }
+				]
+			},
+			"60200": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": 0, "y": -15 },
+					{ "time": 0.4666, "x": 0, "y": 12 },
+					{ "time": 0.5666, "x": 0, "y": -10 },
+					{ "time": 0.7, "x": 0, "y": 10 },
+					{ "time": 0.8333, "x": 0, "y": -5 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"60200_body_shadow01": {
+				"translate": [
+					{ "time": 0, "x": -51.63, "y": -11.95 },
+					{ "time": 0.2, "x": 35.94, "y": -13.34 },
+					{ "time": 0.3333, "x": 41.67, "y": -13.42 },
+					{ "time": 0.5, "x": -46, "y": -11.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.154, "y": 1 },
+					{ "time": 0.3333, "x": 1.733, "y": 1 },
+					{ "time": 0.5, "x": 0.729, "y": 1 }
+				]
+			},
+			"60200_body_shadow": {
+				"translate": [
+					{ "time": 0, "x": -9.92, "y": 7.94 },
+					{ "time": 0.2, "x": -2.72, "y": 7.82 },
+					{ "time": 0.3666, "x": 12.95, "y": 7.57 },
+					{ "time": 0.5333, "x": -13.57, "y": 8.01 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.173, "y": 1 },
+					{ "time": 0.3666, "x": 1.425, "y": 1 },
+					{ "time": 0.5333, "x": 0.996, "y": 1 }
+				]
+			},
+			"60200_smoke": {
+				"translate": [
+					{ "time": 0.3333, "x": -200.24, "y": -44.25 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 4, "y": 4 }
+				]
+			}
+		}
+	},
+	"Birth2": {
+		"slots": {
+			"60200_Birth_0001": {
+				"attachment": [
+					{ "time": 0.3333, "name": "60200_Birth_0001" },
+					{ "time": 0.4, "name": "60200_Birth_0002" },
+					{ "time": 0.4666, "name": "60200_Birth_0003" },
+					{ "time": 0.5333, "name": "60200_Birth_0004" },
+					{ "time": 0.6, "name": "60200_Birth_0005" },
+					{ "time": 0.6666, "name": "60200_Birth_0006" },
+					{ "time": 0.7333, "name": "60200_Birth_0007" },
+					{ "time": 0.8, "name": "60200_Birth_0008" },
+					{ "time": 0.9333, "name": null }
+				]
+			},
+			"60200_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" },
+					{ "time": 0.3333, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "0032ff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "0032ff00" }
+				]
+			},
+			"60200_body_red2": {
+				"attachment": [
+					{ "time": 0.3333, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "0032ff00", "curve": "stepped" },
+					{ "time": 0.3333, "color": "0032ff00" },
+					{ "time": 0.6666, "color": "0032ffff" }
+				]
+			},
+			"60200_body_red3": {
+				"attachment": [
+					{ "time": 0.3333, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "001bff00" },
+					{ "time": 0.6666, "color": "001bffff" }
+				]
+			},
+			"60200_body_shadow": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_shadow" }
+				],
+				"color": [
+					{ "time": 0, "color": "0032ffff", "curve": "stepped" },
+					{ "time": 0.3666, "color": "0032ffff" },
+					{ "time": 0.5333, "color": "0032ff00" }
+				]
+			},
+			"60200_body_shadow01": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_shadow01" }
+				],
+				"color": [
+					{ "time": 0, "color": "0469ffff", "curve": "stepped" },
+					{ "time": 0.3333, "color": "0469ffff" },
+					{ "time": 0.5, "color": "0469ff00" }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_blue" },
+					{ "time": 0.3333, "name": "60200_eye_blue" }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0.3333, "color": "005cff00" }
+				]
+			},
+			"60200_shader": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"60201_stone05": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.3333, "name": "60201_stone05" }
+				]
+			}
+		},
+		"bones": {
+			"60200_body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1478.68 },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.381, "y": 0.354 },
+					{ "time": 0.3333, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"60200": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 },
+					{ "time": 0.4, "x": 0, "y": -15 },
+					{ "time": 0.4666, "x": 0, "y": 12 },
+					{ "time": 0.5666, "x": 0, "y": -10 },
+					{ "time": 0.7, "x": 0, "y": 10 },
+					{ "time": 0.8333, "x": 0, "y": -5 },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"60200_body_shadow01": {
+				"translate": [
+					{ "time": 0, "x": -51.63, "y": -11.95 },
+					{ "time": 0.2, "x": 35.94, "y": -13.34 },
+					{ "time": 0.3333, "x": 41.67, "y": -13.42 },
+					{ "time": 0.5, "x": -46, "y": -11.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.154, "y": 1 },
+					{ "time": 0.3333, "x": 1.733, "y": 1 },
+					{ "time": 0.5, "x": 0.729, "y": 1 }
+				]
+			},
+			"60200_body_shadow": {
+				"translate": [
+					{ "time": 0, "x": -9.92, "y": 7.94 },
+					{ "time": 0.2, "x": -2.72, "y": 7.82 },
+					{ "time": 0.3666, "x": 12.95, "y": 7.57 },
+					{ "time": 0.5333, "x": -13.57, "y": 8.01 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.173, "y": 1 },
+					{ "time": 0.3666, "x": 1.425, "y": 1 },
+					{ "time": 0.5333, "x": 0.996, "y": 1 }
+				]
+			},
+			"60200_smoke": {
+				"translate": [
+					{ "time": 0.3333, "x": -200.24, "y": -44.25 }
+				],
+				"scale": [
+					{ "time": 0.3333, "x": 4, "y": 4 }
+				]
+			}
+		}
+	},
+	"Break1": {
+		"slots": {
+			"60200_body": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"60200_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0500ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "ff0500ff" },
+					{ "time": 0.9333, "color": "ff050000" }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff000300" }
+				]
+			},
+			"60200_smoke_0001": {
+				"attachment": [
+					{ "time": 0.8333, "name": "60200_smoke_0001" },
+					{ "time": 0.9666, "name": "60200_smoke_0002" },
+					{ "time": 1.1, "name": "60200_smoke_0003" },
+					{ "time": 1.2333, "name": "60200_smoke_0004" },
+					{ "time": 1.3666, "name": null },
+					{ "time": 1.6, "name": "60200_smoke_0002" },
+					{ "time": 1.7333, "name": "60200_smoke_0003" },
+					{ "time": 1.8666, "name": "60200_smoke_0004" },
+					{ "time": 2, "name": null }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffffe9" }
+				]
+			},
+			"60200_smoke_1": {
+				"attachment": [
+					{ "time": 0.9666, "name": "60200_smoke_0001" },
+					{ "time": 1.0666, "name": "60200_smoke_0002" },
+					{ "time": 1.1666, "name": "60200_smoke_0003" },
+					{ "time": 1.2666, "name": "60200_smoke_0004" },
+					{ "time": 1.3666, "name": null }
+				],
+				"color": [
+					{ "time": 0.9666, "color": "ffffffe9" }
+				]
+			},
+			"60200_smoke_2": {
+				"attachment": [
+					{ "time": 0.9333, "name": "60200_smoke_0001" },
+					{ "time": 1.0333, "name": "60200_smoke_0002" },
+					{ "time": 1.1333, "name": "60200_smoke_0003" },
+					{ "time": 1.2333, "name": "60200_smoke_0004" },
+					{ "time": 1.3333, "name": null }
+				],
+				"color": [
+					{ "time": 0.9333, "color": "ffffffe9" }
+				]
+			},
+			"60201_body": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"60201_body01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"60201_body02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"60201_body04": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60201_body01_red": {
+				"attachment": [
+					{ "time": 0.7666, "name": "60201_body01_red" }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "ff0100dd", "curve": "stepped" },
+					{ "time": 1.5, "color": "ff0100dd" },
+					{ "time": 2, "color": "ff010000" }
+				]
+			},
+			"60201_body02_red": {
+				"attachment": [
+					{ "time": 0.8666, "name": "60201_body02_red" }
+				],
+				"color": [
+					{ "time": 0.8666, "color": "ff0100dd", "curve": "stepped" },
+					{ "time": 1.5, "color": "ff0100dd" },
+					{ "time": 2, "color": "ff010000" }
+				]
+			},
+			"60201_body04_red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60201_body_red": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "ff000000" },
+					{ "time": 0.9333, "color": "ff0000ff" }
+				]
+			},
+			"60201_mouth": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8666, "color": "ffffffff" }
+				]
+			},
+			"60201_mouth_red": {
+				"attachment": [
+					{ "time": 0.9, "name": "60201_mouth_red" }
+				],
+				"color": [
+					{ "time": 0.9, "color": "ff0100dd", "curve": "stepped" },
+					{ "time": 1.5, "color": "ff0100dd" },
+					{ "time": 2, "color": "ff010000" }
+				]
+			},
+			"60201_shadow02": {
+				"attachment": [
+					{ "time": 0.7666, "name": "60201_shadow02" }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "ffffff00" },
+					{ "time": 0.8666, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"60201_stone02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"60201_stone03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffffff" }
+				]
+			},
+			"60201_stone04": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01_red": {
+				"attachment": [
+					{ "time": 0.8666, "name": "60201_stone01_red" }
+				],
+				"color": [
+					{ "time": 0.8666, "color": "ff0100dd", "curve": "stepped" },
+					{ "time": 1.5, "color": "ff0100dd" },
+					{ "time": 2, "color": "ff010000" }
+				]
+			},
+			"60201_stone02_red": {
+				"attachment": [
+					{ "time": 0.8333, "name": "60201_stone02_red" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ff0001ec", "curve": "stepped" },
+					{ "time": 1.5, "color": "ff0001ec" },
+					{ "time": 2, "color": "ff000100" }
+				]
+			},
+			"60201_stone03_red": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "60201_stone03_red" }
+				],
+				"color": [
+					{ "time": 0.9333, "color": "ff0100dd", "curve": "stepped" },
+					{ "time": 1.5, "color": "ff0100dd" },
+					{ "time": 2, "color": "ff010000" }
+				]
+			},
+			"60201_stone04_red": {
+				"attachment": [
+					{ "time": 0.8333, "name": "60201_stone04_red" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ff0100dd", "curve": "stepped" },
+					{ "time": 1.5, "color": "ff0100dd" },
+					{ "time": 2, "color": "ff010000" }
+				]
+			}
+		},
+		"bones": {
+			"60201_stone02": {
+				"rotate": [
+					{ "time": 0, "angle": 2.31, "curve": "stepped" },
+					{ "time": 0.5, "angle": 2.31, "curve": "stepped" },
+					{ "time": 0.8, "angle": 2.31, "curve": "stepped" },
+					{ "time": 1.0333, "angle": 2.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": -73.67, "y": 168.14, "curve": "stepped" },
+					{ "time": 0.5, "x": -73.67, "y": 168.14, "curve": "stepped" },
+					{ "time": 0.8, "x": -73.67, "y": 168.14 },
+					{ "time": 0.9, "x": 2.48, "y": -7.93 },
+					{ "time": 0.9666, "x": 2.48, "y": 2.33 },
+					{ "time": 1.0333, "x": 2.48, "y": -6.31 },
+					{ "time": 1.9666, "x": 2.48, "y": -5.62 }
+				]
+			},
+			"60201_stone03": {
+				"rotate": [
+					{ "time": 0, "angle": -83.77, "curve": "stepped" },
+					{ "time": 0.5, "angle": -83.77, "curve": "stepped" },
+					{ "time": 0.9, "angle": -83.77 },
+					{ "time": 1, "angle": -6.33 },
+					{ "time": 1.0666, "angle": -9.48 },
+					{ "time": 1.1333, "angle": -7.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 24.1, "y": 23.86, "curve": "stepped" },
+					{ "time": 0.5, "x": 24.1, "y": 23.86, "curve": "stepped" },
+					{ "time": 0.9, "x": 24.1, "y": 23.86 },
+					{ "time": 0.9666, "x": 11.57, "y": 5.88 },
+					{ "time": 1, "x": 9.64, "y": -3.1 },
+					{ "time": 1.0666, "x": 9.64, "y": -1.07 },
+					{ "time": 1.1333, "x": 9.64, "y": -2.52 }
+				]
+			},
+			"60201_stone04": {
+				"rotate": [
+					{ "time": 0, "angle": -75.92, "curve": "stepped" },
+					{ "time": 0.5, "angle": -75.92, "curve": "stepped" },
+					{ "time": 0.8, "angle": -75.92 },
+					{ "time": 0.9, "angle": -8.42 },
+					{ "time": 0.9666, "angle": -3.39, "curve": "stepped" },
+					{ "time": 1.0333, "angle": -3.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 32.42, "y": 77.27, "curve": "stepped" },
+					{ "time": 0.5, "x": 32.42, "y": 77.27, "curve": "stepped" },
+					{ "time": 0.8, "x": 32.42, "y": 77.27 },
+					{ "time": 0.9, "x": 29.23, "y": -37.93 },
+					{ "time": 0.9666, "x": 29.23, "y": -34.98 },
+					{ "time": 1.0333, "x": 29.23, "y": -37.93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.149, "y": 1.175 }
+				]
+			},
+			"60201_mouth_red": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 },
+					{ "time": 0.9666, "angle": -14.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 },
+					{ "time": 0.9666, "x": 0, "y": -155.6 }
+				]
+			},
+			"60201_body01_red": {
+				"rotate": [
+					{ "time": 0, "angle": -1.34, "curve": "stepped" },
+					{ "time": 0.5, "angle": -1.34, "curve": "stepped" },
+					{ "time": 0.7333, "angle": -1.34 },
+					{ "time": 0.8333, "angle": 1.34, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 1.34 },
+					{ "time": 1.4, "angle": 12.51 },
+					{ "time": 1.5, "angle": 34.66 },
+					{ "time": 1.5666, "angle": 64.36 },
+					{ "time": 1.6, "angle": 94.06, "curve": "stepped" },
+					{ "time": 2.1666, "angle": 94.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.37, "y": -0.68, "curve": "stepped" },
+					{ "time": 0.5, "x": 4.37, "y": -0.68, "curve": "stepped" },
+					{ "time": 0.7333, "x": 4.37, "y": -0.68 },
+					{ "time": 0.8333, "x": 4.77, "y": -99.45, "curve": "stepped" },
+					{ "time": 1.0666, "x": 4.77, "y": -99.45 },
+					{ "time": 1.4, "x": -6.27, "y": -99.45 },
+					{ "time": 1.4333, "x": -14.26, "y": -100.9 },
+					{ "time": 1.4666, "x": -21.29, "y": -103.56 },
+					{ "time": 1.5, "x": -30.71, "y": -106.23 },
+					{ "time": 1.5333, "x": -46.23, "y": -114.29 },
+					{ "time": 1.5666, "x": -61.07, "y": -126.42 },
+					{ "time": 1.6, "x": -76.51, "y": -158.39, "curve": "stepped" },
+					{ "time": 2.1666, "x": -76.51, "y": -158.39 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"60200_body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"60201_stone01": {
+				"rotate": [
+					{ "time": 0, "angle": -101.62, "curve": "stepped" },
+					{ "time": 0.5, "angle": -101.62, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -101.62 },
+					{ "time": 0.9333, "angle": -110.6 },
+					{ "time": 1, "angle": -133.23 },
+					{ "time": 1.0666, "angle": -157.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": -23.69, "y": 85.52, "curve": "stepped" },
+					{ "time": 0.5, "x": -23.69, "y": 85.52, "curve": "stepped" },
+					{ "time": 0.8333, "x": -23.69, "y": 85.52 },
+					{ "time": 0.9333, "x": -18.07, "y": 3.33 },
+					{ "time": 1, "x": -15.27, "y": 7.16 },
+					{ "time": 1.0666, "x": -15.27, "y": -3.94 }
+				]
+			},
+			"60201_body02": {
+				"rotate": [
+					{ "time": 0, "angle": 42.19, "curve": "stepped" },
+					{ "time": 0.5, "angle": 42.19, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 42.19 },
+					{ "time": 0.9333, "angle": -2.2 },
+					{ "time": 1, "angle": -8.71, "curve": "stepped" },
+					{ "time": 1.0666, "angle": -8.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": -23.77, "y": 173.84, "curve": "stepped" },
+					{ "time": 0.5, "x": -23.77, "y": 173.84, "curve": "stepped" },
+					{ "time": 0.8333, "x": -23.77, "y": 173.84 },
+					{ "time": 0.9333, "x": -10.11, "y": -5.48 },
+					{ "time": 1, "x": -10.11, "y": -2.16 },
+					{ "time": 1.0666, "x": -10.11, "y": -6.22 }
+				]
+			},
+			"60201_shadow02": {
+				"rotate": [
+					{ "time": 0.7666, "angle": -8.16 },
+					{ "time": 0.8666, "angle": -5.08, "curve": "stepped" },
+					{ "time": 0.9666, "angle": -5.08 }
+				],
+				"translate": [
+					{ "time": 0.7666, "x": -86.55, "y": -37.22 },
+					{ "time": 0.8666, "x": -86.55, "y": -30.71 },
+					{ "time": 0.9666, "x": -103.56, "y": -18.65 }
+				],
+				"scale": [
+					{ "time": 0.7666, "x": 0.516, "y": 0.655 },
+					{ "time": 0.8666, "x": 1.572, "y": 1.902 },
+					{ "time": 0.9666, "x": 2.497, "y": 3.789 }
+				]
+			},
+			"60200_smoke_02": {
+				"translate": [
+					{ "time": 0.8333, "x": -231.63, "y": -38.53, "curve": "stepped" },
+					{ "time": 1.3666, "x": -231.63, "y": -38.53 },
+					{ "time": 1.6, "x": -285.48, "y": -45.51 }
+				],
+				"scale": [
+					{ "time": 0.8333, "x": 1.291, "y": 1.291, "curve": "stepped" },
+					{ "time": 1.3666, "x": 1.291, "y": 1.291 },
+					{ "time": 1.6, "x": 1.788, "y": 1.589 }
+				]
+			},
+			"60200_smoke_2": {
+				"translate": [
+					{ "time": 0.9666, "x": -330.07, "y": -22.93 }
+				],
+				"scale": [
+					{ "time": 0.9666, "x": 1.092, "y": 1.092 }
+				],
+				"flipX": [
+					{ "time": 0.9666, "x": true }
+				]
+			},
+			"60200_smoke_3": {
+				"translate": [
+					{ "time": 0.9333, "x": -176.33, "y": -23 }
+				],
+				"flipX": [
+					{ "time": 0.9333, "x": true }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.7666,
+				"offsets": [
+					{ "slot": "60201_body01_red", "offset": 1 }
+				]
+			},
+			{
+				"time": 0.8333,
+				"offsets": [
+					{ "slot": "60201_stone04_red", "offset": 19 },
+					{ "slot": "60201_stone04", "offset": 19 },
+					{ "slot": "60201_stone03_red", "offset": 15 },
+					{ "slot": "60201_stone03", "offset": 15 },
+					{ "slot": "60201_body01_red", "offset": 1 }
+				]
+			},
+			{
+				"time": 0.8666,
+				"offsets": [
+					{ "slot": "60201_stone04_red", "offset": 17 },
+					{ "slot": "60201_stone04", "offset": 17 },
+					{ "slot": "60201_stone03_red", "offset": 17 },
+					{ "slot": "60201_stone03", "offset": 17 },
+					{ "slot": "60201_body02_red", "offset": 2 },
+					{ "slot": "60201_body02", "offset": 2 },
+					{ "slot": "60201_body01_red", "offset": 1 }
+				]
+			},
+			{
+				"time": 0.9333,
+				"offsets": [
+					{ "slot": "60201_stone04_red", "offset": 15 },
+					{ "slot": "60201_stone04", "offset": 15 },
+					{ "slot": "60201_stone03_red", "offset": 15 },
+					{ "slot": "60201_stone03", "offset": 15 },
+					{ "slot": "60201_mouth_red", "offset": 10 },
+					{ "slot": "60201_mouth", "offset": 10 },
+					{ "slot": "60201_body01_red", "offset": 2 },
+					{ "slot": "60200_smoke_2", "offset": -7 }
+				]
+			}
+		]
+	},
+	"Break2": {
+		"slots": {
+			"60200_body": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"60200_body_red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0500ff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "ff0500ff" },
+					{ "time": 0.9333, "color": "ff050000" }
+				]
+			},
+			"60200_body_red2": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "0032ffff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "0032ffff" },
+					{ "time": 0.9333, "color": "0032ff00" }
+				]
+			},
+			"60200_body_red3": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "001bffff", "curve": "stepped" },
+					{ "time": 0.7666, "color": "001bffff" },
+					{ "time": 0.9333, "color": "001bff00" }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_blue" }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff000300" }
+				]
+			},
+			"60200_smoke_0001": {
+				"attachment": [
+					{ "time": 0.8333, "name": "60200_smoke_0001" },
+					{ "time": 0.9666, "name": "60200_smoke_0002" },
+					{ "time": 1.1, "name": "60200_smoke_0003" },
+					{ "time": 1.2333, "name": "60200_smoke_0004" },
+					{ "time": 1.3666, "name": null },
+					{ "time": 1.6, "name": "60200_smoke_0002" },
+					{ "time": 1.7333, "name": "60200_smoke_0003" },
+					{ "time": 1.8666, "name": "60200_smoke_0004" },
+					{ "time": 2, "name": null }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "ffffffe9" }
+				]
+			},
+			"60200_smoke_1": {
+				"attachment": [
+					{ "time": 0.9666, "name": "60200_smoke_0001" },
+					{ "time": 1.0666, "name": "60200_smoke_0002" },
+					{ "time": 1.1666, "name": "60200_smoke_0003" },
+					{ "time": 1.2666, "name": "60200_smoke_0004" },
+					{ "time": 1.3666, "name": null }
+				],
+				"color": [
+					{ "time": 0.9666, "color": "ffffffe9" }
+				]
+			},
+			"60200_smoke_2": {
+				"attachment": [
+					{ "time": 0.9333, "name": "60200_smoke_0001" },
+					{ "time": 1.0333, "name": "60200_smoke_0002" },
+					{ "time": 1.1333, "name": "60200_smoke_0003" },
+					{ "time": 1.2333, "name": "60200_smoke_0004" },
+					{ "time": 1.3333, "name": null }
+				],
+				"color": [
+					{ "time": 0.9333, "color": "ffffffe9" }
+				]
+			},
+			"60201_body": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"60201_body01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" }
+				]
+			},
+			"60201_body02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"60201_body04": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60201_body01_red": {
+				"attachment": [
+					{ "time": 0.7666, "name": "60201_body01_red" }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "001bffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "001bffff" },
+					{ "time": 2, "color": "001bff00" }
+				]
+			},
+			"60201_body02_red": {
+				"attachment": [
+					{ "time": 0.8666, "name": "60201_body02_red" }
+				],
+				"color": [
+					{ "time": 0.8666, "color": "001bffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "001bffff" },
+					{ "time": 2, "color": "001bff00" }
+				]
+			},
+			"60201_body04_red": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60201_body_red": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.7666, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "0032ff00" },
+					{ "time": 0.9333, "color": "0032ffff" }
+				]
+			},
+			"60201_body_red2": {
+				"attachment": [
+					{ "time": 0.7666, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "001bff00" },
+					{ "time": 0.9333, "color": "001bffff" }
+				]
+			},
+			"60201_mouth": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8666, "color": "ffffffff" }
+				]
+			},
+			"60201_mouth_red": {
+				"attachment": [
+					{ "time": 0.9, "name": "60201_mouth_red" }
+				],
+				"color": [
+					{ "time": 0.9, "color": "001bffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "001bffff" },
+					{ "time": 2, "color": "001bff00" }
+				]
+			},
+			"60201_shadow02": {
+				"attachment": [
+					{ "time": 0.7666, "name": "60201_shadow02" }
+				],
+				"color": [
+					{ "time": 0.7666, "color": "ffffff00" },
+					{ "time": 0.8666, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8333, "color": "ffffffff" }
+				]
+			},
+			"60201_stone02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"60201_stone03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ffffffff" }
+				]
+			},
+			"60201_stone04": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01_red": {
+				"attachment": [
+					{ "time": 0.8666, "name": "60201_stone01_red" }
+				],
+				"color": [
+					{ "time": 0.8666, "color": "001bffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "001bffff" },
+					{ "time": 2, "color": "001bff00" }
+				]
+			},
+			"60201_stone02_red": {
+				"attachment": [
+					{ "time": 0.8333, "name": "60201_stone02_red" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "001bffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "001bffff" },
+					{ "time": 2, "color": "001bff00" }
+				]
+			},
+			"60201_stone03_red": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.9333, "name": "60201_stone03_red" }
+				],
+				"color": [
+					{ "time": 0.9333, "color": "001bffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "001bffff" },
+					{ "time": 2, "color": "001bff00" }
+				]
+			},
+			"60201_stone04_red": {
+				"attachment": [
+					{ "time": 0.8333, "name": "60201_stone04_red" }
+				],
+				"color": [
+					{ "time": 0.8333, "color": "001bffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "001bffff" },
+					{ "time": 2, "color": "001bff00" }
+				]
+			}
+		},
+		"bones": {
+			"60201_stone02": {
+				"rotate": [
+					{ "time": 0, "angle": 2.31, "curve": "stepped" },
+					{ "time": 0.5, "angle": 2.31, "curve": "stepped" },
+					{ "time": 0.8, "angle": 2.31, "curve": "stepped" },
+					{ "time": 1.0333, "angle": 2.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": -73.67, "y": 168.14, "curve": "stepped" },
+					{ "time": 0.5, "x": -73.67, "y": 168.14, "curve": "stepped" },
+					{ "time": 0.8, "x": -73.67, "y": 168.14 },
+					{ "time": 0.9, "x": 2.48, "y": -7.93 },
+					{ "time": 0.9666, "x": 2.48, "y": 2.33 },
+					{ "time": 1.0333, "x": 2.48, "y": -6.31 },
+					{ "time": 1.9666, "x": 2.48, "y": -5.62 }
+				]
+			},
+			"60201_stone03": {
+				"rotate": [
+					{ "time": 0, "angle": -83.77, "curve": "stepped" },
+					{ "time": 0.5, "angle": -83.77, "curve": "stepped" },
+					{ "time": 0.9, "angle": -83.77 },
+					{ "time": 1, "angle": -6.33 },
+					{ "time": 1.0666, "angle": -9.48 },
+					{ "time": 1.1333, "angle": -7.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 24.1, "y": 23.86, "curve": "stepped" },
+					{ "time": 0.5, "x": 24.1, "y": 23.86, "curve": "stepped" },
+					{ "time": 0.9, "x": 24.1, "y": 23.86 },
+					{ "time": 0.9666, "x": 11.57, "y": 5.88 },
+					{ "time": 1, "x": 9.64, "y": -3.1 },
+					{ "time": 1.0666, "x": 9.64, "y": -1.07 },
+					{ "time": 1.1333, "x": 9.64, "y": -2.52 }
+				]
+			},
+			"60201_stone04": {
+				"rotate": [
+					{ "time": 0, "angle": -75.92, "curve": "stepped" },
+					{ "time": 0.5, "angle": -75.92, "curve": "stepped" },
+					{ "time": 0.8, "angle": -75.92 },
+					{ "time": 0.9, "angle": -8.42 },
+					{ "time": 0.9666, "angle": -3.39, "curve": "stepped" },
+					{ "time": 1.0333, "angle": -3.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 32.42, "y": 77.27, "curve": "stepped" },
+					{ "time": 0.5, "x": 32.42, "y": 77.27, "curve": "stepped" },
+					{ "time": 0.8, "x": 32.42, "y": 77.27 },
+					{ "time": 0.9, "x": 29.23, "y": -37.93 },
+					{ "time": 0.9666, "x": 29.23, "y": -34.98 },
+					{ "time": 1.0333, "x": 29.23, "y": -37.93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.149, "y": 1.175 }
+				]
+			},
+			"60201_mouth_red": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 },
+					{ "time": 0.9666, "angle": -14.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 },
+					{ "time": 0.9666, "x": 0, "y": -155.6 }
+				]
+			},
+			"60201_body01_red": {
+				"rotate": [
+					{ "time": 0, "angle": -1.34, "curve": "stepped" },
+					{ "time": 0.5, "angle": -1.34, "curve": "stepped" },
+					{ "time": 0.7333, "angle": -1.34 },
+					{ "time": 0.8333, "angle": 1.34, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 1.34 },
+					{ "time": 1.4, "angle": 12.51 },
+					{ "time": 1.5, "angle": 34.66 },
+					{ "time": 1.5666, "angle": 64.36 },
+					{ "time": 1.6, "angle": 94.06, "curve": "stepped" },
+					{ "time": 2.1666, "angle": 94.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.37, "y": -0.68, "curve": "stepped" },
+					{ "time": 0.5, "x": 4.37, "y": -0.68, "curve": "stepped" },
+					{ "time": 0.7333, "x": 4.37, "y": -0.68 },
+					{ "time": 0.8333, "x": 4.77, "y": -99.45, "curve": "stepped" },
+					{ "time": 1.0666, "x": 4.77, "y": -99.45 },
+					{ "time": 1.4, "x": -6.27, "y": -99.45 },
+					{ "time": 1.4333, "x": -14.26, "y": -100.9 },
+					{ "time": 1.4666, "x": -21.29, "y": -103.56 },
+					{ "time": 1.5, "x": -30.71, "y": -106.23 },
+					{ "time": 1.5333, "x": -46.23, "y": -114.29 },
+					{ "time": 1.5666, "x": -61.07, "y": -126.42 },
+					{ "time": 1.6, "x": -76.51, "y": -158.39, "curve": "stepped" },
+					{ "time": 2.1666, "x": -76.51, "y": -158.39 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"60200_body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"60201_stone01": {
+				"rotate": [
+					{ "time": 0, "angle": -101.62, "curve": "stepped" },
+					{ "time": 0.5, "angle": -101.62, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -101.62 },
+					{ "time": 0.9333, "angle": -110.6 },
+					{ "time": 1, "angle": -133.23 },
+					{ "time": 1.0666, "angle": -157.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": -23.69, "y": 85.52, "curve": "stepped" },
+					{ "time": 0.5, "x": -23.69, "y": 85.52, "curve": "stepped" },
+					{ "time": 0.8333, "x": -23.69, "y": 85.52 },
+					{ "time": 0.9333, "x": -18.07, "y": 3.33 },
+					{ "time": 1, "x": -15.27, "y": 7.16 },
+					{ "time": 1.0666, "x": -15.27, "y": -3.94 }
+				]
+			},
+			"60201_body02": {
+				"rotate": [
+					{ "time": 0, "angle": 42.19, "curve": "stepped" },
+					{ "time": 0.5, "angle": 42.19, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 42.19 },
+					{ "time": 0.9333, "angle": -2.2 },
+					{ "time": 1, "angle": -8.71, "curve": "stepped" },
+					{ "time": 1.0666, "angle": -8.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": -23.77, "y": 173.84, "curve": "stepped" },
+					{ "time": 0.5, "x": -23.77, "y": 173.84, "curve": "stepped" },
+					{ "time": 0.8333, "x": -23.77, "y": 173.84 },
+					{ "time": 0.9333, "x": -10.11, "y": -5.48 },
+					{ "time": 1, "x": -10.11, "y": -2.16 },
+					{ "time": 1.0666, "x": -10.11, "y": -6.22 }
+				]
+			},
+			"60201_shadow02": {
+				"rotate": [
+					{ "time": 0.7666, "angle": -8.16 },
+					{ "time": 0.8666, "angle": -5.08, "curve": "stepped" },
+					{ "time": 0.9666, "angle": -5.08 }
+				],
+				"translate": [
+					{ "time": 0.7666, "x": -86.55, "y": -37.22 },
+					{ "time": 0.8666, "x": -86.55, "y": -30.71 },
+					{ "time": 0.9666, "x": -103.56, "y": -18.65 }
+				],
+				"scale": [
+					{ "time": 0.7666, "x": 0.516, "y": 0.655 },
+					{ "time": 0.8666, "x": 1.572, "y": 1.902 },
+					{ "time": 0.9666, "x": 2.497, "y": 3.789 }
+				]
+			},
+			"60200_smoke_02": {
+				"translate": [
+					{ "time": 0.8333, "x": -231.63, "y": -38.53, "curve": "stepped" },
+					{ "time": 1.3666, "x": -231.63, "y": -38.53 },
+					{ "time": 1.6, "x": -285.48, "y": -45.51 }
+				],
+				"scale": [
+					{ "time": 0.8333, "x": 1.291, "y": 1.291, "curve": "stepped" },
+					{ "time": 1.3666, "x": 1.291, "y": 1.291 },
+					{ "time": 1.6, "x": 1.788, "y": 1.589 }
+				]
+			},
+			"60200_smoke_2": {
+				"translate": [
+					{ "time": 0.9666, "x": -330.07, "y": -22.93 }
+				],
+				"scale": [
+					{ "time": 0.9666, "x": 1.092, "y": 1.092 }
+				],
+				"flipX": [
+					{ "time": 0.9666, "x": true }
+				]
+			},
+			"60200_smoke_3": {
+				"translate": [
+					{ "time": 0.9333, "x": -176.33, "y": -23 }
+				],
+				"flipX": [
+					{ "time": 0.9333, "x": true }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "60200_eye_blue", "offset": 33 }
+				]
+			},
+			{
+				"time": 0.7666,
+				"offsets": [
+					{ "slot": "60200_eye_blue", "offset": 33 },
+					{ "slot": "60201_body01_red", "offset": 0 }
+				]
+			},
+			{
+				"time": 0.8333,
+				"offsets": [
+					{ "slot": "60200_eye_blue", "offset": 33 },
+					{ "slot": "60201_stone04_red", "offset": 18 },
+					{ "slot": "60201_stone04", "offset": 18 },
+					{ "slot": "60201_stone03_red", "offset": 14 },
+					{ "slot": "60201_stone03", "offset": 14 },
+					{ "slot": "60201_body01_red", "offset": 0 }
+				]
+			},
+			{
+				"time": 0.8666,
+				"offsets": [
+					{ "slot": "60200_eye_blue", "offset": 33 },
+					{ "slot": "60201_stone04_red", "offset": 16 },
+					{ "slot": "60201_stone04", "offset": 16 },
+					{ "slot": "60201_stone03_red", "offset": 16 },
+					{ "slot": "60201_stone03", "offset": 16 },
+					{ "slot": "60201_body02_red", "offset": 1 },
+					{ "slot": "60201_body02", "offset": 1 },
+					{ "slot": "60201_body01_red", "offset": 0 }
+				]
+			},
+			{
+				"time": 0.9333,
+				"offsets": [
+					{ "slot": "60200_eye_blue", "offset": 33 },
+					{ "slot": "60201_stone04_red", "offset": 14 },
+					{ "slot": "60201_stone04", "offset": 14 },
+					{ "slot": "60201_stone03_red", "offset": 14 },
+					{ "slot": "60201_stone03", "offset": 14 },
+					{ "slot": "60201_mouth_red", "offset": 9 },
+					{ "slot": "60201_mouth", "offset": 9 },
+					{ "slot": "60201_body01_red", "offset": 1 },
+					{ "slot": "60200_smoke_2", "offset": -8 }
+				]
+			}
+		]
+	},
+	"Death1": {
+		"slots": {
+			"60200_body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff000300" }
+				]
+			},
+			"60200_smoke_0001": {
+				"attachment": [
+					{ "time": 0.8, "name": "60200_smoke_0001" },
+					{ "time": 0.9, "name": "60200_smoke_0002" },
+					{ "time": 1, "name": "60200_smoke_0003" },
+					{ "time": 1.1, "name": "60200_smoke_0004" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"60200_smoke_1": {
+				"attachment": [
+					{ "time": 1.1, "name": "60200_smoke_0001" },
+					{ "time": 1.2, "name": "60200_smoke_0002" },
+					{ "time": 1.3, "name": "60200_smoke_0003" },
+					{ "time": 1.4, "name": "60200_smoke_0004" },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"60201_body": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"60201_body01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01" }
+				]
+			},
+			"60201_body02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02" }
+				]
+			},
+			"60201_body03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_body04": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_body01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body03_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_body03_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ff000000" },
+					{ "time": 0.5, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ff0000ff" },
+					{ "time": 1.1666, "color": "ff000000" }
+				]
+			},
+			"60201_body04_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_body04_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ff000000" },
+					{ "time": 0.5, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ff0000ff" },
+					{ "time": 1.1666, "color": "ff000000", "curve": "stepped" },
+					{ "time": 2, "color": "ff000000" }
+				]
+			},
+			"60201_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "ff0000ff" },
+					{ "time": 0.5, "color": "ff000000" }
+				]
+			},
+			"60201_bodyup": {
+				"attachment": [
+					{ "time": 0, "name": "60201_bodyup" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_bodyup01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_bodyup01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_bodyup01_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_bodyup01_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ff000000" },
+					{ "time": 0.5, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ff0000ff" },
+					{ "time": 1.1666, "color": "ff000000" }
+				]
+			},
+			"60201_bodyup_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_bodyup_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ff000000" },
+					{ "time": 0.5, "color": "ff0000ff", "curve": "stepped" },
+					{ "time": 0.9, "color": "ff0000ff" },
+					{ "time": 1.1666, "color": "ff000000" }
+				]
+			},
+			"60201_mouth": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth" }
+				]
+			},
+			"60201_mouth_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_shadow02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_shadow02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01" }
+				]
+			},
+			"60201_stone02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02" }
+				]
+			},
+			"60201_stone03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03" }
+				]
+			},
+			"60201_stone04": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04" }
+				]
+			},
+			"60201_stone01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone03_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone04_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			}
+		},
+		"bones": {
+			"60201_body01_red": {
+				"rotate": [
+					{ "time": 0, "angle": 94.06, "curve": "stepped" },
+					{ "time": 1.1, "angle": 94.06 },
+					{ "time": 1.1666, "angle": 94.96 },
+					{ "time": 1.2333, "angle": 94.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": -76.51, "y": -158.39, "curve": "stepped" },
+					{ "time": 1.1, "x": -76.51, "y": -158.39 },
+					{ "time": 1.1666, "x": -76.51, "y": -154.72 },
+					{ "time": 1.2333, "x": -76.51, "y": -158.39 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"60201_stone03": {
+				"rotate": [
+					{ "time": 0, "angle": -7.5, "curve": "stepped" },
+					{ "time": 1.0666, "angle": -7.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 9.64, "y": -2.52, "curve": "stepped" },
+					{ "time": 1.0666, "x": 9.64, "y": -2.52 },
+					{ "time": 1.1666, "x": 5.26, "y": 2.21 },
+					{ "time": 1.2666, "x": -1.12, "y": -6.66 }
+				]
+			},
+			"60201_shadow02": {
+				"rotate": [
+					{ "time": 0, "angle": -5.08, "curve": "stepped" },
+					{ "time": 0.6666, "angle": -5.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": -103.56, "y": -18.65, "curve": "stepped" },
+					{ "time": 0.6666, "x": -103.56, "y": -18.65 },
+					{ "time": 1.0333, "x": -83.93, "y": -11.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.497, "y": 3.789, "curve": "stepped" },
+					{ "time": 0.6666, "x": 2.497, "y": 3.789 },
+					{ "time": 1.0333, "x": 2.497, "y": 7.167 }
+				]
+			},
+			"60201_stone04": {
+				"rotate": [
+					{ "time": 0, "angle": -3.39, "curve": "stepped" },
+					{ "time": 1.1, "angle": -3.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 29.23, "y": -37.93, "curve": "stepped" },
+					{ "time": 1.1, "x": 29.23, "y": -37.93 },
+					{ "time": 1.2, "x": 30.02, "y": -25.78 },
+					{ "time": 1.3, "x": 41.72, "y": -41.38 }
+				]
+			},
+			"60201_body02": {
+				"rotate": [
+					{ "time": 0, "angle": -8.71, "curve": "stepped" },
+					{ "time": 0.8, "angle": -8.71 },
+					{ "time": 0.9, "angle": 3.68 },
+					{ "time": 1, "angle": -8.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": -10.11, "y": -6.22, "curve": "stepped" },
+					{ "time": 0.8, "x": -10.11, "y": -6.22 },
+					{ "time": 0.9, "x": -7.76, "y": -0.19 },
+					{ "time": 1, "x": 0.06, "y": -6.22 }
+				]
+			},
+			"60201_stone01": {
+				"rotate": [
+					{ "time": 0, "angle": -157.33, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -157.33 },
+					{ "time": 0.9333, "angle": -146.15 },
+					{ "time": 1.0333, "angle": -170.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": -15.27, "y": -3.94, "curve": "stepped" },
+					{ "time": 0.8333, "x": -15.27, "y": -3.94 },
+					{ "time": 0.9333, "x": -8.45, "y": -0.22 },
+					{ "time": 1.0333, "x": -2.86, "y": -8.76 }
+				]
+			},
+			"60201_stone02": {
+				"rotate": [
+					{ "time": 0, "angle": 2.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.48, "y": -6.31 }
+				]
+			},
+			"60201_mouth_red": {
+				"rotate": [
+					{ "time": 0, "angle": -14.41, "curve": "stepped" },
+					{ "time": 1.1, "angle": -14.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -155.6, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": -155.6 },
+					{ "time": 1.2, "x": -7.93, "y": -150.78 },
+					{ "time": 1.3, "x": -14.29, "y": -155.6 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.1, "y": 1.1 },
+					{ "time": 1.0333, "x": 1.378, "y": 2.135 }
+				]
+			},
+			"60201_bodyup": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 0.6666, "angle": -0.85 },
+					{ "time": 0.8333, "angle": 11.88 },
+					{ "time": 0.9666, "angle": 26.64 },
+					{ "time": 1.1, "angle": -292.85 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.15, "y": -0.37, "curve": "stepped" },
+					{ "time": 0.5, "x": 0.15, "y": -0.37 },
+					{ "time": 0.6666, "x": 2.53, "y": -5.75 },
+					{ "time": 0.8333, "x": -6.97, "y": -13.72 },
+					{ "time": 0.9666, "x": -30.77, "y": -40.82 },
+					{ "time": 1.1, "x": -68.04, "y": -76.85 }
+				]
+			},
+			"60201_bodyup01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 0.6, "angle": -3.6 },
+					{ "time": 0.7333, "angle": -14.31 },
+					{ "time": 0.8666, "angle": -43.06 },
+					{ "time": 1, "angle": -96.42 },
+					{ "time": 1.1666, "angle": -98.65 }
+				],
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": 2.37, "y": 0 },
+					{ "time": 0.8666, "x": 7.61, "y": 0 },
+					{ "time": 1, "x": 21.41, "y": 2.37 },
+					{ "time": 1.1666, "x": 24.74, "y": 2.37 }
+				]
+			},
+			"60201_body03_red": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 0.6, "angle": -6.41 },
+					{ "time": 0.7, "angle": -21.66 },
+					{ "time": 0.8, "angle": -74.71 }
+				],
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": 12.85, "y": -5.94 },
+					{ "time": 0.7, "x": 63.94, "y": -31 },
+					{ "time": 0.8, "x": 122.74, "y": -124.22 }
+				]
+			},
+			"60200_smoke_02": {
+				"translate": [
+					{ "time": 0.8, "x": -100.29, "y": -2.35 }
+				],
+				"scale": [
+					{ "time": 0.8, "x": 3.041, "y": 2.484 }
+				]
+			},
+			"60200_smoke_2": {
+				"translate": [
+					{ "time": 1.1, "x": -359.89, "y": -1.24 }
+				],
+				"scale": [
+					{ "time": 1.1, "x": 2.392, "y": 1.981 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "60200_eye_light", "offset": 30 },
+					{ "slot": "60201_stone04_red", "offset": 14 },
+					{ "slot": "60201_stone04", "offset": 14 },
+					{ "slot": "60201_stone03_red", "offset": 14 },
+					{ "slot": "60201_stone03", "offset": 14 },
+					{ "slot": "60201_mouth_red", "offset": 9 },
+					{ "slot": "60201_mouth", "offset": 9 },
+					{ "slot": "60201_body01_red", "offset": 1 },
+					{ "slot": "60200_smoke_2", "offset": -8 }
+				]
+			},
+			{
+				"time": 1.1666,
+				"offsets": [
+					{ "slot": "60200_eye_light", "offset": 30 },
+					{ "slot": "60201_stone04_red", "offset": 14 },
+					{ "slot": "60201_stone04", "offset": 14 },
+					{ "slot": "60201_stone03_red", "offset": 14 },
+					{ "slot": "60201_stone03", "offset": 14 },
+					{ "slot": "60201_mouth_red", "offset": 10 },
+					{ "slot": "60201_mouth", "offset": 10 },
+					{ "slot": "60201_body01_red", "offset": 2 },
+					{ "slot": "60200_smoke_1", "offset": -10 },
+					{ "slot": "60200_smoke_2", "offset": -7 }
+				]
+			}
+		]
+	},
+	"Death2": {
+		"slots": {
+			"60200_body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_blue" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "005cff00" }
+				]
+			},
+			"60200_smoke_0001": {
+				"attachment": [
+					{ "time": 0.8, "name": "60200_smoke_0001" },
+					{ "time": 0.9, "name": "60200_smoke_0002" },
+					{ "time": 1, "name": "60200_smoke_0003" },
+					{ "time": 1.1, "name": "60200_smoke_0004" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"60200_smoke_1": {
+				"attachment": [
+					{ "time": 1.1, "name": "60200_smoke_0001" },
+					{ "time": 1.2, "name": "60200_smoke_0002" },
+					{ "time": 1.3, "name": "60200_smoke_0003" },
+					{ "time": 1.4, "name": "60200_smoke_0004" },
+					{ "time": 1.5, "name": null }
+				]
+			},
+			"60201_body": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"60201_body01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01" }
+				]
+			},
+			"60201_body02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02" }
+				]
+			},
+			"60201_body03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body03" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_body04": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body04" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_body01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body03_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_body03_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "0032ff00" },
+					{ "time": 0.5, "color": "0032ffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "0032ffff" },
+					{ "time": 1.1666, "color": "0032ff00" }
+				]
+			},
+			"60201_body04_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_body04_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "0032ff00" },
+					{ "time": 0.5, "color": "0032ffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "0032ffff" },
+					{ "time": 1.1666, "color": "0032ff00", "curve": "stepped" },
+					{ "time": 2, "color": "0032ff00" }
+				]
+			},
+			"60201_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "0032ffff", "curve": "stepped" },
+					{ "time": 0.2666, "color": "0032ffff" },
+					{ "time": 0.5, "color": "0032ff00" }
+				]
+			},
+			"60201_body_red2": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "001bffff" },
+					{ "time": 0.5, "color": "001bff00" }
+				]
+			},
+			"60201_bodyup": {
+				"attachment": [
+					{ "time": 0, "name": "60201_bodyup" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_bodyup01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_bodyup01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"60201_bodyup01_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_bodyup01_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "0032ff00" },
+					{ "time": 0.5, "color": "0032ffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "0032ffff" },
+					{ "time": 1.1666, "color": "0032ff00" }
+				]
+			},
+			"60201_bodyup_red": {
+				"attachment": [
+					{ "time": 0.2666, "name": "60201_bodyup_red" }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "0032ff00" },
+					{ "time": 0.5, "color": "0032ffff", "curve": "stepped" },
+					{ "time": 0.9, "color": "0032ffff" },
+					{ "time": 1.1666, "color": "0032ff00" }
+				]
+			},
+			"60201_mouth": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth" }
+				]
+			},
+			"60201_mouth_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_shadow02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_shadow02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01" }
+				]
+			},
+			"60201_stone02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02" }
+				]
+			},
+			"60201_stone03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03" }
+				]
+			},
+			"60201_stone04": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04" }
+				]
+			},
+			"60201_stone01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone03_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone04_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			}
+		},
+		"bones": {
+			"60201_body01_red": {
+				"rotate": [
+					{ "time": 0, "angle": 94.06, "curve": "stepped" },
+					{ "time": 1.1, "angle": 94.06 },
+					{ "time": 1.1666, "angle": 94.96 },
+					{ "time": 1.2333, "angle": 94.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": -76.51, "y": -158.39, "curve": "stepped" },
+					{ "time": 1.1, "x": -76.51, "y": -158.39 },
+					{ "time": 1.1666, "x": -76.51, "y": -154.72 },
+					{ "time": 1.2333, "x": -76.51, "y": -158.39 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"60201_stone03": {
+				"rotate": [
+					{ "time": 0, "angle": -7.5, "curve": "stepped" },
+					{ "time": 1.0666, "angle": -7.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 9.64, "y": -2.52, "curve": "stepped" },
+					{ "time": 1.0666, "x": 9.64, "y": -2.52 },
+					{ "time": 1.1666, "x": 5.26, "y": 2.21 },
+					{ "time": 1.2666, "x": -1.12, "y": -6.66 }
+				]
+			},
+			"60201_shadow02": {
+				"rotate": [
+					{ "time": 0, "angle": -5.08, "curve": "stepped" },
+					{ "time": 0.6666, "angle": -5.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": -103.56, "y": -18.65, "curve": "stepped" },
+					{ "time": 0.6666, "x": -103.56, "y": -18.65 },
+					{ "time": 1.0333, "x": -83.93, "y": -11.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.497, "y": 3.789, "curve": "stepped" },
+					{ "time": 0.6666, "x": 2.497, "y": 3.789 },
+					{ "time": 1.0333, "x": 2.497, "y": 7.167 }
+				]
+			},
+			"60201_stone04": {
+				"rotate": [
+					{ "time": 0, "angle": -3.39, "curve": "stepped" },
+					{ "time": 1.1, "angle": -3.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 29.23, "y": -37.93, "curve": "stepped" },
+					{ "time": 1.1, "x": 29.23, "y": -37.93 },
+					{ "time": 1.2, "x": 30.02, "y": -25.78 },
+					{ "time": 1.3, "x": 41.72, "y": -41.38 }
+				]
+			},
+			"60201_body02": {
+				"rotate": [
+					{ "time": 0, "angle": -8.71, "curve": "stepped" },
+					{ "time": 0.8, "angle": -8.71 },
+					{ "time": 0.9, "angle": 3.68 },
+					{ "time": 1, "angle": -8.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": -10.11, "y": -6.22, "curve": "stepped" },
+					{ "time": 0.8, "x": -10.11, "y": -6.22 },
+					{ "time": 0.9, "x": -7.76, "y": -0.19 },
+					{ "time": 1, "x": 0.06, "y": -6.22 }
+				]
+			},
+			"60201_stone01": {
+				"rotate": [
+					{ "time": 0, "angle": -157.33, "curve": "stepped" },
+					{ "time": 0.8333, "angle": -157.33 },
+					{ "time": 0.9333, "angle": -146.15 },
+					{ "time": 1.0333, "angle": -170.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": -15.27, "y": -3.94, "curve": "stepped" },
+					{ "time": 0.8333, "x": -15.27, "y": -3.94 },
+					{ "time": 0.9333, "x": -8.45, "y": -0.22 },
+					{ "time": 1.0333, "x": -2.86, "y": -8.76 }
+				]
+			},
+			"60201_stone02": {
+				"rotate": [
+					{ "time": 0, "angle": 2.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.48, "y": -6.31 }
+				]
+			},
+			"60201_mouth_red": {
+				"rotate": [
+					{ "time": 0, "angle": -14.41, "curve": "stepped" },
+					{ "time": 1.1, "angle": -14.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -155.6, "curve": "stepped" },
+					{ "time": 1.1, "x": 0, "y": -155.6 },
+					{ "time": 1.2, "x": -7.93, "y": -150.78 },
+					{ "time": 1.3, "x": -14.29, "y": -155.6 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1.1, "y": 1.1 },
+					{ "time": 1.0333, "x": 1.378, "y": 2.135 }
+				]
+			},
+			"60201_bodyup": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 0.6666, "angle": -0.85 },
+					{ "time": 0.8333, "angle": 11.88 },
+					{ "time": 0.9666, "angle": 26.64 },
+					{ "time": 1.1, "angle": -292.85 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.15, "y": -0.37, "curve": "stepped" },
+					{ "time": 0.5, "x": 0.15, "y": -0.37 },
+					{ "time": 0.6666, "x": 2.53, "y": -5.75 },
+					{ "time": 0.8333, "x": -6.97, "y": -13.72 },
+					{ "time": 0.9666, "x": -30.77, "y": -40.82 },
+					{ "time": 1.1, "x": -68.04, "y": -76.85 }
+				]
+			},
+			"60201_bodyup01": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 0.6, "angle": -3.6 },
+					{ "time": 0.7333, "angle": -14.31 },
+					{ "time": 0.8666, "angle": -43.06 },
+					{ "time": 1, "angle": -96.42 },
+					{ "time": 1.1666, "angle": -98.65 }
+				],
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": 2.37, "y": 0 },
+					{ "time": 0.8666, "x": 7.61, "y": 0 },
+					{ "time": 1, "x": 21.41, "y": 2.37 },
+					{ "time": 1.1666, "x": 24.74, "y": 2.37 }
+				]
+			},
+			"60201_body03_red": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0 },
+					{ "time": 0.6, "angle": -6.41 },
+					{ "time": 0.7, "angle": -21.66 },
+					{ "time": 0.8, "angle": -74.71 }
+				],
+				"translate": [
+					{ "time": 0.5, "x": 0, "y": 0 },
+					{ "time": 0.6, "x": 12.85, "y": -5.94 },
+					{ "time": 0.7, "x": 63.94, "y": -31 },
+					{ "time": 0.8, "x": 122.74, "y": -124.22 }
+				]
+			},
+			"60200_smoke_02": {
+				"translate": [
+					{ "time": 0.8, "x": -100.29, "y": -2.35 }
+				],
+				"scale": [
+					{ "time": 0.8, "x": 3.041, "y": 2.484 }
+				]
+			},
+			"60200_smoke_2": {
+				"translate": [
+					{ "time": 1.1, "x": -359.89, "y": -1.24 }
+				],
+				"scale": [
+					{ "time": 1.1, "x": 2.392, "y": 1.981 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "60200_eye_blue", "offset": 32 },
+					{ "slot": "60200_eye_light", "offset": 30 },
+					{ "slot": "60201_stone04_red", "offset": 13 },
+					{ "slot": "60201_stone04", "offset": 13 },
+					{ "slot": "60201_stone03_red", "offset": 13 },
+					{ "slot": "60201_stone03", "offset": 13 },
+					{ "slot": "60201_mouth_red", "offset": 8 },
+					{ "slot": "60201_mouth", "offset": 8 },
+					{ "slot": "60201_body01_red", "offset": 0 },
+					{ "slot": "60200_smoke_2", "offset": -9 }
+				]
+			},
+			{
+				"time": 1.1666,
+				"offsets": [
+					{ "slot": "60200_eye_light", "offset": 30 },
+					{ "slot": "60201_stone04_red", "offset": 14 },
+					{ "slot": "60201_stone04", "offset": 14 },
+					{ "slot": "60201_stone03_red", "offset": 14 },
+					{ "slot": "60201_stone03", "offset": 14 },
+					{ "slot": "60201_mouth_red", "offset": 10 },
+					{ "slot": "60201_mouth", "offset": 10 },
+					{ "slot": "60201_body01_red", "offset": 2 },
+					{ "slot": "60200_smoke_1", "offset": -10 },
+					{ "slot": "60200_smoke_2", "offset": -7 }
+				]
+			}
+		]
+	},
+	"Stand1": {
+		"slots": {
+			"60200_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0500ff" },
+					{ "time": 1, "color": "ff0500b2" },
+					{ "time": 1.6666, "color": "ff05009e" },
+					{ "time": 2.6666, "color": "ff0500eb" },
+					{ "time": 3.3333, "color": "ff0500ff" }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff000300", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ff000300" },
+					{ "time": 2.1666, "color": "ff0003cb" },
+					{ "time": 2.5, "color": "ff0004ff" },
+					{ "time": 3, "color": "ff000332" },
+					{ "time": 3.3333, "color": "ff000300" }
+				]
+			}
+		},
+		"bones": {
+			"60200_body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6666, "x": 1, "y": 1 },
+					{ "time": 2.1666, "x": 1.08, "y": 1.08 },
+					{ "time": 2.5, "x": 1.1, "y": 1.1 },
+					{ "time": 3, "x": 1.02, "y": 1.02 },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 }
+				]
+			}
+		}
+	},
+	"Stand2": {
+		"slots": {
+			"60200_body_red": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"60200_body_red2": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" },
+					{ "time": 3.3333, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "0032ffff" },
+					{ "time": 1, "color": "0032ff77" },
+					{ "time": 1.6666, "color": "0032ff55" },
+					{ "time": 2.6666, "color": "0032ffdd" },
+					{ "time": 3.3333, "color": "0032ffff" }
+				]
+			},
+			"60200_body_red3": {
+				"attachment": [
+					{ "time": 0, "name": "60200_body_red" },
+					{ "time": 3.3333, "name": "60200_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "001bffff" },
+					{ "time": 1, "color": "001bffd2" },
+					{ "time": 1.6666, "color": "001bffc6" },
+					{ "time": 2.6666, "color": "001bfff3" },
+					{ "time": 3.3333, "color": "001bffff" }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_blue" }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "005cff00", "curve": "stepped" },
+					{ "time": 1.6666, "color": "005cff00" },
+					{ "time": 2.5, "color": "0676ffff" },
+					{ "time": 3.3333, "color": "005cff00" }
+				]
+			}
+		},
+		"bones": {
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6666, "x": 1, "y": 1 },
+					{ "time": 2.1666, "x": 1.08, "y": 1.08 },
+					{ "time": 2.5, "x": 1.1, "y": 1.1 },
+					{ "time": 3, "x": 1.02, "y": 1.02 },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 }
+				]
+			}
+		}
+	},
+	"Stand3": {
+		"slots": {
+			"60200_body": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff000300", "curve": "stepped" },
+					{ "time": 1.6666, "color": "ff000300" },
+					{ "time": 2.1666, "color": "ff0003cb" },
+					{ "time": 2.5, "color": "ff0004ff" },
+					{ "time": 3, "color": "ff000332" },
+					{ "time": 3.3333, "color": "ff000300" }
+				]
+			},
+			"60201_body": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body" },
+					{ "time": 3.3333, "name": "60201_body" }
+				]
+			},
+			"60201_body01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01" }
+				]
+			},
+			"60201_body02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02" }
+				]
+			},
+			"60201_body01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body_red" },
+					{ "time": 3.3333, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff" },
+					{ "time": 1, "color": "ff0400b2" },
+					{ "time": 1.6666, "color": "ff05009e" },
+					{ "time": 2.6666, "color": "ff0000eb" },
+					{ "time": 3.3333, "color": "ff0000ff" }
+				]
+			},
+			"60201_mouth": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth" }
+				]
+			},
+			"60201_mouth_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_shadow02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_shadow02" },
+					{ "time": 3.3333, "name": "60201_shadow02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.3333, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01" }
+				]
+			},
+			"60201_stone02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02" }
+				]
+			},
+			"60201_stone03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03" }
+				]
+			},
+			"60201_stone01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone03_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone04_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			}
+		},
+		"bones": {
+			"60201_stone03": {
+				"rotate": [
+					{ "time": 0, "angle": -7.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 9.64, "y": -2.52 }
+				]
+			},
+			"60201_mouth_red": {
+				"rotate": [
+					{ "time": 0, "angle": -14.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -155.6 }
+				]
+			},
+			"60201_body01_red": {
+				"rotate": [
+					{ "time": 0, "angle": 94.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": -76.51, "y": -158.39 }
+				]
+			},
+			"60201_stone04": {
+				"rotate": [
+					{ "time": 0, "angle": -3.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 29.23, "y": -37.93 }
+				]
+			},
+			"60201_body02": {
+				"rotate": [
+					{ "time": 0, "angle": -8.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": -10.11, "y": -6.22 }
+				]
+			},
+			"60201_stone01": {
+				"rotate": [
+					{ "time": 0, "angle": -157.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": -15.27, "y": -3.94 }
+				]
+			},
+			"60201_shadow02": {
+				"rotate": [
+					{ "time": 0, "angle": -5.08, "curve": "stepped" },
+					{ "time": 3.3333, "angle": -5.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": -103.56, "y": -18.65, "curve": "stepped" },
+					{ "time": 3.3333, "x": -103.56, "y": -18.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.497, "y": 3.789, "curve": "stepped" },
+					{ "time": 3.3333, "x": 2.497, "y": 3.789 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"60201_stone02": {
+				"rotate": [
+					{ "time": 0, "angle": 2.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.48, "y": -6.31 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6666, "x": 1, "y": 1 },
+					{ "time": 2.1666, "x": 1.08, "y": 1.08 },
+					{ "time": 2.5, "x": 1.1, "y": 1.1 },
+					{ "time": 3, "x": 1.02, "y": 1.02 },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "60200_eye_light", "offset": 30 },
+					{ "slot": "60201_stone04_red", "offset": 14 },
+					{ "slot": "60201_stone04", "offset": 14 },
+					{ "slot": "60201_stone03_red", "offset": 14 },
+					{ "slot": "60201_stone03", "offset": 14 },
+					{ "slot": "60201_mouth_red", "offset": 9 },
+					{ "slot": "60201_mouth", "offset": 9 },
+					{ "slot": "60201_body01_red", "offset": 1 },
+					{ "slot": "60200_smoke_2", "offset": -8 }
+				]
+			}
+		]
+	},
+	"Stand4": {
+		"slots": {
+			"60200_body": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"60200_eye_blue": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_blue" },
+					{ "time": 3.3333, "name": null }
+				]
+			},
+			"60200_eye_light": {
+				"attachment": [
+					{ "time": 0, "name": "60200_eye_light" }
+				],
+				"color": [
+					{ "time": 0, "color": "005cff00", "curve": "stepped" },
+					{ "time": 1.6666, "color": "005cff00" },
+					{ "time": 2.5, "color": "0676ffff" },
+					{ "time": 3.3333, "color": "005cff00" }
+				]
+			},
+			"60201_body": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body" },
+					{ "time": 3.3333, "name": "60201_body" }
+				]
+			},
+			"60201_body01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01" }
+				]
+			},
+			"60201_body02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02" }
+				]
+			},
+			"60201_body01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_body_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body_red" },
+					{ "time": 3.3333, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "0032ffff" }
+				]
+			},
+			"60201_body_red2": {
+				"attachment": [
+					{ "time": 0, "name": "60201_body_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "001bffff" }
+				]
+			},
+			"60201_mouth": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth" }
+				]
+			},
+			"60201_mouth_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_mouth_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_shadow02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_shadow02" },
+					{ "time": 3.3333, "name": "60201_shadow02" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 3.3333, "color": "ffffffff" }
+				]
+			},
+			"60201_stone01": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01" }
+				]
+			},
+			"60201_stone02": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02" }
+				]
+			},
+			"60201_stone03": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03" }
+				]
+			},
+			"60201_stone01_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone01_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone02_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone02_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone03_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone03_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			},
+			"60201_stone04_red": {
+				"attachment": [
+					{ "time": 0, "name": "60201_stone04_red" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff010000" }
+				]
+			}
+		},
+		"bones": {
+			"60201_stone03": {
+				"rotate": [
+					{ "time": 0, "angle": -7.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 9.64, "y": -2.52 }
+				]
+			},
+			"60201_mouth_red": {
+				"rotate": [
+					{ "time": 0, "angle": -14.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -155.6 }
+				]
+			},
+			"60201_body01_red": {
+				"rotate": [
+					{ "time": 0, "angle": 94.06 }
+				],
+				"translate": [
+					{ "time": 0, "x": -76.51, "y": -158.39 }
+				]
+			},
+			"60201_stone04": {
+				"rotate": [
+					{ "time": 0, "angle": -3.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": 29.23, "y": -37.93 }
+				]
+			},
+			"60201_body02": {
+				"rotate": [
+					{ "time": 0, "angle": -8.71 }
+				],
+				"translate": [
+					{ "time": 0, "x": -10.11, "y": -6.22 }
+				]
+			},
+			"60201_stone01": {
+				"rotate": [
+					{ "time": 0, "angle": -157.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": -15.27, "y": -3.94 }
+				]
+			},
+			"60201_shadow02": {
+				"rotate": [
+					{ "time": 0, "angle": -5.08, "curve": "stepped" },
+					{ "time": 3.3333, "angle": -5.08 }
+				],
+				"translate": [
+					{ "time": 0, "x": -103.56, "y": -18.65, "curve": "stepped" },
+					{ "time": 3.3333, "x": -103.56, "y": -18.65 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.497, "y": 3.789, "curve": "stepped" },
+					{ "time": 3.3333, "x": 2.497, "y": 3.789 }
+				]
+			},
+			"60200_shader": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.34, "curve": "stepped" },
+					{ "time": 3.3333, "x": 0, "y": -4.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 3.3333, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"60201_stone02": {
+				"rotate": [
+					{ "time": 0, "angle": 2.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.48, "y": -6.31 }
+				]
+			},
+			"60200_eye_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6666, "x": 1, "y": 1 },
+					{ "time": 2.1666, "x": 1.08, "y": 1.08 },
+					{ "time": 2.5, "x": 1.1, "y": 1.1 },
+					{ "time": 3, "x": 1.02, "y": 1.02 },
+					{ "time": 3.3333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "60200_eye_blue", "offset": 32 },
+					{ "slot": "60200_eye_light", "offset": 30 },
+					{ "slot": "60201_stone04_red", "offset": 13 },
+					{ "slot": "60201_stone04", "offset": 13 },
+					{ "slot": "60201_stone03_red", "offset": 13 },
+					{ "slot": "60201_stone03", "offset": 13 },
+					{ "slot": "60201_mouth_red", "offset": 8 },
+					{ "slot": "60201_mouth", "offset": 8 },
+					{ "slot": "60201_body01_red", "offset": 0 },
+					{ "slot": "60200_smoke_2", "offset": -9 }
+				]
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,64 @@
+{
+"skeleton": { "hash": "zQsUdZPu9Q96MG5TY6zJAe+utzo", "spine": "2.1.27", "width": 152, "height": 162, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hitbuff", "parent": "root", "length": 30, "x": 0.04, "y": 63.4, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "10017_hitbuff_01", "bone": "hitbuff", "attachment": "10017_hitbuff_01" }
+],
+"skins": {
+	"default": {
+		"10017_hitbuff_01": {
+			"10017_hitbuff_01": { "x": 0.78, "y": 3, "width": 76, "height": 81 },
+			"10017_hitbuff_02": { "x": 0.78, "y": 3, "width": 76, "height": 81 },
+			"10017_hitbuff_03": { "x": 0.78, "y": 3, "width": 76, "height": 81 },
+			"10017_hitbuff_04": { "x": 0.78, "y": 3, "width": 76, "height": 81 },
+			"10017_hitbuff_05": { "x": 0.78, "y": 3, "width": 76, "height": 81 }
+		}
+	}
+},
+"animations": {
+	"Attack_HitBuff": {
+		"slots": {
+			"10017_hitbuff_01": {
+				"attachment": [
+					{ "time": 0, "name": "10017_hitbuff_01" },
+					{ "time": 0.0666, "name": "10017_hitbuff_02" },
+					{ "time": 0.1333, "name": "10017_hitbuff_03" },
+					{ "time": 0.2, "name": "10017_hitbuff_04" },
+					{ "time": 0.2666, "name": "10017_hitbuff_05" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": -0.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"hitbuff": {
+				"rotate": [
+					{ "time": 0, "angle": -0.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

@@ -1,0 +1,13 @@
+
+Blue_Circle.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40400_Eff_FaZhen
+  rotate: false
+  xy: 1, 1
+  size: 120, 126
+  orig: 128, 128
+  offset: 4, 1
+  index: -1

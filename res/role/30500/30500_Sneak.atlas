@@ -1,0 +1,90 @@
+
+30500_Sneak.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30500_Sneak0001
+  rotate: false
+  xy: 350, 194
+  size: 65, 67
+  orig: 240, 128
+  offset: 98, 8
+  index: -1
+30500_Sneak0002
+  rotate: false
+  xy: 354, 262
+  size: 118, 91
+  orig: 240, 128
+  offset: 67, 8
+  index: -1
+30500_Sneak0003
+  rotate: false
+  xy: 1, 391
+  size: 202, 118
+  orig: 240, 128
+  offset: 33, 5
+  index: -1
+30500_Sneak0004
+  rotate: false
+  xy: 1, 268
+  size: 165, 122
+  orig: 240, 128
+  offset: 37, 6
+  index: -1
+30500_Sneak0005
+  rotate: true
+  xy: 1, 101
+  size: 166, 120
+  orig: 240, 128
+  offset: 34, 6
+  index: -1
+30500_Sneak0006
+  rotate: false
+  xy: 204, 398
+  size: 163, 111
+  orig: 240, 128
+  offset: 35, 6
+  index: -1
+30500_Sneak0007
+  rotate: true
+  xy: 122, 108
+  size: 159, 115
+  orig: 240, 128
+  offset: 36, 5
+  index: -1
+30500_Sneak0008
+  rotate: true
+  xy: 368, 354
+  size: 155, 117
+  orig: 240, 128
+  offset: 36, 5
+  index: -1
+30500_Sneak0009
+  rotate: true
+  xy: 238, 138
+  size: 144, 111
+  orig: 240, 128
+  offset: 43, 4
+  index: -1
+30500_Sneak0010
+  rotate: false
+  xy: 204, 283
+  size: 149, 114
+  orig: 240, 128
+  offset: 36, 4
+  index: -1
+30500_Sneak0011
+  rotate: false
+  xy: 146, 5
+  size: 154, 102
+  orig: 240, 128
+  offset: 12, 4
+  index: -1
+30500_Sneak0012
+  rotate: false
+  xy: 1, 1
+  size: 144, 99
+  orig: 240, 128
+  offset: 3, 5
+  index: -1

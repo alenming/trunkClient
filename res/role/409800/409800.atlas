@@ -1,0 +1,62 @@
+
+409800.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+409800_1
+  rotate: false
+  xy: 718, 330
+  size: 205, 170
+  orig: 205, 170
+  offset: 0, 0
+  index: -1
+409800_2
+  rotate: false
+  xy: 2, 247
+  size: 272, 253
+  orig: 272, 253
+  offset: 0, 0
+  index: -1
+409800_3
+  rotate: false
+  xy: 2, 2
+  size: 252, 243
+  orig: 252, 243
+  offset: 0, 0
+  index: -1
+409800_4
+  rotate: false
+  xy: 505, 321
+  size: 211, 179
+  orig: 211, 179
+  offset: 0, 0
+  index: -1
+409800_5
+  rotate: false
+  xy: 276, 270
+  size: 227, 230
+  orig: 227, 230
+  offset: 0, 0
+  index: -1
+409800_6
+  rotate: false
+  xy: 276, 109
+  size: 180, 159
+  orig: 180, 159
+  offset: 0, 0
+  index: -1
+409800_shader
+  rotate: true
+  xy: 925, 382
+  size: 118, 58
+  orig: 118, 58
+  offset: 0, 0
+  index: -1
+409800_u
+  rotate: false
+  xy: 505, 156
+  size: 194, 163
+  orig: 194, 163
+  offset: 0, 0
+  index: -1

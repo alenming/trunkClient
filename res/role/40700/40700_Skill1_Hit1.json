@@ -1,0 +1,190 @@
+{
+"skeleton": { "hash": "lYGh9QrBjbCH7ZgRFFoptCvDOOk", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40700_Skill1_Hit1" },
+	{ "name": "40700_Eff_Skill1", "parent": "40700_Skill1_Hit1", "length": 174.22, "rotation": 90 },
+	{ "name": "40700_Eff_Skill1_Buff", "parent": "40700_Skill1_Hit1", "length": 76.66, "rotation": 90 },
+	{ "name": "40700_Eff_Skill2", "parent": "40700_Skill1_Hit1", "length": 159.74, "rotation": 90 },
+	{
+		"name": "40700_Eff_Stand1",
+		"parent": "40700_Skill1_Hit1",
+		"length": 48.96,
+		"x": 130.12,
+		"y": 25.12,
+		"scaleX": 0.8,
+		"scaleY": 0.8,
+		"rotation": -86.46
+	},
+	{ "name": "40700_Eff_Skill1_01", "parent": "40700_Eff_Skill1", "length": 71.28, "x": -6.16, "y": -71.86 },
+	{ "name": "40700_Eff_Skill1_03", "parent": "40700_Eff_Skill1", "length": 88.54, "x": -8.88, "y": -75.27 },
+	{
+		"name": "40700_Eff_Skill1_Buff_01",
+		"parent": "40700_Eff_Skill1_Buff",
+		"length": 95.78,
+		"x": 162.35,
+		"y": -8.03,
+		"scaleX": 2,
+		"scaleY": 2
+	},
+	{
+		"name": "40700_Eff_Skill2_01",
+		"parent": "40700_Eff_Skill2",
+		"length": 117.38,
+		"x": 133.33,
+		"y": 86.06,
+		"scaleX": 1.8,
+		"scaleY": 2.3
+	},
+	{
+		"name": "40700_Eff_Skill2_02",
+		"parent": "40700_Eff_Skill2",
+		"length": 117.38,
+		"x": 93.35,
+		"y": 56.92,
+		"scaleX": 1.8,
+		"scaleY": 2,
+		"rotation": -0.59
+	},
+	{ "name": "40700_Eff_Skill2_04", "parent": "40700_Eff_Skill2", "length": 140, "x": 134.08 },
+	{
+		"name": "40700_Eff_Skill2_05",
+		"parent": "40700_Eff_Skill2",
+		"length": 140,
+		"x": 235.13,
+		"y": 93.61,
+		"scaleX": 0.6,
+		"scaleY": 0.6
+	},
+	{
+		"name": "40700_Eff_Skill2_06",
+		"parent": "40700_Eff_Skill2",
+		"length": 140,
+		"x": 25.26,
+		"y": 127.79,
+		"scaleX": 0.8,
+		"scaleY": 0.8
+	}
+],
+"slots": [
+	{ "name": "40700_Eff_Skill1_01", "bone": "40700_Eff_Skill1_01" },
+	{ "name": "40700_Eff_Skill1_3_01", "bone": "40700_Eff_Skill1_03", "blend": "screen" },
+	{ "name": "40700_Eff_Skill2_01", "bone": "40700_Eff_Skill2_01", "color": "1a3345bd" },
+	{ "name": "40700_Eff_Skill2_02", "bone": "40700_Eff_Skill2_02", "color": "1c2e45bd" },
+	{ "name": "40700_Fog_01", "bone": "40700_Eff_Stand1" },
+	{ "name": "40700_Eff_Skill1_03", "bone": "40700_Eff_Skill1_03", "blend": "screen" },
+	{ "name": "40700_Eff_ShpereLigth_01", "bone": "40700_Eff_Skill1_Buff_01" },
+	{ "name": "40700_Eff_Skill2_04", "bone": "40700_Eff_Skill2_04", "color": "3f7a8aff" },
+	{ "name": "40700_Eff_Skill2_05", "bone": "40700_Eff_Skill2_05", "color": "31668fff" },
+	{ "name": "40700_Eff_Skill2_06", "bone": "40700_Eff_Skill2_06", "color": "4b85abff" }
+],
+"skins": {
+	"default": {
+		"40700_Eff_ShpereLigth_01": {
+			"40700_Eff_ShpereLigth_01": { "rotation": -90, "width": 128, "height": 128 },
+			"40700_Eff_ShpereLigth_02": { "rotation": -90, "width": 128, "height": 128 },
+			"40700_Eff_ShpereLigth_03": { "rotation": -90, "width": 128, "height": 128 },
+			"40700_Eff_ShpereLigth_04": { "rotation": -90, "width": 128, "height": 128 },
+			"40700_Eff_ShpereLigth_05": { "rotation": -90, "width": 128, "height": 128 },
+			"40700_Eff_ShpereLigth_06": { "rotation": -90, "width": 128, "height": 128 },
+			"40700_Eff_ShpereLigth_07": { "rotation": -90, "width": 128, "height": 128 }
+		},
+		"40700_Eff_Skill1_01": {
+			"40700_wenli_02": { "scaleX": 1.5, "scaleY": 0.7, "rotation": -90, "width": 256, "height": 256 }
+		},
+		"40700_Eff_Skill1_03": {
+			"40700_ParitcleGlow_05": { "x": -23.64, "y": -1.67, "scaleY": 0.65, "rotation": -90, "width": 148, "height": 74 }
+		},
+		"40700_Eff_Skill1_3_01": {
+			"40700_ParitcleGlow_05": { "x": 24.4, "y": -1.54, "scaleY": -0.65, "rotation": -90, "width": 148, "height": 74 }
+		},
+		"40700_Fog_01": {
+			"40700_Fog_01": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "width": 115, "height": 85 },
+			"40700_Fog_02": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "width": 115, "height": 85 },
+			"40700_Fog_03": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_04": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_05": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_06": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_07": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_08": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_09": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_10": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 },
+			"40700_Fog_11": { "x": 1.68, "y": -0.84, "scaleX": 1.25, "scaleY": 1.25, "rotation": 0.35, "width": 115, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"40700_Skill1_Hit1": {
+		"slots": {
+			"40700_Eff_Skill1_01": {
+				"attachment": [
+					{ "time": 0.6, "name": "40700_wenli_02" }
+				],
+				"color": [
+					{
+						"time": 1.1666,
+						"color": "ffffffff",
+						"curve": [ 0.463, 0, 1, 0.89 ]
+					},
+					{ "time": 1.2666, "color": "ffffff00" }
+				]
+			},
+			"40700_Eff_Skill1_03": {
+				"attachment": [
+					{ "time": 0.6, "name": "40700_ParitcleGlow_05" }
+				],
+				"color": [
+					{
+						"time": 0.7666,
+						"color": "ffffffff",
+						"curve": [ 0, 0.26, 0.504, 1 ]
+					},
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			},
+			"40700_Eff_Skill1_3_01": {
+				"attachment": [
+					{ "time": 0.6, "name": "40700_ParitcleGlow_05" }
+				],
+				"color": [
+					{
+						"time": 0.7666,
+						"color": "ffffffff",
+						"curve": [ 0, 0.26, 0.504, 1 ]
+					},
+					{ "time": 0.9333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"40700_Skill1_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": -9.07 },
+					{ "time": 0.7333, "x": 0, "y": 7.73 },
+					{ "time": 0.8333, "x": 0, "y": -6.33 },
+					{ "time": 0.9333, "x": 0, "y": 0 }
+				]
+			},
+			"40700_Eff_Skill1_01": {
+				"scale": [
+					{ "time": 0.6, "x": 0.75, "y": 0.75 },
+					{ "time": 0.6333, "x": 1.8, "y": 1.8 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"40700_Eff_Skill1_03": {
+				"scale": [
+					{
+						"time": 0.6,
+						"x": 0.8,
+						"y": 1,
+						"curve": [ 0, 0.33, 0.5, 0.99 ]
+					},
+					{ "time": 0.9333, "x": 2.5, "y": 6 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,90 @@
+
+Circle_Light.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40400_Eff_FaZhenGuan_01
+  rotate: false
+  xy: 1, 355
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_02
+  rotate: false
+  xy: 1, 237
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_03
+  rotate: false
+  xy: 259, 238
+  size: 128, 116
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_04
+  rotate: false
+  xy: 259, 122
+  size: 128, 115
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_05
+  rotate: true
+  xy: 388, 344
+  size: 128, 116
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_06
+  rotate: false
+  xy: 130, 2
+  size: 128, 116
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_07
+  rotate: false
+  xy: 130, 355
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_08
+  rotate: false
+  xy: 1, 119
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_09
+  rotate: false
+  xy: 130, 237
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_10
+  rotate: false
+  xy: 259, 355
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_11
+  rotate: false
+  xy: 1, 1
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1
+40400_Eff_FaZhenGuan_12
+  rotate: false
+  xy: 130, 119
+  size: 128, 117
+  orig: 128, 117
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+21100.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+21100_body
+  rotate: false
+  xy: 2, 38
+  size: 134, 110
+  orig: 134, 110
+  offset: 0, 0
+  index: -1
+21100_erduo
+  rotate: true
+  xy: 314, 152
+  size: 39, 49
+  orig: 39, 49
+  offset: 0, 0
+  index: -1
+21100_eye_close
+  rotate: true
+  xy: 488, 211
+  size: 40, 20
+  orig: 40, 20
+  offset: 0, 0
+  index: -1
+21100_eye_open
+  rotate: false
+  xy: 101, 13
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+21100_hair
+  rotate: false
+  xy: 2, 150
+  size: 185, 101
+  orig: 185, 101
+  offset: 0, 0
+  index: -1
+21100_head
+  rotate: false
+  xy: 189, 170
+  size: 123, 81
+  orig: 123, 81
+  offset: 0, 0
+  index: -1
+21100_leg_ld
+  rotate: false
+  xy: 211, 66
+  size: 42, 102
+  orig: 42, 102
+  offset: 0, 0
+  index: -1
+21100_leg_lu
+  rotate: false
+  xy: 138, 49
+  size: 71, 99
+  orig: 71, 99
+  offset: 0, 0
+  index: -1
+21100_leg_rd
+  rotate: false
+  xy: 255, 74
+  size: 43, 94
+  orig: 43, 94
+  offset: 0, 0
+  index: -1
+21100_mouse
+  rotate: false
+  xy: 2, 2
+  size: 97, 34
+  orig: 97, 34
+  offset: 0, 0
+  index: -1
+21100_ru
+  rotate: false
+  xy: 434, 210
+  size: 52, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1
+21100_shader
+  rotate: false
+  xy: 314, 193
+  size: 118, 58
+  orig: 118, 58
+  offset: 0, 0
+  index: -1
+21100_wb
+  rotate: true
+  xy: 365, 164
+  size: 27, 48
+  orig: 27, 48
+  offset: 0, 0
+  index: -1

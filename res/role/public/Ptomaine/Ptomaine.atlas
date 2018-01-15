@@ -1,0 +1,97 @@
+
+Ptomaine.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ptomaine_SmokeX_00000
+  rotate: false
+  xy: 1, 54
+  size: 52, 98
+  orig: 80, 120
+  offset: 14, 7
+  index: -1
+Ptomaine_SmokeX_00001
+  rotate: false
+  xy: 107, 389
+  size: 52, 109
+  orig: 80, 120
+  offset: 14, 3
+  index: -1
+Ptomaine_SmokeX_00002
+  rotate: false
+  xy: 54, 385
+  size: 52, 113
+  orig: 80, 120
+  offset: 14, 3
+  index: -1
+Ptomaine_SmokeX_00003
+  rotate: false
+  xy: 1, 383
+  size: 52, 115
+  orig: 80, 120
+  offset: 14, 4
+  index: -1
+Ptomaine_SmokeX_00004
+  rotate: false
+  xy: 1, 267
+  size: 51, 115
+  orig: 80, 120
+  offset: 14, 5
+  index: -1
+Ptomaine_SmokeX_00005
+  rotate: false
+  xy: 1, 153
+  size: 51, 113
+  orig: 80, 120
+  offset: 14, 6
+  index: -1
+Ptomaine_SmokeX_00006
+  rotate: false
+  xy: 160, 393
+  size: 52, 105
+  orig: 80, 120
+  offset: 14, 8
+  index: -1
+Ptomaine_SmokeX_00007
+  rotate: true
+  xy: 1, 1
+  size: 52, 79
+  orig: 80, 120
+  offset: 14, 9
+  index: -1
+Ptomaine_SmokeX_00008
+  rotate: false
+  xy: 106, 212
+  size: 52, 83
+  orig: 80, 120
+  offset: 14, 8
+  index: -1
+Ptomaine_SmokeX_00009
+  rotate: false
+  xy: 106, 296
+  size: 52, 88
+  orig: 80, 120
+  offset: 14, 6
+  index: -1
+Ptomaine_SmokeX_00010
+  rotate: false
+  xy: 54, 97
+  size: 52, 91
+  orig: 80, 120
+  offset: 14, 6
+  index: -1
+Ptomaine_SmokeX_00011
+  rotate: false
+  xy: 53, 189
+  size: 52, 94
+  orig: 80, 120
+  offset: 14, 6
+  index: -1
+Ptomaine_SmokeX_00012
+  rotate: false
+  xy: 53, 284
+  size: 52, 98
+  orig: 80, 120
+  offset: 14, 6
+  index: -1

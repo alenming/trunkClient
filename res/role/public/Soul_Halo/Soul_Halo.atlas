@@ -1,0 +1,13 @@
+
+Soul_Halo.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40500_Attack_Buff1_FaZhen_TX01
+  rotate: false
+  xy: 1, 1
+  size: 120, 119
+  orig: 128, 128
+  offset: 5, 5
+  index: -1

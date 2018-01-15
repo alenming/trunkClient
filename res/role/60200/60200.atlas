@@ -1,0 +1,321 @@
+
+60200.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+60200_Birth_0001
+  rotate: true
+  xy: 357, 111
+  size: 72, 30
+  orig: 120, 67
+  offset: 16, 10
+  index: -1
+60200_Birth_0002
+  rotate: true
+  xy: 299, 2
+  size: 83, 30
+  orig: 120, 67
+  offset: 12, 11
+  index: -1
+60200_Birth_0003
+  rotate: false
+  xy: 1, 4
+  size: 92, 32
+  orig: 120, 67
+  offset: 7, 10
+  index: -1
+60200_Birth_0004
+  rotate: false
+  xy: 310, 316
+  size: 103, 38
+  orig: 120, 67
+  offset: 7, 7
+  index: -1
+60200_Birth_0005
+  rotate: false
+  xy: 325, 355
+  size: 106, 40
+  orig: 120, 67
+  offset: 6, 6
+  index: -1
+60200_Birth_0006
+  rotate: false
+  xy: 174, 214
+  size: 109, 43
+  orig: 120, 67
+  offset: 5, 6
+  index: -1
+60200_Birth_0007
+  rotate: false
+  xy: 174, 258
+  size: 114, 45
+  orig: 120, 67
+  offset: 2, 7
+  index: -1
+60200_Birth_0008
+  rotate: false
+  xy: 145, 2
+  size: 88, 24
+  orig: 120, 67
+  offset: 10, 24
+  index: -1
+60200_body
+  rotate: false
+  xy: 1, 309
+  size: 193, 202
+  orig: 193, 202
+  offset: 0, 0
+  index: -1
+60200_body_red
+  rotate: true
+  xy: 282, 113
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+60200_body_shadow
+  rotate: true
+  xy: 174, 84
+  size: 55, 76
+  orig: 56, 76
+  offset: 0, 0
+  index: -1
+60200_body_shadow01
+  rotate: true
+  xy: 156, 27
+  size: 56, 90
+  orig: 61, 90
+  offset: 2, 0
+  index: -1
+60200_eye_blue
+  rotate: true
+  xy: 371, 217
+  size: 26, 7
+  orig: 26, 7
+  offset: 0, 0
+  index: -1
+60200_eye_light
+  rotate: true
+  xy: 414, 311
+  size: 43, 22
+  orig: 43, 22
+  offset: 0, 0
+  index: -1
+60200_shader
+  rotate: true
+  xy: 477, 372
+  size: 82, 34
+  orig: 82, 34
+  offset: 0, 0
+  index: -1
+60200_smoke_0001
+  rotate: true
+  xy: 379, 221
+  size: 69, 28
+  orig: 101, 43
+  offset: 10, 4
+  index: -1
+60200_smoke_0002
+  rotate: false
+  xy: 251, 86
+  size: 86, 26
+  orig: 101, 43
+  offset: 1, 7
+  index: -1
+60200_smoke_0003
+  rotate: true
+  xy: 251, 120
+  size: 93, 30
+  orig: 101, 43
+  offset: 0, 8
+  index: -1
+60200_smoke_0004
+  rotate: false
+  xy: 310, 291
+  size: 93, 24
+  orig: 101, 43
+  offset: 5, 19
+  index: -1
+60201_body
+  rotate: false
+  xy: 1, 106
+  size: 172, 202
+  orig: 172, 202
+  offset: 0, 0
+  index: -1
+60201_body01
+  rotate: false
+  xy: 284, 184
+  size: 86, 59
+  orig: 86, 59
+  offset: 0, 0
+  index: -1
+60201_body01_red
+  rotate: true
+  xy: 469, 455
+  size: 56, 42
+  orig: 56, 42
+  offset: 0, 0
+  index: -1
+60201_body02
+  rotate: true
+  xy: 492, 340
+  size: 31, 19
+  orig: 31, 19
+  offset: 0, 0
+  index: -1
+60201_body02_red
+  rotate: false
+  xy: 408, 249
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+60201_body03
+  rotate: true
+  xy: 1, 37
+  size: 68, 154
+  orig: 68, 154
+  offset: 0, 0
+  index: -1
+60201_body03_red
+  rotate: true
+  xy: 289, 244
+  size: 46, 89
+  orig: 46, 89
+  offset: 0, 0
+  index: -1
+60201_body04
+  rotate: false
+  xy: 325, 443
+  size: 143, 68
+  orig: 143, 68
+  offset: 0, 0
+  index: -1
+60201_body04_red
+  rotate: true
+  xy: 251, 1
+  size: 84, 47
+  orig: 84, 47
+  offset: 0, 0
+  index: -1
+60201_body_red
+  rotate: false
+  xy: 330, 11
+  size: 64, 74
+  orig: 64, 74
+  offset: 0, 0
+  index: -1
+60201_bodyup
+  rotate: false
+  xy: 195, 387
+  size: 129, 124
+  orig: 129, 124
+  offset: 0, 0
+  index: -1
+60201_bodyup01
+  rotate: true
+  xy: 195, 304
+  size: 82, 114
+  orig: 82, 114
+  offset: 0, 0
+  index: -1
+60201_bodyup01_red
+  rotate: false
+  xy: 437, 297
+  size: 54, 68
+  orig: 54, 68
+  offset: 0, 0
+  index: -1
+60201_bodyup_red
+  rotate: false
+  xy: 174, 140
+  size: 76, 73
+  orig: 76, 73
+  offset: 0, 0
+  index: -1
+60201_mouth
+  rotate: false
+  xy: 94, 4
+  size: 50, 32
+  orig: 50, 32
+  offset: 0, 0
+  index: -1
+60201_mouth_red
+  rotate: true
+  xy: 408, 273
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+60201_shadow02
+  rotate: false
+  xy: 432, 366
+  size: 44, 29
+  orig: 44, 29
+  offset: 0, 0
+  index: -1
+60201_stone01
+  rotate: true
+  xy: 338, 86
+  size: 26, 11
+  orig: 26, 11
+  offset: 0, 0
+  index: -1
+60201_stone01_red
+  rotate: true
+  xy: 492, 314
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+60201_stone02
+  rotate: false
+  xy: 289, 291
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: -1
+60201_stone02_red
+  rotate: true
+  xy: 492, 292
+  size: 21, 19
+  orig: 21, 19
+  offset: 0, 0
+  index: -1
+60201_stone03
+  rotate: false
+  xy: 408, 230
+  size: 29, 18
+  orig: 29, 18
+  offset: 0, 0
+  index: -1
+60201_stone03_red
+  rotate: false
+  xy: 437, 274
+  size: 28, 22
+  orig: 28, 22
+  offset: 0, 0
+  index: -1
+60201_stone04
+  rotate: false
+  xy: 330, 1
+  size: 21, 9
+  orig: 21, 9
+  offset: 0, 0
+  index: -1
+60201_stone04_red
+  rotate: false
+  xy: 466, 278
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+60201_stone05
+  rotate: false
+  xy: 325, 396
+  size: 151, 46
+  orig: 151, 46
+  offset: 0, 0
+  index: -1

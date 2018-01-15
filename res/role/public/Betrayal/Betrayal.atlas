@@ -1,0 +1,20 @@
+
+Betrayal.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Betrayal_DeBuff_muou
+  rotate: false
+  xy: 66, 10
+  size: 40, 50
+  orig: 64, 64
+  offset: 11, 7
+  index: -1
+Betrayal_DeBuff_muous
+  rotate: true
+  xy: 1, 1
+  size: 59, 64
+  orig: 64, 64
+  offset: 2, 0
+  index: -1

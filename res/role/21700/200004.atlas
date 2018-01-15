@@ -1,0 +1,160 @@
+
+200004.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+200004_body
+  rotate: false
+  xy: 291, 54
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+200004_body_death1
+  rotate: false
+  xy: 367, 54
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+200004_head
+  rotate: true
+  xy: 291, 1
+  size: 52, 58
+  orig: 52, 58
+  offset: 0, 0
+  index: -1
+200004_leg_1
+  rotate: true
+  xy: 752, 110
+  size: 17, 30
+  orig: 17, 30
+  offset: 0, 0
+  index: -1
+200004_leg_2
+  rotate: true
+  xy: 698, 87
+  size: 11, 40
+  orig: 11, 40
+  offset: 0, 0
+  index: -1
+200004_leg_2b
+  rotate: true
+  xy: 401, 1
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+200004_leg_3
+  rotate: true
+  xy: 1, 4
+  size: 24, 47
+  orig: 24, 47
+  offset: 0, 0
+  index: -1
+200004_leg_4
+  rotate: true
+  xy: 698, 99
+  size: 28, 53
+  orig: 28, 53
+  offset: 0, 0
+  index: -1
+200004_leg_r_1
+  rotate: false
+  xy: 49, 1
+  size: 17, 27
+  orig: 17, 27
+  offset: 0, 0
+  index: -1
+200004_leg_r_2
+  rotate: true
+  xy: 491, 65
+  size: 11, 36
+  orig: 11, 36
+  offset: 0, 0
+  index: -1
+200004_leg_r_3
+  rotate: false
+  xy: 401, 12
+  size: 19, 41
+  orig: 19, 41
+  offset: 0, 0
+  index: -1
+200004_leg_r_4
+  rotate: true
+  xy: 443, 56
+  size: 20, 47
+  orig: 20, 47
+  offset: 0, 0
+  index: -1
+200004_penxue_00
+  rotate: false
+  xy: 443, 77
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+200004_penxue_01
+  rotate: false
+  xy: 350, 3
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+200004_penxue_02
+  rotate: false
+  xy: 494, 77
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+200004_penxue_03
+  rotate: false
+  xy: 545, 77
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+200004_penxue_04
+  rotate: false
+  xy: 596, 77
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+200004_penxue_05
+  rotate: false
+  xy: 647, 77
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+200004_shader
+  rotate: false
+  xy: 1, 29
+  size: 145, 98
+  orig: 145, 98
+  offset: 0, 0
+  index: -1
+200004_tooth_l
+  rotate: false
+  xy: 421, 35
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+200004_tooth_r
+  rotate: false
+  xy: 67, 8
+  size: 13, 20
+  orig: 13, 20
+  offset: 0, 0
+  index: -1
+200004_xuetan
+  rotate: false
+  xy: 147, 27
+  size: 143, 100
+  orig: 143, 100
+  offset: 0, 0
+  index: -1

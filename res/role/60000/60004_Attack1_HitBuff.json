@@ -1,0 +1,75 @@
+{
+"skeleton": { "hash": "LJB5plPpDSDCDMz723Aq4MhwlRU", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root", "length": 80, "color": "0e009bff" },
+	{ "name": "hitbuff", "parent": "root", "x": -0.32, "y": 194.24, "color": "0e009bff" }
+],
+"slots": [
+	{ "name": "60004_hitbuff_00", "bone": "hitbuff" }
+],
+"skins": {
+	"default": {
+		"60004_hitbuff_00": {
+			"60004_hitbuff_00": { "x": 3.6, "y": -6.15, "width": 278, "height": 224 },
+			"60004_hitbuff_01": { "x": 3.6, "y": -6.15, "width": 278, "height": 224 },
+			"60004_hitbuff_02": { "x": 3.6, "y": -6.15, "width": 278, "height": 224 },
+			"60004_hitbuff_03": { "x": 3.6, "y": -6.15, "width": 278, "height": 224 },
+			"60004_hitbuff_04": { "x": 3.6, "y": -6.15, "width": 278, "height": 224 },
+			"60004_hitbuff_05": { "x": 3.6, "y": -6.15, "width": 278, "height": 224 },
+			"60004_hitbuff_06": { "x": 3.6, "y": -6.15, "width": 278, "height": 224 }
+		}
+	}
+},
+"animations": {
+	"Attack1_HitBuff": {
+		"slots": {
+			"60004_hitbuff_00": {
+				"attachment": [
+					{ "time": 0, "name": "60004_hitbuff_00" },
+					{ "time": 0.1, "name": "60004_hitbuff_01" },
+					{ "time": 0.2, "name": "60004_hitbuff_02" },
+					{ "time": 0.3, "name": "60004_hitbuff_03" },
+					{ "time": 0.4, "name": "60004_hitbuff_04" },
+					{ "time": 0.5, "name": "60004_hitbuff_05" },
+					{ "time": 0.6, "name": "60004_hitbuff_06" },
+					{ "time": 0.7, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": 0, "y": -10 },
+					{ "time": 0.0666, "x": 0, "y": 8 },
+					{ "time": 0.1, "x": 0, "y": -8 },
+					{ "time": 0.1333, "x": 0, "y": 6 },
+					{ "time": 0.1666, "x": 0, "y": -5 },
+					{ "time": 0.2, "x": 0, "y": 3 },
+					{ "time": 0.2333, "x": 0, "y": -3 },
+					{ "time": 0.2666, "x": 0, "y": 1 },
+					{ "time": 0.3, "x": 0, "y": -2 },
+					{ "time": 0.3333, "x": 0, "y": 1 },
+					{ "time": 0.3666, "x": 0, "y": -1 },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.8, "x": 1, "y": 1 }
+				]
+			},
+			"hitbuff": {
+				"translate": [
+					{ "time": 0, "x": 24.81, "y": 31.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5 }
+				]
+			}
+		}
+	}
+}
+}

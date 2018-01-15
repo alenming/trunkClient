@@ -1,0 +1,117 @@
+{
+"skeleton": { "hash": "pir+Bv+DLD2oBdCUJlwXItVN9N8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "20003_Skill2_Buff1" },
+	{ "name": "point", "parent": "20003_Skill2_Buff1", "length": 20, "x": -0.35, "y": -30.88 },
+	{ "name": "skilleffect", "parent": "point", "length": 40, "x": 0.35, "y": 106.51 }
+],
+"slots": [
+	{ "name": "20000_skill_effect_00", "bone": "skilleffect", "color": "ffe8deff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"20000_skill_effect_00": {
+			"20000_skill_effect_00": { "width": 256, "height": 241 },
+			"20000_skill_effect_01": { "width": 256, "height": 241 },
+			"20000_skill_effect_02": { "width": 256, "height": 241 },
+			"20000_skill_effect_03": { "width": 256, "height": 241 },
+			"20000_skill_effect_04": { "width": 256, "height": 241 },
+			"20000_skill_effect_05": { "width": 256, "height": 241 },
+			"20000_skill_effect_06": { "width": 256, "height": 241 },
+			"20000_skill_effect_07": { "width": 256, "height": 241 },
+			"20000_skill_effect_08": { "width": 256, "height": 241 },
+			"20000_skill_effect_09": { "width": 256, "height": 241 },
+			"20000_skill_effect_10": { "width": 256, "height": 241 },
+			"20000_skill_effect_11": { "width": 256, "height": 241 },
+			"20000_skill_effect_12": { "width": 256, "height": 241 }
+		}
+	}
+},
+"animations": {
+	"20003_Skill2_Buff1": {
+		"slots": {
+			"20000_skill_effect_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "20000_skill_effect_00" },
+					{ "time": 0.0666, "name": "20000_skill_effect_01" },
+					{ "time": 0.1333, "name": "20000_skill_effect_02" },
+					{ "time": 0.1666, "name": "20000_skill_effect_03" },
+					{ "time": 0.2, "name": "20000_skill_effect_04" },
+					{ "time": 0.2333, "name": "20000_skill_effect_05" },
+					{ "time": 0.3, "name": "20000_skill_effect_06" },
+					{ "time": 0.3333, "name": "20000_skill_effect_07" },
+					{ "time": 0.3666, "name": "20000_skill_effect_08" },
+					{ "time": 0.4333, "name": "20000_skill_effect_09" },
+					{ "time": 0.4666, "name": "20000_skill_effect_10" },
+					{ "time": 0.5, "name": "20000_skill_effect_11" },
+					{ "time": 0.5666, "name": "20000_skill_effect_12" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"20003_Skill2_Buff1": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"point": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"skilleffect": {
+				"translate": [
+					{ "time": 0.0333, "x": 21.27, "y": 23.96 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,62 @@
+
+Buff_Awaken.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10500_skill1_1_01
+  rotate: true
+  xy: 96, 4
+  size: 108, 93
+  orig: 114, 97
+  offset: 3, 2
+  index: -1
+10500_skill1_1_02
+  rotate: false
+  xy: 286, 21
+  size: 106, 95
+  orig: 114, 97
+  offset: 4, 2
+  index: -1
+10500_skill1_1_03
+  rotate: true
+  xy: 192, 7
+  size: 108, 91
+  orig: 114, 97
+  offset: 3, 2
+  index: -1
+10500_skill1_1_04
+  rotate: false
+  xy: 1, 115
+  size: 110, 95
+  orig: 114, 97
+  offset: 2, 2
+  index: -1
+10500_skill1_1_05
+  rotate: false
+  xy: 228, 119
+  size: 111, 91
+  orig: 114, 97
+  offset: 1, 2
+  index: -1
+10500_skill1_1_06
+  rotate: true
+  xy: 1, 1
+  size: 111, 92
+  orig: 114, 97
+  offset: 1, 1
+  index: -1
+10500_skill1_1_07
+  rotate: false
+  xy: 114, 118
+  size: 111, 92
+  orig: 114, 97
+  offset: 1, 1
+  index: -1
+10500_skill1_1_08
+  rotate: false
+  xy: 342, 119
+  size: 109, 91
+  orig: 114, 97
+  offset: 3, 2
+  index: -1

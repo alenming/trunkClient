@@ -1,0 +1,85 @@
+{
+"skeleton": { "hash": "kmUMvdz0OrKKSBy7NEWM7/HqjvM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "10703_Attack1_Hit_0007", "parent": "root" },
+	{ "name": "10703_Attack1_Hit_0008", "parent": "root" },
+	{ "name": "10703_Attack1_Hit_01", "parent": "root" }
+],
+"slots": [
+	{ "name": "10703_Attack1_Hit_0001", "bone": "10703_Attack1_Hit_01" },
+	{ "name": "10703_Attack1_Hit_0007", "bone": "10703_Attack1_Hit_0007" },
+	{ "name": "10703_Attack1_Hit_0008", "bone": "10703_Attack1_Hit_0008" }
+],
+"skins": {
+	"default": {
+		"10703_Attack1_Hit_0001": {
+			"10703_Attack1_Hit_0001": { "width": 79, "height": 82 },
+			"10703_Attack1_Hit_0002": { "width": 79, "height": 82 },
+			"10703_Attack1_Hit_0003": { "width": 79, "height": 82 },
+			"10703_Attack1_Hit_0004": { "width": 79, "height": 82 },
+			"10703_Attack1_Hit_0005": { "width": 79, "height": 82 },
+			"10703_Attack1_Hit_0006": { "width": 79, "height": 82 }
+		},
+		"10703_Attack1_Hit_0007": {
+			"10703_Attack1_Hit_0007": { "width": 79, "height": 82 }
+		},
+		"10703_Attack1_Hit_0008": {
+			"10703_Attack1_Hit_0008": { "width": 79, "height": 82 }
+		}
+	}
+},
+"animations": {
+	"10703_Attack1_Hit": {
+		"slots": {
+			"10703_Attack1_Hit_0001": {
+				"attachment": [
+					{ "time": 0, "name": "10703_Attack1_Hit_0001" },
+					{ "time": 0.0666, "name": "10703_Attack1_Hit_0002" },
+					{ "time": 0.1333, "name": "10703_Attack1_Hit_0003" },
+					{ "time": 0.2, "name": "10703_Attack1_Hit_0004" },
+					{ "time": 0.2666, "name": "10703_Attack1_Hit_0005" },
+					{ "time": 0.3333, "name": "10703_Attack1_Hit_0006" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"10703_Attack1_Hit_0007": {
+				"attachment": [
+					{ "time": 0, "name": "10703_Attack1_Hit_0007" },
+					{ "time": 0.4666, "name": null }
+				]
+			},
+			"10703_Attack1_Hit_0008": {
+				"attachment": [
+					{ "time": 0, "name": "10703_Attack1_Hit_0008" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"10703_Attack1_Hit_01": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10703_Attack1_Hit_0007": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 2, "y": 2 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"10703_Attack1_Hit_0008": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.4666, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

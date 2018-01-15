@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "NMPGG6GIjVe5jhM+alO0TnWsR+c", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "100200_Skill2_Hit" },
+	{ "name": "Skill2_Hit", "parent": "100200_Skill2_Hit", "x": 35.5, "y": 48 }
+],
+"slots": [
+	{ "name": "100200_duqi01", "bone": "Skill2_Hit", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"100200_duqi01": {
+			"100200_duqi01": { "width": 131, "height": 167 },
+			"100200_duqi02": { "width": 131, "height": 167 },
+			"100200_duqi03": { "width": 131, "height": 167 },
+			"100200_duqi04": { "width": 131, "height": 167 },
+			"100200_duqi05": { "width": 131, "height": 167 },
+			"100200_duqi06": { "width": 131, "height": 167 },
+			"100200_duqi07": { "width": 131, "height": 167 },
+			"100200_duqi08": { "width": 131, "height": 167 }
+		}
+	}
+},
+"animations": {
+	"Skill2_Hit": {
+		"slots": {
+			"100200_duqi01": {
+				"attachment": [
+					{ "time": 0, "name": "100200_duqi01" },
+					{ "time": 0.1, "name": "100200_duqi02" },
+					{ "time": 0.2, "name": "100200_duqi03" },
+					{ "time": 0.3, "name": "100200_duqi04" },
+					{ "time": 0.4, "name": "100200_duqi05" },
+					{ "time": 0.5, "name": "100200_duqi06" },
+					{ "time": 0.6, "name": "100200_duqi07" },
+					{ "time": 0.7, "name": "100200_duqi08" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Skill2_Hit": {
+				"translate": [
+					{ "time": 0, "x": -33, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

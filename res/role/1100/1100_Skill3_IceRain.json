@@ -1,0 +1,44 @@
+{
+"skeleton": { "hash": "KisO3KU9umC2N+hRRQUWn2G++CE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "1100_Skill3_IceRain", "y": 38.34, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "10101_Skill3_IceRain_baozha01", "bone": "1100_Skill3_IceRain" }
+],
+"skins": {
+	"default": {
+		"10101_Skill3_IceRain_baozha01": {
+			"10101_Skill3_IceRain_baozha01": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha02": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha03": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha04": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha05": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha06": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha07": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha08": { "width": 146, "height": 105 },
+			"10101_Skill3_IceRain_baozha09": { "width": 146, "height": 105 }
+		}
+	}
+},
+"animations": {
+	"1100_Skill3_IceRain": {
+		"slots": {
+			"10101_Skill3_IceRain_baozha01": {
+				"attachment": [
+					{ "time": 0, "name": "10101_Skill3_IceRain_baozha01" },
+					{ "time": 0.0666, "name": "10101_Skill3_IceRain_baozha02" },
+					{ "time": 0.1333, "name": "10101_Skill3_IceRain_baozha03" },
+					{ "time": 0.2, "name": "10101_Skill3_IceRain_baozha04" },
+					{ "time": 0.2666, "name": "10101_Skill3_IceRain_baozha05" },
+					{ "time": 0.3333, "name": "10101_Skill3_IceRain_baozha06" },
+					{ "time": 0.4, "name": "10101_Skill3_IceRain_baozha07" },
+					{ "time": 0.4666, "name": "10101_Skill3_IceRain_baozha08" },
+					{ "time": 0.5333, "name": "10101_Skill3_IceRain_baozha09" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		}
+	}
+}
+}

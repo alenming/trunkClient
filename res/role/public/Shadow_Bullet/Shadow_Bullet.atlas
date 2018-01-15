@@ -1,0 +1,167 @@
+
+Shadow_Bullet.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100001_Death1_fire_0001
+  rotate: true
+  xy: 1, 1
+  size: 69, 55
+  orig: 120, 326
+  offset: 28, 0
+  index: -1
+100001_Skill2_Bullet01
+  rotate: true
+  xy: 277, 361
+  size: 100, 49
+  orig: 100, 50
+  offset: 0, 1
+  index: -1
+100001_Skill2_Bullet02_1
+  rotate: true
+  xy: 57, 3
+  size: 91, 40
+  orig: 100, 92
+  offset: 4, 27
+  index: -1
+100001_Skill2_Bullet02_2
+  rotate: false
+  xy: 1, 399
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+100001_Skill2_Bullet02_3
+  rotate: false
+  xy: 1, 306
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+100001_Skill2_Bullet02_4
+  rotate: false
+  xy: 102, 399
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+100001_Skill2_Bullet02_5
+  rotate: false
+  xy: 1, 213
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+100001_Skill2_Bullet03_1
+  rotate: true
+  xy: 481, 408
+  size: 61, 27
+  orig: 120, 35
+  offset: 30, 2
+  index: -1
+100001_Skill2_Bullet03_2
+  rotate: true
+  xy: 327, 344
+  size: 117, 33
+  orig: 120, 35
+  offset: 1, 0
+  index: -1
+100001_Skill2_Bullet03_3
+  rotate: false
+  xy: 361, 436
+  size: 119, 33
+  orig: 120, 35
+  offset: 0, 0
+  index: -1
+100001_Skill2_Bullet03_4
+  rotate: false
+  xy: 361, 402
+  size: 119, 33
+  orig: 120, 35
+  offset: 1, 0
+  index: -1
+100001_Skill2_Bullet03_5
+  rotate: false
+  xy: 203, 283
+  size: 119, 35
+  orig: 120, 35
+  offset: 0, 0
+  index: -1
+100001_Skill2_Bullet04
+  rotate: false
+  xy: 203, 319
+  size: 120, 41
+  orig: 120, 41
+  offset: 0, 0
+  index: -1
+100001_Skill2_Bullet05_0001
+  rotate: true
+  xy: 102, 215
+  size: 43, 47
+  orig: 80, 160
+  offset: 17, 13
+  index: -1
+100001_Skill2_Bullet05_0002
+  rotate: true
+  xy: 361, 352
+  size: 49, 86
+  orig: 80, 160
+  offset: 14, 11
+  index: -1
+100001_Skill2_Bullet05_0003
+  rotate: false
+  xy: 42, 95
+  size: 52, 117
+  orig: 80, 160
+  offset: 15, 0
+  index: -1
+100001_Skill2_Bullet05_0004
+  rotate: false
+  xy: 151, 271
+  size: 51, 127
+  orig: 80, 160
+  offset: 15, 0
+  index: -1
+100001_Skill2_Bullet05_0005
+  rotate: false
+  xy: 102, 259
+  size: 48, 139
+  orig: 80, 160
+  offset: 16, 0
+  index: -1
+100001_Skill2_Bullet05_0006
+  rotate: false
+  xy: 1, 71
+  size: 40, 141
+  orig: 80, 160
+  offset: 20, 9
+  index: -1
+100001_Skill2_Bullet05_0007
+  rotate: true
+  xy: 203, 462
+  size: 29, 155
+  orig: 80, 160
+  offset: 22, 2
+  index: -1
+100001_Skill2_Bullet05_0008
+  rotate: true
+  xy: 359, 470
+  size: 21, 152
+  orig: 80, 160
+  offset: 24, 4
+  index: -1
+100001_Skill2_Bullet05_0009
+  rotate: true
+  xy: 203, 265
+  size: 17, 98
+  orig: 80, 160
+  offset: 25, 34
+  index: -1
+100001_huomiao
+  rotate: false
+  xy: 203, 361
+  size: 73, 100
+  orig: 73, 100
+  offset: 0, 0
+  index: -1

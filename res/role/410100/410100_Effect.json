@@ -1,0 +1,251 @@
+{
+"skeleton": { "hash": "HT0PQV+in/RPdFNzL9GprfylRFQ", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "410100_Eff_Death_Kousan", "parent": "root", "length": 204.93, "rotation": 90 },
+	{ "name": "410100_Eff_bodylight", "parent": "root", "length": 204.93, "rotation": 90 },
+	{ "name": "410100_Eff_buff1", "parent": "root", "length": 204.93, "rotation": 90 },
+	{ "name": "410100_Eff_buff2", "parent": "root", "length": 204.93, "rotation": 90 },
+	{ "name": "410100_Eff_buttonlooplight", "parent": "root", "length": 204.93, "rotation": 90 },
+	{ "name": "410100_Eff_Death_Kousan_greenlight", "parent": "410100_Eff_Death_Kousan", "length": 204.93 },
+	{ "name": "410100_Eff_bodylight_01", "parent": "410100_Eff_bodylight", "length": 204.93 },
+	{ "name": "410100_Eff_buff1_loushi", "parent": "410100_Eff_buff1", "length": 204.93 },
+	{ "name": "410100_Eff_buff1_loushi2", "parent": "410100_Eff_buff2", "length": 204.93, "x": 267.62 },
+	{ "name": "410100_Eff_buttonlooplight_01", "parent": "410100_Eff_buttonlooplight", "length": 204.93 },
+	{ "name": "410100_Eff_buttonlooplight_02", "parent": "410100_Eff_buttonlooplight", "length": 204.93 }
+],
+"slots": [
+	{ "name": "410100_Eff_Buttonlight_01", "bone": "410100_Eff_buttonlooplight_01" },
+	{ "name": "410100_Eff_kuaosan_01", "bone": "410100_Eff_Death_Kousan_greenlight", "blend": "additive" },
+	{ "name": "410100_Eff_Buttonlight_1", "bone": "410100_Eff_buttonlooplight_02", "color": "ffffffb9", "blend": "additive" },
+	{ "name": "410100_Eff_bodylight_01", "bone": "410100_Eff_bodylight_01", "blend": "additive" },
+	{ "name": "410100_Eff_loushi_01", "bone": "410100_Eff_buff1_loushi" },
+	{ "name": "410100_Eff_buffshizi", "bone": "410100_Eff_buff1_loushi2" }
+],
+"skins": {
+	"default": {
+		"410100_Eff_Buttonlight_01": {
+			"410100_Eff_Buttonlight_01": { "scaleX": 3, "scaleY": 0.8, "rotation": -90, "width": 128, "height": 128 }
+		},
+		"410100_Eff_Buttonlight_1": {
+			"410100_Eff_Buttonlight_01": { "x": 14.23, "scaleX": 1.5, "scaleY": 0.8, "rotation": -90, "width": 128, "height": 128 }
+		},
+		"410100_Eff_bodylight_01": {
+			"410100_Eff_bodylight_01": { "x": 130.54, "y": -3.28, "scaleX": 1.4, "scaleY": 1.4, "rotation": -90, "width": 127, "height": 232 }
+		},
+		"410100_Eff_buffshizi": {
+			"410100_Eff_buffshizi": { "scaleX": 0.6, "scaleY": 0.6, "rotation": -90, "width": 64, "height": 64 }
+		},
+		"410100_Eff_kuaosan_01": {
+			"410100_Eff_kuaosan_01": { "scaleY": 0.6, "rotation": -90, "width": 250, "height": 132 }
+		},
+		"410100_Eff_loushi_01": {
+			"410100_Eff_loushi_01": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_02": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_03": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_04": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_05": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_06": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_07": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_08": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_09": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_10": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_11": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_12": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_13": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_14": { "rotation": -90, "width": 175, "height": 350 },
+			"410100_Eff_loushi_15": { "rotation": -90, "width": 175, "height": 350 }
+		}
+	}
+},
+"animations": {
+	"Buff1": {
+		"slots": {
+			"410100_Eff_loushi_01": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_loushi_01" },
+					{ "time": 0.0666, "name": "410100_Eff_loushi_02" },
+					{ "time": 0.1333, "name": "410100_Eff_loushi_03" },
+					{ "time": 0.2, "name": "410100_Eff_loushi_04" },
+					{ "time": 0.2666, "name": "410100_Eff_loushi_05" },
+					{ "time": 0.3333, "name": "410100_Eff_loushi_06" },
+					{ "time": 0.4, "name": "410100_Eff_loushi_07" },
+					{ "time": 0.4666, "name": "410100_Eff_loushi_08" },
+					{ "time": 0.5333, "name": "410100_Eff_loushi_09" },
+					{ "time": 0.6, "name": "410100_Eff_loushi_10" },
+					{ "time": 0.6666, "name": "410100_Eff_loushi_11" },
+					{ "time": 0.7333, "name": "410100_Eff_loushi_12" },
+					{ "time": 0.8, "name": "410100_Eff_loushi_13" },
+					{ "time": 0.8666, "name": "410100_Eff_loushi_14" },
+					{ "time": 0.9333, "name": "410100_Eff_loushi_15" }
+				]
+			}
+		},
+		"bones": {
+			"410100_Eff_buff1_loushi": {
+				"translate": [
+					{ "time": 0, "x": 217.87, "y": -3.96 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	},
+	"Buff2": {
+		"slots": {
+			"410100_Eff_buffshizi": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_buffshizi" }
+				]
+			}
+		},
+		"bones": {
+			"410100_Eff_buff1_loushi2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1.05, "y": 1.05 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Death1_Effect1": {
+		"slots": {
+			"410100_Eff_Buttonlight_01": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_Buttonlight_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff80" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"410100_Eff_Buttonlight_1": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_Buttonlight_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff73" },
+					{ "time": 0.1666, "color": "ffffffb9" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"410100_Eff_kuaosan_01": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_kuaosan_01" },
+					{ "time": 2, "name": null }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"410100_Eff_Death_Kousan_greenlight": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.5,
+						"y": 0.5,
+						"curve": [ 0, 0.6, 0.379, 0.99 ]
+					},
+					{ "time": 0.8333, "x": 2, "y": 3 }
+				]
+			}
+		}
+	},
+	"Skill1_Effect1": {
+		"slots": {
+			"410100_Eff_bodylight_01": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_bodylight_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.1666, "color": "ffffffa7" },
+					{ "time": 0.3333, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffffa7" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffffa7" },
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"410100_Eff_bodylight_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": 0, "y": 1.27 },
+					{ "time": 0.0666, "x": 0, "y": -1.6 },
+					{ "time": 0.1, "x": 0, "y": 1.27 },
+					{ "time": 0.1333, "x": 0, "y": -0.95 },
+					{ "time": 0.1666, "x": 0, "y": 1.27 },
+					{ "time": 0.2, "x": 0, "y": -1.6 },
+					{ "time": 0.2333, "x": 0, "y": 1.27 },
+					{ "time": 0.2666, "x": 0, "y": -1.6 },
+					{ "time": 0.3, "x": 0, "y": 1.27 },
+					{ "time": 0.3333, "x": 0, "y": -0.95 },
+					{ "time": 0.3666, "x": 0, "y": 1.27 },
+					{ "time": 0.4, "x": 0, "y": -1.6 },
+					{ "time": 0.4333, "x": 0, "y": 1.27 },
+					{ "time": 0.4666, "x": 0, "y": -1.6 },
+					{ "time": 0.5, "x": 0, "y": 1.27 },
+					{ "time": 0.5333, "x": 0, "y": -0.95 },
+					{ "time": 0.5666, "x": 0, "y": 1.27 },
+					{ "time": 0.6, "x": 0, "y": -1.6 },
+					{ "time": 0.6333, "x": 0, "y": 1.27 },
+					{ "time": 0.6666, "x": 0, "y": -1.6 },
+					{ "time": 0.7, "x": 0, "y": 1.27 },
+					{ "time": 0.7333, "x": 0, "y": -0.95 },
+					{ "time": 0.7666, "x": 0, "y": 1.27 },
+					{ "time": 0.8, "x": 0, "y": -1.6 },
+					{ "time": 0.8333, "x": 0, "y": 1.27 },
+					{ "time": 0.8666, "x": 0, "y": -1.6 },
+					{ "time": 0.9, "x": 0, "y": 1.27 },
+					{ "time": 0.9333, "x": 0, "y": -0.95 },
+					{ "time": 0.9666, "x": 0, "y": 1.27 },
+					{ "time": 1, "x": 0, "y": -1.6 },
+					{ "time": 1.0333, "x": 0, "y": 1.27 },
+					{ "time": 1.0666, "x": 0, "y": -1.6 },
+					{ "time": 1.1, "x": 0, "y": 1.27 },
+					{ "time": 1.1333, "x": 0, "y": -0.95 },
+					{ "time": 1.1666, "x": 0, "y": 1.27 },
+					{ "time": 1.2, "x": 0, "y": -1.6 }
+				]
+			}
+		}
+	},
+	"Stand1_Effect1": {
+		"slots": {
+			"410100_Eff_Buttonlight_01": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_Buttonlight_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff80" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff80" }
+				]
+			}
+		}
+	},
+	"Stand1_Effect2": {
+		"slots": {
+			"410100_Eff_Buttonlight_1": {
+				"attachment": [
+					{ "time": 0, "name": "410100_Eff_Buttonlight_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff73" },
+					{ "time": 0.6666, "color": "ffffffb9" },
+					{ "time": 1.3333, "color": "ffffff73" }
+				]
+			}
+		}
+	}
+}
+}

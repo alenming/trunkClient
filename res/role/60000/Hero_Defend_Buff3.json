@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "fDz4gwGSIO098NvWwUrJCdHqqe8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Hero_Defend_Buff3_Violet", "parent": "root", "length": 118.66, "scaleY": 2, "rotation": 90 }
+],
+"slots": [
+	{ "name": "Hero_Defend_Buff3_Violet", "bone": "Hero_Defend_Buff3_Violet" }
+],
+"skins": {
+	"default": {
+		"Hero_Defend_Buff3_Violet": {
+			"Hero_Defend_Buff3_001": { "rotation": -90, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"Hero_Defend_Buff3": {
+		"slots": {
+			"Hero_Defend_Buff3_Violet": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Defend_Buff3_001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffa7" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Defend_Buff3_Violet": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.975,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.025,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.975 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	}
+}
+}

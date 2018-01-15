@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "azNp1Wh4bBlQLvJCyLzSXXzcT4A", "spine": "2.1.27", "width": 490, "height": 132.5, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bullet", "parent": "root", "length": 30, "x": -0.23, "y": -0.63, "scaleX": 2.5, "scaleY": 2.5 }
+],
+"slots": [
+	{ "name": "100004_bullet_00", "bone": "bullet", "attachment": "100004_bullet_01" }
+],
+"skins": {
+	"default": {
+		"100004_bullet_00": {
+			"100004_bullet_00": { "x": -74.08, "y": 4.53, "width": 196, "height": 53 },
+			"100004_bullet_01": { "x": -74.08, "y": 4.53, "width": 196, "height": 53 },
+			"100004_bullet_02": { "x": -74.08, "y": 4.53, "width": 196, "height": 53 },
+			"100004_bullet_03": { "x": -74.08, "y": 4.53, "width": 196, "height": 53 },
+			"100004_bullet_04": { "x": -74.08, "y": 4.53, "width": 196, "height": 53 }
+		}
+	}
+},
+"animations": {
+	"Attack1_Bullet": {
+		"slots": {
+			"100004_bullet_00": {
+				"attachment": [
+					{ "time": 0, "name": "100004_bullet_00" },
+					{ "time": 0.0666, "name": "100004_bullet_01" },
+					{ "time": 0.1333, "name": "100004_bullet_02" },
+					{ "time": 0.2, "name": "100004_bullet_03" },
+					{ "time": 0.2666, "name": "100004_bullet_04" },
+					{ "time": 0.3333, "name": "100004_bullet_00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

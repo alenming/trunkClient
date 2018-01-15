@@ -1,0 +1,538 @@
+
+20900.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+20900_Break_SmokeTu_TX_00
+  rotate: false
+  xy: 659, 610
+  size: 106, 57
+  orig: 133, 88
+  offset: 17, 10
+  index: -1
+20900_Break_SmokeTu_TX_01
+  rotate: true
+  xy: 556, 440
+  size: 125, 70
+  orig: 133, 88
+  offset: 5, 5
+  index: -1
+20900_Break_SmokeTu_TX_02
+  rotate: true
+  xy: 213, 151
+  size: 127, 76
+  orig: 133, 88
+  offset: 5, 6
+  index: -1
+20900_Break_SmokeTu_TX_03
+  rotate: true
+  xy: 475, 437
+  size: 128, 80
+  orig: 133, 88
+  offset: 5, 6
+  index: -1
+20900_Break_SmokeTu_TX_04
+  rotate: true
+  xy: 225, 279
+  size: 128, 80
+  orig: 133, 88
+  offset: 5, 8
+  index: -1
+20900_Break_SmokeTu_TX_05
+  rotate: true
+  xy: 392, 398
+  size: 129, 82
+  orig: 133, 88
+  offset: 4, 6
+  index: -1
+20900_Break_SmokeTu_TX_06
+  rotate: false
+  xy: 718, 774
+  size: 129, 77
+  orig: 133, 88
+  offset: 4, 8
+  index: -1
+20900_Break_SmokeTu_TX_07
+  rotate: false
+  xy: 848, 768
+  size: 129, 77
+  orig: 133, 88
+  offset: 4, 8
+  index: -1
+20900_Break_SmokeTu_TX_08
+  rotate: false
+  xy: 767, 486
+  size: 102, 68
+  orig: 133, 88
+  offset: 17, 18
+  index: -1
+20900_Break_SmokeTu_TX_09
+  rotate: false
+  xy: 624, 1
+  size: 103, 66
+  orig: 133, 88
+  offset: 17, 20
+  index: -1
+20902_bullet
+  rotate: true
+  xy: 760, 211
+  size: 96, 94
+  orig: 96, 94
+  offset: 0, 0
+  index: -1
+20902_floor
+  rotate: false
+  xy: 1, 789
+  size: 454, 234
+  orig: 454, 234
+  offset: 0, 0
+  index: -1
+20902_lb
+  rotate: true
+  xy: 780, 72
+  size: 42, 93
+  orig: 44, 94
+  offset: 2, 1
+  index: -1
+20902_ld
+  rotate: true
+  xy: 394, 528
+  size: 260, 40
+  orig: 260, 40
+  offset: 0, 0
+  index: -1
+20902_lf1
+  rotate: false
+  xy: 956, 643
+  size: 67, 108
+  orig: 68, 110
+  offset: 1, 2
+  index: -1
+20902_lf2
+  rotate: true
+  xy: 949, 444
+  size: 87, 74
+  orig: 89, 76
+  offset: 2, 2
+  index: -1
+20902_main
+  rotate: true
+  xy: 225, 408
+  size: 380, 81
+  orig: 380, 81
+  offset: 0, 0
+  index: -1
+20902_main_mask
+  rotate: true
+  xy: 870, 447
+  size: 108, 78
+  orig: 108, 78
+  offset: 0, 0
+  index: -1
+20902_md
+  rotate: false
+  xy: 949, 379
+  size: 74, 64
+  orig: 75, 65
+  offset: 1, 1
+  index: -1
+20902_rb
+  rotate: false
+  xy: 924, 249
+  size: 51, 92
+  orig: 51, 93
+  offset: 0, 1
+  index: -1
+20902_rd
+  rotate: true
+  xy: 307, 536
+  size: 252, 86
+  orig: 252, 86
+  offset: 0, 0
+  index: -1
+20902_rf1
+  rotate: false
+  xy: 624, 68
+  size: 76, 107
+  orig: 76, 109
+  offset: 0, 2
+  index: -1
+20902_rf2
+  rotate: false
+  xy: 870, 151
+  size: 67, 90
+  orig: 69, 91
+  offset: 2, 1
+  index: -1
+20902_rope
+  rotate: true
+  xy: 456, 812
+  size: 5, 214
+  orig: 5, 214
+  offset: 0, 0
+  index: -1
+20902_shader
+  rotate: false
+  xy: 575, 566
+  size: 85, 35
+  orig: 85, 35
+  offset: 0, 0
+  index: -1
+20902_sheild
+  rotate: true
+  xy: 456, 741
+  size: 70, 163
+  orig: 70, 163
+  offset: 0, 0
+  index: -1
+20902_wheel
+  rotate: false
+  xy: 737, 308
+  size: 96, 97
+  orig: 96, 97
+  offset: 0, 0
+  index: -1
+20902_wheel_e1
+  rotate: false
+  xy: 659, 668
+  size: 107, 105
+  orig: 107, 105
+  offset: 0, 0
+  index: -1
+20902_wheel_e2
+  rotate: false
+  xy: 848, 662
+  size: 107, 105
+  orig: 107, 105
+  offset: 0, 0
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_00
+  rotate: true
+  xy: 306, 281
+  size: 114, 84
+  orig: 150, 109
+  offset: 20, 4
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_01
+  rotate: false
+  xy: 718, 852
+  size: 135, 95
+  orig: 150, 109
+  offset: 7, 5
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_02
+  rotate: true
+  xy: 575, 602
+  size: 138, 83
+  orig: 150, 109
+  offset: 6, 5
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_03
+  rotate: false
+  xy: 862, 936
+  size: 139, 87
+  orig: 150, 109
+  offset: 6, 6
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_04
+  rotate: false
+  xy: 854, 846
+  size: 139, 89
+  orig: 150, 109
+  offset: 6, 6
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_05
+  rotate: false
+  xy: 435, 650
+  size: 139, 90
+  orig: 150, 109
+  offset: 6, 5
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_06
+  rotate: false
+  xy: 435, 566
+  size: 139, 83
+  orig: 150, 109
+  offset: 6, 8
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_07
+  rotate: true
+  xy: 307, 396
+  size: 139, 84
+  orig: 150, 109
+  offset: 6, 8
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_08
+  rotate: true
+  xy: 949, 532
+  size: 110, 74
+  orig: 150, 109
+  offset: 20, 19
+  index: -1
+20903_Skill1_Hit_Fire_Break_TX_09
+  rotate: true
+  xy: 695, 498
+  size: 111, 71
+  orig: 150, 109
+  offset: 19, 21
+  index: -1
+20903_bullet
+  rotate: false
+  xy: 780, 115
+  size: 89, 95
+  orig: 89, 95
+  offset: 0, 0
+  index: -1
+20903_floor
+  rotate: true
+  xy: 1, 332
+  size: 456, 223
+  orig: 456, 223
+  offset: 0, 0
+  index: -1
+20903_lb
+  rotate: false
+  xy: 978, 752
+  size: 45, 93
+  orig: 45, 93
+  offset: 0, 0
+  index: -1
+20903_ld
+  rotate: true
+  xy: 1, 55
+  size: 276, 118
+  orig: 276, 118
+  offset: 0, 0
+  index: -1
+20903_lf1
+  rotate: true
+  xy: 1, 4
+  size: 50, 115
+  orig: 50, 115
+  offset: 0, 0
+  index: -1
+20903_lf2
+  rotate: true
+  xy: 695, 413
+  size: 84, 71
+  orig: 85, 71
+  offset: 1, 0
+  index: -1
+20903_main
+  rotate: false
+  xy: 456, 948
+  size: 405, 75
+  orig: 405, 76
+  offset: 0, 1
+  index: -1
+20903_main_mask
+  rotate: true
+  xy: 391, 281
+  size: 114, 74
+  orig: 114, 74
+  offset: 0, 0
+  index: -1
+20903_md
+  rotate: true
+  xy: 874, 74
+  size: 76, 66
+  orig: 76, 66
+  offset: 0, 0
+  index: -1
+20903_rb
+  rotate: false
+  xy: 855, 242
+  size: 68, 99
+  orig: 68, 99
+  offset: 0, 0
+  index: -1
+20903_rd
+  rotate: false
+  xy: 456, 818
+  size: 261, 129
+  orig: 261, 129
+  offset: 0, 0
+  index: -1
+20903_rf1
+  rotate: false
+  xy: 290, 154
+  size: 64, 124
+  orig: 64, 124
+  offset: 0, 0
+  index: -1
+20903_rf2
+  rotate: false
+  xy: 938, 161
+  size: 67, 87
+  orig: 67, 87
+  offset: 0, 0
+  index: -1
+20903_shield
+  rotate: false
+  xy: 120, 122
+  size: 92, 209
+  orig: 92, 209
+  offset: 0, 0
+  index: -1
+20903_wheel
+  rotate: false
+  xy: 660, 182
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+20903_wheel_e1
+  rotate: false
+  xy: 845, 556
+  size: 103, 105
+  orig: 103, 105
+  offset: 0, 0
+  index: -1
+20903_wheel_e2
+  rotate: false
+  xy: 556, 176
+  size: 103, 105
+  orig: 103, 105
+  offset: 0, 0
+  index: -1
+Fly_HuoQiu_TX_00
+  rotate: false
+  xy: 120, 1
+  size: 70, 120
+  orig: 80, 125
+  offset: 10, 0
+  index: -1
+Fly_HuoQiu_TX_01
+  rotate: false
+  xy: 255, 32
+  size: 70, 118
+  orig: 80, 125
+  offset: 10, 0
+  index: -1
+Fly_HuoQiu_TX_02
+  rotate: false
+  xy: 417, 159
+  size: 70, 121
+  orig: 80, 125
+  offset: 9, 0
+  index: -1
+Fly_HuoQiu_TX_03
+  rotate: false
+  xy: 326, 36
+  size: 70, 117
+  orig: 80, 125
+  offset: 9, 0
+  index: -1
+Fly_HuoQiu_TX_04
+  rotate: false
+  xy: 397, 40
+  size: 69, 117
+  orig: 80, 125
+  offset: 10, 1
+  index: -1
+Fly_HuoQiu_TX_05
+  rotate: false
+  xy: 191, 2
+  size: 63, 119
+  orig: 80, 125
+  offset: 13, 0
+  index: -1
+Fly_HuoQiu_TX_06
+  rotate: false
+  xy: 355, 158
+  size: 61, 122
+  orig: 80, 125
+  offset: 14, 0
+  index: -1
+Fly_HuoQiu_TX_07
+  rotate: false
+  xy: 466, 281
+  size: 65, 116
+  orig: 80, 125
+  offset: 12, 0
+  index: -1
+Fly_HuoQiu_TX_08
+  rotate: false
+  xy: 488, 161
+  size: 67, 119
+  orig: 80, 125
+  offset: 10, 0
+  index: -1
+Fly_HuoQiu_TX_09
+  rotate: false
+  xy: 627, 440
+  size: 67, 125
+  orig: 80, 125
+  offset: 11, 0
+  index: -1
+fire_Ranshao_TX_00
+  rotate: false
+  xy: 701, 75
+  size: 78, 106
+  orig: 88, 120
+  offset: 7, 7
+  index: -1
+fire_Ranshao_TX_01
+  rotate: false
+  xy: 767, 555
+  size: 77, 111
+  orig: 88, 120
+  offset: 7, 6
+  index: -1
+fire_Ranshao_TX_02
+  rotate: false
+  xy: 869, 342
+  size: 79, 104
+  orig: 88, 120
+  offset: 6, 7
+  index: -1
+fire_Ranshao_TX_03
+  rotate: true
+  xy: 532, 282
+  size: 79, 108
+  orig: 88, 120
+  offset: 7, 7
+  index: -1
+fire_Ranshao_TX_04
+  rotate: false
+  xy: 467, 45
+  size: 79, 113
+  orig: 88, 120
+  offset: 7, 7
+  index: -1
+fire_Ranshao_TX_05
+  rotate: false
+  xy: 767, 667
+  size: 80, 106
+  orig: 88, 120
+  offset: 8, 7
+  index: -1
+fire_Ranshao_TX_06
+  rotate: true
+  xy: 767, 406
+  size: 79, 101
+  orig: 88, 120
+  offset: 7, 7
+  index: -1
+fire_Ranshao_TX_07
+  rotate: true
+  xy: 556, 362
+  size: 77, 109
+  orig: 88, 120
+  offset: 8, 7
+  index: -1
+fire_Ranshao_TX_08
+  rotate: false
+  xy: 547, 50
+  size: 76, 110
+  orig: 88, 120
+  offset: 7, 7
+  index: -1
+fire_Ranshao_TX_09
+  rotate: true
+  xy: 641, 282
+  size: 79, 95
+  orig: 88, 120
+  offset: 6, 7
+  index: -1

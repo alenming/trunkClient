@@ -1,0 +1,40 @@
+{
+"skeleton": { "hash": "uSArOdWClBRXGLwzrjaKyiAPYo8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40400_Buff2" },
+	{ "name": "40400_Eff_Buff2", "parent": "40400_Buff2", "length": 101.05, "rotation": 90 },
+	{ "name": "40400_Eff_Buff2_04", "parent": "40400_Eff_Buff2", "length": 127.77, "x": 1.12, "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "40400_Eff_FaZhenV", "bone": "40400_Eff_Buff2_04", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"40400_Eff_FaZhenV": {
+			"40400_Eff_FaZhenV": { "x": 2.78, "y": 0.01, "rotation": -90, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"40400_Buff2": {
+		"slots": {
+			"40400_Eff_FaZhenV": {
+				"attachment": [
+					{ "time": 0, "name": "40400_Eff_FaZhenV" }
+				]
+			}
+		},
+		"bones": {
+			"40400_Eff_Buff2_04": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": -90 },
+					{ "time": 0.5333, "angle": -180 },
+					{ "time": 0.8333, "angle": 90 },
+					{ "time": 1.1, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

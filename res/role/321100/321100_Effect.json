@@ -1,0 +1,217 @@
+{
+"skeleton": { "hash": "wAfITOJz7WkfJ7QCfgDu8BNagK8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "321100_Eff_Attack", "parent": "root", "length": 175.6, "rotation": 90 },
+	{ "name": "321100_Eff_Attack_Bullet", "parent": "root", "length": 175.6, "rotation": 90 },
+	{ "name": "321100_Eff_Change", "parent": "root", "length": 175.6, "rotation": 90 },
+	{ "name": "321100_Eff_Death", "parent": "root", "length": 175.6, "rotation": 90 },
+	{ "name": "321100_Eff_Stand2", "parent": "root", "length": 175.6, "rotation": 90 },
+	{ "name": "321100_Eff_Attack_Bullet_bule", "parent": "321100_Eff_Attack_Bullet", "length": 175.6 },
+	{ "name": "321100_Eff_Attack_spark", "parent": "321100_Eff_Attack", "length": 175.6 },
+	{ "name": "321100_Eff_Change_GlowPoint", "parent": "321100_Eff_Change", "length": 175.6 },
+	{ "name": "321100_Eff_Death_Fire", "parent": "321100_Eff_Death", "length": 175.6 },
+	{ "name": "321100_Eff_Stand2_GlowPoint", "parent": "321100_Eff_Stand2", "length": 175.6 }
+],
+"slots": [
+	{ "name": "321100_Eff_Greenpoint", "bone": "321100_Eff_Stand2_GlowPoint", "blend": "additive" },
+	{ "name": "321100_Eff_spark_01", "bone": "321100_Eff_Attack_spark" },
+	{ "name": "321100_Eff_FireFire_01", "bone": "321100_Eff_Death_Fire" },
+	{ "name": "321100_Eff_BuleGlow_01", "bone": "321100_Eff_Change_GlowPoint" },
+	{ "name": "321100_Eff_BuleGlow_02", "bone": "321100_Eff_Change_GlowPoint", "blend": "additive" },
+	{ "name": "321100_Eff_Attack_Bullet_bule", "bone": "321100_Eff_Attack_Bullet_bule", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"321100_Eff_Attack_Bullet_bule": {
+			"321100_Eff_Greenpoint": { "scaleX": 4, "scaleY": 4, "rotation": -90, "width": 64, "height": 64 }
+		},
+		"321100_Eff_BuleGlow_01": {
+			"321100_Eff_BuleGlow_": { "rotation": -90, "width": 256, "height": 256 }
+		},
+		"321100_Eff_BuleGlow_02": {
+			"321100_Eff_BuleGlow_": { "rotation": -90, "width": 256, "height": 256 }
+		},
+		"321100_Eff_FireFire_01": {
+			"321100_Eff_FireFire_01": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_02": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_03": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_04": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_05": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_06": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_07": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_08": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_09": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_10": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_11": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_12": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_13": { "rotation": -90, "width": 189, "height": 189 },
+			"321100_Eff_FireFire_14": { "rotation": -90, "width": 189, "height": 189 }
+		},
+		"321100_Eff_Greenpoint": {
+			"321100_Eff_Greenpoint": { "rotation": -90, "width": 64, "height": 64 }
+		},
+		"321100_Eff_spark_01": {
+			"321100_Eff_spark_01": { "x": 60, "rotation": -90, "width": 128, "height": 189 },
+			"321100_Eff_spark_02": { "x": 60, "rotation": -90, "width": 128, "height": 189 },
+			"321100_Eff_spark_03": { "x": 60, "rotation": -90, "width": 128, "height": 189 },
+			"321100_Eff_spark_04": { "x": 60, "rotation": -90, "width": 128, "height": 189 },
+			"321100_Eff_spark_05": { "x": 60, "rotation": -90, "width": 128, "height": 189 },
+			"321100_Eff_spark_06": { "x": 60, "rotation": -90, "width": 128, "height": 189 },
+			"321100_Eff_spark_07": { "x": 60, "rotation": -90, "width": 128, "height": 189 },
+			"321100_Eff_spark_08": { "x": 60, "rotation": -90, "width": 128, "height": 189 }
+		}
+	}
+},
+"animations": {
+	"Attack2_Effect1": {
+		"slots": {
+			"321100_Eff_spark_01": {
+				"attachment": [
+					{ "time": 0.3666, "name": "321100_Eff_spark_01" },
+					{ "time": 0.4333, "name": "321100_Eff_spark_02" },
+					{ "time": 0.5, "name": "321100_Eff_spark_03" },
+					{ "time": 0.5666, "name": "321100_Eff_spark_04" },
+					{ "time": 0.6333, "name": "321100_Eff_spark_05" },
+					{ "time": 0.7, "name": "321100_Eff_spark_06" },
+					{ "time": 0.7666, "name": "321100_Eff_spark_07" },
+					{ "time": 0.8333, "name": "321100_Eff_spark_08" },
+					{ "time": 0.9, "name": null },
+					{ "time": 2.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"321100_Eff_Attack_spark": {
+				"rotate": [
+					{ "time": 0, "angle": -90 }
+				],
+				"translate": [
+					{ "time": 0, "x": 195.57, "y": -98.45 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 4, "y": 4 },
+					{ "time": 0.4, "x": 1.5, "y": 1.5 },
+					{ "time": 0.5, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"321100_Eff_Attack_Bullet_bule": {
+				"translate": [
+					{
+						"time": 0.3666,
+						"x": 194.39,
+						"y": -159.72,
+						"curve": [ 0, 0.09, 0.621, 0.99 ]
+					},
+					{ "time": 1, "x": 194.39, "y": -1155.46 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 1, "y": 0.2 },
+					{ "time": 0.6666, "x": 1.5, "y": 2 }
+				]
+			}
+		}
+	},
+	"Change1_Effect1": {
+		"slots": {
+			"321100_Eff_BuleGlow_01": {
+				"attachment": [
+					{ "time": 0.8333, "name": "321100_Eff_BuleGlow_" }
+				],
+				"color": [
+					{ "time": 1, "color": "ffffffff" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				]
+			},
+			"321100_Eff_BuleGlow_02": {
+				"attachment": [
+					{ "time": 0.8333, "name": "321100_Eff_BuleGlow_" },
+					{ "time": 2.3333, "name": null }
+				],
+				"color": [
+					{ "time": 1, "color": "ffffff80" },
+					{ "time": 1.1666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"321100_Eff_Change_GlowPoint": {
+				"translate": [
+					{ "time": 0.8333, "x": 135.73, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.8333, "x": 0.7, "y": 0.7 },
+					{ "time": 1, "x": 1.5, "y": 1.5 },
+					{ "time": 1.1666, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"Death2_Effect1": {
+		"slots": {
+			"321100_Eff_FireFire_01": {
+				"attachment": [
+					{ "time": 0.4, "name": "321100_Eff_FireFire_01" },
+					{ "time": 0.4666, "name": "321100_Eff_FireFire_02" },
+					{ "time": 0.5333, "name": "321100_Eff_FireFire_03" },
+					{ "time": 0.6, "name": "321100_Eff_FireFire_04" },
+					{ "time": 0.6666, "name": "321100_Eff_FireFire_05" },
+					{ "time": 0.7333, "name": "321100_Eff_FireFire_06" },
+					{ "time": 0.8, "name": "321100_Eff_FireFire_07" },
+					{ "time": 0.8666, "name": "321100_Eff_FireFire_08" },
+					{ "time": 0.9333, "name": "321100_Eff_FireFire_09" },
+					{ "time": 1, "name": "321100_Eff_FireFire_10" },
+					{ "time": 1.0666, "name": "321100_Eff_FireFire_11" },
+					{ "time": 1.1333, "name": "321100_Eff_FireFire_12" },
+					{ "time": 1.2, "name": "321100_Eff_FireFire_13" },
+					{ "time": 1.2666, "name": "321100_Eff_FireFire_14" },
+					{ "time": 1.3333, "name": null },
+					{ "time": 1.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"321100_Eff_Death_Fire": {
+				"translate": [
+					{ "time": 0.4, "x": 118.46, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 3, "y": 3 }
+				]
+			}
+		}
+	},
+	"Stand2_Effect1": {
+		"slots": {
+			"321100_Eff_Greenpoint": {
+				"attachment": [
+					{ "time": 0, "name": "321100_Eff_Greenpoint" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffff40",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 1.1666,
+						"color": "ffffffc7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2.3333, "color": "ffffff40" }
+				]
+			}
+		},
+		"bones": {
+			"321100_Eff_Stand2_GlowPoint": {
+				"translate": [
+					{ "time": 0, "x": 156.42, "y": -24.12 }
+				],
+				"scale": [
+					{ "time": 0, "x": 10, "y": 10 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,111 @@
+
+Born_flag.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Born_flag_Eff_Smoke_01
+  rotate: false
+  xy: 523, 104
+  size: 85, 61
+  orig: 150, 95
+  offset: 38, 3
+  index: -1
+Born_flag_Eff_Smoke_02
+  rotate: false
+  xy: 292, 85
+  size: 107, 74
+  orig: 150, 95
+  offset: 22, 2
+  index: -1
+Born_flag_Eff_Smoke_03
+  rotate: false
+  xy: 302, 4
+  size: 120, 80
+  orig: 150, 95
+  offset: 13, 2
+  index: -1
+Born_flag_Eff_Smoke_04
+  rotate: true
+  xy: 869, 125
+  size: 129, 90
+  orig: 150, 95
+  offset: 9, 2
+  index: -1
+Born_flag_Eff_Smoke_05
+  rotate: false
+  xy: 867, 27
+  size: 132, 92
+  orig: 150, 95
+  offset: 9, 3
+  index: -1
+Born_flag_Eff_Smoke_06
+  rotate: true
+  xy: 776, 120
+  size: 134, 92
+  orig: 150, 95
+  offset: 8, 3
+  index: -1
+Born_flag_Eff_Smoke_07
+  rotate: false
+  xy: 725, 15
+  size: 141, 91
+  orig: 150, 95
+  offset: 5, 4
+  index: -1
+Born_flag_Eff_Smoke_08
+  rotate: true
+  xy: 684, 107
+  size: 147, 91
+  orig: 150, 95
+  offset: 2, 4
+  index: -1
+Born_flag_Eff_Smoke_09
+  rotate: false
+  xy: 574, 12
+  size: 150, 91
+  orig: 150, 95
+  offset: 0, 4
+  index: -1
+Born_flag_Eff_Smoke_10
+  rotate: false
+  xy: 423, 1
+  size: 150, 94
+  orig: 150, 95
+  offset: 0, 1
+  index: -1
+Born_flag_GlowUp
+  rotate: true
+  xy: 1, 35
+  size: 47, 300
+  orig: 47, 300
+  offset: 0, 0
+  index: -1
+zhanqi01_bu_blue
+  rotate: true
+  xy: 489, 166
+  size: 88, 194
+  orig: 88, 194
+  offset: 0, 0
+  index: -1
+zhanqi01_bu_red
+  rotate: true
+  xy: 292, 160
+  size: 94, 196
+  orig: 94, 196
+  offset: 0, 0
+  index: -1
+zhanqi01_wood
+  rotate: true
+  xy: 1, 83
+  size: 171, 290
+  orig: 171, 290
+  offset: 0, 0
+  index: -1
+zhanqi01_y
+  rotate: false
+  xy: 400, 96
+  size: 122, 63
+  orig: 122, 63
+  offset: 0, 0
+  index: -1

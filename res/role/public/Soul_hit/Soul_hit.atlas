@@ -1,0 +1,55 @@
+
+Soul_hit.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10012_Attack1_Hit_Loop_00001
+  rotate: true
+  xy: 73, 170
+  size: 65, 79
+  orig: 71, 90
+  offset: 4, 5
+  index: -1
+10012_Attack1_Hit_Loop_00002
+  rotate: false
+  xy: 1, 79
+  size: 65, 80
+  orig: 71, 90
+  offset: 4, 5
+  index: -1
+10012_Attack1_Hit_Loop_00003
+  rotate: true
+  xy: 153, 164
+  size: 71, 73
+  orig: 71, 90
+  offset: 0, 10
+  index: -1
+10012_Attack1_Hit_Loop_00004
+  rotate: false
+  xy: 73, 98
+  size: 71, 71
+  orig: 71, 90
+  offset: 0, 11
+  index: -1
+10012_Attack1_Hit_Loop_00005
+  rotate: false
+  xy: 1, 160
+  size: 71, 75
+  orig: 71, 90
+  offset: 0, 12
+  index: -1
+10012_Attack1_Hit_Loop_00006
+  rotate: false
+  xy: 1, 1
+  size: 67, 77
+  orig: 71, 90
+  offset: 4, 12
+  index: -1
+10012_Attack1_Hit_Loop_00007
+  rotate: false
+  xy: 145, 97
+  size: 66, 66
+  orig: 71, 90
+  offset: 5, 13
+  index: -1

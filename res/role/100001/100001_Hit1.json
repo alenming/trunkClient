@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "MArwN2x/CVkgULkkeGBXFjjCUP4", "spine": "2.1.27", "width": 295, "height": 330, "images": "./images/" },
+"bones": [
+	{ "name": "100001_Hit1", "scaleX": 2.5, "scaleY": 2.5, "rotation": 270 }
+],
+"slots": [
+	{ "name": "100001_2_Hitbuff_0001", "bone": "100001_Hit1", "attachment": "100001_2_Hitbuff_0001" }
+],
+"skins": {
+	"default": {
+		"100001_2_Hitbuff_0001": {
+			"100001_2_Hitbuff_0001": { "x": 14.4, "width": 132, "height": 118 },
+			"100001_2_Hitbuff_0002": { "width": 132, "height": 118 },
+			"100001_2_Hitbuff_0003": { "width": 132, "height": 118 },
+			"100001_2_Hitbuff_0004": { "width": 132, "height": 118 },
+			"100001_2_Hitbuff_0005": { "width": 132, "height": 118 },
+			"100001_2_Hitbuff_0006": { "width": 132, "height": 118 },
+			"100001_2_Hitbuff_0007": { "width": 132, "height": 118 },
+			"100001_2_Hitbuff_0008": { "width": 132, "height": 118 }
+		}
+	}
+},
+"animations": {
+	"100001_Hit1": {
+		"slots": {
+			"100001_2_Hitbuff_0001": {
+				"attachment": [
+					{ "time": 0, "name": "100001_2_Hitbuff_0001" },
+					{ "time": 0.0666, "name": "100001_2_Hitbuff_0002" },
+					{ "time": 0.1333, "name": "100001_2_Hitbuff_0003" },
+					{ "time": 0.2, "name": "100001_2_Hitbuff_0004" },
+					{ "time": 0.2666, "name": "100001_2_Hitbuff_0005" },
+					{ "time": 0.3333, "name": "100001_2_Hitbuff_0006" },
+					{ "time": 0.4, "name": "100001_2_Hitbuff_0007" },
+					{ "time": 0.4666, "name": "100001_2_Hitbuff_0008" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

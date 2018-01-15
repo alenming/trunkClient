@@ -1,0 +1,308 @@
+{
+"skeleton": { "hash": "HZi8zuHpw816QHN5BQLgybXuUb8", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "point", "parent": "root", "length": 20, "x": -0.35, "y": -30.88 },
+	{ "name": "blood", "parent": "point", "length": 50, "x": -4.94, "y": 200.06 },
+	{ "name": "weapon_effect", "parent": "blood", "length": 25, "x": 6.61, "y": -7.66 }
+],
+"slots": [
+	{ "name": "10109_blood_0", "bone": "blood" },
+	{ "name": "10109_weaponhitbuff1", "bone": "weapon_effect", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10109_blood_0": {
+			"images/20003_blood_00": { "width": 91, "height": 78 },
+			"images/20003_blood_01": { "width": 109, "height": 96 },
+			"images/20003_blood_02": { "width": 116, "height": 103 },
+			"images/20003_blood_03": { "width": 116, "height": 104 },
+			"images/20003_blood_04": { "width": 107, "height": 103 },
+			"images/20003_blood_05": { "width": 88, "height": 89 }
+		},
+		"10109_weaponhitbuff1": {
+			"images/20000_weaponhitbuff1": { "width": 67, "height": 68 },
+			"images/20000_weaponhitbuff2": { "width": 67, "height": 68 }
+		}
+	}
+},
+"animations": {
+	"Attack1_HitBuff": {
+		"slots": {
+			"10109_blood_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/20003_blood_00" },
+					{ "time": 0.0333, "name": "images/20003_blood_01" },
+					{ "time": 0.1, "name": "images/20003_blood_02" },
+					{ "time": 0.1666, "name": "images/20003_blood_03" },
+					{ "time": 0.2333, "name": "images/20003_blood_04" },
+					{ "time": 0.3, "name": "images/20003_blood_05" },
+					{ "time": 0.3666, "name": null }
+				]
+			},
+			"10109_weaponhitbuff1": {
+				"attachment": [
+					{ "time": 0, "name": "images/20000_weaponhitbuff1" },
+					{ "time": 0.0666, "name": "images/20000_weaponhitbuff2" },
+					{ "time": 0.1333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1 }
+				]
+			},
+			"point": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1 }
+				]
+			},
+			"blood": {
+				"rotate": [
+					{ "time": 0, "angle": -49.79, "curve": "stepped" },
+					{ "time": 0.3666, "angle": -49.79 }
+				],
+				"translate": [
+					{ "time": 0, "x": 9.99, "y": -58.88, "curve": "stepped" },
+					{ "time": 0.3666, "x": 9.99, "y": -58.88 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 0.3666, "x": 2, "y": 2 }
+				]
+			},
+			"weapon_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 10.2, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 10.2 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.14, "y": 4.14, "curve": "stepped" },
+					{ "time": 0.3666, "x": 2.14, "y": 4.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 2, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 2 }
+				]
+			}
+		}
+	},
+	"Attack2_HitBuff": {
+		"slots": {
+			"10109_blood_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/20003_blood_00" },
+					{ "time": 0.0666, "name": "images/20003_blood_01" },
+					{ "time": 0.1333, "name": "images/20003_blood_02" },
+					{ "time": 0.2, "name": "images/20003_blood_03" },
+					{ "time": 0.2666, "name": "images/20003_blood_04" },
+					{ "time": 0.3333, "name": "images/20003_blood_05" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"10109_weaponhitbuff1": {
+				"attachment": [
+					{ "time": 0, "name": "images/20000_weaponhitbuff1" },
+					{ "time": 0.0666, "name": "images/20000_weaponhitbuff2" },
+					{ "time": 0.1333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"point": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1 }
+				]
+			},
+			"blood": {
+				"rotate": [
+					{ "time": 0, "angle": 326.4 },
+					{ "time": 0.2666, "angle": -33.6 }
+				],
+				"translate": [
+					{ "time": 0, "x": 12.74, "y": -38.38, "curve": "stepped" },
+					{ "time": 0.3333, "x": 12.74, "y": -38.38 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2, "curve": "stepped" },
+					{ "time": 0.2666, "x": 2, "y": 2 }
+				]
+			},
+			"weapon_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 33.87, "curve": "stepped" },
+					{ "time": 0.1333, "angle": 33.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": -10.63, "y": 0.87, "curve": "stepped" },
+					{ "time": 0.1333, "x": -10.63, "y": 0.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 2 }
+				],
+				"flipX": [
+					{ "time": 0 }
+				],
+				"flipY": [
+					{ "time": 0, "y": true }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.0333 },
+			{ "time": 0.0666 },
+			{ "time": 0.1666 },
+			{ "time": 0.2 },
+			{ "time": 0.2333 }
+		]
+	},
+	"Attack3_HitBuff": {
+		"slots": {
+			"10109_blood_0": {
+				"attachment": [
+					{ "time": 0, "name": "images/20003_blood_00" },
+					{ "time": 0.0666, "name": "images/20003_blood_01" },
+					{ "time": 0.1333, "name": "images/20003_blood_02" },
+					{ "time": 0.2, "name": "images/20003_blood_03" },
+					{ "time": 0.2666, "name": "images/20003_blood_04" },
+					{ "time": 0.3333, "name": "images/20003_blood_05" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"10109_weaponhitbuff1": {
+				"attachment": [
+					{ "time": 0, "name": "images/20000_weaponhitbuff1" },
+					{ "time": 0.0666, "name": "images/20000_weaponhitbuff2" },
+					{ "time": 0.1333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1 }
+				]
+			},
+			"point": {
+				"rotate": [
+					{ "time": 0.0333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1 }
+				]
+			},
+			"blood": {
+				"rotate": [
+					{ "time": 0, "angle": -43.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 23.06, "y": -62.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"weapon_effect": {
+				"rotate": [
+					{ "time": 0, "angle": 20.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": -12.71, "y": 11.03 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 2 }
+				],
+				"flipY": [
+					{ "time": 0 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0333 },
+			{ "time": 0.2 },
+			{ "time": 0.2333 },
+			{ "time": 0.2666 }
+		]
+	}
+}
+}

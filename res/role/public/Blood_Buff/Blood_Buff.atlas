@@ -1,0 +1,146 @@
+
+Blood_Buff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Blood_Buff_dmxj01
+  rotate: false
+  xy: 189, 375
+  size: 186, 48
+  orig: 187, 49
+  offset: 0, 1
+  index: -1
+images/Blood_Buff_dmxj02
+  rotate: false
+  xy: 189, 424
+  size: 187, 48
+  orig: 187, 49
+  offset: 0, 1
+  index: -1
+images/Blood_Buff_dmxj03
+  rotate: false
+  xy: 1, 274
+  size: 185, 49
+  orig: 187, 49
+  offset: 2, 0
+  index: -1
+images/Blood_Buff_dmxj04
+  rotate: false
+  xy: 189, 325
+  size: 185, 49
+  orig: 187, 49
+  offset: 2, 0
+  index: -1
+images/Blood_Buff_dmxj05
+  rotate: false
+  xy: 1, 423
+  size: 187, 49
+  orig: 187, 49
+  offset: 0, 0
+  index: -1
+images/Blood_Buff_dmxj06
+  rotate: false
+  xy: 1, 125
+  size: 185, 48
+  orig: 187, 49
+  offset: 0, 1
+  index: -1
+images/Blood_Buff_dmxj07
+  rotate: false
+  xy: 1, 324
+  size: 187, 48
+  orig: 187, 49
+  offset: 0, 1
+  index: -1
+images/Blood_Buff_dmxj08
+  rotate: false
+  xy: 1, 224
+  size: 185, 49
+  orig: 187, 49
+  offset: 2, 0
+  index: -1
+images/Blood_Buff_dmxj09
+  rotate: false
+  xy: 1, 174
+  size: 185, 49
+  orig: 187, 49
+  offset: 2, 0
+  index: -1
+images/Blood_Buff_dmxj10
+  rotate: false
+  xy: 1, 373
+  size: 187, 49
+  orig: 187, 49
+  offset: 0, 0
+  index: -1
+images/Blood_Buff_lx01
+  rotate: true
+  xy: 377, 393
+  size: 79, 129
+  orig: 110, 131
+  offset: 10, 0
+  index: -1
+images/Blood_Buff_lx02
+  rotate: false
+  xy: 99, 1
+  size: 88, 123
+  orig: 110, 131
+  offset: 18, 0
+  index: -1
+images/Blood_Buff_lx03
+  rotate: false
+  xy: 1, 8
+  size: 97, 116
+  orig: 110, 131
+  offset: 10, 4
+  index: -1
+images/Blood_Buff_lx04
+  rotate: true
+  xy: 277, 154
+  size: 58, 95
+  orig: 110, 131
+  offset: 7, 17
+  index: -1
+images/Blood_Buff_lx05
+  rotate: true
+  xy: 187, 130
+  size: 66, 89
+  orig: 110, 131
+  offset: 22, 13
+  index: -1
+images/Blood_Buff_lx06
+  rotate: false
+  xy: 188, 5
+  size: 72, 124
+  orig: 110, 131
+  offset: 19, 7
+  index: -1
+images/Blood_Buff_lx07
+  rotate: true
+  xy: 376, 308
+  size: 84, 129
+  orig: 110, 131
+  offset: 4, 0
+  index: -1
+images/Blood_Buff_lx08
+  rotate: false
+  xy: 187, 197
+  size: 86, 126
+  orig: 110, 131
+  offset: 3, 0
+  index: -1
+images/Blood_Buff_lx09
+  rotate: false
+  xy: 274, 213
+  size: 100, 111
+  orig: 110, 131
+  offset: 7, 7
+  index: -1
+images/Blood_Buff_lx10
+  rotate: true
+  xy: 375, 208
+  size: 99, 103
+  orig: 110, 131
+  offset: 11, 0
+  index: -1

@@ -1,0 +1,1165 @@
+{
+"skeleton": { "hash": "kFcX9bB4CcBUSoh13ANUTcadjd0", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "10504_Talent5_Buff1_hong", "parent": "root" },
+	{ "name": "10504_Talent5_Buff1_hong2", "parent": "root" },
+	{ "name": "10504_Talent5_Buff2_hong", "parent": "root" },
+	{ "name": "10504_Talent5_Buff2_hong2", "parent": "root" },
+	{ "name": "10504_Talent5_Buff2_lzi_hong", "parent": "root" },
+	{ "name": "10504_Talent5_Buff3_quxian_hong", "parent": "root" },
+	{ "name": "10704_Talent5_Buff1_lan", "parent": "root" },
+	{ "name": "10704_Talent5_Buff1_lan2", "parent": "root" },
+	{ "name": "10704_Talent5_Buff2_lan", "parent": "root" },
+	{ "name": "10704_Talent5_Buff2_lan2", "parent": "root" },
+	{ "name": "10704_Talent5_Buff2_lizi_lan", "parent": "root" },
+	{ "name": "10704_Talent5_Buff2_quxian_lan", "parent": "root" },
+	{ "name": "11004_Talent5_Buff1_tao", "parent": "root" },
+	{ "name": "11004_Talent5_Buff1_tao2", "parent": "root" },
+	{ "name": "11004_Talent5_Buff2_lizi_tao", "parent": "root" },
+	{ "name": "11004_Talent5_Buff2_quxian_tao", "parent": "root" },
+	{ "name": "11004_Talent5_Buff2_tao", "parent": "root" },
+	{ "name": "11004_Talent5_Buff2_tao2", "parent": "root" },
+	{ "name": "30804_Talent5_Buff1_zi", "parent": "root" },
+	{ "name": "30804_Talent5_Buff1_zi2", "parent": "root" },
+	{ "name": "30804_Talent5_Buff2_lizi_zi", "parent": "root" },
+	{ "name": "30804_Talent5_Buff2_quxian_zi", "parent": "root" },
+	{ "name": "30804_Talent5_Buff2_zi", "parent": "root" },
+	{ "name": "30804_Talent5_Buff2_zi2", "parent": "root" },
+	{ "name": "bone2", "parent": "10704_Talent5_Buff2_lan2" }
+],
+"slots": [
+	{ "name": "10504_Talent5_Buff2", "bone": "10504_Talent5_Buff2_hong", "blend": "additive" },
+	{ "name": "10504_Talent5_Buff5", "bone": "10504_Talent5_Buff2_hong2", "blend": "additive" },
+	{ "name": "10704_Talent5_Buff2", "bone": "10704_Talent5_Buff2_lan", "blend": "additive" },
+	{ "name": "10704_Talent5_Buff5", "bone": "10704_Talent5_Buff2_lan2", "blend": "additive" },
+	{ "name": "11004_Talent5_Buff2", "bone": "11004_Talent5_Buff2_tao", "blend": "additive" },
+	{ "name": "11004_Talent5_Buff5", "bone": "11004_Talent5_Buff2_tao2", "blend": "additive" },
+	{ "name": "30804_Talent5_Buff2", "bone": "30804_Talent5_Buff2_zi", "blend": "additive" },
+	{ "name": "30804_Talent5_Buff5", "bone": "30804_Talent5_Buff2_zi2", "blend": "additive" },
+	{ "name": "10504_Talent5_Buff1", "bone": "10504_Talent5_Buff1_hong", "blend": "additive" },
+	{ "name": "10504_Talent5_Buff6", "bone": "10504_Talent5_Buff1_hong2", "blend": "additive" },
+	{ "name": "10704_Talent5_Buff1", "bone": "10704_Talent5_Buff1_lan", "blend": "additive" },
+	{ "name": "10704_Talent5_Buff4", "bone": "10704_Talent5_Buff1_lan2", "blend": "additive" },
+	{ "name": "11004_Talent5_Buff1", "bone": "11004_Talent5_Buff1_tao", "blend": "additive" },
+	{ "name": "11004_Talent5_Buff4", "bone": "11004_Talent5_Buff1_tao2", "blend": "additive" },
+	{ "name": "30804_Talent5_Buff1", "bone": "30804_Talent5_Buff1_zi", "blend": "additive" },
+	{ "name": "30804_Talent5_Buff4", "bone": "30804_Talent5_Buff1_zi2", "blend": "additive" },
+	{ "name": "10704_Talent5_Buff2_lizi_lan", "bone": "10704_Talent5_Buff2_lizi_lan", "blend": "additive" },
+	{ "name": "11004_Talent5_Buff2_lizi_tao", "bone": "11004_Talent5_Buff2_lizi_tao", "blend": "additive" },
+	{ "name": "30804_Talent5_Buff2_lizi_zi", "bone": "30804_Talent5_Buff2_lizi_zi", "blend": "additive" },
+	{ "name": "10504_Talent5_Buff2_lzi_hong", "bone": "10504_Talent5_Buff2_lzi_hong", "blend": "additive" },
+	{ "name": "10504_Talent5_Buff3_quxian_hong", "bone": "10504_Talent5_Buff3_quxian_hong" },
+	{ "name": "10704_Talent5_Buff2_quxian_lan", "bone": "10704_Talent5_Buff2_quxian_lan" },
+	{ "name": "11004_Talent5_Buff2_quxian_tao", "bone": "11004_Talent5_Buff2_quxian_tao" },
+	{ "name": "30804_Talent5_Buff2_quxian_zi", "bone": "30804_Talent5_Buff2_quxian_zi" }
+],
+"skins": {
+	"default": {
+		"10504_Talent5_Buff1": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"10504_Talent5_Buff2": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		},
+		"10504_Talent5_Buff2_lzi_hong": {
+			"leaderbuff_003_01": { "width": 101, "height": 151 },
+			"leaderbuff_003_02": { "width": 101, "height": 151 },
+			"leaderbuff_003_03": { "width": 101, "height": 151 },
+			"leaderbuff_003_04": { "width": 101, "height": 151 },
+			"leaderbuff_003_05": { "width": 101, "height": 151 },
+			"leaderbuff_003_06": { "width": 101, "height": 151 },
+			"leaderbuff_003_07": { "width": 101, "height": 151 }
+		},
+		"10504_Talent5_Buff3_quxian_hong": {
+			"leaderbuff_004_01": { "width": 94, "height": 110 },
+			"leaderbuff_004_02": { "width": 94, "height": 110 },
+			"leaderbuff_004_03": { "width": 94, "height": 110 },
+			"leaderbuff_004_04": { "width": 94, "height": 110 },
+			"leaderbuff_004_05": { "width": 94, "height": 110 },
+			"leaderbuff_004_06": { "width": 94, "height": 110 },
+			"leaderbuff_004_07": { "width": 94, "height": 110 }
+		},
+		"10504_Talent5_Buff5": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		},
+		"10504_Talent5_Buff6": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"10704_Talent5_Buff1": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"10704_Talent5_Buff2": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		},
+		"10704_Talent5_Buff2_lizi_lan": {
+			"leaderbuff_003_01": { "width": 101, "height": 151 },
+			"leaderbuff_003_02": { "width": 101, "height": 151 },
+			"leaderbuff_003_03": { "width": 101, "height": 151 },
+			"leaderbuff_003_04": { "width": 101, "height": 151 },
+			"leaderbuff_003_05": { "width": 101, "height": 151 },
+			"leaderbuff_003_06": { "width": 101, "height": 151 },
+			"leaderbuff_003_07": { "width": 101, "height": 151 }
+		},
+		"10704_Talent5_Buff2_quxian_lan": {
+			"leaderbuff_004_01": { "width": 94, "height": 110 },
+			"leaderbuff_004_02": { "width": 94, "height": 110 },
+			"leaderbuff_004_03": { "width": 94, "height": 110 },
+			"leaderbuff_004_04": { "width": 94, "height": 110 },
+			"leaderbuff_004_05": { "width": 94, "height": 110 },
+			"leaderbuff_004_06": { "width": 94, "height": 110 },
+			"leaderbuff_004_07": { "width": 94, "height": 110 }
+		},
+		"10704_Talent5_Buff4": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"10704_Talent5_Buff5": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		},
+		"11004_Talent5_Buff1": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"11004_Talent5_Buff2": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		},
+		"11004_Talent5_Buff2_lizi_tao": {
+			"leaderbuff_003_01": { "width": 101, "height": 151 },
+			"leaderbuff_003_02": { "width": 101, "height": 151 },
+			"leaderbuff_003_03": { "width": 101, "height": 151 },
+			"leaderbuff_003_04": { "width": 101, "height": 151 },
+			"leaderbuff_003_05": { "width": 101, "height": 151 },
+			"leaderbuff_003_06": { "width": 101, "height": 151 },
+			"leaderbuff_003_07": { "width": 101, "height": 151 }
+		},
+		"11004_Talent5_Buff2_quxian_tao": {
+			"leaderbuff_004_01": { "width": 94, "height": 110 },
+			"leaderbuff_004_02": { "width": 94, "height": 110 },
+			"leaderbuff_004_03": { "width": 94, "height": 110 },
+			"leaderbuff_004_04": { "width": 94, "height": 110 },
+			"leaderbuff_004_05": { "width": 94, "height": 110 },
+			"leaderbuff_004_06": { "width": 94, "height": 110 },
+			"leaderbuff_004_07": { "width": 94, "height": 110 }
+		},
+		"11004_Talent5_Buff4": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"11004_Talent5_Buff5": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		},
+		"30804_Talent5_Buff1": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"30804_Talent5_Buff2": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		},
+		"30804_Talent5_Buff2_lizi_zi": {
+			"leaderbuff_003_01": { "width": 101, "height": 151 },
+			"leaderbuff_003_02": { "width": 101, "height": 151 },
+			"leaderbuff_003_03": { "width": 101, "height": 151 },
+			"leaderbuff_003_04": { "width": 101, "height": 151 },
+			"leaderbuff_003_05": { "width": 101, "height": 151 },
+			"leaderbuff_003_06": { "width": 101, "height": 151 },
+			"leaderbuff_003_07": { "width": 101, "height": 151 }
+		},
+		"30804_Talent5_Buff2_quxian_zi": {
+			"leaderbuff_004_01": { "width": 94, "height": 110 },
+			"leaderbuff_004_02": { "width": 94, "height": 110 },
+			"leaderbuff_004_03": { "width": 94, "height": 110 },
+			"leaderbuff_004_04": { "width": 94, "height": 110 },
+			"leaderbuff_004_05": { "width": 94, "height": 110 },
+			"leaderbuff_004_06": { "width": 94, "height": 110 },
+			"leaderbuff_004_07": { "width": 94, "height": 110 }
+		},
+		"30804_Talent5_Buff4": {
+			"leaderbuff_001_01": { "width": 150, "height": 300 },
+			"leaderbuff_001_02": { "width": 150, "height": 300 },
+			"leaderbuff_001_03": { "width": 150, "height": 300 },
+			"leaderbuff_001_04": { "width": 150, "height": 300 },
+			"leaderbuff_001_05": { "width": 150, "height": 300 },
+			"leaderbuff_001_06": { "width": 150, "height": 300 },
+			"leaderbuff_001_07": { "width": 150, "height": 300 }
+		},
+		"30804_Talent5_Buff5": {
+			"leaderbuff_002_01": { "width": 140, "height": 173 },
+			"leaderbuff_002_02": { "width": 140, "height": 173 },
+			"leaderbuff_002_03": { "width": 140, "height": 173 },
+			"leaderbuff_002_04": { "width": 140, "height": 173 },
+			"leaderbuff_002_05": { "width": 140, "height": 173 },
+			"leaderbuff_002_06": { "width": 140, "height": 173 },
+			"leaderbuff_002_07": { "width": 140, "height": 173 }
+		}
+	}
+},
+"animations": {
+	"10504_Talent5_Buff1": {
+		"slots": {
+			"10504_Talent5_Buff1": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4333, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff" }
+				]
+			},
+			"10504_Talent5_Buff6": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff" }
+				]
+			}
+		},
+		"bones": {
+			"10504_Talent5_Buff1_hong": {
+				"scale": [
+					{ "time": 0, "x": 1.995, "y": 1.995 }
+				]
+			},
+			"10504_Talent5_Buff1_hong2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"10504_Talent5_Buff2": {
+		"slots": {
+			"10504_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff" }
+				]
+			},
+			"10504_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff" }
+				]
+			},
+			"10504_Talent5_Buff2_lzi_hong": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"10504_Talent5_Buff2_hong": {
+				"scale": [
+					{ "time": 0, "x": 1.995, "y": 1.995 }
+				]
+			},
+			"10504_Talent5_Buff2_hong2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10504_Talent5_Buff2_lzi_hong": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "10504_Talent5_Buff2_lzi_hong", "offset": 1 }
+				]
+			}
+		]
+	},
+	"10504_Talent5_Buff3": {
+		"slots": {
+			"10504_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff" }
+				]
+			},
+			"10504_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0000ff" }
+				]
+			},
+			"10504_Talent5_Buff2_lzi_hong": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			},
+			"10504_Talent5_Buff3_quxian_hong": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_004_01" },
+					{ "time": 0.0666, "name": "leaderbuff_004_02" },
+					{ "time": 0.1333, "name": "leaderbuff_004_03" },
+					{ "time": 0.2, "name": "leaderbuff_004_04" },
+					{ "time": 0.2666, "name": "leaderbuff_004_05" },
+					{ "time": 0.3333, "name": "leaderbuff_004_06" },
+					{ "time": 0.4, "name": "leaderbuff_004_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"10504_Talent5_Buff2_lzi_hong": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10504_Talent5_Buff2_hong": {
+				"scale": [
+					{ "time": 0, "x": 1.995, "y": 1.995 }
+				]
+			},
+			"10504_Talent5_Buff2_hong2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10504_Talent5_Buff3_quxian_hong": {
+				"translate": [
+					{ "time": 0, "x": -13.78, "y": -31.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "10504_Talent5_Buff2_lzi_hong", "offset": 1 }
+				]
+			}
+		]
+	},
+	"10704_Talent5_Buff1": {
+		"slots": {
+			"10704_Talent5_Buff1": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4333, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "1d42ffff" }
+				]
+			},
+			"10704_Talent5_Buff4": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "1d42ffff" }
+				]
+			}
+		},
+		"bones": {
+			"10704_Talent5_Buff1_lan": {
+				"scale": [
+					{ "time": 0, "x": 1.996, "y": 1.996 }
+				]
+			},
+			"10704_Talent5_Buff1_lan2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"10704_Talent5_Buff2": {
+		"slots": {
+			"10704_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "1d42ffff" }
+				]
+			},
+			"10704_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "1d42ffff" }
+				]
+			},
+			"10704_Talent5_Buff2_lizi_lan": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4333, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"10704_Talent5_Buff2_lan": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10704_Talent5_Buff2_lan2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10704_Talent5_Buff2_lizi_lan": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "10704_Talent5_Buff2_lizi_lan", "offset": 5 }
+				]
+			}
+		]
+	},
+	"10704_Talent5_Buff3": {
+		"slots": {
+			"10704_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "1d42ffff" }
+				]
+			},
+			"10704_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "1d42ffff" }
+				]
+			},
+			"10704_Talent5_Buff2_lizi_lan": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4333, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			},
+			"10704_Talent5_Buff2_quxian_lan": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_004_01" },
+					{ "time": 0.0666, "name": "leaderbuff_004_02" },
+					{ "time": 0.1333, "name": "leaderbuff_004_03" },
+					{ "time": 0.2, "name": "leaderbuff_004_04" },
+					{ "time": 0.2666, "name": "leaderbuff_004_05" },
+					{ "time": 0.3333, "name": "leaderbuff_004_06" },
+					{ "time": 0.4, "name": "leaderbuff_004_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"10704_Talent5_Buff2_lan": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10704_Talent5_Buff2_lizi_lan": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10704_Talent5_Buff2_lan2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"10704_Talent5_Buff2_quxian_lan": {
+				"translate": [
+					{ "time": 0, "x": -13.79, "y": -31.15 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "10704_Talent5_Buff2_lizi_lan", "offset": 5 }
+				]
+			}
+		]
+	},
+	"11004_Talent5_Buff1": {
+		"slots": {
+			"11004_Talent5_Buff1": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4333, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff00ffff" }
+				]
+			},
+			"11004_Talent5_Buff4": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff00ffff" }
+				]
+			}
+		},
+		"bones": {
+			"11004_Talent5_Buff1_tao": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"11004_Talent5_Buff1_tao2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"11004_Talent5_Buff2": {
+		"slots": {
+			"11004_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff00ffff" }
+				]
+			},
+			"11004_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff00ffff" }
+				]
+			},
+			"11004_Talent5_Buff2_lizi_tao": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4333, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"11004_Talent5_Buff2_tao": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"11004_Talent5_Buff2_tao2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"11004_Talent5_Buff2_lizi_tao": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "11004_Talent5_Buff2_lizi_tao", "offset": 5 }
+				]
+			}
+		]
+	},
+	"11004_Talent5_Buff3": {
+		"slots": {
+			"11004_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff00ffff" }
+				]
+			},
+			"11004_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ff00ffff" }
+				]
+			},
+			"11004_Talent5_Buff2_lizi_tao": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4333, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			},
+			"11004_Talent5_Buff2_quxian_tao": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_004_01" },
+					{ "time": 0.0666, "name": "leaderbuff_004_02" },
+					{ "time": 0.1333, "name": "leaderbuff_004_03" },
+					{ "time": 0.2, "name": "leaderbuff_004_04" },
+					{ "time": 0.2666, "name": "leaderbuff_004_05" },
+					{ "time": 0.3333, "name": "leaderbuff_004_06" },
+					{ "time": 0.4, "name": "leaderbuff_004_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"11004_Talent5_Buff2_tao2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"11004_Talent5_Buff2_tao": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"11004_Talent5_Buff2_lizi_tao": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"11004_Talent5_Buff2_quxian_tao": {
+				"translate": [
+					{ "time": 0, "x": -13.79, "y": -31.15 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "11004_Talent5_Buff2_lizi_tao", "offset": 5 }
+				]
+			}
+		]
+	},
+	"30804_Talent5_Buff1": {
+		"slots": {
+			"30804_Talent5_Buff1": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4333, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "7302ffff" }
+				]
+			},
+			"30804_Talent5_Buff4": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_001_01" },
+					{ "time": 0.0666, "name": "leaderbuff_001_02" },
+					{ "time": 0.1333, "name": "leaderbuff_001_03" },
+					{ "time": 0.2, "name": "leaderbuff_001_04" },
+					{ "time": 0.2666, "name": "leaderbuff_001_05" },
+					{ "time": 0.3333, "name": "leaderbuff_001_06" },
+					{ "time": 0.4, "name": "leaderbuff_001_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "7302ffff" }
+				]
+			}
+		},
+		"bones": {
+			"30804_Talent5_Buff1_zi": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30804_Talent5_Buff1_zi2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"30804_Talent5_Buff2": {
+		"slots": {
+			"30804_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "7302ffff" }
+				]
+			},
+			"30804_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "7302ffff" }
+				]
+			},
+			"30804_Talent5_Buff2_lizi_zi": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4333, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"30804_Talent5_Buff2_zi": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30804_Talent5_Buff2_zi2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30804_Talent5_Buff2_lizi_zi": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "30804_Talent5_Buff2_lizi_zi", "offset": 5 }
+				]
+			}
+		]
+	},
+	"30804_Talent5_Buff3": {
+		"slots": {
+			"30804_Talent5_Buff2": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4333, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "7302ffff" }
+				]
+			},
+			"30804_Talent5_Buff5": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_002_01" },
+					{ "time": 0.0666, "name": "leaderbuff_002_02" },
+					{ "time": 0.1333, "name": "leaderbuff_002_03" },
+					{ "time": 0.2, "name": "leaderbuff_002_04" },
+					{ "time": 0.2666, "name": "leaderbuff_002_05" },
+					{ "time": 0.3333, "name": "leaderbuff_002_06" },
+					{ "time": 0.4, "name": "leaderbuff_002_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "7302ffff" }
+				]
+			},
+			"30804_Talent5_Buff2_lizi_zi": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_003_01" },
+					{ "time": 0.0666, "name": "leaderbuff_003_02" },
+					{ "time": 0.1333, "name": "leaderbuff_003_03" },
+					{ "time": 0.2, "name": "leaderbuff_003_04" },
+					{ "time": 0.2666, "name": "leaderbuff_003_05" },
+					{ "time": 0.3333, "name": "leaderbuff_003_06" },
+					{ "time": 0.4, "name": "leaderbuff_003_07" },
+					{ "time": 0.4333, "name": "leaderbuff_003_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			},
+			"30804_Talent5_Buff2_quxian_zi": {
+				"attachment": [
+					{ "time": 0, "name": "leaderbuff_004_01" },
+					{ "time": 0.0666, "name": "leaderbuff_004_02" },
+					{ "time": 0.1333, "name": "leaderbuff_004_03" },
+					{ "time": 0.2, "name": "leaderbuff_004_04" },
+					{ "time": 0.2666, "name": "leaderbuff_004_05" },
+					{ "time": 0.3333, "name": "leaderbuff_004_06" },
+					{ "time": 0.4, "name": "leaderbuff_004_07" },
+					{ "time": 0.4666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffa0ff" }
+				]
+			}
+		},
+		"bones": {
+			"30804_Talent5_Buff2_zi2": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30804_Talent5_Buff2_lizi_zi": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30804_Talent5_Buff2_zi": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30804_Talent5_Buff2_quxian_zi": {
+				"translate": [
+					{ "time": 0, "x": -13.79, "y": -31.15 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "30804_Talent5_Buff2_lizi_zi", "offset": 5 }
+				]
+			}
+		]
+	}
+}
+}

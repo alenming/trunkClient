@@ -1,0 +1,20 @@
+local Cfg_Notices = {
+    [1] = { NoticesID = 1, Type = 1, Content = 101, Highlight = 2, Chatroom = 9, Chathead = "h_soldierhead_21300.png", },
+    [2] = { NoticesID = 2, Type = 3, Content = 201, Highlight = 0, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [3] = { NoticesID = 3, Type = 3, Content = 202, Highlight = 0, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [4] = { NoticesID = 4, Type = 3, Content = 203, Highlight = 0, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [5] = { NoticesID = 5, Type = 3, Content = 204, Highlight = 0, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [6] = { NoticesID = 6, Type = 3, Content = 205, Highlight = 0, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [7] = { NoticesID = 7, Type = 3, Content = 206, Highlight = 1, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [8] = { NoticesID = 8, Type = 3, Content = 207, Highlight = 1, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [9] = { NoticesID = 9, Type = 3, Content = 208, Highlight = 1, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [10] = { NoticesID = 10, Type = 3, Content = 209, Highlight = 1, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [11] = { NoticesID = 11, Type = 3, Content = 210, Highlight = 1, Chatroom = 2, Chathead = "h_soldierhead_21300.png", },
+    [12] = { NoticesID = 12, Type = 4, Content = 301, Highlight = 1, Chatroom = 1, Chathead = "h_soldierhead_21300.png", },
+    [13] = { NoticesID = 13, Type = 4, Content = 302, Highlight = 1, Chatroom = 1, Chathead = "h_soldierhead_21300.png", },
+    [14] = { NoticesID = 14, Type = 4, Content = 303, Highlight = 1, Chatroom = 1, Chathead = "h_soldierhead_21300.png", },
+    [15] = { NoticesID = 15, Type = 4, Content = 304, Highlight = 1, Chatroom = 1, Chathead = "h_soldierhead_21300.png", },
+    [16] = { NoticesID = 16, Type = 2, Content = 401, Highlight = 2, Chatroom = 9, Chathead = "h_soldierhead_21300.png", },
+    [17] = { NoticesID = 17, Type = 2, Content = 402, Highlight = 0, Chatroom = 9, Chathead = "h_soldierhead_21300.png", },
+}
+return Cfg_Notices

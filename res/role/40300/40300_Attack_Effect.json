@@ -1,0 +1,257 @@
+{
+"skeleton": { "hash": "mjA37CPFuu7s5GT1KqKqndPZ97U", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40300_Attack_Effect" },
+	{ "name": "40304_Attack1_effect", "parent": "40300_Attack_Effect", "x": 146.07, "y": 0.35 },
+	{ "name": "Death3_bao", "parent": "40300_Attack_Effect", "x": 127.03, "y": -78.48 },
+	{ "name": "Death3_dalizi", "parent": "40300_Attack_Effect", "x": 91.03, "y": -178.9 },
+	{ "name": "Death3_quan", "parent": "40300_Attack_Effect", "x": 152.72, "y": -156.99 },
+	{ "name": "Death_guang", "parent": "40300_Attack_Effect", "x": 111.98, "y": -145.35 }
+],
+"slots": [
+	{ "name": "40304_Attack1_effect_1", "bone": "40304_Attack1_effect", "color": "ffffffb7", "blend": "additive" },
+	{ "name": "40304_death_01_01", "bone": "Death3_bao", "blend": "additive" },
+	{ "name": "40304_death_02_01", "bone": "Death3_dalizi", "blend": "additive" },
+	{ "name": "40304_Death3_", "bone": "Death_guang", "blend": "additive" },
+	{ "name": "40304_Death3_quan1", "bone": "Death3_quan", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"40304_Attack1_effect_1": {
+			"Attack1_effect_0001": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 },
+			"Attack1_effect_0002": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 },
+			"Attack1_effect_0003": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 },
+			"Attack1_effect_0004": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 },
+			"Attack1_effect_0005": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 },
+			"Attack1_effect_0006": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 },
+			"Attack1_effect_0007": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 },
+			"Attack1_effect_0008": { "x": -0.04, "y": -0.35, "width": 132, "height": 126 }
+		},
+		"40304_Death3_": {
+			"40304_Death3_": { "x": -6.98, "y": -3.49, "width": 154, "height": 165 }
+		},
+		"40304_Death3_quan1": {
+			"40304_Death3_quan1": { "x": 5.82, "y": 3.49, "width": 155, "height": 155 }
+		},
+		"40304_death_01_01": {
+			"40304_death_01_01": { "width": 153, "height": 151 },
+			"40304_death_01_02": { "width": 153, "height": 151 },
+			"40304_death_01_03": { "width": 153, "height": 151 },
+			"40304_death_01_04": { "width": 153, "height": 151 },
+			"40304_death_01_05": { "width": 153, "height": 151 },
+			"40304_death_01_06": { "width": 153, "height": 151 },
+			"40304_death_01_07": { "width": 153, "height": 151 },
+			"40304_death_01_08": { "width": 153, "height": 151 },
+			"40304_death_01_09": { "width": 153, "height": 151 },
+			"40304_death_01_10": { "width": 153, "height": 151 },
+			"40304_death_01_11": { "width": 153, "height": 151 }
+		},
+		"40304_death_02_01": {
+			"40304_death_02_01": { "width": 164, "height": 168 },
+			"40304_death_02_02": { "width": 164, "height": 168 },
+			"40304_death_02_03": { "width": 164, "height": 168 },
+			"40304_death_02_04": { "width": 164, "height": 168 },
+			"40304_death_02_05": { "width": 164, "height": 168 },
+			"40304_death_02_06": { "width": 164, "height": 168 },
+			"40304_death_02_07": { "width": 164, "height": 168 },
+			"40304_death_02_08": { "width": 164, "height": 168 },
+			"40304_death_02_09": { "width": 164, "height": 168 },
+			"40304_death_02_10": { "width": 164, "height": 168 }
+		}
+	}
+},
+"animations": {
+	"40300_Attack1_Effect1": {
+		"slots": {
+			"40304_Attack1_effect_1": {
+				"attachment": [
+					{ "time": 0.9333, "name": "Attack1_effect_0001" },
+					{ "time": 1, "name": "Attack1_effect_0002" },
+					{ "time": 1.0333, "name": "Attack1_effect_0003" },
+					{ "time": 1.0666, "name": "Attack1_effect_0004" },
+					{ "time": 1.1, "name": "Attack1_effect_0005" },
+					{ "time": 1.1333, "name": "Attack1_effect_0006" },
+					{ "time": 1.1666, "name": "Attack1_effect_0007" },
+					{ "time": 1.2, "name": "Attack1_effect_0008" },
+					{ "time": 1.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"40300_Attack_Effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9, "angle": 0, "curve": "stepped" },
+					{ "time": 1.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.5, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6333, "x": 1, "y": 1 }
+				]
+			},
+			"40304_Attack1_effect": {
+				"rotate": [
+					{ "time": 0.9333, "angle": 0 },
+					{ "time": 0.9666, "angle": 315 },
+					{ "time": 1, "angle": 298.79 },
+					{ "time": 1.0333, "angle": 309.6 },
+					{ "time": 1.0666, "angle": 343.8 }
+				],
+				"translate": [
+					{ "time": 0.9333, "x": -108.52, "y": 90.27 },
+					{ "time": 0.9666, "x": -100.69, "y": 76.5 },
+					{ "time": 1, "x": -125.67, "y": 74.8 },
+					{ "time": 1.0333, "x": -109.63, "y": 95.38 },
+					{ "time": 1.0666, "x": -112.99, "y": 107.14 }
+				],
+				"scale": [
+					{ "time": 0.9333, "x": 1.7, "y": 1.7 },
+					{ "time": 0.9666, "x": 1.7, "y": 2.46 },
+					{ "time": 1, "x": 2.062, "y": 2.462 },
+					{ "time": 1.0666, "x": 2.164, "y": 1.859 }
+				]
+			}
+		}
+	},
+	"40300_Death3_Effect1": {
+		"slots": {
+			"40304_Death3_": {
+				"attachment": [
+					{ "time": 0.5666, "name": "40304_Death3_" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"40304_Death3_quan1": {
+				"attachment": [
+					{ "time": 0.5666, "name": "40304_Death3_quan1" }
+				],
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.8666, "color": "ffffff00" }
+				]
+			},
+			"40304_death_01_01": {
+				"attachment": [
+					{ "time": 0.4666, "name": "40304_death_01_01" },
+					{ "time": 0.5333, "name": "40304_death_01_02" },
+					{ "time": 0.6, "name": "40304_death_01_03" },
+					{ "time": 0.6666, "name": "40304_death_01_04" },
+					{ "time": 0.7333, "name": "40304_death_01_05" },
+					{ "time": 0.8, "name": "40304_death_01_06" },
+					{ "time": 0.8666, "name": "40304_death_01_07" },
+					{ "time": 0.9333, "name": "40304_death_01_08" },
+					{ "time": 1, "name": "40304_death_01_09" },
+					{ "time": 1.0666, "name": "40304_death_01_10" },
+					{ "time": 1.1333, "name": "40304_death_01_11" },
+					{ "time": 1.2, "name": null }
+				]
+			},
+			"40304_death_02_01": {
+				"attachment": [
+					{ "time": 0.4666, "name": "40304_death_02_01" },
+					{ "time": 0.5333, "name": "40304_death_02_02" },
+					{ "time": 0.6, "name": "40304_death_02_03" },
+					{ "time": 0.6666, "name": "40304_death_02_04" },
+					{ "time": 0.7333, "name": "40304_death_02_05" },
+					{ "time": 0.8, "name": "40304_death_02_06" },
+					{ "time": 0.8666, "name": "40304_death_02_07" },
+					{ "time": 0.9333, "name": "40304_death_02_08" },
+					{ "time": 1, "name": "40304_death_02_09" },
+					{ "time": 1.0666, "name": "40304_death_02_10" },
+					{ "time": 1.1333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"40300_Attack_Effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1 }
+				]
+			},
+			"40304_Attack1_effect": {
+				"rotate": [
+					{ "time": 0.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1 }
+				]
+			},
+			"Death3_bao": {
+				"translate": [
+					{ "time": 0.4666, "x": -108.94, "y": 222.62 }
+				],
+				"scale": [
+					{ "time": 0.4666, "x": 2, "y": 2.2 },
+					{ "time": 0.5333, "x": 2.5, "y": 2.6 },
+					{ "time": 0.6, "x": 2, "y": 2 }
+				]
+			},
+			"Death3_dalizi": {
+				"translate": [
+					{ "time": 0.4666, "x": -80.31, "y": 316.6 }
+				],
+				"scale": [
+					{ "time": 0.4666, "x": 3, "y": 3 }
+				]
+			},
+			"Death_guang": {
+				"translate": [
+					{ "time": 0.4666, "x": 0, "y": 1.16 },
+					{ "time": 0.5666, "x": -104.75, "y": 272.37 }
+				],
+				"scale": [
+					{ "time": 0.5666, "x": 3, "y": 2 },
+					{ "time": 0.6, "x": 4.5, "y": 1 },
+					{ "time": 0.6333, "x": 3, "y": 0.199 }
+				]
+			},
+			"Death3_quan": {
+				"translate": [
+					{ "time": 0.5666, "x": -148.99, "y": 284.01 }
+				],
+				"scale": [
+					{ "time": 0.5666, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 2, "y": 2 },
+					{ "time": 0.8666, "x": 4.5, "y": 4.5 }
+				]
+			}
+		}
+	}
+}
+}

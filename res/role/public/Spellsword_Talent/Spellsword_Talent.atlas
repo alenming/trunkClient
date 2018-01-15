@@ -1,0 +1,76 @@
+
+Spellsword_Talent.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10500_Talent3_Buff1_xj01
+  rotate: false
+  xy: 1, 225
+  size: 103, 113
+  orig: 105, 114
+  offset: 2, 0
+  index: -1
+10500_Talent3_Buff1_xj02
+  rotate: false
+  xy: 102, 2
+  size: 99, 110
+  orig: 105, 114
+  offset: 5, 0
+  index: -1
+10500_Talent3_Buff1_xj03
+  rotate: false
+  xy: 1, 1
+  size: 100, 111
+  orig: 105, 114
+  offset: 4, 0
+  index: -1
+10500_Talent3_Buff1_xj04
+  rotate: false
+  xy: 1, 113
+  size: 103, 111
+  orig: 105, 114
+  offset: 1, 0
+  index: -1
+10500_Talent3_Buff1_xj05
+  rotate: false
+  xy: 1, 339
+  size: 105, 114
+  orig: 105, 114
+  offset: 0, 0
+  index: -1
+10500_Talent3_Buff1_xj06
+  rotate: false
+  xy: 107, 341
+  size: 104, 112
+  orig: 105, 114
+  offset: 1, 0
+  index: -1
+10500_Talent3_Buff1_xj07
+  rotate: false
+  xy: 105, 113
+  size: 100, 111
+  orig: 105, 114
+  offset: 4, 0
+  index: -1
+10500_Talent3_Buff1_xj08
+  rotate: false
+  xy: 105, 225
+  size: 97, 113
+  orig: 105, 114
+  offset: 4, 0
+  index: -1
+10500_Talent3_Buff1_xj09
+  rotate: false
+  xy: 212, 342
+  size: 103, 111
+  orig: 105, 114
+  offset: 1, 0
+  index: -1
+10500_Talent3_Buff1_xj10
+  rotate: false
+  xy: 316, 345
+  size: 105, 108
+  orig: 105, 114
+  offset: 0, 0
+  index: -1

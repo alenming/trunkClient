@@ -1,0 +1,67 @@
+{
+"skeleton": { "hash": "C7F4188TcDrQa3jsXtftwL9c/hU", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Ptomaine_Eff_SmokeX", "parent": "root", "length": 85.4, "rotation": 90 }
+],
+"slots": [
+	{ "name": "Ptomaine_Eff_SmokeX", "bone": "Ptomaine_Eff_SmokeX" }
+],
+"skins": {
+	"default": {
+		"Ptomaine_Eff_SmokeX": {
+			"Ptomaine_SmokeX_00000": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00001": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00002": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00003": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00004": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00005": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00006": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00007": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00008": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00009": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00010": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00011": { "x": 50, "rotation": -90, "width": 80, "height": 120 },
+			"Ptomaine_SmokeX_00012": { "x": 50, "rotation": -90, "width": 80, "height": 120 }
+		}
+	}
+},
+"animations": {
+	"Ptomaine": {
+		"slots": {
+			"Ptomaine_Eff_SmokeX": {
+				"attachment": [
+					{ "time": 0, "name": "Ptomaine_SmokeX_00000" },
+					{ "time": 0.0666, "name": "Ptomaine_SmokeX_00001" },
+					{ "time": 0.1333, "name": "Ptomaine_SmokeX_00002" },
+					{ "time": 0.2, "name": "Ptomaine_SmokeX_00003" },
+					{ "time": 0.2666, "name": "Ptomaine_SmokeX_00004" },
+					{ "time": 0.3333, "name": "Ptomaine_SmokeX_00005" },
+					{ "time": 0.4, "name": "Ptomaine_SmokeX_00006" },
+					{ "time": 0.4666, "name": "Ptomaine_SmokeX_00007" },
+					{ "time": 0.5333, "name": "Ptomaine_SmokeX_00008" },
+					{ "time": 0.6, "name": "Ptomaine_SmokeX_00009" },
+					{ "time": 0.6666, "name": "Ptomaine_SmokeX_00010" },
+					{ "time": 0.7333, "name": "Ptomaine_SmokeX_00011" },
+					{ "time": 0.8, "name": "Ptomaine_SmokeX_00012" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"Ptomaine_Eff_SmokeX": {
+				"scale": [
+					{ "time": 0, "x": 2.103, "y": 2.1 }
+				]
+			}
+		}
+	}
+}
+}

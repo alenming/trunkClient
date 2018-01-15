@@ -1,0 +1,160 @@
+{
+"skeleton": { "hash": "mMY+6kQbJUZip9zh7RWxEn9t7pM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 48.53, "y": 4.4 },
+	{ "name": "bone2", "parent": "root", "x": 0.25, "y": 31.46 },
+	{ "name": "bone3", "parent": "root", "x": -51.86, "y": 0.15 },
+	{ "name": "bone4", "parent": "root", "x": -1.36, "y": -26.3 },
+	{ "name": "bone5", "parent": "root", "x": -0.57, "y": 2.13 }
+],
+"slots": [
+	{ "name": "GeneralHitBuff_00", "bone": "root", "blend": "additive" },
+	{ "name": "Vertigo_00", "bone": "root" },
+	{ "name": "Vertigo_star", "bone": "bone" },
+	{ "name": "Vertigo_star2", "bone": "bone4" },
+	{ "name": "Vertigo_star4", "bone": "bone2" },
+	{ "name": "Vertigo_star3", "bone": "bone3" },
+	{ "name": "dust_buff01", "bone": "bone5" }
+],
+"skins": {
+	"default": {
+		"GeneralHitBuff_00": {
+			"GeneralHitBuff_00": { "y": -0.34, "width": 128, "height": 128 },
+			"GeneralHitBuff_01": { "width": 128, "height": 128 },
+			"GeneralHitBuff_02": { "width": 128, "height": 128 },
+			"GeneralHitBuff_03": { "width": 128, "height": 128 }
+		},
+		"Vertigo_00": {
+			"Vertigo_00": { "width": 128, "height": 64 },
+			"Vertigo_01": { "width": 128, "height": 64 },
+			"Vertigo_02": { "width": 128, "height": 64 },
+			"Vertigo_03": { "width": 128, "height": 64 }
+		},
+		"Vertigo_star": {
+			"Vertigo_star": { "x": 0.96, "y": -0.36, "width": 21, "height": 24 }
+		},
+		"Vertigo_star2": {
+			"Vertigo_star": { "x": 0.65, "y": -0.18, "width": 21, "height": 24 }
+		},
+		"Vertigo_star3": {
+			"Vertigo_star": { "x": 1.1, "y": -0.26, "width": 21, "height": 24 }
+		},
+		"Vertigo_star4": {
+			"Vertigo_star": { "x": 1.04, "y": -0.53, "width": 21, "height": 24 }
+		},
+		"dust_buff01": {
+			"dust_buff01": { "x": 116.57, "y": 35.06, "width": 245, "height": 76 },
+			"dust_buff02": { "x": 116.57, "y": 35.06, "width": 245, "height": 76 },
+			"dust_buff03": { "x": 116.57, "y": 35.06, "width": 245, "height": 76 },
+			"dust_buff04": { "x": 116.57, "y": 35.06, "width": 245, "height": 76 },
+			"dust_buff05": { "x": 116.57, "y": 35.06, "width": 245, "height": 76 },
+			"dust_buff06": { "x": 116.57, "y": 35.06, "width": 245, "height": 76 },
+			"dust_buff07": { "x": 116.57, "y": 35.06, "width": 245, "height": 76 }
+		}
+	}
+},
+"animations": {
+	"DustBuff": {
+		"slots": {
+			"dust_buff01": {
+				"attachment": [
+					{ "time": 0, "name": "dust_buff01" },
+					{ "time": 0.1, "name": "dust_buff02" },
+					{ "time": 0.2, "name": "dust_buff03" },
+					{ "time": 0.3, "name": "dust_buff04" },
+					{ "time": 0.4, "name": "dust_buff05" },
+					{ "time": 0.5, "name": "dust_buff06" },
+					{ "time": 0.6, "name": "dust_buff07" },
+					{ "time": 0.7, "name": null }
+				]
+			}
+		}
+	},
+	"GeneralHitBuff": {
+		"slots": {
+			"GeneralHitBuff_00": {
+				"attachment": [
+					{ "time": 0, "name": "GeneralHitBuff_00" },
+					{ "time": 0.1, "name": "GeneralHitBuff_01" },
+					{ "time": 0.2, "name": "GeneralHitBuff_02" },
+					{ "time": 0.3, "name": "GeneralHitBuff_03" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		}
+	},
+	"Vertigo": {
+		"slots": {
+			"Vertigo_00": {
+				"attachment": [
+					{ "time": 0, "name": "Vertigo_00" },
+					{ "time": 0.1, "name": "Vertigo_01" },
+					{ "time": 0.2, "name": "Vertigo_02" },
+					{ "time": 0.3, "name": "Vertigo_03" },
+					{ "time": 0.4, "name": "Vertigo_00" }
+				]
+			},
+			"Vertigo_star": {
+				"attachment": [
+					{ "time": 0, "name": "Vertigo_star" },
+					{ "time": 0.4, "name": "Vertigo_star" }
+				]
+			},
+			"Vertigo_star2": {
+				"attachment": [
+					{ "time": 0, "name": "Vertigo_star" },
+					{ "time": 0.4, "name": "Vertigo_star" }
+				]
+			},
+			"Vertigo_star3": {
+				"attachment": [
+					{ "time": 0, "name": "Vertigo_star" },
+					{ "time": 0.4, "name": "Vertigo_star" }
+				]
+			},
+			"Vertigo_star4": {
+				"attachment": [
+					{ "time": 0, "name": "Vertigo_star" },
+					{ "time": 0.4, "name": "Vertigo_star" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -32.41, "y": 7.13 },
+					{ "time": 0.4, "x": -50.08, "y": 26.48 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -24.32, "y": -26.03 },
+					{ "time": 0.4, "x": -50.21, "y": -30.91 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 24.09, "y": 24.89 },
+					{ "time": 0.4, "x": 51.99, "y": 31.15 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 32.08, "y": -7.22 },
+					{ "time": 0.4, "x": 48.28, "y": -27.07 }
+				]
+			}
+		}
+	}
+}
+}

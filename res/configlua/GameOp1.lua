@@ -1,0 +1,18 @@
+local Cfg_GameOp1 = {
+    [1067] = { GameOp_ID = 1067, GameOpGoodsID = 1, Goods1 = {[1]=201028,[2]=1,}, Goods2 = {[1]=211028,[2]=1,}, Goods3 = {[1]=221028,[2]=1,}, Goods4 = {[1]=231028,[2]=1,}, GameOp_price = {[1]=4,[2]=1600,}, GameOp_priceNew = 80, GameOp_shoplimit = 1, },
+    [1068] = { GameOp_ID = 1068, GameOpGoodsID = 1, Goods1 = {[1]=201012,[2]=1,}, Goods2 = {[1]=211012,[2]=1,}, Goods3 = {[1]=221012,[2]=1,}, Goods4 = {[1]=231012,[2]=1,}, GameOp_price = {[1]=4,[2]=1600,}, GameOp_priceNew = 80, GameOp_shoplimit = 1, },
+    [1069] = { GameOp_ID = 1069, GameOpGoodsID = 1, Goods1 = {[1]=201039,[2]=1,}, Goods2 = {[1]=211039,[2]=1,}, Goods3 = {[1]=221039,[2]=1,}, Goods4 = {[1]=231039,[2]=1,}, GameOp_price = {[1]=4,[2]=2000,}, GameOp_priceNew = 80, GameOp_shoplimit = 1, },
+    [1070] = { GameOp_ID = 1070, GameOpGoodsID = 1, Goods1 = {[1]=201051,[2]=1,}, Goods2 = {[1]=211051,[2]=1,}, Goods3 = {[1]=221051,[2]=1,}, Goods4 = {[1]=231051,[2]=1,}, GameOp_price = {[1]=4,[2]=2000,}, GameOp_priceNew = 80, GameOp_shoplimit = 1, },
+    [1076] = { GameOp_ID = 1076, GameOpGoodsID = 1, Goods1 = {[1]=50030,[2]=5,}, Goods2 = {[1]=50024,[2]=5,}, Goods3 = {[1]=50025,[2]=5,}, Goods4 = {[1]=50009,[2]=5,}, GameOp_price = {[1]=4,[2]=1500,}, GameOp_priceNew = 50, GameOp_shoplimit = 1, },
+    [1077] = { GameOp_ID = 1077, GameOpGoodsID = 1, Goods1 = {[1]=201024,[2]=1,}, Goods2 = {[1]=211024,[2]=1,}, Goods3 = {[1]=221024,[2]=1,}, Goods4 = {[1]=231024,[2]=1,}, GameOp_price = {[1]=4,[2]=1600,}, GameOp_priceNew = 50, GameOp_shoplimit = 1, },
+    [1078] = { GameOp_ID = 1078, GameOpGoodsID = 1, Goods1 = {[1]=50006,[2]=5,}, Goods2 = {[1]=50033,[2]=5,}, Goods3 = {[1]=50022,[2]=5,}, Goods4 = {[1]=50035,[2]=5,}, GameOp_price = {[1]=4,[2]=2000,}, GameOp_priceNew = 50, GameOp_shoplimit = 1, },
+    [1079] = { GameOp_ID = 1079, GameOpGoodsID = 1, Goods1 = {[1]=201016,[2]=1,}, Goods2 = {[1]=211016,[2]=1,}, Goods3 = {[1]=221016,[2]=1,}, Goods4 = {[1]=231016,[2]=1,}, GameOp_price = {[1]=4,[2]=1600,}, GameOp_priceNew = 50, GameOp_shoplimit = 1, },
+    [2051] = { GameOp_ID = 2051, GameOpGoodsID = 1, Goods1 = {[1]=201020,[2]=1,}, Goods2 = {[1]=211020,[2]=1,}, Goods3 = {[1]=221020,[2]=1,}, Goods4 = {[1]=231020,[2]=1,}, GameOp_price = {[1]=4,[2]=2000,}, GameOp_priceNew = 14, GameOp_shoplimit = 1, },
+    [2052] = { GameOp_ID = 2052, GameOpGoodsID = 1, Goods1 = {[1]=120015,[2]=10,}, Goods2 = {[1]=120016,[2]=10,}, Goods3 = {[1]=120017,[2]=10,}, Goods4 = {[1]=120018,[2]=10,}, GameOp_price = {[1]=4,[2]=2000,}, GameOp_priceNew = 25, GameOp_shoplimit = 1, },
+    [2053] = { GameOp_ID = 2053, GameOpGoodsID = 1, Goods1 = {[1]=50032,[2]=40,}, Goods2 = {}, Goods3 = {}, Goods4 = {}, GameOp_price = {[1]=4,[2]=2000,}, GameOp_priceNew = 34, GameOp_shoplimit = 1, },
+    [2054] = { GameOp_ID = 2054, GameOpGoodsID = 1, Goods1 = {[1]=9,[2]=1,}, Goods2 = {}, Goods3 = {}, Goods4 = {}, GameOp_price = {[1]=4,[2]=1800,}, GameOp_priceNew = 50, GameOp_shoplimit = 1, },
+    [2055] = { GameOp_ID = 2055, GameOpGoodsID = 1, Goods1 = {[1]=1002,[2]=1,}, Goods2 = {[1]=211044,[2]=1,}, Goods3 = {[1]=221044,[2]=1,}, Goods4 = {}, GameOp_price = {[1]=4,[2]=3000,}, GameOp_priceNew = 32, GameOp_shoplimit = 1, },
+    [2056] = { GameOp_ID = 2056, GameOpGoodsID = 1, Goods1 = {[1]=241032,[2]=1,}, Goods2 = {[1]=251032,[2]=1,}, Goods3 = {}, Goods4 = {}, GameOp_price = {[1]=4,[2]=4000,}, GameOp_priceNew = 30, GameOp_shoplimit = 1, },
+    [2057] = { GameOp_ID = 2057, GameOpGoodsID = 1, Goods1 = {[1]=50028,[2]=40,}, Goods2 = {}, Goods3 = {}, Goods4 = {}, GameOp_price = {[1]=4,[2]=6000,}, GameOp_priceNew = 30, GameOp_shoplimit = 1, },
+}
+return Cfg_GameOp1

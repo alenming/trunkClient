@@ -1,0 +1,20 @@
+
+30999_Help.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30999_Eff_JiaIcon
+  rotate: false
+  xy: 129, 12
+  size: 115, 115
+  orig: 128, 128
+  offset: 6, 7
+  index: -1
+30999_Eff_JiaIcon_1
+  rotate: true
+  xy: 1, 1
+  size: 126, 127
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

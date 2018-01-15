@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "pV8itSVuoxRN9Kh1HMDZgKZoKZI", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "1600_Skill3_Hit1", "rotation": -0.05 },
+	{
+		"name": "1600_Eff_Skill3_Hit1",
+		"parent": "1600_Skill3_Hit1",
+		"length": 162.91,
+		"y": 12.5,
+		"scaleX": 1.5,
+		"scaleY": 1.5,
+		"rotation": 90
+	}
+],
+"slots": [
+	{ "name": "1600_Eff_HitGlow_01", "bone": "1600_Eff_Skill3_Hit1" }
+],
+"skins": {
+	"default": {
+		"1600_Eff_HitGlow_01": {
+			"1600_Eff_HitGlow_01": { "rotation": -90, "width": 109, "height": 120 },
+			"1600_Eff_HitGlow_02": { "y": 5.91, "rotation": -90, "width": 109, "height": 120 },
+			"1600_Eff_HitGlow_03": { "y": 4.27, "rotation": -90, "width": 109, "height": 120 },
+			"1600_Eff_HitGlow_04": { "y": 0.97, "rotation": -90, "width": 109, "height": 120 },
+			"1600_Eff_HitGlow_05": { "y": 0.17, "rotation": -90, "width": 109, "height": 120 }
+		}
+	}
+},
+"animations": {
+	"1600_Skill3_Hit1": {
+		"slots": {
+			"1600_Eff_HitGlow_01": {
+				"attachment": [
+					{ "time": 0, "name": "1600_Eff_HitGlow_01" },
+					{ "time": 0.1, "name": "1600_Eff_HitGlow_02" },
+					{ "time": 0.2, "name": "1600_Eff_HitGlow_03" },
+					{ "time": 0.3, "name": "1600_Eff_HitGlow_04" },
+					{ "time": 0.4, "name": "1600_Eff_HitGlow_05" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		}
+	}
+}
+}

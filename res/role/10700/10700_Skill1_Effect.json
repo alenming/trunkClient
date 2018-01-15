@@ -1,0 +1,302 @@
+{
+"skeleton": { "hash": "NnPlztxU0Jh6dwvh+vpQvWkRH30", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "10700_Skill1_Effect" },
+	{ "name": "10700_Eff_Skill1", "parent": "10700_Skill1_Effect", "length": 101.09, "rotation": 90 },
+	{ "name": "10700_Eff_Skill1_Begin", "parent": "10700_Eff_Skill1", "length": 101.09, "scaleX": 0.75, "scaleY": 0.75 },
+	{ "name": "10700_Eff_Skill1_Charging", "parent": "10700_Eff_Skill1", "length": 101.09, "scaleX": 0.5, "scaleY": 0.5 }
+],
+"slots": [
+	{ "name": "10700_Eff_Skill1_Begin_Fire_01", "bone": "10700_Eff_Skill1_Begin", "blend": "additive" },
+	{ "name": "10700_Eff_Skill1_Charging_GlowFire_01", "bone": "10700_Eff_Skill1_Charging" },
+	{ "name": "10700_Eff_Skill1_Charging_FireSphere_01", "bone": "10700_Eff_Skill1_Charging", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10700_Eff_Skill1_Begin_Fire_01": {
+			"10700_Eff_Skill1_Begin_Fire_01": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_02": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_03": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_04": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_05": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_06": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_07": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_08": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_09": { "rotation": -90, "width": 128, "height": 125 },
+			"10700_Eff_Skill1_Begin_Fire_10": { "rotation": -90, "width": 128, "height": 125 }
+		},
+		"10700_Eff_Skill1_Charging_FireSphere_01": {
+			"10700_Eff_Skill1_Charging_FireSphere_01": { "scaleX": 1.2, "scaleY": 1.2, "rotation": -90, "width": 69, "height": 82 },
+			"10700_Eff_Skill1_Charging_FireSphere_02": { "scaleX": 1.2, "rotation": -90, "width": 69, "height": 86 },
+			"10700_Eff_Skill1_Charging_FireSphere_03": { "scaleX": 1.2, "scaleY": 1.2, "rotation": -90, "width": 70, "height": 89 },
+			"10700_Eff_Skill1_Charging_FireSphere_04": { "scaleX": 1.2, "scaleY": 1.2, "rotation": -90, "width": 70, "height": 88 },
+			"10700_Eff_Skill1_Charging_FireSphere_05": { "scaleX": 1.2, "scaleY": 1.2, "rotation": -90, "width": 69, "height": 88 },
+			"10700_Eff_Skill1_Charging_FireSphere_06": { "scaleX": 1.2, "scaleY": 1.2, "rotation": -90, "width": 68, "height": 87 },
+			"10700_Eff_Skill1_Charging_FireSphere_07": { "scaleX": 1.2, "scaleY": 1.2, "rotation": -90, "width": 70, "height": 88 },
+			"10700_Eff_Skill1_Charging_FireSphere_08": { "scaleX": 1.2, "scaleY": 1.2, "rotation": -90, "width": 70, "height": 88 }
+		},
+		"10700_Eff_Skill1_Charging_GlowFire_01": {
+			"10700_Eff_Skill1_Charging_GlowFire_01": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 },
+			"10700_Eff_Skill1_Charging_GlowFire_02": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 },
+			"10700_Eff_Skill1_Charging_GlowFire_03": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 },
+			"10700_Eff_Skill1_Charging_GlowFire_04": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 },
+			"10700_Eff_Skill1_Charging_GlowFire_05": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 },
+			"10700_Eff_Skill1_Charging_GlowFire_06": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 },
+			"10700_Eff_Skill1_Charging_GlowFire_07": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 },
+			"10700_Eff_Skill1_Charging_GlowFire_08": { "scaleX": 1.5, "scaleY": 1.5, "rotation": -90, "width": 189, "height": 189 }
+		}
+	}
+},
+"animations": {
+	"10700_Skill1_Effect1": {
+		"slots": {
+			"10700_Eff_Skill1_Begin_Fire_01": {
+				"attachment": [
+					{ "time": 0.1666, "name": "10700_Eff_Skill1_Begin_Fire_01" },
+					{ "time": 0.2, "name": "10700_Eff_Skill1_Begin_Fire_02" },
+					{ "time": 0.2333, "name": "10700_Eff_Skill1_Begin_Fire_03" },
+					{ "time": 0.2666, "name": "10700_Eff_Skill1_Begin_Fire_04" },
+					{ "time": 0.3, "name": "10700_Eff_Skill1_Begin_Fire_05" },
+					{ "time": 0.3333, "name": "10700_Eff_Skill1_Begin_Fire_06" },
+					{ "time": 0.3666, "name": "10700_Eff_Skill1_Begin_Fire_07" },
+					{ "time": 0.4, "name": "10700_Eff_Skill1_Begin_Fire_08" },
+					{ "time": 0.4333, "name": "10700_Eff_Skill1_Begin_Fire_09" },
+					{ "time": 0.4666, "name": "10700_Eff_Skill1_Begin_Fire_10" },
+					{ "time": 0.5, "name": "10700_Eff_Skill1_Begin_Fire_01" },
+					{ "time": 0.5333, "name": "10700_Eff_Skill1_Begin_Fire_02" },
+					{ "time": 0.5666, "name": "10700_Eff_Skill1_Begin_Fire_03" },
+					{ "time": 0.6, "name": "10700_Eff_Skill1_Begin_Fire_04" },
+					{ "time": 0.6333, "name": "10700_Eff_Skill1_Begin_Fire_05" },
+					{ "time": 0.6666, "name": "10700_Eff_Skill1_Begin_Fire_06" },
+					{ "time": 0.7, "name": "10700_Eff_Skill1_Begin_Fire_07" },
+					{ "time": 0.7333, "name": "10700_Eff_Skill1_Begin_Fire_08" },
+					{ "time": 0.7666, "name": "10700_Eff_Skill1_Begin_Fire_09" },
+					{ "time": 0.8, "name": "10700_Eff_Skill1_Begin_Fire_10" },
+					{ "time": 0.8333, "name": null }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"10700_Skill1_Effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"10700_Eff_Skill1_Begin": {
+				"translate": [
+					{ "time": 0.1666, "x": 82.21, "y": -52.36 }
+				],
+				"scale": [
+					{
+						"time": 0.1666,
+						"x": 4,
+						"y": 4,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.1666 },
+			{ "time": 0.2 },
+			{ "time": 0.5 },
+			{ "time": 0.8333 }
+		]
+	},
+	"10700_Skill1_Effect2": {
+		"slots": {
+			"10700_Eff_Skill1_Charging_FireSphere_01": {
+				"attachment": [
+					{ "time": 0, "name": "10700_Eff_Skill1_Charging_FireSphere_01" },
+					{ "time": 0.0666, "name": "10700_Eff_Skill1_Charging_FireSphere_02" },
+					{ "time": 0.1333, "name": "10700_Eff_Skill1_Charging_FireSphere_03" },
+					{ "time": 0.1666, "name": "10700_Eff_Skill1_Charging_FireSphere_04" },
+					{ "time": 0.2333, "name": "10700_Eff_Skill1_Charging_FireSphere_05" },
+					{ "time": 0.3, "name": "10700_Eff_Skill1_Charging_FireSphere_06" },
+					{ "time": 0.3666, "name": "10700_Eff_Skill1_Charging_FireSphere_07" },
+					{ "time": 0.4, "name": "10700_Eff_Skill1_Charging_FireSphere_08" },
+					{ "time": 0.4666, "name": "10700_Eff_Skill1_Charging_FireSphere_01" },
+					{ "time": 0.5333, "name": "10700_Eff_Skill1_Charging_FireSphere_02" },
+					{ "time": 0.6, "name": "10700_Eff_Skill1_Charging_FireSphere_03" },
+					{ "time": 0.6333, "name": "10700_Eff_Skill1_Charging_FireSphere_04" },
+					{ "time": 0.7, "name": "10700_Eff_Skill1_Charging_FireSphere_05" },
+					{ "time": 0.7666, "name": "10700_Eff_Skill1_Charging_FireSphere_06" },
+					{ "time": 0.8333, "name": "10700_Eff_Skill1_Charging_FireSphere_07" },
+					{ "time": 0.8666, "name": "10700_Eff_Skill1_Charging_FireSphere_08" }
+				]
+			},
+			"10700_Eff_Skill1_Charging_GlowFire_01": {
+				"attachment": [
+					{ "time": 0, "name": "10700_Eff_Skill1_Charging_GlowFire_01" },
+					{ "time": 0.0666, "name": "10700_Eff_Skill1_Charging_GlowFire_02" },
+					{ "time": 0.1333, "name": "10700_Eff_Skill1_Charging_GlowFire_03" },
+					{ "time": 0.1666, "name": "10700_Eff_Skill1_Charging_GlowFire_04" },
+					{ "time": 0.2333, "name": "10700_Eff_Skill1_Charging_GlowFire_05" },
+					{ "time": 0.3, "name": "10700_Eff_Skill1_Charging_GlowFire_06" },
+					{ "time": 0.3666, "name": "10700_Eff_Skill1_Charging_GlowFire_07" },
+					{ "time": 0.4, "name": "10700_Eff_Skill1_Charging_GlowFire_08" },
+					{ "time": 0.4666, "name": "10700_Eff_Skill1_Charging_GlowFire_01" },
+					{ "time": 0.5333, "name": "10700_Eff_Skill1_Charging_GlowFire_02" },
+					{ "time": 0.6, "name": "10700_Eff_Skill1_Charging_GlowFire_03" },
+					{ "time": 0.6333, "name": "10700_Eff_Skill1_Charging_GlowFire_04" },
+					{ "time": 0.7, "name": "10700_Eff_Skill1_Charging_GlowFire_05" },
+					{ "time": 0.7666, "name": "10700_Eff_Skill1_Charging_GlowFire_06" },
+					{ "time": 0.8333, "name": "10700_Eff_Skill1_Charging_GlowFire_07" },
+					{ "time": 0.8666, "name": "10700_Eff_Skill1_Charging_GlowFire_08" }
+				]
+			}
+		},
+		"bones": {
+			"10700_Skill1_Effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.8666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.8666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.8666, "x": 1, "y": 1 }
+				]
+			},
+			"10700_Eff_Skill1_Charging": {
+				"translate": [
+					{ "time": 0, "x": 80, "y": -51.97 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.8666 }
+		]
+	},
+	"10700_Skill1_Effect3": {
+		"slots": {
+			"10700_Eff_Skill1_Charging_FireSphere_01": {
+				"attachment": [
+					{ "time": 0, "name": "10700_Eff_Skill1_Charging_FireSphere_01" },
+					{ "time": 0.0666, "name": "10700_Eff_Skill1_Charging_FireSphere_02" },
+					{ "time": 0.1333, "name": "10700_Eff_Skill1_Charging_FireSphere_03" },
+					{ "time": 0.1666, "name": "10700_Eff_Skill1_Charging_FireSphere_04" },
+					{ "time": 0.2333, "name": "10700_Eff_Skill1_Charging_FireSphere_05" },
+					{ "time": 0.3, "name": "10700_Eff_Skill1_Charging_FireSphere_06" },
+					{ "time": 0.3666, "name": "10700_Eff_Skill1_Charging_FireSphere_07" },
+					{ "time": 0.4, "name": "10700_Eff_Skill1_Charging_FireSphere_08" },
+					{ "time": 0.4666, "name": "10700_Eff_Skill1_Charging_FireSphere_01" },
+					{ "time": 0.5333, "name": "10700_Eff_Skill1_Charging_FireSphere_02" },
+					{ "time": 0.6, "name": "10700_Eff_Skill1_Charging_FireSphere_03" },
+					{ "time": 0.6333, "name": "10700_Eff_Skill1_Charging_FireSphere_04" },
+					{ "time": 0.7, "name": "10700_Eff_Skill1_Charging_FireSphere_05" },
+					{ "time": 0.7666, "name": "10700_Eff_Skill1_Charging_FireSphere_06" },
+					{ "time": 0.8333, "name": "10700_Eff_Skill1_Charging_FireSphere_07" },
+					{ "time": 0.8666, "name": "10700_Eff_Skill1_Charging_FireSphere_08" }
+				],
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				]
+			},
+			"10700_Eff_Skill1_Charging_GlowFire_01": {
+				"attachment": [
+					{ "time": 0, "name": "10700_Eff_Skill1_Charging_GlowFire_01" },
+					{ "time": 0.0666, "name": "10700_Eff_Skill1_Charging_GlowFire_02" },
+					{ "time": 0.1333, "name": "10700_Eff_Skill1_Charging_GlowFire_03" },
+					{ "time": 0.1666, "name": "10700_Eff_Skill1_Charging_GlowFire_04" },
+					{ "time": 0.2333, "name": "10700_Eff_Skill1_Charging_GlowFire_05" },
+					{ "time": 0.3, "name": "10700_Eff_Skill1_Charging_GlowFire_06" },
+					{ "time": 0.3666, "name": "10700_Eff_Skill1_Charging_GlowFire_07" },
+					{ "time": 0.4, "name": "10700_Eff_Skill1_Charging_GlowFire_08" },
+					{ "time": 0.4666, "name": "10700_Eff_Skill1_Charging_GlowFire_01" },
+					{ "time": 0.5333, "name": "10700_Eff_Skill1_Charging_GlowFire_02" },
+					{ "time": 0.6, "name": "10700_Eff_Skill1_Charging_GlowFire_03" },
+					{ "time": 0.6333, "name": "10700_Eff_Skill1_Charging_GlowFire_04" },
+					{ "time": 0.7, "name": "10700_Eff_Skill1_Charging_GlowFire_05" },
+					{ "time": 0.7666, "name": "10700_Eff_Skill1_Charging_GlowFire_06" },
+					{ "time": 0.8333, "name": "10700_Eff_Skill1_Charging_GlowFire_07" },
+					{ "time": 0.8666, "name": "10700_Eff_Skill1_Charging_GlowFire_08" }
+				],
+				"color": [
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 0.7, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"10700_Skill1_Effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.2333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.2333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.2333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6333, "x": 1, "y": 1 }
+				]
+			},
+			"10700_Eff_Skill1_Charging": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 80,
+						"y": -51.97,
+						"curve": [ 0, 0.04, 0.519, 1 ]
+					},
+					{ "time": 0.6333, "x": 80, "y": -30 },
+					{ "time": 0.7, "x": 80, "y": -40 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.8666 },
+			{ "time": 1.4333 },
+			{ "time": 1.6333 }
+		]
+	}
+}
+}

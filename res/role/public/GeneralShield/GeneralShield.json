@@ -1,0 +1,184 @@
+{
+"skeleton": { "hash": "SDMS1NrRa85Lbazs9IFcOWX7RT4", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "GeneralShield" },
+	{ "name": "GeneralShield_Skill2_Hit", "parent": "GeneralShield", "x": 0.68, "y": 0.2, "color": "fbff00ff" },
+	{ "name": "GeneralShield_SkillHit_0007", "parent": "GeneralShield_Skill2_Hit", "x": -4.76, "y": 99.51, "color": "fbff00ff" },
+	{ "name": "GeneralShield_SkillHit_7", "parent": "GeneralShield_Skill2_Hit", "x": -4.76, "y": 99.51, "color": "fbff00ff" },
+	{ "name": "GeneralShield_circle01", "parent": "GeneralShield_Skill2_Hit", "x": -1.74, "y": 96.57, "color": "fbff00ff" },
+	{ "name": "GeneralShield_skill2hit_guang", "parent": "GeneralShield_Skill2_Hit", "x": 73.81, "y": 217.58, "color": "fbff00ff" }
+],
+"slots": [
+	{ "name": "GeneralShield_circle01", "bone": "GeneralShield_circle01", "blend": "additive" },
+	{ "name": "GeneralShield_SkillHit_0007", "bone": "GeneralShield_SkillHit_0007", "blend": "additive" },
+	{ "name": "GeneralShield_SkillHit_7", "bone": "GeneralShield_SkillHit_7", "blend": "additive" },
+	{ "name": "GeneralShield_skill2hit_guang", "bone": "GeneralShield_skill2hit_guang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"GeneralShield_SkillHit_0007": {
+			"11000_SkillHit_0007": { "x": 5.18, "scaleX": 2, "scaleY": 2, "width": 147, "height": 147 }
+		},
+		"GeneralShield_SkillHit_7": {
+			"11000_SkillHit_0007": { "x": 5.18, "scaleX": 2, "scaleY": 2, "width": 147, "height": 147 }
+		},
+		"GeneralShield_circle01": {
+			"11000_circle01": { "x": 6.93, "y": 3.55, "scaleX": 2, "scaleY": 2, "rotation": 0.25, "width": 143, "height": 137 }
+		},
+		"GeneralShield_skill2hit_guang": {
+			"11000_skill2hit_guang": { "x": 0.78, "y": 2.02, "scaleX": 2, "scaleY": 2, "width": 61, "height": 35 }
+		}
+	}
+},
+"animations": {
+	"GeneralShield": {
+		"slots": {
+			"GeneralShield_SkillHit_0007": {
+				"attachment": [
+					{ "time": 0, "name": "11000_SkillHit_0007" },
+					{ "time": 0.0333, "name": "11000_SkillHit_0007" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffcb" }
+				]
+			},
+			"GeneralShield_SkillHit_7": {
+				"attachment": [
+					{ "time": 0, "name": "11000_SkillHit_0007" },
+					{ "time": 0.0333, "name": "11000_SkillHit_0007" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff9e" }
+				]
+			},
+			"GeneralShield_circle01": {
+				"attachment": [
+					{ "time": 0, "name": "11000_circle01" },
+					{ "time": 0.0333, "name": "11000_circle01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffff82" },
+					{ "time": 0.8, "color": "ffffff00" },
+					{ "time": 1.2, "color": "ffffff82" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"GeneralShield_skill2hit_guang": {
+				"attachment": [
+					{ "time": 0, "name": "11000_skill2hit_guang" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffb2" }
+				]
+			}
+		},
+		"bones": {
+			"GeneralShield": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -119, "curve": "stepped" },
+					{ "time": 1.6, "x": 0, "y": -119 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 0.9, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"GeneralShield_Skill2_Hit": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"GeneralShield_SkillHit_0007": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1 },
+					{ "time": 0.2, "x": 1.066, "y": 1.066 },
+					{ "time": 0.4, "x": 1.1, "y": 1.1 },
+					{ "time": 0.6, "x": 1.066, "y": 1.066 },
+					{ "time": 0.8, "x": 1.1, "y": 1.1 },
+					{ "time": 1, "x": 1.066, "y": 1.066 },
+					{ "time": 1.2, "x": 1.1, "y": 1.1 },
+					{ "time": 1.4, "x": 1.066, "y": 1.066 },
+					{ "time": 1.6, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"GeneralShield_SkillHit_7": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.05, "y": 1.05, "curve": "stepped" },
+					{ "time": 1.6, "x": 1.05, "y": 1.05 }
+				]
+			},
+			"GeneralShield_skill2hit_guang": {
+				"rotate": [
+					{ "time": 0, "angle": -16.8, "curve": "stepped" },
+					{ "time": 1.6, "angle": -16.8 }
+				],
+				"translate": [
+					{ "time": 0, "x": -30.12, "y": -35.82, "curve": "stepped" },
+					{ "time": 1.6, "x": -30.12, "y": -35.82 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.1, "y": 1.1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"GeneralShield_circle01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -45 },
+					{ "time": 0.4, "angle": -90 },
+					{ "time": 0.6, "angle": -135 },
+					{ "time": 0.8, "angle": -180 },
+					{ "time": 1, "angle": -225 },
+					{ "time": 1.2, "angle": -270 },
+					{ "time": 1.4, "angle": 45 },
+					{ "time": 1.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.3333 },
+			{ "time": 0.9 }
+		]
+	}
+}
+}

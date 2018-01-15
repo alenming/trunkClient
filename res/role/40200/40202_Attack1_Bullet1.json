@@ -1,0 +1,27 @@
+{
+"skeleton": { "hash": "j4Zpq4tBsXShhSGbK5eoMeoTJEI", "spine": "2.1.27", "width": 91, "height": 26, "images": "./images/" },
+"bones": [
+	{ "name": "40202_Attack1_Bullet", "x": -33, "rotation": 90 }
+],
+"slots": [
+	{ "name": "40202_arrow01", "bone": "40202_Attack1_Bullet", "attachment": "40202_arrow01_TX" }
+],
+"skins": {
+	"default": {
+		"40202_arrow01": {
+			"40202_arrow01_TX": { "y": 8, "width": 26, "height": 91 }
+		}
+	}
+},
+"animations": {
+	"Attack1_Bullet1": {
+		"slots": {
+			"40202_arrow01": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			}
+		}
+	}
+}
+}

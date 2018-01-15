@@ -1,0 +1,146 @@
+{
+"skeleton": { "hash": "uXTvbKjSFEWHSg1Dz+7ex3giXng", "spine": "2.1.27", "width": 92.03, "height": 92.03, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "wuqi02_1", "parent": "root", "length": 43.45, "x": 7.8, "y": -3.47, "rotation": 151.83 },
+	{ "name": "attack1_bullet", "parent": "wuqi02_1", "x": 7.88, "y": 0.44 },
+	{ "name": "wuqi02_2", "parent": "wuqi02_1", "x": 8.56, "y": 0.13 },
+	{ "name": "10402_wuqi02_1", "parent": "wuqi02_2", "length": 50.01, "x": -15.3, "y": -0.08, "rotation": -31.75 },
+	{ "name": "10402_wuqi02_2", "parent": "wuqi02_2", "length": 51, "x": -15.41, "y": -0.44, "rotation": 32.95 }
+],
+"slots": [
+	{ "name": "10402_wuqi02_1", "bone": "10402_wuqi02_1", "attachment": "10402_wuqi02_01" },
+	{ "name": "10402_wuqi02_2", "bone": "10402_wuqi02_2", "attachment": "10402_wuqi02_02" },
+	{ "name": "10400_Attack1_Bullet1_1", "bone": "attack1_bullet", "attachment": "10400_Attack1_Bullet1_01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10400_Attack1_Bullet1_1": {
+			"10400_Attack1_Bullet1_01": { "x": 6.01, "y": -3.21, "rotation": -151.83, "width": 92, "height": 92 },
+			"10400_Attack1_Bullet1_04": { "rotation": -151.83, "width": 92, "height": 92 }
+		},
+		"10402_wuqi02_1": {
+			"10402_wuqi02_01": { "x": 16.44, "y": -0.89, "rotation": -120.07, "width": 41, "height": 61 }
+		},
+		"10402_wuqi02_2": {
+			"10402_wuqi02_02": { "x": 16.56, "y": -0.38, "rotation": 175.21, "width": 70, "height": 15 }
+		}
+	}
+},
+"animations": {
+	"10400_Attack1_Bullet1": {
+		"slots": {
+			"10400_Attack1_Bullet1_1": {
+				"attachment": [
+					{ "time": 0, "name": "10400_Attack1_Bullet1_01" },
+					{ "time": 0.1, "name": "10400_Attack1_Bullet1_04" },
+					{ "time": 0.2, "name": "10400_Attack1_Bullet1_01" },
+					{ "time": 0.3, "name": "10400_Attack1_Bullet1_04" },
+					{ "time": 0.4, "name": "10400_Attack1_Bullet1_01" },
+					{ "time": 0.5, "name": "10400_Attack1_Bullet1_04" }
+				]
+			},
+			"10402_wuqi02_1": {
+				"attachment": [
+					{ "time": 0, "name": "10402_wuqi02_01" },
+					{ "time": 0.2666, "name": "10402_wuqi02_01" }
+				]
+			},
+			"10402_wuqi02_2": {
+				"attachment": [
+					{ "time": 0, "name": "10402_wuqi02_02" },
+					{ "time": 0.2666, "name": "10402_wuqi02_02" }
+				]
+			}
+		},
+		"bones": {
+			"attack1_bullet": {
+				"rotate": [
+					{ "time": 0, "angle": 123.57 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.41, "y": -0.48 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.22, "y": 1.22 }
+				]
+			},
+			"10402_wuqi02_1": {
+				"rotate": [
+					{ "time": 0, "angle": 4.48 }
+				],
+				"translate": [
+					{ "time": 0, "x": 15.83, "y": -0.23 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"10402_wuqi02_2": {
+				"rotate": [
+					{ "time": 0, "angle": -1.09 }
+				],
+				"translate": [
+					{ "time": 0, "x": 15.4, "y": 0.3 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.0333, "angle": -45 },
+					{ "time": 0.0666, "angle": -90 },
+					{ "time": 0.1, "angle": -135 },
+					{ "time": 0.1333, "angle": -180 },
+					{ "time": 0.1666, "angle": -225 },
+					{ "time": 0.2, "angle": -270 },
+					{ "time": 0.2333, "angle": -315 },
+					{ "time": 0.2666, "angle": 360 },
+					{ "time": 0.3, "angle": -45 },
+					{ "time": 0.3333, "angle": -90 },
+					{ "time": 0.3666, "angle": -135 },
+					{ "time": 0.4, "angle": -180 },
+					{ "time": 0.4333, "angle": -225 },
+					{ "time": 0.4666, "angle": -270 },
+					{ "time": 0.5, "angle": -315 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"wuqi02_1": {
+				"rotate": [
+					{ "time": 0, "angle": 79.54 }
+				],
+				"translate": [
+					{ "time": 0, "x": -5.67, "y": 12.34 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"wuqi02_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -17.19, "y": 2.68 },
+					{ "time": 0.2666, "x": -17.19, "y": 1.9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.4333 }
+		]
+	}
+}
+}

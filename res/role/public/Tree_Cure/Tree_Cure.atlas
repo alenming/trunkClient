@@ -1,0 +1,76 @@
+
+Tree_Cure.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10015_xian01
+  rotate: false
+  xy: 152, 331
+  size: 141, 157
+  orig: 150, 180
+  offset: 0, 11
+  index: -1
+10015_xian02
+  rotate: false
+  xy: 1, 1
+  size: 138, 160
+  orig: 150, 180
+  offset: 0, 10
+  index: -1
+10015_xian03
+  rotate: false
+  xy: 1, 162
+  size: 140, 161
+  orig: 150, 180
+  offset: 0, 11
+  index: -1
+10015_xian04
+  rotate: false
+  xy: 1, 324
+  size: 150, 164
+  orig: 150, 180
+  offset: 0, 10
+  index: -1
+10015_xian05
+  rotate: false
+  xy: 294, 338
+  size: 146, 150
+  orig: 150, 180
+  offset: 4, 11
+  index: -1
+10015_xian06
+  rotate: false
+  xy: 142, 175
+  size: 145, 148
+  orig: 150, 180
+  offset: 5, 13
+  index: -1
+10015_xian07
+  rotate: true
+  xy: 142, 32
+  size: 142, 147
+  orig: 150, 180
+  offset: 8, 16
+  index: -1
+10015_xian08
+  rotate: false
+  xy: 391, 242
+  size: 88, 95
+  orig: 150, 180
+  offset: 32, 73
+  index: -1
+10015_xian09
+  rotate: true
+  xy: 294, 251
+  size: 86, 96
+  orig: 150, 180
+  offset: 36, 70
+  index: -1
+10015_xian10
+  rotate: false
+  xy: 290, 165
+  size: 93, 85
+  orig: 150, 180
+  offset: 30, 69
+  index: -1

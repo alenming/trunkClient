@@ -1,0 +1,145 @@
+{
+"skeleton": { "hash": "SsijfGrCWytI6RHIRkwvY+yqB84", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "10000" },
+	{ "name": "10000_Skill1_ci01", "parent": "10000" },
+	{ "name": "10000_Skill1_ci02", "parent": "10000" },
+	{ "name": "10000_Skill1_cizhong", "parent": "10000" },
+	{ "name": "10000_Skill1_yuanquan", "parent": "10000" }
+],
+"slots": [
+	{ "name": "10000_Skill1_ci01", "bone": "10000_Skill1_ci01", "blend": "additive" },
+	{ "name": "10000_Skill1_cizhong01", "bone": "10000_Skill1_cizhong", "blend": "additive" },
+	{ "name": "10000_Skill1_ci02", "bone": "10000_Skill1_ci02", "blend": "additive" },
+	{ "name": "10000_Skill1_yuanquan01", "bone": "10000_Skill1_yuanquan", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10000_Skill1_ci01": {
+			"10000_Skill1_ci01": { "width": 369, "height": 47 }
+		},
+		"10000_Skill1_ci02": {
+			"10000_Skill1_ci02": { "width": 352, "height": 81 }
+		},
+		"10000_Skill1_cizhong01": {
+			"10000_Skill1_sj01": { "width": 132, "height": 89 },
+			"10000_Skill1_sj02": { "width": 132, "height": 89 },
+			"10000_Skill1_sj03": { "width": 132, "height": 89 },
+			"10000_Skill1_sj04": { "width": 132, "height": 89 },
+			"10000_Skill1_sj05": { "width": 132, "height": 89 }
+		},
+		"10000_Skill1_yuanquan01": {
+			"10000_Skill1_yuanquan01": { "width": 84, "height": 176 }
+		}
+	}
+},
+"animations": {
+	"10000_Attack1": {
+		"slots": {
+			"10000_Skill1_ci01": {
+				"attachment": [
+					{ "time": 0.3666, "name": "10000_Skill1_ci01" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"10000_Skill1_ci02": {
+				"attachment": [
+					{ "time": 0.3666, "name": "10000_Skill1_ci02" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"10000_Skill1_cizhong01": {
+				"attachment": [
+					{ "time": 0.4, "name": "10000_Skill1_sj01" },
+					{ "time": 0.4333, "name": "10000_Skill1_sj02" },
+					{ "time": 0.4666, "name": "10000_Skill1_sj03" },
+					{ "time": 0.5, "name": "10000_Skill1_sj04" },
+					{ "time": 0.5333, "name": "10000_Skill1_sj05" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"10000_Skill1_yuanquan01": {
+				"attachment": [
+					{ "time": 0.3666, "name": "10000_Skill1_yuanquan01" }
+				],
+				"color": [
+					{ "time": 0.3666, "color": "ffffff00" },
+					{ "time": 0.5333, "color": "ffffffbe" },
+					{ "time": 0.6333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"10000_Skill1_ci01": {
+				"translate": [
+					{ "time": 0.3666, "x": 82.94, "y": 79.22 },
+					{ "time": 0.5666, "x": 133.27, "y": 79.21 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 0.567, "y": 0.567 }
+				]
+			},
+			"10000": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"10000_Skill1_ci02": {
+				"translate": [
+					{ "time": 0.3666, "x": 68.96, "y": 80.15 },
+					{ "time": 0.5666, "x": 113.7, "y": 80.15 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 0.658, "y": 0.496 }
+				]
+			},
+			"10000_Skill1_cizhong": {
+				"translate": [
+					{ "time": 0.4, "x": 184.53, "y": 79.22 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1.42, "y": 1.42 }
+				]
+			},
+			"10000_Skill1_yuanquan": {
+				"translate": [
+					{ "time": 0.3666, "x": 164.03, "y": 78.28 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 0.359, "y": 0.359 },
+					{ "time": 0.5666, "x": 0.859, "y": 0.859 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.3666,
+				"offsets": [
+					{ "slot": "10000_Skill1_ci02", "offset": -2 }
+				]
+			}
+		]
+	}
+}
+}

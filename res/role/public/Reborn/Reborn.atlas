@@ -1,0 +1,34 @@
+
+Reborn.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Reborn_slfh01
+  rotate: false
+  xy: 257, 6
+  size: 127, 132
+  orig: 127, 137
+  offset: 0, 0
+  index: -1
+images/Reborn_slfh02
+  rotate: false
+  xy: 129, 3
+  size: 127, 135
+  orig: 127, 137
+  offset: 0, 0
+  index: -1
+images/Reborn_slfh03
+  rotate: false
+  xy: 1, 1
+  size: 127, 137
+  orig: 127, 137
+  offset: 0, 0
+  index: -1
+images/Reborn_slfh04
+  rotate: true
+  xy: 385, 11
+  size: 127, 125
+  orig: 127, 137
+  offset: 0, 1
+  index: -1

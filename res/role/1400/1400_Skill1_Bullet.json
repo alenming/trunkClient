@@ -1,0 +1,46 @@
+{
+"skeleton": { "hash": "XR4VgfzVue4wzh62tRFXm1W4hQw", "spine": "2.1.27", "width": 323.4, "height": 222.29, "images": "./images/" },
+"bones": [
+	{ "name": "1400_Skill1_Bullet", "scaleX": 1.4, "scaleY": 1.3 },
+	{ "name": "1400_Skill1_bul0001", "parent": "1400_Skill1_Bullet" }
+],
+"slots": [
+	{ "name": "1400_Skill1_bul0001", "bone": "1400_Skill1_bul0001", "attachment": "1400_Skill1_bul0001", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"1400_Skill1_bul0001": {
+			"1400_Skill1_bul0001": { "y": 45, "width": 231, "height": 171 },
+			"1400_Skill1_bul0002": { "y": 45, "width": 231, "height": 171 },
+			"1400_Skill1_bul0003": { "y": 45, "width": 231, "height": 171 },
+			"1400_Skill1_bul0004": { "y": 45, "width": 231, "height": 171 },
+			"1400_Skill1_bul0005": { "y": 45, "width": 231, "height": 171 },
+			"1400_Skill1_bul0006": { "y": 45, "width": 231, "height": 171 }
+		}
+	}
+},
+"animations": {
+	"1400_Skill1_Bullet": {
+		"slots": {
+			"1400_Skill1_bul0001": {
+				"attachment": [
+					{ "time": 0, "name": "1400_Skill1_bul0001" },
+					{ "time": 0.1, "name": "1400_Skill1_bul0002" },
+					{ "time": 0.2, "name": "1400_Skill1_bul0003" },
+					{ "time": 0.3, "name": "1400_Skill1_bul0004" },
+					{ "time": 0.4, "name": "1400_Skill1_bul0005" },
+					{ "time": 0.5, "name": "1400_Skill1_bul0006" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"1400_Skill1_Bullet": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

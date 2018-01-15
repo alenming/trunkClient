@@ -1,0 +1,121 @@
+{
+"skeleton": { "hash": "Ceqm8QkJUU2uUvCX8QPG5057buY", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1006800_Skill2_Effect_S01", "parent": "root" },
+	{ "name": "1006800_Skill2_Effect_X01", "parent": "root" }
+],
+"slots": [
+	{ "name": "1006800_Skill2_Effect_S01", "bone": "1006800_Skill2_Effect_S01" },
+	{ "name": "1006800_Skill2_Effect_X01", "bone": "1006800_Skill2_Effect_X01" }
+],
+"skins": {
+	"default": {
+		"1006800_Skill2_Effect_S01": {
+			"1006800_Skill2_Effect_S01": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S02": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S03": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S04": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S05": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S06": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S07": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S08": { "width": 296, "height": 167 },
+			"1006800_Skill2_Effect_S09": { "width": 296, "height": 167 }
+		},
+		"1006800_Skill2_Effect_X01": {
+			"1006800_Skill2_Effect_X01": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X02": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X03": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X04": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X05": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X06": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X07": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X11": { "width": 284, "height": 97 },
+			"1006800_Skill2_Effect_X12": { "width": 284, "height": 97 }
+		}
+	}
+},
+"animations": {
+	"106800_Skill2_Effect1": {
+		"slots": {
+			"1006800_Skill2_Effect_S01": {
+				"attachment": [
+					{ "time": 0.8666, "name": "1006800_Skill2_Effect_S01" },
+					{ "time": 0.9, "name": "1006800_Skill2_Effect_S02" },
+					{ "time": 0.9333, "name": "1006800_Skill2_Effect_S03" },
+					{ "time": 0.9666, "name": "1006800_Skill2_Effect_S04" },
+					{ "time": 1, "name": "1006800_Skill2_Effect_S05" },
+					{ "time": 1.0333, "name": "1006800_Skill2_Effect_S06" },
+					{ "time": 1.0666, "name": "1006800_Skill2_Effect_S07" },
+					{ "time": 1.1, "name": "1006800_Skill2_Effect_S08" },
+					{ "time": 1.1333, "name": "1006800_Skill2_Effect_S09" },
+					{ "time": 1.1666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"1006800_Skill2_Effect_S01": {
+				"translate": [
+					{ "time": 0.8666, "x": 68.56, "y": 62.56 }
+				],
+				"scale": [
+					{ "time": 0.8666, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.0666 },
+			{ "time": 0.5 },
+			{ "time": 0.7333 },
+			{ "time": 2.2333 }
+		]
+	},
+	"106800_Skill2_Effect2": {
+		"slots": {
+			"1006800_Skill2_Effect_X01": {
+				"attachment": [
+					{ "time": 0.8666, "name": "1006800_Skill2_Effect_X01" },
+					{ "time": 0.9, "name": "1006800_Skill2_Effect_X02" },
+					{ "time": 0.9333, "name": "1006800_Skill2_Effect_X03" },
+					{ "time": 0.9666, "name": "1006800_Skill2_Effect_X04" },
+					{ "time": 1, "name": "1006800_Skill2_Effect_X05" },
+					{ "time": 1.0333, "name": "1006800_Skill2_Effect_X06" },
+					{ "time": 1.0666, "name": "1006800_Skill2_Effect_X07" },
+					{ "time": 1.2, "name": "1006800_Skill2_Effect_X11" },
+					{ "time": 1.2333, "name": "1006800_Skill2_Effect_X12" },
+					{ "time": 1.2666, "name": null }
+				],
+				"color": [
+					{ "time": 1.0666, "color": "ffffffff" },
+					{ "time": 1.1666, "color": "ffffff9a" },
+					{ "time": 1.2, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"1006800_Skill2_Effect_X01": {
+				"translate": [
+					{ "time": 0.8666, "x": 61.7, "y": -20.57 }
+				],
+				"scale": [
+					{ "time": 0.8666, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.0666 },
+			{ "time": 0.5 },
+			{ "time": 0.7333 },
+			{
+				"time": 0.8666,
+				"offsets": [
+					{ "slot": "1006800_Skill2_Effect_S01", "offset": 1 }
+				]
+			},
+			{ "time": 2.2333 }
+		]
+	}
+}
+}

@@ -1,0 +1,146 @@
+
+1300-Delivery.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1300_chuansongmen_1_01
+  rotate: false
+  xy: 608, 395
+  size: 52, 103
+  orig: 90, 167
+  offset: 19, 30
+  index: -1
+1300_chuansongmen_1_02
+  rotate: false
+  xy: 454, 287
+  size: 67, 130
+  orig: 90, 167
+  offset: 12, 17
+  index: -1
+1300_chuansongmen_1_03
+  rotate: false
+  xy: 907, 527
+  size: 80, 152
+  orig: 90, 167
+  offset: 6, 6
+  index: -1
+1300_chuansongmen_1_04
+  rotate: false
+  xy: 909, 848
+  size: 90, 167
+  orig: 90, 167
+  offset: 0, 0
+  index: -1
+1300_chuansongmen_2_01
+  rotate: false
+  xy: 228, 756
+  size: 226, 259
+  orig: 226, 264
+  offset: 0, 5
+  index: -1
+1300_chuansongmen_2_02
+  rotate: false
+  xy: 228, 239
+  size: 225, 256
+  orig: 226, 264
+  offset: 1, 8
+  index: -1
+1300_chuansongmen_2_03
+  rotate: true
+  xy: 256, 13
+  size: 225, 253
+  orig: 226, 264
+  offset: 1, 11
+  index: -1
+1300_chuansongmen_2_04
+  rotate: false
+  xy: 682, 761
+  size: 226, 254
+  orig: 226, 264
+  offset: 0, 10
+  index: -1
+1300_chuansongmen_2_05
+  rotate: false
+  xy: 1, 228
+  size: 226, 259
+  orig: 226, 264
+  offset: 0, 5
+  index: -1
+1300_chuansongmen_2_06
+  rotate: false
+  xy: 1, 752
+  size: 226, 263
+  orig: 226, 264
+  offset: 0, 1
+  index: -1
+1300_chuansongmen_3_Rad_01
+  rotate: false
+  xy: 590, 291
+  size: 52, 103
+  orig: 90, 167
+  offset: 19, 30
+  index: -1
+1300_chuansongmen_3_Rad_02
+  rotate: false
+  xy: 522, 287
+  size: 67, 130
+  orig: 90, 167
+  offset: 12, 17
+  index: -1
+1300_chuansongmen_3_Rad_03
+  rotate: true
+  xy: 455, 418
+  size: 80, 152
+  orig: 90, 167
+  offset: 6, 6
+  index: -1
+1300_chuansongmen_3_Rad_04
+  rotate: false
+  xy: 909, 680
+  size: 90, 167
+  orig: 90, 167
+  offset: 0, 0
+  index: -1
+1300_chuansongmen_3_Red_01
+  rotate: false
+  xy: 228, 496
+  size: 226, 259
+  orig: 226, 264
+  offset: 0, 5
+  index: -1
+1300_chuansongmen_3_Red_02
+  rotate: false
+  xy: 455, 499
+  size: 225, 256
+  orig: 226, 264
+  offset: 1, 8
+  index: -1
+1300_chuansongmen_3_Red_03
+  rotate: false
+  xy: 681, 502
+  size: 225, 253
+  orig: 226, 264
+  offset: 1, 11
+  index: -1
+1300_chuansongmen_3_Red_04
+  rotate: true
+  xy: 1, 1
+  size: 226, 254
+  orig: 226, 264
+  offset: 0, 10
+  index: -1
+1300_chuansongmen_3_Red_05
+  rotate: false
+  xy: 455, 756
+  size: 226, 259
+  orig: 226, 264
+  offset: 0, 5
+  index: -1
+1300_chuansongmen_3_Red_06
+  rotate: false
+  xy: 1, 488
+  size: 226, 263
+  orig: 226, 264
+  offset: 0, 1
+  index: -1

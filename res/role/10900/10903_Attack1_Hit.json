@@ -1,0 +1,52 @@
+{
+"skeleton": { "hash": "XWQBMrtKJTxUgroxUIYQOUpJaYg", "spine": "2.1.27", "width": 132, "height": 126, "images": "./images/" },
+"bones": [
+	{ "name": "10903_Attack1_Hit" },
+	{ "name": "Attack1_Hit", "parent": "10903_Attack1_Hit", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "10905_atk_00021", "bone": "Attack1_Hit", "attachment": "10905_atk_00021", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10905_atk_00021": {
+			"10905_atk_00021": { "width": 66, "height": 63 },
+			"10905_atk_00022": { "width": 66, "height": 63 },
+			"10905_atk_00023": { "width": 66, "height": 63 },
+			"10905_atk_00024": { "width": 66, "height": 63 },
+			"10905_atk_00025": { "width": 66, "height": 63 },
+			"10905_atk_00026": { "width": 66, "height": 63 }
+		}
+	}
+},
+"animations": {
+	"10903_Attack1_Hit": {
+		"slots": {
+			"10905_atk_00021": {
+				"attachment": [
+					{ "time": 0, "name": "10905_atk_00021" },
+					{ "time": 0.0666, "name": "10905_atk_00022" },
+					{ "time": 0.1333, "name": "10905_atk_00023" },
+					{ "time": 0.2, "name": "10905_atk_00024" },
+					{ "time": 0.2666, "name": "10905_atk_00025" },
+					{ "time": 0.3333, "name": "10905_atk_00026" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Attack1_Hit": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.6, "y": 1.6 }
+				]
+			}
+		}
+	}
+}
+}

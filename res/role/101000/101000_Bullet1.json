@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "DB7gLcNU3vTsWdNMMGdZrhOMLXo", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "101000_Bullet1", "parent": "root" }
+],
+"slots": [
+	{ "name": "101000_Bullet1_jian01", "bone": "101000_Bullet1" }
+],
+"skins": {
+	"default": {
+		"101000_Bullet1_jian01": {
+			"101000_Bullet1_jian01": { "width": 219, "height": 53 },
+			"101000_Bullet1_jian02": { "width": 219, "height": 53 },
+			"101000_Bullet1_jian03": { "width": 219, "height": 53 },
+			"101000_Bullet1_jian04": { "width": 219, "height": 53 },
+			"101000_Bullet1_jian05": { "width": 219, "height": 53 },
+			"101000_Bullet1_jian06": { "width": 219, "height": 53 },
+			"101000_Bullet1_jian07": { "width": 219, "height": 53 },
+			"101000_Bullet1_jian08": { "width": 219, "height": 53 }
+		}
+	}
+},
+"animations": {
+	"101000_Bullet1": {
+		"slots": {
+			"101000_Bullet1_jian01": {
+				"attachment": [
+					{ "time": 0, "name": "101000_Bullet1_jian01" },
+					{ "time": 0.0666, "name": "101000_Bullet1_jian02" },
+					{ "time": 0.1333, "name": "101000_Bullet1_jian03" },
+					{ "time": 0.2, "name": "101000_Bullet1_jian04" },
+					{ "time": 0.2666, "name": "101000_Bullet1_jian05" },
+					{ "time": 0.3333, "name": "101000_Bullet1_jian06" },
+					{ "time": 0.4, "name": "101000_Bullet1_jian07" },
+					{ "time": 0.4666, "name": "101000_Bullet1_jian08" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"101000_Bullet1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 2.12 }
+				]
+			}
+		}
+	}
+}
+}

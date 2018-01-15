@@ -1,0 +1,48 @@
+
+vampire_buff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+vampire_buff_biaoji_0
+  rotate: false
+  xy: 202, 14
+  size: 200, 149
+  orig: 200, 160
+  offset: 0, 1
+  index: -1
+vampire_buff_biaoji_2
+  rotate: false
+  xy: 1, 1
+  size: 200, 155
+  orig: 200, 160
+  offset: 0, 3
+  index: -1
+vampire_buff_biaoji_4
+  rotate: false
+  xy: 1, 157
+  size: 200, 158
+  orig: 200, 160
+  offset: 0, 1
+  index: -1
+vampire_buff_biaoji_6
+  rotate: false
+  xy: 202, 318
+  size: 200, 157
+  orig: 200, 160
+  offset: 0, 0
+  index: -1
+vampire_buff_biaoji_8
+  rotate: false
+  xy: 1, 316
+  size: 200, 159
+  orig: 200, 160
+  offset: 0, 0
+  index: -1
+vampire_buff_biaoji_9
+  rotate: false
+  xy: 202, 164
+  size: 200, 153
+  orig: 200, 160
+  offset: 0, 1
+  index: -1

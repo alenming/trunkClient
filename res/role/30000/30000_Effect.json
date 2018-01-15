@@ -1,0 +1,159 @@
+{
+"skeleton": { "hash": "yACTv4tG8VZsiDbIWAt5sJBuGRU", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "30000_baozhayanwu", "parent": "root" },
+	{ "name": "30000_buff", "parent": "root", "y": -113.35 },
+	{ "name": "30000_debuff", "parent": "root", "y": -113.18 },
+	{ "name": "30000_fangsheguang", "parent": "root" }
+],
+"slots": [
+	{ "name": "30000_baozhayanwu01", "bone": "30000_baozhayanwu", "blend": "additive" },
+	{ "name": "30000_buff01", "bone": "30000_buff", "blend": "additive" },
+	{ "name": "30000_debuff01", "bone": "30000_debuff", "blend": "additive" },
+	{ "name": "30000_fangsheguang01", "bone": "30000_fangsheguang", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30000_baozhayanwu01": {
+			"30000_baozhayanwu01": { "width": 138, "height": 97 },
+			"30000_baozhayanwu02": { "width": 138, "height": 97 },
+			"30000_baozhayanwu03": { "width": 138, "height": 97 },
+			"30000_baozhayanwu04": { "width": 138, "height": 97 },
+			"30000_baozhayanwu05": { "width": 138, "height": 97 },
+			"30000_baozhayanwu06": { "width": 138, "height": 97 },
+			"30000_baozhayanwu07": { "width": 138, "height": 97 }
+		},
+		"30000_buff01": {
+			"30000_buff01": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff02": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff03": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff04": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff05": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff06": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff07": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff08": { "y": 113.35, "width": 163, "height": 244 },
+			"30000_buff09": { "y": 113.35, "width": 163, "height": 244 }
+		},
+		"30000_debuff01": {
+			"30000_debuff01": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff02": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff03": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff04": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff05": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff06": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff07": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff08": { "y": 113.18, "width": 163, "height": 244 },
+			"30000_debuff09": { "y": 113.18, "width": 163, "height": 244 }
+		},
+		"30000_fangsheguang01": {
+			"30000_fangsheguang01": { "width": 243, "height": 119 },
+			"30000_fangsheguang02": { "width": 243, "height": 119 },
+			"30000_fangsheguang03": { "width": 243, "height": 119 },
+			"30000_fangsheguang04": { "width": 243, "height": 119 },
+			"30000_fangsheguang05": { "width": 243, "height": 119 },
+			"30000_fangsheguang06": { "width": 243, "height": 119 },
+			"30000_fangsheguang07": { "width": 243, "height": 119 }
+		}
+	}
+},
+"animations": {
+	"30000_Effect": {
+		"slots": {
+			"30000_baozhayanwu01": {
+				"attachment": [
+					{ "time": 0, "name": "30000_baozhayanwu01" },
+					{ "time": 0.0666, "name": "30000_baozhayanwu02" },
+					{ "time": 0.1333, "name": "30000_baozhayanwu03" },
+					{ "time": 0.2, "name": "30000_baozhayanwu04" },
+					{ "time": 0.2666, "name": "30000_baozhayanwu05" },
+					{ "time": 0.3333, "name": "30000_baozhayanwu06" },
+					{ "time": 0.4, "name": "30000_baozhayanwu07" },
+					{ "time": 0.4666, "name": null }
+				]
+			},
+			"30000_fangsheguang01": {
+				"attachment": [
+					{ "time": 0, "name": "30000_fangsheguang01" },
+					{ "time": 0.0666, "name": "30000_fangsheguang02" },
+					{ "time": 0.1333, "name": "30000_fangsheguang03" },
+					{ "time": 0.2, "name": "30000_fangsheguang04" },
+					{ "time": 0.2666, "name": "30000_fangsheguang05" },
+					{ "time": 0.3333, "name": "30000_fangsheguang06" },
+					{ "time": 0.4, "name": "30000_fangsheguang07" },
+					{ "time": 0.4666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"30000_baozhayanwu": {
+				"translate": [
+					{ "time": 0, "x": 8.38, "y": -0.83 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30000_fangsheguang": {
+				"translate": [
+					{ "time": 0, "x": 5.03, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.238, "y": 1.238 },
+					{ "time": 0.2, "x": 1.702, "y": 1.702 }
+				]
+			}
+		}
+	},
+	"30000_buff": {
+		"slots": {
+			"30000_buff01": {
+				"attachment": [
+					{ "time": 0, "name": "30000_buff01" },
+					{ "time": 0.0666, "name": "30000_buff02" },
+					{ "time": 0.1333, "name": "30000_buff03" },
+					{ "time": 0.2, "name": "30000_buff04" },
+					{ "time": 0.2666, "name": "30000_buff05" },
+					{ "time": 0.3333, "name": "30000_buff06" },
+					{ "time": 0.4, "name": "30000_buff07" },
+					{ "time": 0.4666, "name": "30000_buff08" },
+					{ "time": 0.5333, "name": "30000_buff09" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"30000_buff": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 106.55 }
+				]
+			}
+		}
+	},
+	"30000_debuff": {
+		"slots": {
+			"30000_debuff01": {
+				"attachment": [
+					{ "time": 0, "name": "30000_debuff01" },
+					{ "time": 0.0666, "name": "30000_debuff02" },
+					{ "time": 0.1333, "name": "30000_debuff03" },
+					{ "time": 0.2, "name": "30000_debuff04" },
+					{ "time": 0.2666, "name": "30000_debuff05" },
+					{ "time": 0.3333, "name": "30000_debuff06" },
+					{ "time": 0.4, "name": "30000_debuff07" },
+					{ "time": 0.4666, "name": "30000_debuff08" },
+					{ "time": 0.5333, "name": "30000_debuff09" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"30000_debuff": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 106.55 }
+				]
+			}
+		}
+	}
+}
+}

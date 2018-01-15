@@ -1,0 +1,245 @@
+{
+"skeleton": { "hash": "abuG0G/kEiolO4FcO7XdsGeQjE0", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40700" },
+	{ "name": "40700_Eff_Skill2", "parent": "40700", "length": 159.74, "rotation": 90 },
+	{
+		"name": "40700_Eff_Skill2_01",
+		"parent": "40700_Eff_Skill2",
+		"length": 117.38,
+		"x": 133.33,
+		"y": 86.06,
+		"scaleX": 1.8,
+		"scaleY": 2.3,
+		"color": "2a479bff"
+	},
+	{
+		"name": "40700_Eff_Skill2_02",
+		"parent": "40700_Eff_Skill2",
+		"length": 117.38,
+		"x": 93.35,
+		"y": 56.92,
+		"scaleX": 1.8,
+		"scaleY": 2,
+		"rotation": -0.59
+	},
+	{ "name": "40700_Eff_Skill2_04", "parent": "40700_Eff_Skill2", "length": 140, "x": 134.08 },
+	{
+		"name": "40700_Eff_Skill2_05",
+		"parent": "40700_Eff_Skill2",
+		"length": 140,
+		"x": 235.13,
+		"y": 93.61,
+		"scaleX": 0.6,
+		"scaleY": 0.6
+	},
+	{
+		"name": "40700_Eff_Skill2_06",
+		"parent": "40700_Eff_Skill2",
+		"length": 140,
+		"x": 25.26,
+		"y": 127.79,
+		"scaleX": 0.8,
+		"scaleY": 0.8
+	},
+	{
+		"name": "40700_Eff_Skill2_1",
+		"parent": "40700_Eff_Skill2",
+		"length": 117.38,
+		"x": 133.33,
+		"y": 86.06,
+		"scaleX": 1.8,
+		"scaleY": 2.3,
+		"color": "2a479bff"
+	}
+],
+"slots": [
+	{ "name": "40700_Eff_Skill2_01", "bone": "40700_Eff_Skill2_01", "color": "1a3345bd" },
+	{ "name": "40700_Eff_Skill2_1", "bone": "40700_Eff_Skill2_1", "color": "1a3345bd" },
+	{ "name": "40700_Eff_Skill2_02", "bone": "40700_Eff_Skill2_02", "color": "1c2e45bd" },
+	{ "name": "40700_Eff_Skill2_04", "bone": "40700_Eff_Skill2_04", "color": "3f7a8aff" },
+	{ "name": "40700_Eff_Skill2_05", "bone": "40700_Eff_Skill2_05", "color": "31668fff" },
+	{ "name": "40700_Eff_Skill2_06", "bone": "40700_Eff_Skill2_06", "color": "4b85abff" }
+],
+"skins": {
+	"default": {},
+	"40705": {
+		"40700_Eff_Skill2_01": {
+			"40700_Eff_shader01": { "rotation": -90, "width": 298, "height": 185 }
+		},
+		"40700_Eff_Skill2_02": {
+			"40700_Eff_shader01": { "rotation": -90, "width": 298, "height": 185 }
+		},
+		"40700_Eff_Skill2_04": {
+			"11002_run_0001": { "name": "40700_run_0001", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0002": { "name": "40700_run_0002", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0003": { "name": "40700_run_0003", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0004": { "name": "40700_run_0004", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0005": { "name": "40700_run_0005", "rotation": -90, "width": 311, "height": 27 }
+		},
+		"40700_Eff_Skill2_05": {
+			"11002_run_0001": { "name": "40700_run_0001", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0002": { "name": "40700_run_0002", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0003": { "name": "40700_run_0003", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0004": { "name": "40700_run_0004", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0005": { "name": "40700_run_0005", "rotation": -90, "width": 311, "height": 27 }
+		},
+		"40700_Eff_Skill2_06": {
+			"11002_run_0001": { "name": "40700_run_0001", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0002": { "name": "40700_run_0002", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0003": { "name": "40700_run_0003", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0004": { "name": "40700_run_0004", "rotation": -90, "width": 311, "height": 27 },
+			"11002_run_0005": { "name": "40700_run_0005", "rotation": -90, "width": 311, "height": 27 }
+		},
+		"40700_Eff_Skill2_1": {
+			"40700_Eff_shader01": { "rotation": -90, "width": 298, "height": 185 }
+		}
+	}
+},
+"animations": {
+	"40700_Eff_Skill2": {
+		"slots": {
+			"40700_Eff_Skill2_01": {
+				"attachment": [
+					{ "time": 0, "name": "40700_Eff_shader01" },
+					{ "time": 1.3333, "name": "40700_Eff_shader01" }
+				],
+				"color": [
+					{ "time": 0, "color": "26224543" },
+					{ "time": 0.1666, "color": "223b45dc" },
+					{ "time": 0.3333, "color": "26224543" },
+					{ "time": 0.5, "color": "223b45dc" },
+					{ "time": 0.6666, "color": "26224543" },
+					{ "time": 0.8333, "color": "223b45dc" },
+					{ "time": 1, "color": "26224543" },
+					{ "time": 1.1666, "color": "223b45dc" },
+					{ "time": 1.3333, "color": "26224543" }
+				]
+			},
+			"40700_Eff_Skill2_1": {
+				"attachment": [
+					{ "time": 0, "name": "40700_Eff_shader01" }
+				],
+				"color": [
+					{ "time": 0, "color": "223b45d6" },
+					{ "time": 0.1666, "color": "1a334520" },
+					{ "time": 0.3333, "color": "223b45d7" },
+					{ "time": 0.5, "color": "1a334520" },
+					{ "time": 0.6666, "color": "223b45d7" },
+					{ "time": 0.8333, "color": "1a334520" },
+					{ "time": 1, "color": "223b45d7" },
+					{ "time": 1.1666, "color": "1a334520" },
+					{ "time": 1.3333, "color": "223b45d7" }
+				]
+			},
+			"40700_Eff_Skill2_02": {
+				"attachment": [
+					{ "time": 0.1, "name": "40700_Eff_shader01" },
+					{ "time": 0.3666, "name": "40700_Eff_shader01" },
+					{ "time": 0.6, "name": "40700_Eff_shader01" },
+					{ "time": 0.8666, "name": "40700_Eff_shader01" },
+					{ "time": 1.1333, "name": "40700_Eff_shader01" }
+				],
+				"color": [
+					{ "time": 0.1, "color": "20344500" },
+					{ "time": 0.2, "color": "1e3c45bd" },
+					{ "time": 0.3333, "color": "22394500" },
+					{ "time": 0.3666, "color": "20344500" },
+					{ "time": 0.4666, "color": "1e3c45bd" },
+					{ "time": 0.5666, "color": "22394500" },
+					{ "time": 0.6, "color": "20344500" },
+					{ "time": 0.7, "color": "1e3c45bd" },
+					{ "time": 0.8333, "color": "22394500" },
+					{ "time": 0.8666, "color": "20344500" },
+					{ "time": 0.9666, "color": "1e3c45bd" },
+					{ "time": 1.1, "color": "22394500" },
+					{ "time": 1.1333, "color": "20344500" },
+					{ "time": 1.2, "color": "1e3c45bd" },
+					{ "time": 1.3333, "color": "22394500" }
+				]
+			},
+			"40700_Eff_Skill2_04": {
+				"attachment": [
+					{ "time": 0, "name": "11002_run_0001" },
+					{ "time": 0.1666, "name": "11002_run_0002" },
+					{ "time": 0.3333, "name": "11002_run_0003" },
+					{ "time": 0.5, "name": "11002_run_0004" },
+					{ "time": 0.6666, "name": "11002_run_0005" },
+					{ "time": 0.8333, "name": null }
+				]
+			},
+			"40700_Eff_Skill2_05": {
+				"attachment": [
+					{ "time": 0, "name": "11002_run_0003" },
+					{ "time": 0.1666, "name": "11002_run_0004" },
+					{ "time": 0.3333, "name": "11002_run_0005" },
+					{ "time": 0.5, "name": null },
+					{ "time": 1, "name": "11002_run_0001" },
+					{ "time": 1.1666, "name": "11002_run_0002" }
+				]
+			},
+			"40700_Eff_Skill2_06": {
+				"attachment": [
+					{ "time": 0, "name": "11002_run_0004" },
+					{ "time": 0.1666, "name": "11002_run_0005" },
+					{ "time": 0.3333, "name": null },
+					{ "time": 0.8333, "name": "11002_run_0001" },
+					{ "time": 1, "name": "11002_run_0002" },
+					{ "time": 1.1666, "name": "11002_run_0003" }
+				]
+			}
+		},
+		"bones": {
+			"40700_Eff_Skill2_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": 113.93 },
+					{ "time": 0.3666, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": 113.93 },
+					{ "time": 0.7, "x": 0, "y": 0 },
+					{ "time": 1, "x": 0, "y": 113.93 },
+					{ "time": 1.0333, "x": 0, "y": 0 },
+					{ "time": 1.3, "x": 0, "y": 113.93 },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				]
+			},
+			"40700_Eff_Skill2_02": {
+				"translate": [
+					{ "time": 0.1, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": 113.93 },
+					{ "time": 0.3666, "x": 0, "y": 0 },
+					{ "time": 0.5666, "x": 0, "y": 113.93 },
+					{ "time": 0.6, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": 0, "y": 113.93 },
+					{ "time": 0.8666, "x": 0, "y": 0 },
+					{ "time": 1.1, "x": 0, "y": 113.93 },
+					{ "time": 1.1333, "x": 0, "y": 0 },
+					{ "time": 1.3333, "x": 0, "y": 113.93 }
+				]
+			},
+			"40700_Eff_Skill2_1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 2.47 },
+					{ "time": 0.1333, "x": 0, "y": 51.97 },
+					{ "time": 0.1666, "x": 0, "y": -37.12 },
+					{ "time": 0.5, "x": 0, "y": 51.97 },
+					{ "time": 0.5333, "x": 0, "y": -37.12 },
+					{ "time": 0.8333, "x": 0, "y": 51.97 },
+					{ "time": 0.8666, "x": 0, "y": -37.12 },
+					{ "time": 1.1666, "x": 0, "y": 51.97 },
+					{ "time": 1.2, "x": 0, "y": -37.12 },
+					{ "time": 1.3333, "x": 0, "y": 2.47 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "40700_Eff_Skill2_1", "offset": 4 }
+				]
+			}
+		]
+	}
+}
+}

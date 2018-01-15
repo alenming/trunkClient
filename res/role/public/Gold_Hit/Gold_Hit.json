@@ -1,0 +1,349 @@
+{
+"skeleton": { "hash": "gcXiRpf4NMPqKyKHCpSDXfd7+Zg", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "Gold_Hit" },
+	{ "name": "Gold_Hit1", "parent": "Gold_Hit", "scaleX": 0.7, "scaleY": 0.7 }
+],
+"slots": [
+	{ "name": "Gold_Hit1", "bone": "Gold_Hit1" }
+],
+"skins": {
+	"default": {
+		"Gold_Hit1": {
+			"Gold_Hit01": { "x": -0.07, "y": -0.39, "width": 36, "height": 39 },
+			"Gold_Hit02": { "x": -0.07, "y": -0.39, "width": 29, "height": 37 },
+			"Gold_Hit03": { "x": -0.07, "y": -0.39, "width": 14, "height": 37 },
+			"Gold_Hit04": { "x": -0.07, "y": -0.39, "width": 29, "height": 37 },
+			"Gold_Hit05": { "x": -0.07, "y": -0.39, "width": 36, "height": 39 }
+		}
+	}
+},
+"animations": {
+	"Gold_Hit1": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit01" },
+					{ "time": 0.0333, "name": "Gold_Hit02" },
+					{ "time": 0.0666, "name": "Gold_Hit03" },
+					{ "time": 0.1, "name": "Gold_Hit05" },
+					{ "time": 0.1333, "name": "Gold_Hit02" },
+					{ "time": 0.2, "name": "Gold_Hit01" },
+					{ "time": 0.2666, "name": "Gold_Hit03" },
+					{ "time": 0.3333, "name": "Gold_Hit05" },
+					{ "time": 0.4, "name": "Gold_Hit03" },
+					{ "time": 0.4666, "name": "Gold_Hit02" },
+					{ "time": 0.5333, "name": "Gold_Hit01" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": 9.92, "y": 34.59 },
+					{ "time": 0.0666, "x": 19.92, "y": 89.6 },
+					{ "time": 0.1, "x": 29.92, "y": 109.6 },
+					{ "time": 0.1333, "x": 39.91, "y": 114.6 },
+					{ "time": 0.1666, "x": 49.92, "y": 124.6 },
+					{ "time": 0.2, "x": 59.92, "y": 134.6 },
+					{ "time": 0.2333, "x": 69.92, "y": 139.6 },
+					{ "time": 0.2666, "x": 79.92, "y": 139.6 },
+					{ "time": 0.3, "x": 89.92, "y": 134.6 },
+					{ "time": 0.3333, "x": 99.92, "y": 134.6 },
+					{ "time": 0.3666, "x": 109.92, "y": 109.6 },
+					{ "time": 0.4, "x": 119.92, "y": 89.6 },
+					{ "time": 0.4333, "x": 129.92, "y": 64.6 },
+					{ "time": 0.4666, "x": 139.92, "y": 34.59 },
+					{ "time": 0.5, "x": 149.92, "y": -0.39 },
+					{ "time": 0.5333, "x": 159.92, "y": -40.39 },
+					{ "time": 0.5666, "x": 169.92, "y": -85.39 }
+				]
+			}
+		}
+	},
+	"Gold_Hit2": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit01" },
+					{ "time": 0.0333, "name": "Gold_Hit03" },
+					{ "time": 0.1, "name": "Gold_Hit05" },
+					{ "time": 0.1666, "name": "Gold_Hit02" },
+					{ "time": 0.2333, "name": "Gold_Hit04" },
+					{ "time": 0.3, "name": "Gold_Hit05" },
+					{ "time": 0.4, "name": "Gold_Hit02" },
+					{ "time": 0.4666, "name": "Gold_Hit01" },
+					{ "time": 0.5333, "name": "Gold_Hit03" },
+					{ "time": 0.6, "name": "Gold_Hit04" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -0.39 },
+					{ "time": 0.0333, "x": -5.07, "y": 44.6 },
+					{ "time": 0.0666, "x": -10.07, "y": 84.6 },
+					{ "time": 0.1, "x": -15.07, "y": 119.6 },
+					{ "time": 0.1333, "x": -20.07, "y": 149.6 },
+					{ "time": 0.1666, "x": -25.07, "y": 174.6 },
+					{ "time": 0.2, "x": -30.07, "y": 194.6 },
+					{ "time": 0.2333, "x": -35.07, "y": 209.6 },
+					{ "time": 0.2666, "x": -40.07, "y": 219.6 },
+					{ "time": 0.3, "x": -45.07, "y": 224.6 },
+					{ "time": 0.3333, "x": -50.07, "y": 224.6 },
+					{ "time": 0.3666, "x": -55.07, "y": 219.6 },
+					{ "time": 0.4, "x": -60.07, "y": 209.6 },
+					{ "time": 0.4333, "x": -65.07, "y": 194.6 },
+					{ "time": 0.4666, "x": -70.07, "y": 174.6 },
+					{ "time": 0.5, "x": -75.07, "y": 149.6 },
+					{ "time": 0.5333, "x": -80.07, "y": 119.6 },
+					{ "time": 0.5666, "x": -85.07, "y": 84.6 },
+					{ "time": 0.6, "x": -90.07, "y": 44.6 },
+					{ "time": 0.6333, "x": -95.07, "y": -0.39 }
+				]
+			}
+		}
+	},
+	"Gold_Hit3": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit05" },
+					{ "time": 0.0666, "name": "Gold_Hit04" },
+					{ "time": 0.1333, "name": "Gold_Hit03" },
+					{ "time": 0.2, "name": "Gold_Hit02" },
+					{ "time": 0.2666, "name": "Gold_Hit01" },
+					{ "time": 0.3333, "name": "Gold_Hit03" },
+					{ "time": 0.4, "name": "Gold_Hit04" },
+					{ "time": 0.4666, "name": "Gold_Hit05" },
+					{ "time": 0.5333, "name": "Gold_Hit04" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": 5, "y": 40 },
+					{ "time": 0.0666, "x": 10, "y": 75 },
+					{ "time": 0.1, "x": 15, "y": 105 },
+					{ "time": 0.1333, "x": 20, "y": 130 },
+					{ "time": 0.1666, "x": 25, "y": 150 },
+					{ "time": 0.2, "x": 30, "y": 165 },
+					{ "time": 0.2333, "x": 35, "y": 175 },
+					{ "time": 0.2666, "x": 40, "y": 180 },
+					{ "time": 0.3, "x": 45, "y": 180 },
+					{ "time": 0.3333, "x": 50, "y": 175 },
+					{ "time": 0.3666, "x": 55, "y": 165 },
+					{ "time": 0.4, "x": 60, "y": 150 },
+					{ "time": 0.4333, "x": 65, "y": 130 },
+					{ "time": 0.4666, "x": 70, "y": 105 },
+					{ "time": 0.5, "x": 75, "y": 75 },
+					{ "time": 0.5333, "x": 80, "y": 40 },
+					{ "time": 0.5666, "x": 85, "y": 0 }
+				]
+			}
+		}
+	},
+	"Gold_Hit4": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit01" },
+					{ "time": 0.0333, "name": "Gold_Hit02" },
+					{ "time": 0.1, "name": "Gold_Hit03" },
+					{ "time": 0.1666, "name": "Gold_Hit05" },
+					{ "time": 0.2333, "name": "Gold_Hit03" },
+					{ "time": 0.2666, "name": "Gold_Hit02" },
+					{ "time": 0.3, "name": "Gold_Hit05" },
+					{ "time": 0.3666, "name": "Gold_Hit03" },
+					{ "time": 0.4, "name": "Gold_Hit04" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": -20, "y": 25 },
+					{ "time": 0.0666, "x": -40, "y": 45 },
+					{ "time": 0.1, "x": -60, "y": 60 },
+					{ "time": 0.1333, "x": -80, "y": 70 },
+					{ "time": 0.1666, "x": -100, "y": 75 },
+					{ "time": 0.2, "x": -120, "y": 75 },
+					{ "time": 0.2333, "x": -140, "y": 70 },
+					{ "time": 0.2666, "x": -160, "y": 60 },
+					{ "time": 0.3, "x": -180, "y": 45 },
+					{ "time": 0.3333, "x": -200, "y": 25 },
+					{ "time": 0.3666, "x": -220, "y": 0 },
+					{ "time": 0.4, "x": -240, "y": -30 },
+					{ "time": 0.4333, "x": -260, "y": -65 },
+					{ "time": 0.4666, "x": -280, "y": -105 }
+				]
+			}
+		}
+	},
+	"Gold_Hit5": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit01" },
+					{ "time": 0.0666, "name": "Gold_Hit03" },
+					{ "time": 0.1, "name": "Gold_Hit04" },
+					{ "time": 0.1333, "name": "Gold_Hit05" },
+					{ "time": 0.2, "name": "Gold_Hit03" },
+					{ "time": 0.2666, "name": "Gold_Hit01" },
+					{ "time": 0.3333, "name": "Gold_Hit02" },
+					{ "time": 0.4, "name": "Gold_Hit04" },
+					{ "time": 0.4666, "name": "Gold_Hit05" },
+					{ "time": 0.5333, "name": "Gold_Hit03" },
+					{ "time": 0.5666, "name": "Gold_Hit01" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": -15, "y": 40 },
+					{ "time": 0.0666, "x": -30, "y": 75 },
+					{ "time": 0.1, "x": -45, "y": 105 },
+					{ "time": 0.1333, "x": -60, "y": 130 },
+					{ "time": 0.1666, "x": -75, "y": 150 },
+					{ "time": 0.2, "x": -90, "y": 165 },
+					{ "time": 0.2333, "x": -105, "y": 175 },
+					{ "time": 0.2666, "x": -120, "y": 180 },
+					{ "time": 0.3, "x": -135, "y": 180 },
+					{ "time": 0.3333, "x": -150, "y": 175 },
+					{ "time": 0.3666, "x": -165, "y": 165 },
+					{ "time": 0.4, "x": -180, "y": 150 },
+					{ "time": 0.4333, "x": -195, "y": 130 },
+					{ "time": 0.4666, "x": -210, "y": 105 },
+					{ "time": 0.5, "x": -225, "y": 75 },
+					{ "time": 0.5333, "x": -240, "y": 40 },
+					{ "time": 0.5666, "x": -255, "y": 0 }
+				]
+			}
+		}
+	},
+	"Gold_Hit6": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit01" },
+					{ "time": 0.0333, "name": "Gold_Hit02" },
+					{ "time": 0.1, "name": "Gold_Hit04" },
+					{ "time": 0.1666, "name": "Gold_Hit05" },
+					{ "time": 0.2333, "name": "Gold_Hit03" },
+					{ "time": 0.3, "name": "Gold_Hit02" },
+					{ "time": 0.3666, "name": "Gold_Hit04" },
+					{ "time": 0.4333, "name": "Gold_Hit02" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": 15, "y": 21 },
+					{ "time": 0.0666, "x": 30, "y": 38 },
+					{ "time": 0.1, "x": 45, "y": 51 },
+					{ "time": 0.1333, "x": 60, "y": 60 },
+					{ "time": 0.1666, "x": 75, "y": 65 },
+					{ "time": 0.2, "x": 90, "y": 66 },
+					{ "time": 0.2333, "x": 105, "y": 63 },
+					{ "time": 0.2666, "x": 120, "y": 56 },
+					{ "time": 0.3, "x": 135, "y": 45 },
+					{ "time": 0.3333, "x": 150, "y": 30 },
+					{ "time": 0.3666, "x": 165, "y": 11 },
+					{ "time": 0.4, "x": 180, "y": -12 },
+					{ "time": 0.4333, "x": 195, "y": -39 },
+					{ "time": 0.4666, "x": 210, "y": -70 }
+				]
+			}
+		}
+	},
+	"Gold_Hit7": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit02" },
+					{ "time": 0.0666, "name": "Gold_Hit04" },
+					{ "time": 0.1333, "name": "Gold_Hit05" },
+					{ "time": 0.2, "name": "Gold_Hit02" },
+					{ "time": 0.2666, "name": "Gold_Hit03" },
+					{ "time": 0.3666, "name": "Gold_Hit04" },
+					{ "time": 0.4666, "name": "Gold_Hit02" },
+					{ "time": 0.5333, "name": "Gold_Hit05" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": 0, "y": 30 },
+					{ "time": 0.0666, "x": 0, "y": 55 },
+					{ "time": 0.1, "x": 0, "y": 75 },
+					{ "time": 0.1333, "x": 0, "y": 90 },
+					{ "time": 0.1666, "x": 0, "y": 100 },
+					{ "time": 0.2, "x": 0, "y": 105, "curve": "stepped" },
+					{ "time": 0.2333, "x": 0, "y": 105 },
+					{ "time": 0.2666, "x": 0, "y": 100 },
+					{ "time": 0.3, "x": 0, "y": 90 },
+					{ "time": 0.3333, "x": 0, "y": 75 },
+					{ "time": 0.3666, "x": 0, "y": 55 },
+					{ "time": 0.4, "x": 0, "y": 30 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.4666, "x": 0, "y": -35 },
+					{ "time": 0.5, "x": 0, "y": -75 },
+					{ "time": 0.5333, "x": 0, "y": -120 }
+				]
+			}
+		}
+	},
+	"Gold_Hit8": {
+		"slots": {
+			"Gold_Hit1": {
+				"attachment": [
+					{ "time": 0, "name": "Gold_Hit01" },
+					{ "time": 0.0333, "name": "Gold_Hit02" },
+					{ "time": 0.1, "name": "Gold_Hit04" },
+					{ "time": 0.1666, "name": "Gold_Hit05" },
+					{ "time": 0.2333, "name": "Gold_Hit02" },
+					{ "time": 0.3, "name": "Gold_Hit03" },
+					{ "time": 0.3666, "name": "Gold_Hit02" },
+					{ "time": 0.4, "name": "Gold_Hit01" },
+					{ "time": 0.5, "name": "Gold_Hit03" }
+				]
+			}
+		},
+		"bones": {
+			"Gold_Hit1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.0333, "x": -8, "y": 35 },
+					{ "time": 0.0666, "x": -16, "y": 65 },
+					{ "time": 0.1, "x": -24, "y": 90 },
+					{ "time": 0.1333, "x": -32, "y": 110 },
+					{ "time": 0.1666, "x": -40, "y": 125 },
+					{ "time": 0.2, "x": -48, "y": 135 },
+					{ "time": 0.2333, "x": -56, "y": 140 },
+					{ "time": 0.2666, "x": -64, "y": 140 },
+					{ "time": 0.3, "x": -72, "y": 135 },
+					{ "time": 0.3333, "x": -80, "y": 125 },
+					{ "time": 0.3666, "x": -88, "y": 110 },
+					{ "time": 0.4, "x": -96, "y": 90 },
+					{ "time": 0.4333, "x": -104, "y": 65 },
+					{ "time": 0.4666, "x": -112, "y": 35 },
+					{ "time": 0.5, "x": -120, "y": 0 },
+					{ "time": 0.5333, "x": -128, "y": -40.78 },
+					{ "time": 0.5666, "x": -136, "y": -85.78 }
+				]
+			}
+		}
+	}
+}
+}

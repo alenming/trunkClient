@@ -1,0 +1,90 @@
+
+Dead_Marshes.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100001_Skill1_guihun
+  rotate: false
+  xy: 274, 94
+  size: 31, 56
+  orig: 31, 56
+  offset: 0, 0
+  index: -1
+100001_Skill1_heidong
+  rotate: false
+  xy: 1, 70
+  size: 272, 80
+  orig: 272, 80
+  offset: 0, 0
+  index: -1
+100001_Skill1_heidong01
+  rotate: false
+  xy: 1, 151
+  size: 350, 104
+  orig: 350, 104
+  offset: 0, 0
+  index: -1
+100001_whand_L01
+  rotate: true
+  xy: 1, 45
+  size: 24, 81
+  orig: 24, 81
+  offset: 0, 0
+  index: -1
+100001_whand_L02
+  rotate: false
+  xy: 274, 78
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+100001_whand_L03
+  rotate: false
+  xy: 1, 12
+  size: 9, 32
+  orig: 9, 32
+  offset: 0, 0
+  index: -1
+100001_whand_L04
+  rotate: true
+  xy: 83, 60
+  size: 9, 30
+  orig: 9, 30
+  offset: 0, 0
+  index: -1
+100001_whand_L05
+  rotate: true
+  xy: 352, 151
+  size: 6, 20
+  orig: 6, 20
+  offset: 0, 0
+  index: -1
+100001_whand_R01
+  rotate: true
+  xy: 1, 1
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+100001_whand_R02
+  rotate: false
+  xy: 306, 131
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+100001_whand_R03
+  rotate: false
+  xy: 375, 232
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+100001_whand_R04
+  rotate: false
+  xy: 352, 158
+  size: 22, 97
+  orig: 22, 97
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,59 @@
+{
+"skeleton": { "hash": "6utvnQRSjCP0MzjY8FeIaedEJNI", "spine": "2.1.27", "width": 167.55, "height": 167.55, "images": "" },
+"bones": [
+	{ "name": "100200_Skill1_Bullet" },
+	{ "name": "Skill1_Bullet", "parent": "100200_Skill1_Bullet", "x": 25.5, "y": 21.99 },
+	{ "name": "Skill1_Bullet2", "parent": "100200_Skill1_Bullet", "x": 25.5, "y": 21.99, "rotation": 180 }
+],
+"slots": [
+	{ "name": "100200_weapon_l2", "bone": "Skill1_Bullet2", "attachment": "100200_weapon_l4", "blend": "screen" },
+	{ "name": "100200_weapon_l1", "bone": "Skill1_Bullet", "attachment": "100200_weapon_l1" }
+],
+"skins": {
+	"default": {
+		"100200_weapon_l1": {
+			"100200_weapon_l1": { "width": 166, "height": 166 },
+			"100200_weapon_l4": { "width": 166, "height": 166 }
+		},
+		"100200_weapon_l2": {
+			"100200_weapon_l1": { "width": 166, "height": 166 },
+			"100200_weapon_l4": { "rotation": 0.53, "width": 166, "height": 166 }
+		}
+	}
+},
+"animations": {
+	"Skill1_Bullet": {
+		"slots": {
+			"100200_weapon_l1": {
+				"attachment": [
+					{ "time": 0, "name": "100200_weapon_l1" }
+				]
+			},
+			"100200_weapon_l2": {
+				"attachment": [
+					{ "time": 0, "name": "100200_weapon_l4" }
+				]
+			}
+		},
+		"bones": {
+			"Skill1_Bullet": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -180 },
+					{ "time": 0.6666, "angle": -359 }
+				]
+			},
+			"Skill1_Bullet2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": -180 },
+					{ "time": 0.3333, "angle": -359 },
+					{ "time": 0.3666, "angle": 0 },
+					{ "time": 0.5, "angle": -180 },
+					{ "time": 0.6666, "angle": -359 }
+				]
+			}
+		}
+	}
+}
+}

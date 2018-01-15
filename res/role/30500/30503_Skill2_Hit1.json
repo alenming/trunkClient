@@ -1,0 +1,91 @@
+{
+"skeleton": { "hash": "SrzBsteBoQt2zQZs9WD4lgCtSKI", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "30503_Skill2_Hit1", "x": -0.61 },
+	{ "name": "30500_blood0001", "parent": "30503_Skill2_Hit1", "x": 101.46, "y": 59.19 },
+	{ "name": "30503_Skill_Hit", "parent": "30503_Skill2_Hit1", "x": 203.25, "y": 17.07 }
+],
+"slots": [
+	{ "name": "30503_Skill1_hit", "bone": "30503_Skill_Hit", "blend": "additive" },
+	{ "name": "30500_blood0001", "bone": "30500_blood0001" }
+],
+"skins": {
+	"default": {
+		"30500_blood0001": {
+			"30500_blood0001": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 },
+			"30500_blood0002": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 },
+			"30500_blood0003": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 },
+			"30500_blood0004": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 },
+			"30500_blood0005": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 },
+			"30500_blood0006": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 },
+			"30500_blood0007": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 },
+			"30500_blood0008": { "x": -3.93, "y": 5.35, "width": 156, "height": 125 }
+		},
+		"30503_Skill1_hit": {
+			"10018_Skill1_hit_0001": { "x": 4.27, "y": 7.47, "width": 215, "height": 186 },
+			"10018_Skill1_hit_0002": { "x": 4.27, "y": 7.47, "width": 215, "height": 186 },
+			"10018_Skill1_hit_0003": { "x": 4.27, "y": 7.47, "width": 215, "height": 186 },
+			"10018_Skill1_hit_0004": { "x": 4.27, "y": 7.47, "width": 215, "height": 186 },
+			"10018_Skill1_hit_0005": { "x": 4.27, "y": 7.47, "width": 215, "height": 186 },
+			"10018_Skill1_hit_0006": { "x": 4.27, "y": 7.47, "width": 215, "height": 186 }
+		}
+	}
+},
+"animations": {
+	"30503_Skill2_Hit1": {
+		"slots": {
+			"30500_blood0001": {
+				"attachment": [
+					{ "time": 0, "name": "30500_blood0001" },
+					{ "time": 0.0666, "name": "30500_blood0002" },
+					{ "time": 0.1333, "name": "30500_blood0003" },
+					{ "time": 0.2, "name": "30500_blood0004" },
+					{ "time": 0.2666, "name": "30500_blood0005" },
+					{ "time": 0.3333, "name": "30500_blood0006" },
+					{ "time": 0.4, "name": "30500_blood0007" },
+					{ "time": 0.4666, "name": "30500_blood0008" },
+					{ "time": 0.5333, "name": null }
+				]
+			},
+			"30503_Skill1_hit": {
+				"attachment": [
+					{ "time": 0, "name": "10018_Skill1_hit_0003" },
+					{ "time": 0.1, "name": "10018_Skill1_hit_0004" },
+					{ "time": 0.2, "name": "10018_Skill1_hit_0005" },
+					{ "time": 0.3, "name": "10018_Skill1_hit_0006" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"30503_Skill_Hit": {
+				"rotate": [
+					{ "time": 0, "angle": -48.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": -204.84, "y": -18.35 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"30500_blood0001": {
+				"translate": [
+					{ "time": 0, "x": -100.7, "y": -60.58 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "30503_Skill1_hit", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

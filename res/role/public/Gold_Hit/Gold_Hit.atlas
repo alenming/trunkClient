@@ -1,0 +1,41 @@
+
+Gold_Hit.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Gold_Hit01
+  rotate: false
+  xy: 2, 23
+  size: 36, 39
+  orig: 36, 39
+  offset: 0, 0
+  index: -1
+Gold_Hit02
+  rotate: true
+  xy: 78, 33
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+Gold_Hit03
+  rotate: true
+  xy: 2, 7
+  size: 14, 37
+  orig: 14, 37
+  offset: 0, 0
+  index: -1
+Gold_Hit04
+  rotate: true
+  xy: 78, 2
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+Gold_Hit05
+  rotate: false
+  xy: 40, 23
+  size: 36, 39
+  orig: 36, 39
+  offset: 0, 0
+  index: -1

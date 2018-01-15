@@ -1,0 +1,56 @@
+{
+"skeleton": { "hash": "7CDXTYMWabYcLKCL57LN4ljiS3A", "spine": "2.1.27", "width": 53, "height": 55, "images": "" },
+"bones": [
+	{ "name": "100200_Skill2_Bullet" },
+	{ "name": "Skill2_Bullet", "parent": "100200_Skill2_Bullet", "x": -0.5, "y": 21.99 },
+	{ "name": "Skill2_Bullet2", "parent": "100200_Skill2_Bullet", "x": -0.5, "y": 21.99 }
+],
+"slots": [
+	{ "name": "100200_weapon_r", "bone": "Skill2_Bullet", "attachment": "100200_weapon_r" },
+	{ "name": "100200_weapon_r2", "bone": "Skill2_Bullet2", "attachment": "100200_weapon_r_light", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"100200_weapon_r": {
+			"100200_weapon_r": { "width": 53, "height": 55 }
+		},
+		"100200_weapon_r2": {
+			"100200_weapon_r_light": { "width": 36, "height": 30 }
+		}
+	}
+},
+"animations": {
+	"Skill2_Bullet": {
+		"slots": {
+			"100200_weapon_r": {
+				"attachment": [
+					{ "time": 0, "name": "100200_weapon_r" }
+				]
+			},
+			"100200_weapon_r2": {
+				"attachment": [
+					{ "time": 0, "name": "100200_weapon_r_light" }
+				]
+			}
+		},
+		"bones": {
+			"Skill2_Bullet": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 270 },
+					{ "time": 0.3333, "angle": 100 },
+					{ "time": 0.5, "angle": 360 }
+				]
+			},
+			"Skill2_Bullet2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 270 },
+					{ "time": 0.3333, "angle": 100 },
+					{ "time": 0.5, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

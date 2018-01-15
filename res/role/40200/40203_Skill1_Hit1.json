@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "La/3Yw00f2LHAuC6hwwrHhuD84s", "spine": "2.1.27", "width": 66, "height": 73, "images": "./images/" },
+"bones": [
+	{ "name": "40203_Skill1_Hit" },
+	{ "name": "40203_Skill1_Hit1", "parent": "40203_Skill1_Hit", "y": 202.35 }
+],
+"slots": [
+	{ "name": "40203_Skill1_Hit1_TX_Dun_00000", "bone": "40203_Skill1_Hit1", "attachment": "40203_Skill1_Hit1_TX_Dun_00000" },
+	{ "name": "40203_Skill1_Hit1_TX_Dun", "bone": "40203_Skill1_Hit" }
+],
+"skins": {
+	"default": {
+		"40203_Skill1_Hit1_TX_Dun_00000": {
+			"40203_Skill1_Hit1_TX_Dun_00000": { "width": 66, "height": 73 },
+			"40203_Skill1_Hit1_TX_Dun_00001": { "width": 66, "height": 73 },
+			"40203_Skill1_Hit1_TX_Dun_00002": { "width": 66, "height": 73 },
+			"40203_Skill1_Hit1_TX_Dun_00003": { "width": 66, "height": 73 },
+			"40203_Skill1_Hit1_TX_Dun_00004": { "width": 66, "height": 73 }
+		}
+	}
+},
+"animations": {
+	"Skill1_Hit1": {
+		"slots": {
+			"40203_Skill1_Hit1_TX_Dun_00000": {
+				"attachment": [
+					{ "time": 0, "name": "40203_Skill1_Hit1_TX_Dun_00000" },
+					{ "time": 0.2333, "name": "40203_Skill1_Hit1_TX_Dun_00001" },
+					{ "time": 0.3, "name": "40203_Skill1_Hit1_TX_Dun_00002" },
+					{ "time": 0.3666, "name": "40203_Skill1_Hit1_TX_Dun_00003" },
+					{ "time": 0.4333, "name": "40203_Skill1_Hit1_TX_Dun_00004" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 0.8, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"40203_Skill1_Hit1": {
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

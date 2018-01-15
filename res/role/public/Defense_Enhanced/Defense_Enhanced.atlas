@@ -1,0 +1,90 @@
+
+Defense_Enhanced.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Defense_Enhanced_01_01
+  rotate: false
+  xy: 322, 175
+  size: 80, 80
+  orig: 240, 240
+  offset: 80, 81
+  index: -1
+Defense_Enhanced_01_02
+  rotate: false
+  xy: 158, 175
+  size: 81, 80
+  orig: 240, 240
+  offset: 80, 80
+  index: -1
+Defense_Enhanced_01_03
+  rotate: false
+  xy: 403, 175
+  size: 80, 80
+  orig: 240, 240
+  offset: 80, 81
+  index: -1
+Defense_Enhanced_01_04
+  rotate: true
+  xy: 240, 175
+  size: 80, 81
+  orig: 240, 240
+  offset: 80, 80
+  index: -1
+Defense_Enhanced_01_05
+  rotate: false
+  xy: 331, 101
+  size: 71, 73
+  orig: 240, 240
+  offset: 85, 84
+  index: -1
+Defense_Enhanced_01_06
+  rotate: false
+  xy: 403, 106
+  size: 66, 68
+  orig: 240, 240
+  offset: 87, 87
+  index: -1
+Defense_Enhanced_02_01
+  rotate: true
+  xy: 158, 107
+  size: 67, 88
+  orig: 480, 480
+  offset: 208, 194
+  index: -1
+Defense_Enhanced_03_01
+  rotate: false
+  xy: 80, 170
+  size: 77, 85
+  orig: 240, 240
+  offset: 80, 79
+  index: -1
+Defense_Enhanced_03_02
+  rotate: false
+  xy: 1, 80
+  size: 77, 87
+  orig: 240, 240
+  offset: 80, 77
+  index: -1
+Defense_Enhanced_03_03
+  rotate: false
+  xy: 1, 168
+  size: 78, 87
+  orig: 240, 240
+  offset: 79, 77
+  index: -1
+Defense_Enhanced_03_04
+  rotate: true
+  xy: 247, 97
+  size: 77, 83
+  orig: 240, 240
+  offset: 81, 78
+  index: -1
+Defense_Enhanced_03_05
+  rotate: false
+  xy: 1, 1
+  size: 77, 78
+  orig: 240, 240
+  offset: 81, 81
+  index: -1

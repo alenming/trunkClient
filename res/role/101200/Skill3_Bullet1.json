@@ -1,0 +1,76 @@
+{
+"skeleton": { "hash": "Q/8aVp37UROU1daJgykDhJL+CeE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "jineng3jianqi", "parent": "root" },
+	{ "name": "jineng3shouji", "parent": "root" }
+],
+"slots": [
+	{ "name": "101200_jineng3jianqi_01", "bone": "jineng3jianqi" },
+	{ "name": "101200_jineng3shouji_01", "bone": "jineng3shouji" }
+],
+"skins": {
+	"default": {
+		"101200_jineng3jianqi_01": {
+			"101200_jineng3jianqi_01": { "width": 236, "height": 145 },
+			"101200_jineng3jianqi_02": { "width": 236, "height": 145 },
+			"101200_jineng3jianqi_03": { "width": 236, "height": 145 },
+			"101200_jineng3jianqi_04": { "width": 236, "height": 145 }
+		},
+		"101200_jineng3shouji_01": {
+			"101200_jineng3shouji_01": { "width": 211, "height": 206 },
+			"101200_jineng3shouji_02": { "width": 211, "height": 206 },
+			"101200_jineng3shouji_03": { "width": 211, "height": 206 },
+			"101200_jineng3shouji_04": { "width": 211, "height": 206 }
+		}
+	}
+},
+"animations": {
+	"Skill3_Bullet1": {
+		"slots": {
+			"101200_jineng3jianqi_01": {
+				"attachment": [
+					{ "time": 0, "name": "101200_jineng3jianqi_01" },
+					{ "time": 0.0666, "name": "101200_jineng3jianqi_02" },
+					{ "time": 0.1333, "name": "101200_jineng3jianqi_03" },
+					{ "time": 0.2, "name": "101200_jineng3jianqi_04" },
+					{ "time": 0.2333, "name": "101200_jineng3jianqi_04" }
+				]
+			}
+		},
+		"bones": {
+			"jineng3jianqi": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 141.59 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.14, "y": 2.14 }
+				]
+			}
+		}
+	},
+	"Skill3_Bullet1_Hit": {
+		"slots": {
+			"101200_jineng3shouji_01": {
+				"attachment": [
+					{ "time": 0, "name": "101200_jineng3shouji_01" },
+					{ "time": 0.0666, "name": "101200_jineng3shouji_02" },
+					{ "time": 0.1333, "name": "101200_jineng3shouji_03" },
+					{ "time": 0.2, "name": "101200_jineng3shouji_04" },
+					{ "time": 0.2666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"jineng3shouji": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 140.17 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.14, "y": 2.14 }
+				]
+			}
+		}
+	}
+}
+}

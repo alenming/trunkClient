@@ -1,0 +1,80 @@
+{
+"skeleton": { "hash": "bYVXytrBR7N5MbKhqdE8w54XzGI", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "30302_Skill1_Bullet", "scaleX": 0.7, "scaleY": 0.7 },
+	{ "name": "30304_skill1_1", "parent": "30302_Skill1_Bullet", "x": -2.99, "y": -50.99 },
+	{ "name": "30304_skill_2", "parent": "30302_Skill1_Bullet", "x": -289.49, "y": 405.82 }
+],
+"slots": [
+	{ "name": "30304_skill101", "bone": "30304_skill_2", "blend": "additive" },
+	{ "name": "30304_xian", "bone": "30304_skill1_1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30304_skill101": {
+			"30304_skill101": { "x": 289.49, "y": -405.82, "scaleX": 1.4, "scaleY": 1.4, "width": 71, "height": 153 },
+			"30304_skill102": { "x": 289.49, "y": -405.82, "scaleX": 1.4, "scaleY": 1.4, "width": 71, "height": 153 },
+			"30304_skill103": { "x": 289.49, "y": -405.82, "scaleX": 1.4, "scaleY": 1.4, "width": 71, "height": 153 },
+			"30304_skill104": { "x": 289.49, "y": -405.82, "scaleX": 1.4, "scaleY": 1.4, "width": 71, "height": 153 },
+			"30304_skill105": { "x": 289.49, "y": -405.82, "scaleX": 1.4, "scaleY": 1.4, "width": 71, "height": 153 },
+			"30304_skill106": { "x": 289.49, "y": -405.82, "scaleX": 1.4, "scaleY": 1.4, "width": 71, "height": 153 },
+			"30304_skill107": { "x": 289.49, "y": -405.82, "scaleX": 1.4, "scaleY": 1.4, "width": 71, "height": 153 }
+		},
+		"30304_xian": {
+			"30304_xian": { "scaleX": 1.4, "scaleY": 1.4, "width": 29, "height": 130 }
+		}
+	}
+},
+"animations": {
+	"Skill1_Bullet": {
+		"slots": {
+			"30304_skill101": {
+				"attachment": [
+					{ "time": 0, "name": "30304_skill101" },
+					{ "time": 0.0666, "name": "30304_skill102" },
+					{ "time": 0.1333, "name": "30304_skill103" },
+					{ "time": 0.2, "name": "30304_skill104" },
+					{ "time": 0.2666, "name": "30304_skill105" },
+					{ "time": 0.3333, "name": "30304_skill106" },
+					{ "time": 0.4, "name": "30304_skill107" }
+				]
+			},
+			"30304_xian": {
+				"attachment": [
+					{ "time": 0, "name": "30304_xian" }
+				]
+			}
+		},
+		"bones": {
+			"30302_Skill1_Bullet": {
+				"rotate": [
+					{ "time": 0, "angle": 45.39 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1513.09, "y": 1491.77 },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.7, "y": 1.7 }
+				]
+			},
+			"30304_skill1_1": {
+				"translate": [
+					{ "time": 0, "x": -3.33, "y": 118.88 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"30304_skill_2": {
+				"translate": [
+					{ "time": 0, "x": -286.49, "y": 403.47 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

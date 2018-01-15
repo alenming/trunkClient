@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "lglLGlfm3T1+/lbKqgZYQmOuJY0", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40703_Attack3_Hit" },
+	{ "name": "40703_Eff_Hit1", "parent": "40703_Attack3_Hit", "length": 121.23, "rotation": 90 },
+	{ "name": "40703_Eff_Hit1_01", "parent": "40703_Eff_Hit1", "length": 91.75, "y": 75.67, "color": "9b9b9b41" }
+],
+"slots": [
+	{ "name": "40703_Eff_Hit_01", "bone": "40703_Eff_Hit1_01" }
+],
+"skins": {
+	"default": {
+		"40703_Eff_Hit_01": {
+			"40700_Eff_Hit_01": { "y": 50, "scaleX": 2.5, "scaleY": 2.5, "rotation": -90, "width": 128, "height": 99 },
+			"40700_Eff_Hit_02": { "y": 50, "scaleX": 2.5, "scaleY": 2.5, "rotation": -90, "width": 128, "height": 99 },
+			"40700_Eff_Hit_03": { "y": 50, "scaleX": 2.5, "scaleY": 2.5, "rotation": -90, "width": 128, "height": 99 }
+		}
+	}
+},
+"animations": {
+	"40703_Attack3_Hit": {
+		"slots": {
+			"40703_Eff_Hit_01": {
+				"attachment": [
+					{ "time": 0, "name": "40700_Eff_Hit_01" },
+					{ "time": 0.1, "name": "40700_Eff_Hit_02" },
+					{ "time": 0.2, "name": "40700_Eff_Hit_03" },
+					{ "time": 0.2666, "name": "40700_Eff_Hit_03" },
+					{ "time": 0.3, "name": null }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffff47" }
+				]
+			}
+		},
+		"bones": {
+			"40703_Eff_Hit1_01": {
+				"translate": [
+					{ "time": 0.2666, "x": -0.8, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

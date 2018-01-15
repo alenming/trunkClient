@@ -1,0 +1,143 @@
+{
+"skeleton": { "hash": "GgXRWJdbvIUP9vSjHwFKggHqi7U", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "Block_Buff" },
+	{ "name": "Block_Buff0001", "parent": "Block_Buff", "length": 114.49, "y": 9.53, "rotation": 90.45 },
+	{ "name": "Block_Buff_2_0001", "parent": "Block_Buff", "x": 43.91, "y": -0.28 },
+	{ "name": "Block_Buff_2_1", "parent": "Block_Buff", "x": -43.77, "y": -0.28, "flipX": true },
+	{ "name": "Block_Buff_2_2", "parent": "Block_Buff", "x": 43.91, "y": -0.28 },
+	{ "name": "Block_Buff_2_3", "parent": "Block_Buff", "x": -43.77, "y": -0.28, "flipX": true }
+],
+"slots": [
+	{ "name": "50400_Skill2_Buff0001", "bone": "Block_Buff0001", "blend": "additive" },
+	{ "name": "50400_Skill2_Buff_2_0001", "bone": "Block_Buff_2_0001", "blend": "additive" },
+	{ "name": "50400_Skill2_Buff_2_2", "bone": "Block_Buff_2_2", "blend": "additive" },
+	{ "name": "50400_Skill2_Buff_2_1", "bone": "Block_Buff_2_1", "blend": "additive" },
+	{ "name": "50400_Skill2_Buff_2_3", "bone": "Block_Buff_2_3", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"50400_Skill2_Buff0001": {
+			"50400_Skill2_Buff0001": { "x": 99.47, "y": -0.71, "scaleX": 2.2, "scaleY": 2.2, "rotation": -90.45, "width": 118, "height": 101 },
+			"50400_Skill2_Buff0002": { "x": 99.47, "y": -0.71, "scaleX": 2.1, "scaleY": 2.2, "rotation": -90.45, "width": 118, "height": 101 },
+			"50400_Skill2_Buff0003": { "x": 99.47, "y": -0.71, "scaleX": 2.2, "scaleY": 2.2, "rotation": -90.45, "width": 118, "height": 101 },
+			"50400_Skill2_Buff0004": { "x": 99.47, "y": -0.71, "scaleX": 2.2, "scaleY": 2.2, "rotation": -90.45, "width": 118, "height": 101 },
+			"50400_Skill2_Buff0005": { "x": 99.47, "y": -0.71, "scaleX": 2.2, "scaleY": 2.2, "rotation": -90.45, "width": 118, "height": 101 },
+			"50400_Skill2_Buff0006": { "x": 99.47, "y": -0.71, "scaleX": 2.2, "scaleY": 2.2, "rotation": -90.45, "width": 118, "height": 101 }
+		},
+		"50400_Skill2_Buff_2_0001": {
+			"50400_Skill2_Buff_2_0001": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0002": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0003": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0004": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 }
+		},
+		"50400_Skill2_Buff_2_1": {
+			"50400_Skill2_Buff_2_0001": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0002": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0003": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0004": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 }
+		},
+		"50400_Skill2_Buff_2_2": {
+			"50400_Skill2_Buff_2_0001": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0002": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0003": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0004": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 }
+		},
+		"50400_Skill2_Buff_2_3": {
+			"50400_Skill2_Buff_2_0001": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0002": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0003": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 },
+			"50400_Skill2_Buff_2_0004": { "x": 47.97, "y": 30.28, "scaleX": 2, "scaleY": 2, "width": 81, "height": 59 }
+		}
+	}
+},
+"animations": {
+	"Block_Buff": {
+		"slots": {
+			"50400_Skill2_Buff0001": {
+				"attachment": [
+					{ "time": 0, "name": "50400_Skill2_Buff0001" },
+					{ "time": 0.1, "name": "50400_Skill2_Buff0002" },
+					{ "time": 0.2, "name": "50400_Skill2_Buff0003" },
+					{ "time": 0.3, "name": "50400_Skill2_Buff0004" },
+					{ "time": 0.4, "name": "50400_Skill2_Buff0005" },
+					{ "time": 0.5, "name": "50400_Skill2_Buff0006" }
+				]
+			},
+			"50400_Skill2_Buff_2_0001": {
+				"attachment": [
+					{ "time": 0, "name": "50400_Skill2_Buff_2_0001" },
+					{ "time": 0.1, "name": "50400_Skill2_Buff_2_0002" },
+					{ "time": 0.2, "name": "50400_Skill2_Buff_2_0003" },
+					{ "time": 0.3, "name": "50400_Skill2_Buff_2_0004" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"50400_Skill2_Buff_2_1": {
+				"attachment": [
+					{ "time": 0, "name": "50400_Skill2_Buff_2_0001" },
+					{ "time": 0.1, "name": "50400_Skill2_Buff_2_0002" },
+					{ "time": 0.2, "name": "50400_Skill2_Buff_2_0003" },
+					{ "time": 0.3, "name": "50400_Skill2_Buff_2_0004" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"50400_Skill2_Buff_2_2": {
+				"attachment": [
+					{ "time": 0, "name": "50400_Skill2_Buff_2_0003" },
+					{ "time": 0.1, "name": "50400_Skill2_Buff_2_0004" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.3, "name": "50400_Skill2_Buff_2_0001" },
+					{ "time": 0.4, "name": "50400_Skill2_Buff_2_0002" },
+					{ "time": 0.5, "name": "50400_Skill2_Buff_2_0003" }
+				]
+			},
+			"50400_Skill2_Buff_2_3": {
+				"attachment": [
+					{ "time": 0, "name": "50400_Skill2_Buff_2_0003" },
+					{ "time": 0.1, "name": "50400_Skill2_Buff_2_0004" },
+					{ "time": 0.2, "name": null },
+					{ "time": 0.3, "name": "50400_Skill2_Buff_2_0001" },
+					{ "time": 0.4, "name": "50400_Skill2_Buff_2_0002" },
+					{ "time": 0.5, "name": "50400_Skill2_Buff_2_0003" }
+				]
+			}
+		},
+		"bones": {
+			"Block_Buff": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Block_Buff_2_0001": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Block_Buff_2_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,55 @@
+
+Lightning.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+101100_Effect_sssd01
+  rotate: false
+  xy: 173, 30
+  size: 154, 239
+  orig: 197, 272
+  offset: 10, 33
+  index: -1
+101100_Effect_sssd02
+  rotate: true
+  xy: 613, 348
+  size: 162, 253
+  orig: 197, 272
+  offset: 9, 18
+  index: -1
+101100_Effect_sssd03
+  rotate: false
+  xy: 1, 250
+  size: 167, 260
+  orig: 197, 272
+  offset: 5, 0
+  index: -1
+101100_Effect_sssd04
+  rotate: false
+  xy: 1, 1
+  size: 171, 248
+  orig: 197, 272
+  offset: 5, 9
+  index: -1
+101100_Effect_sssd05
+  rotate: true
+  xy: 354, 174
+  size: 172, 195
+  orig: 197, 272
+  offset: 20, 43
+  index: -1
+101100_Effect_sssd06
+  rotate: false
+  xy: 169, 270
+  size: 184, 240
+  orig: 197, 272
+  offset: 13, 21
+  index: -1
+101100_Effect_sssd07
+  rotate: true
+  xy: 354, 347
+  size: 163, 258
+  orig: 197, 272
+  offset: 0, 12
+  index: -1

@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "ACF8wcz//1wBpMXRkbhTEPlH8t4", "spine": "2.1.27", "width": 960, "height": 697.6, "images": "" },
+"bones": [
+	{ "name": "20903_Skill1_Hit_all" },
+	{ "name": "20903_Skill1_Hit_TX", "parent": "20903_Skill1_Hit_all", "x": -50.49, "y": 98.03, "scaleX": 6.4, "scaleY": 6.4 },
+	{ "name": "20903_floor", "parent": "20903_Skill1_Hit_all" }
+],
+"slots": [
+	{ "name": "20903_floor", "bone": "20903_floor", "attachment": "20903_floor" },
+	{ "name": "20903_Skill1_Hit_Fire_Break_TX_00", "bone": "20903_Skill1_Hit_TX", "attachment": "20903_Skill1_Hit_Fire_Break_TX_05" }
+],
+"skins": {
+	"default": {
+		"20903_Skill1_Hit_Fire_Break_TX_00": {
+			"20903_Skill1_Hit_Fire_Break_TX_00": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_01": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_02": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_03": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_04": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_05": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_06": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_07": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_08": { "width": 150, "height": 109 },
+			"20903_Skill1_Hit_Fire_Break_TX_09": { "width": 150, "height": 109 }
+		},
+		"20903_floor": {
+			"20903_floor": { "width": 456, "height": 223 }
+		}
+	}
+},
+"animations": {
+	"20903_Skill1_Hit": {
+		"slots": {
+			"20903_Skill1_Hit_Fire_Break_TX_00": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "20903_Skill1_Hit_Fire_Break_TX_00" },
+					{ "time": 0.1333, "name": "20903_Skill1_Hit_Fire_Break_TX_01" },
+					{ "time": 0.2, "name": "20903_Skill1_Hit_Fire_Break_TX_02" },
+					{ "time": 0.2666, "name": "20903_Skill1_Hit_Fire_Break_TX_03" },
+					{ "time": 0.3333, "name": "20903_Skill1_Hit_Fire_Break_TX_04" },
+					{ "time": 0.4, "name": "20903_Skill1_Hit_Fire_Break_TX_05" },
+					{ "time": 0.4666, "name": "20903_Skill1_Hit_Fire_Break_TX_06" },
+					{ "time": 0.5333, "name": "20903_Skill1_Hit_Fire_Break_TX_07" },
+					{ "time": 0.6, "name": "20903_Skill1_Hit_Fire_Break_TX_08" },
+					{ "time": 0.6666, "name": "20903_Skill1_Hit_Fire_Break_TX_09" },
+					{ "time": 0.7333, "name": null }
+				]
+			},
+			"20903_floor": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "20903_floor" }
+				],
+				"color": [
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,139 @@
+
+1300-Cure.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1300_Eff_Skill2_Glow_01
+  rotate: false
+  xy: 116, 81
+  size: 47, 90
+  orig: 57, 90
+  offset: 3, 0
+  index: -1
+1300_Eff_Skill2_Glow_02
+  rotate: true
+  xy: 632, 306
+  size: 48, 90
+  orig: 57, 90
+  offset: 4, 0
+  index: -1
+1300_Eff_Skill2_Glow_03
+  rotate: false
+  xy: 723, 264
+  size: 49, 90
+  orig: 57, 90
+  offset: 4, 0
+  index: -1
+1300_Eff_Skill2_Glow_04
+  rotate: false
+  xy: 963, 421
+  size: 54, 90
+  orig: 57, 90
+  offset: 0, 0
+  index: -1
+1300_Eff_Skill2_Glow_05
+  rotate: true
+  xy: 862, 268
+  size: 49, 90
+  orig: 57, 90
+  offset: 5, 0
+  index: -1
+1300_Eff_Skill2_Glow_06
+  rotate: true
+  xy: 862, 218
+  size: 49, 90
+  orig: 57, 90
+  offset: 4, 0
+  index: -1
+1300_Eff_Skill2_Glow_07
+  rotate: false
+  xy: 953, 227
+  size: 46, 90
+  orig: 57, 90
+  offset: 3, 0
+  index: -1
+1300_Eff_Skill2_Glow_08
+  rotate: true
+  xy: 116, 33
+  size: 47, 90
+  orig: 57, 90
+  offset: 3, 0
+  index: -1
+1300_skii101
+  rotate: false
+  xy: 632, 355
+  size: 155, 156
+  orig: 170, 179
+  offset: 0, 21
+  index: -1
+1300_skii102
+  rotate: false
+  xy: 1, 172
+  size: 155, 163
+  orig: 170, 179
+  offset: 0, 14
+  index: -1
+1300_skii103
+  rotate: false
+  xy: 474, 343
+  size: 157, 168
+  orig: 170, 179
+  offset: 0, 9
+  index: -1
+1300_skii104
+  rotate: false
+  xy: 158, 341
+  size: 157, 170
+  orig: 170, 179
+  offset: 0, 7
+  index: -1
+1300_skii105
+  rotate: false
+  xy: 316, 341
+  size: 157, 170
+  orig: 170, 179
+  offset: 0, 7
+  index: -1
+1300_skii106
+  rotate: false
+  xy: 1, 336
+  size: 156, 175
+  orig: 170, 179
+  offset: 0, 4
+  index: -1
+1300_skii107
+  rotate: true
+  xy: 788, 388
+  size: 123, 174
+  orig: 170, 179
+  offset: 4, 5
+  index: -1
+1300_skii108
+  rotate: true
+  xy: 788, 318
+  size: 69, 173
+  orig: 170, 179
+  offset: 25, 6
+  index: -1
+1300_skii109
+  rotate: false
+  xy: 1, 1
+  size: 63, 170
+  orig: 170, 179
+  offset: 30, 7
+  index: -1
+1300_skii110
+  rotate: false
+  xy: 65, 5
+  size: 50, 166
+  orig: 170, 179
+  offset: 39, 11
+  index: -1
+1300_skill1xing_01
+  rotate: true
+  xy: 773, 232
+  size: 85, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1

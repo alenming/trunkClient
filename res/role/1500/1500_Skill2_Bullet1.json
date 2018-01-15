@@ -1,0 +1,83 @@
+{
+"skeleton": { "hash": "rxDKOXCrKCAalsZZI/MUnWBD+IM", "spine": "2.1.27", "width": 330, "height": 244, "images": "./images/" },
+"bones": [
+	{ "name": "1500_Skill2_Bullet1" },
+	{ "name": "1500_daoguang101", "parent": "1500_Skill2_Bullet1", "x": 29.51, "y": -17.51, "scaleX": 2, "scaleY": 2 },
+	{ "name": "1500_daoguang201", "parent": "1500_Skill2_Bullet1", "x": 79.28, "y": 0.24, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "1500_daoguang101", "bone": "1500_daoguang101", "blend": "additive" },
+	{ "name": "1500_daoguang301", "bone": "1500_daoguang201", "attachment": "1500_daoguang301", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"1500_daoguang101": {
+			"1500_daoguang101": { "x": -29.51, "y": 17.51, "width": 106, "height": 103 },
+			"1500_daoguang102": { "x": -29.51, "y": 17.51, "width": 106, "height": 103 },
+			"1500_daoguang103": { "x": -29.51, "y": 17.51, "width": 106, "height": 103 },
+			"1500_daoguang104": { "x": -29.51, "y": 17.51, "width": 106, "height": 103 },
+			"1500_daoguang105": { "x": -29.51, "y": 17.51, "width": 106, "height": 103 }
+		},
+		"1500_daoguang301": {
+			"1500_daoguang301": { "x": -79.28, "y": -0.24, "width": 165, "height": 122 },
+			"1500_daoguang302": { "x": -79.28, "y": -0.24, "width": 165, "height": 122 },
+			"1500_daoguang303": { "x": -79.28, "y": -0.24, "width": 165, "height": 122 },
+			"1500_daoguang304": { "x": -79.28, "y": -0.24, "width": 165, "height": 122 },
+			"1500_daoguang305": { "x": -79.28, "y": -0.24, "width": 165, "height": 122 }
+		}
+	}
+},
+"animations": {
+	"1500_Skill2_Bullet1": {
+		"slots": {
+			"1500_daoguang101": {
+				"attachment": [
+					{ "time": 0, "name": "1500_daoguang101" },
+					{ "time": 0.0666, "name": "1500_daoguang102" },
+					{ "time": 0.1333, "name": "1500_daoguang103" },
+					{ "time": 0.2, "name": "1500_daoguang104" },
+					{ "time": 0.2666, "name": "1500_daoguang105" }
+				]
+			},
+			"1500_daoguang301": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"1500_Skill2_Bullet2": {
+		"slots": {
+			"1500_daoguang301": {
+				"attachment": [
+					{ "time": 0, "name": "1500_daoguang301" },
+					{ "time": 0.0666, "name": "1500_daoguang302" },
+					{ "time": 0.1333, "name": "1500_daoguang303" },
+					{ "time": 0.2, "name": "1500_daoguang304" },
+					{ "time": 0.2666, "name": "1500_daoguang305" }
+				]
+			}
+		},
+		"bones": {
+			"1500_daoguang201": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.544 }
+				]
+			}
+		}
+	},
+	"1500_Skill2_Bullet3": {
+		"slots": {
+			"1500_daoguang301": {
+				"attachment": [
+					{ "time": 0, "name": "1500_daoguang301" },
+					{ "time": 0.0666, "name": "1500_daoguang302" },
+					{ "time": 0.1333, "name": "1500_daoguang303" },
+					{ "time": 0.2, "name": "1500_daoguang304" },
+					{ "time": 0.2666, "name": "1500_daoguang305" }
+				]
+			}
+		}
+	}
+}
+}

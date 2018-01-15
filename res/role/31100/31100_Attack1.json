@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "XNKDOw/KVhW8mIECrDn2eK0NMqw", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "31100" },
+	{ "name": "31100_attackhuo", "parent": "31100", "x": -103.07, "y": -26.59 },
+	{ "name": "31100_hithuo", "parent": "31100", "x": 6.79, "y": -1.7 }
+],
+"slots": [
+	{ "name": "31100_attackhuo", "bone": "31100_attackhuo", "blend": "additive" },
+	{ "name": "31100_hithuo", "bone": "31100_hithuo", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"31100_attackhuo": {
+			"31100_attackhuo01": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo02": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo03": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo04": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo05": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo06": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo07": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo08": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo09": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo10": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo11": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo12": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo13": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 },
+			"31100_attackhuo14": { "x": 103.07, "y": 26.59, "width": 213, "height": 165 }
+		},
+		"31100_hithuo": {
+			"31100_hithuo01": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 },
+			"31100_hithuo02": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 },
+			"31100_hithuo03": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 },
+			"31100_hithuo04": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 },
+			"31100_hithuo05": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 },
+			"31100_hithuo06": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 },
+			"31100_hithuo07": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 },
+			"31100_hithuo08": { "x": -6.79, "y": 1.7, "width": 164, "height": 176 }
+		}
+	}
+},
+"animations": {
+	"31100_Attack1": {
+		"slots": {
+			"31100_attackhuo": {
+				"attachment": [
+					{ "time": 0.7, "name": "31100_attackhuo01" },
+					{ "time": 0.7333, "name": "31100_attackhuo02" },
+					{ "time": 0.7666, "name": "31100_attackhuo03" },
+					{ "time": 0.8, "name": "31100_attackhuo04" },
+					{ "time": 0.8333, "name": "31100_attackhuo05" },
+					{ "time": 0.8666, "name": "31100_attackhuo06" },
+					{ "time": 0.9, "name": "31100_attackhuo07" },
+					{ "time": 0.9333, "name": "31100_attackhuo08" },
+					{ "time": 0.9666, "name": "31100_attackhuo09" },
+					{ "time": 1, "name": "31100_attackhuo10" },
+					{ "time": 1.0333, "name": "31100_attackhuo11" },
+					{ "time": 1.0666, "name": "31100_attackhuo12" },
+					{ "time": 1.1, "name": "31100_attackhuo13" },
+					{ "time": 1.1333, "name": "31100_attackhuo14" },
+					{ "time": 1.1666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"31100_attackhuo": {
+				"rotate": [
+					{ "time": 0.7, "angle": 0.83 },
+					{ "time": 0.8333, "angle": 3.84 },
+					{ "time": 0.9666, "angle": -2.67 }
+				],
+				"translate": [
+					{ "time": 0.7, "x": -86.44, "y": 144.97 },
+					{ "time": 0.7333, "x": 94.43, "y": 154.27 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"31100_Hit1": {
+		"slots": {
+			"31100_hithuo": {
+				"attachment": [
+					{ "time": 0, "name": "31100_hithuo01" },
+					{ "time": 0.0666, "name": "31100_hithuo02" },
+					{ "time": 0.1333, "name": "31100_hithuo03" },
+					{ "time": 0.2, "name": "31100_hithuo04" },
+					{ "time": 0.2666, "name": "31100_hithuo05" },
+					{ "time": 0.3333, "name": "31100_hithuo06" },
+					{ "time": 0.4, "name": "31100_hithuo07" },
+					{ "time": 0.4666, "name": "31100_hithuo08" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"31100_hithuo": {
+				"scale": [
+					{ "time": 0, "x": 2.2, "y": 2.2 }
+				]
+			}
+		}
+	}
+}
+}

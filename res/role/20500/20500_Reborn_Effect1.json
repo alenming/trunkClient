@@ -1,0 +1,257 @@
+{
+"skeleton": { "hash": "YoZGM3JvSnseJOqetBCBcejHplw", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "20500_Eff_Reborn_Effect1", "parent": "root", "length": 149.68, "rotation": 90 },
+	{
+		"name": "20500_Eff_Reborn_Effect1_Glow_01",
+		"parent": "20500_Eff_Reborn_Effect1",
+		"length": 149.68,
+		"scaleX": 1.6,
+		"scaleY": 1.6
+	},
+	{
+		"name": "20500_Eff_Reborn_Effect1_Glow_02",
+		"parent": "20500_Eff_Reborn_Effect1",
+		"length": 149.68,
+		"scaleX": 1.6,
+		"scaleY": 1.6
+	}
+],
+"slots": [
+	{ "name": "20500_Eff_Reborn_Effect1_01", "bone": "20500_Eff_Reborn_Effect1_Glow_01", "color": "ffffffbd" },
+	{ "name": "20500_Eff_Reborn_Effect1_02", "bone": "20500_Eff_Reborn_Effect1_Glow_01", "color": "ffffff80", "blend": "additive" },
+	{ "name": "20500_Eff_Reborn_FZGlow_01", "bone": "20500_Eff_Reborn_Effect1_Glow_02", "blend": "additive" },
+	{ "name": "20500_Eff_Reborn_FZGlow_02", "bone": "20500_Eff_Reborn_Effect1_Glow_02", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"20500_Eff_Reborn_Effect1_01": {
+			"20500_Eff_Reborn_Effect1_01": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_02": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_03": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_04": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_05": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_06": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_07": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_08": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_09": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_10": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_11": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_12": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_13": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_14": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_15": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_16": { "rotation": -90, "width": 68, "height": 140 }
+		},
+		"20500_Eff_Reborn_Effect1_02": {
+			"20500_Eff_Reborn_Effect1_01": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_02": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_03": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_04": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_05": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_06": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_07": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_08": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_09": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_10": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_11": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_12": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_13": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_14": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_15": { "rotation": -90, "width": 68, "height": 140 },
+			"20500_Eff_Reborn_Effect1_16": { "rotation": -90, "width": 68, "height": 140 }
+		},
+		"20500_Eff_Reborn_FZGlow_01": {
+			"20500_Eff_Reborn_FZGlow_01": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_02": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_03": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_04": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_05": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_06": { "rotation": -90, "width": 140, "height": 71 }
+		},
+		"20500_Eff_Reborn_FZGlow_02": {
+			"20500_Eff_Reborn_FZGlow_01": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_02": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_03": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_04": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_05": { "rotation": -90, "width": 140, "height": 71 },
+			"20500_Eff_Reborn_FZGlow_06": { "rotation": -90, "width": 140, "height": 71 }
+		}
+	}
+},
+"animations": {
+	"20500_Reborn_Effect1": {
+		"slots": {
+			"20500_Eff_Reborn_Effect1_01": {
+				"attachment": [
+					{ "time": 0, "name": "20500_Eff_Reborn_Effect1_01" },
+					{ "time": 0.1333, "name": "20500_Eff_Reborn_Effect1_02" },
+					{ "time": 0.2666, "name": "20500_Eff_Reborn_Effect1_03" },
+					{ "time": 0.4, "name": "20500_Eff_Reborn_Effect1_04" },
+					{ "time": 0.5333, "name": "20500_Eff_Reborn_Effect1_05" },
+					{ "time": 0.6666, "name": "20500_Eff_Reborn_Effect1_06" },
+					{ "time": 0.8, "name": "20500_Eff_Reborn_Effect1_07" },
+					{ "time": 0.9333, "name": "20500_Eff_Reborn_Effect1_08" },
+					{ "time": 1.0666, "name": "20500_Eff_Reborn_Effect1_09" },
+					{ "time": 1.2, "name": "20500_Eff_Reborn_Effect1_10" },
+					{ "time": 1.3333, "name": "20500_Eff_Reborn_Effect1_11" },
+					{ "time": 1.4666, "name": "20500_Eff_Reborn_Effect1_12" },
+					{ "time": 1.6, "name": "20500_Eff_Reborn_Effect1_13" },
+					{ "time": 1.7, "name": "20500_Eff_Reborn_Effect1_14" },
+					{ "time": 1.8333, "name": "20500_Eff_Reborn_Effect1_15" },
+					{ "time": 2.0333, "name": "20500_Eff_Reborn_Effect1_16" },
+					{ "time": 2.1666, "name": null }
+				]
+			},
+			"20500_Eff_Reborn_Effect1_02": {
+				"attachment": [
+					{ "time": 0, "name": "20500_Eff_Reborn_Effect1_01" },
+					{ "time": 0.1333, "name": "20500_Eff_Reborn_Effect1_02" },
+					{ "time": 0.2666, "name": "20500_Eff_Reborn_Effect1_03" },
+					{ "time": 0.4, "name": "20500_Eff_Reborn_Effect1_04" },
+					{ "time": 0.5333, "name": "20500_Eff_Reborn_Effect1_05" },
+					{ "time": 0.6666, "name": "20500_Eff_Reborn_Effect1_06" },
+					{ "time": 0.8, "name": "20500_Eff_Reborn_Effect1_07" },
+					{ "time": 0.9333, "name": "20500_Eff_Reborn_Effect1_08" },
+					{ "time": 1.0666, "name": "20500_Eff_Reborn_Effect1_09" },
+					{ "time": 1.2, "name": "20500_Eff_Reborn_Effect1_10" },
+					{ "time": 1.3333, "name": "20500_Eff_Reborn_Effect1_11" },
+					{ "time": 1.4666, "name": "20500_Eff_Reborn_Effect1_12" },
+					{ "time": 1.6, "name": "20500_Eff_Reborn_Effect1_13" },
+					{ "time": 1.7, "name": "20500_Eff_Reborn_Effect1_14" },
+					{ "time": 1.8333, "name": "20500_Eff_Reborn_Effect1_15" },
+					{ "time": 2.0333, "name": "20500_Eff_Reborn_Effect1_16" },
+					{ "time": 2.1666, "name": null }
+				]
+			},
+			"20500_Eff_Reborn_FZGlow_01": {
+				"attachment": [
+					{ "time": 0.2666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 0.3666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 0.4666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 0.5666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 0.6666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 0.7666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 0.8666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 0.9666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 1.0666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 1.1666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 1.2666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 1.3666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 1.4666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 1.5666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 1.6666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 1.7666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 1.8666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 1.9666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 2.0666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 2.1666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 2.2666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 2.3666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 2.4666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 2.5666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 2.6666, "name": null }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 2.4, "color": "ffffff00" }
+				]
+			},
+			"20500_Eff_Reborn_FZGlow_02": {
+				"attachment": [
+					{ "time": 0.2666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 0.3666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 0.4666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 0.5666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 0.6666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 0.7666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 0.8666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 0.9666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 1.0666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 1.1666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 1.2666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 1.3666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 1.4666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 1.5666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 1.6666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 1.7666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 1.8666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 1.9666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 2.0666, "name": "20500_Eff_Reborn_FZGlow_01" },
+					{ "time": 2.1666, "name": "20500_Eff_Reborn_FZGlow_02" },
+					{ "time": 2.2666, "name": "20500_Eff_Reborn_FZGlow_03" },
+					{ "time": 2.3666, "name": "20500_Eff_Reborn_FZGlow_04" },
+					{ "time": 2.4666, "name": "20500_Eff_Reborn_FZGlow_05" },
+					{ "time": 2.5666, "name": "20500_Eff_Reborn_FZGlow_06" },
+					{ "time": 2.6666, "name": null }
+				],
+				"color": [
+					{ "time": 0.2666, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 2, "color": "ffffffff" },
+					{ "time": 2.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6, "angle": 0, "curve": "stepped" },
+					{ "time": 1.7, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8, "angle": 0, "curve": "stepped" },
+					{ "time": 2.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 2.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.7, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.8, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.7, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.8, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2.6666, "x": 1, "y": 1 }
+				]
+			},
+			"20500_Eff_Reborn_Effect1_Glow_01": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 200,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.936, 0.88 ]
+					},
+					{ "time": 0.6666, "x": 173.17, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.3, "y": 3 }
+				]
+			},
+			"20500_Eff_Reborn_Effect1_Glow_02": {
+				"scale": [
+					{ "time": 0.2666, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

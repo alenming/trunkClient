@@ -1,0 +1,338 @@
+{
+"skeleton": { "hash": "8yHlQCmkwHCA2p/mFdaSO78+c5U", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Attack1", "parent": "root" },
+	{ "name": "Attack2", "parent": "root" },
+	{ "name": "Attack3", "parent": "root" },
+	{ "name": "Attack4", "parent": "root" },
+	{ "name": "Attack_shouji01", "parent": "root" },
+	{ "name": "BUFF01", "parent": "root" },
+	{ "name": "BUFF02 bishou", "parent": "root" },
+	{ "name": "BUFF02 xuedi", "parent": "root" },
+	{ "name": "skill1_gongji01", "parent": "root" },
+	{ "name": "skill1_shouji", "parent": "root" }
+],
+"slots": [
+	{ "name": "BUFF01", "bone": "BUFF01" },
+	{ "name": "BUFF02 bishou", "bone": "BUFF02 bishou" },
+	{ "name": "BUFF02 xuedi", "bone": "BUFF02 xuedi" },
+	{ "name": "109200_Attack1_01", "bone": "Attack1", "blend": "additive" },
+	{ "name": "109200_Attack2_01", "bone": "Attack2", "blend": "additive" },
+	{ "name": "109200_Attack3_01", "bone": "Attack3", "blend": "additive" },
+	{ "name": "109200_Attack4_01", "bone": "Attack4", "blend": "additive" },
+	{ "name": "109200_Attack_shouji01", "bone": "Attack_shouji01" },
+	{ "name": "109200_skill1_gongji01", "bone": "skill1_gongji01", "blend": "additive" },
+	{ "name": "skill1_shouji", "bone": "skill1_shouji" }
+],
+"skins": {
+	"default": {
+		"109200_Attack1_01": {
+			"109200_Attack1_01": { "width": 385, "height": 334 },
+			"109200_Attack1_02": { "width": 385, "height": 334 },
+			"109200_Attack1_03": { "width": 385, "height": 334 },
+			"109200_Attack1_04": { "width": 385, "height": 334 }
+		},
+		"109200_Attack2_01": {
+			"109200_Attack2_01": { "width": 435, "height": 235 },
+			"109200_Attack2_02": { "width": 435, "height": 235 },
+			"109200_Attack2_03": { "width": 435, "height": 235 },
+			"109200_Attack2_04": { "width": 435, "height": 235 }
+		},
+		"109200_Attack3_01": {
+			"109200_Attack3_01": { "width": 406, "height": 284 },
+			"109200_Attack3_02": { "width": 406, "height": 284 },
+			"109200_Attack3_03": { "width": 406, "height": 284 },
+			"109200_Attack3_04": { "width": 406, "height": 284 }
+		},
+		"109200_Attack4_01": {
+			"109200_Attack4_01": { "width": 385, "height": 188 },
+			"109200_Attack4_02": { "width": 385, "height": 188 },
+			"109200_Attack4_03": { "width": 385, "height": 188 },
+			"109200_Attack4_04": { "width": 385, "height": 188 }
+		},
+		"109200_Attack_shouji01": {
+			"109200_Attack_shouji01": { "width": 110, "height": 273 },
+			"109200_Attack_shouji02": { "width": 110, "height": 273 },
+			"109200_Attack_shouji03": { "width": 110, "height": 273 },
+			"109200_Attack_shouji04": { "width": 110, "height": 273 },
+			"109200_Attack_shouji05": { "width": 110, "height": 273 },
+			"109200_Attack_shouji06": { "width": 110, "height": 273 },
+			"109200_Attack_shouji07": { "width": 110, "height": 273 },
+			"109200_Attack_shouji08": { "width": 110, "height": 273 },
+			"109200_Attack_shouji09": { "width": 110, "height": 273 },
+			"109200_Attack_shouji10": { "width": 110, "height": 273 },
+			"109200_Attack_shouji11": { "width": 110, "height": 273 },
+			"109200_Attack_shouji12": { "width": 110, "height": 273 }
+		},
+		"109200_skill1_gongji01": {
+			"109200_skill1_gongji01": { "width": 382, "height": 137 },
+			"109200_skill1_gongji02": { "width": 382, "height": 137 },
+			"109200_skill1_gongji03": { "width": 382, "height": 137 },
+			"109200_skill1_gongji04": { "width": 382, "height": 137 }
+		},
+		"BUFF01": {
+			"109200_BUFF01": { "width": 85, "height": 102 }
+		},
+		"BUFF02 bishou": {
+			"109200_BUFF02_bishou01": { "width": 70, "height": 88 },
+			"109200_BUFF02_bishou02": { "width": 70, "height": 88 },
+			"109200_BUFF02_bishou03": { "width": 70, "height": 88 },
+			"109200_BUFF02_bishou04": { "width": 70, "height": 88 },
+			"109200_BUFF02_bishou05": { "width": 70, "height": 88 },
+			"109200_BUFF02_bishou06": { "width": 70, "height": 88 },
+			"109200_BUFF02_bishou07": { "width": 70, "height": 88 },
+			"109200_BUFF02_bishou08": { "width": 70, "height": 88 }
+		},
+		"BUFF02 xuedi": {
+			"109200_BUFF02_xuedi": { "width": 18, "height": 27 }
+		},
+		"skill1_shouji": {
+			"109200_skill1_shouji01": { "width": 251, "height": 420 },
+			"109200_skill1_shouji02": { "width": 251, "height": 420 },
+			"109200_skill1_shouji03": { "width": 251, "height": 420 },
+			"109200_skill1_shouji04": { "width": 251, "height": 420 },
+			"109200_skill1_shouji05": { "width": 251, "height": 420 },
+			"109200_skill1_shouji06": { "width": 251, "height": 420 }
+		}
+	}
+},
+"animations": {
+	"Attack1": {
+		"slots": {
+			"109200_Attack1_01": {
+				"attachment": [
+					{ "time": 0.5, "name": "109200_Attack1_01" },
+					{ "time": 0.5333, "name": "109200_Attack1_02" },
+					{ "time": 0.5666, "name": "109200_Attack1_03" },
+					{ "time": 0.6, "name": "109200_Attack1_04" },
+					{ "time": 0.6333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Attack1": {
+				"translate": [
+					{ "time": 0.5, "x": 63.81, "y": 172.2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{
+				"time": 0.5,
+				"offsets": [
+					{ "slot": "109200_Attack1_01", "offset": -3 }
+				]
+			},
+			{ "time": 0.9333 }
+		]
+	},
+	"Attack2": {
+		"slots": {
+			"109200_Attack2_01": {
+				"attachment": [
+					{ "time": 0.4333, "name": "109200_Attack2_01" },
+					{ "time": 0.4666, "name": "109200_Attack2_02" },
+					{ "time": 0.5, "name": "109200_Attack2_03" },
+					{ "time": 0.5333, "name": "109200_Attack2_04" },
+					{ "time": 0.5666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0.3666, "angle": 0.78 }
+				]
+			},
+			"Attack2": {
+				"translate": [
+					{ "time": 0.4333, "x": 78.93, "y": 96.17 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.4333 },
+			{ "time": 0.5666 },
+			{ "time": 0.8333 },
+			{ "time": 1.1 }
+		]
+	},
+	"Attack3": {
+		"slots": {
+			"109200_Attack3_01": {
+				"attachment": [
+					{ "time": 0.4666, "name": "109200_Attack3_01" },
+					{ "time": 0.5, "name": "109200_Attack3_02" },
+					{ "time": 0.5333, "name": "109200_Attack3_03" },
+					{ "time": 0.5666, "name": "109200_Attack3_04" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"109200_Attack4_01": {
+				"attachment": [
+					{ "time": 0.4666, "name": "109200_Attack4_01" },
+					{ "time": 0.5, "name": "109200_Attack4_02" },
+					{ "time": 0.5333, "name": "109200_Attack4_03" },
+					{ "time": 0.5666, "name": "109200_Attack4_04" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Attack3": {
+				"translate": [
+					{ "time": 0.4666, "x": 61.79, "y": 90.15 }
+				]
+			},
+			"Attack4": {
+				"translate": [
+					{ "time": 0.4666, "x": 58.75, "y": 159.04 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.4666,
+				"offsets": [
+					{ "slot": "109200_Attack4_01", "offset": -6 }
+				]
+			}
+		]
+	},
+	"Attack1_Hit1": {
+		"slots": {
+			"109200_Attack_shouji01": {
+				"attachment": [
+					{ "time": 0, "name": "109200_Attack_shouji01" },
+					{ "time": 0.0333, "name": "109200_Attack_shouji02" },
+					{ "time": 0.0666, "name": "109200_Attack_shouji03" },
+					{ "time": 0.1, "name": "109200_Attack_shouji04" },
+					{ "time": 0.1333, "name": "109200_Attack_shouji05" },
+					{ "time": 0.1666, "name": "109200_Attack_shouji06" },
+					{ "time": 0.2, "name": "109200_Attack_shouji07" },
+					{ "time": 0.2333, "name": "109200_Attack_shouji08" },
+					{ "time": 0.2666, "name": "109200_Attack_shouji09" },
+					{ "time": 0.3, "name": "109200_Attack_shouji10" },
+					{ "time": 0.3333, "name": "109200_Attack_shouji11" },
+					{ "time": 0.3666, "name": "109200_Attack_shouji12" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		}
+	},
+	"BUFF1": {
+		"slots": {
+			"BUFF01": {
+				"attachment": [
+					{ "time": 0, "name": "109200_BUFF01" }
+				]
+			}
+		},
+		"bones": {
+			"BUFF01": {
+				"rotate": [
+					{ "time": 0, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.05, "y": 310.69 },
+					{ "time": 0.5, "x": -1.05, "y": 281.17 },
+					{ "time": 1, "x": -1.05, "y": 310.69 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			}
+		}
+	},
+	"BUFF2": {
+		"slots": {
+			"BUFF02 bishou": {
+				"attachment": [
+					{ "time": 0, "name": "109200_BUFF02_bishou01" },
+					{ "time": 0.1333, "name": "109200_BUFF02_bishou02" },
+					{ "time": 0.2666, "name": "109200_BUFF02_bishou03" },
+					{ "time": 0.4, "name": "109200_BUFF02_bishou04" },
+					{ "time": 0.5333, "name": "109200_BUFF02_bishou05" },
+					{ "time": 0.6666, "name": "109200_BUFF02_bishou06" },
+					{ "time": 0.8, "name": "109200_BUFF02_bishou07" },
+					{ "time": 0.9333, "name": "109200_BUFF02_bishou08" },
+					{ "time": 1.0666, "name": "109200_BUFF02_bishou08" }
+				]
+			},
+			"BUFF02 xuedi": {
+				"attachment": [
+					{ "time": 0, "name": "109200_BUFF02_xuedi" }
+				],
+				"color": [
+					{ "time": 0.5333, "color": "ffffffff" },
+					{ "time": 1.0666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"BUFF02 bishou": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 277.2 }
+				]
+			},
+			"BUFF02 xuedi": {
+				"translate": [
+					{ "time": 0, "x": -3.26, "y": 274.03 },
+					{ "time": 1.0666, "x": 0, "y": 184.44 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.6, "y": 0.6 }
+				]
+			}
+		}
+	},
+	"Skill1": {
+		"slots": {
+			"109200_skill1_gongji01": {
+				"attachment": [
+					{ "time": 0.5333, "name": "109200_skill1_gongji01" },
+					{ "time": 0.5666, "name": "109200_skill1_gongji02" },
+					{ "time": 0.6, "name": "109200_skill1_gongji03" },
+					{ "time": 0.6333, "name": "109200_skill1_gongji04" },
+					{ "time": 0.6666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"skill1_gongji01": {
+				"translate": [
+					{ "time": 0.5333, "x": 134.72, "y": 84.07 }
+				]
+			},
+			"Attack_shouji01": {
+				"translate": [
+					{ "time": 0.5333, "x": 134.72, "y": 84.07 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.5333 },
+			{ "time": 1.1333 }
+		]
+	},
+	"Skill1_Hit1": {
+		"slots": {
+			"skill1_shouji": {
+				"attachment": [
+					{ "time": 0, "name": "109200_skill1_shouji01" },
+					{ "time": 0.0666, "name": "109200_skill1_shouji02" },
+					{ "time": 0.1333, "name": "109200_skill1_shouji03" },
+					{ "time": 0.2, "name": "109200_skill1_shouji04" },
+					{ "time": 0.2666, "name": "109200_skill1_shouji05" },
+					{ "time": 0.3333, "name": "109200_skill1_shouji06" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		}
+	}
+}
+}

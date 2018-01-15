@@ -1,0 +1,62 @@
+
+Plague_Soul.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+321100_Eff_GlowShpere_01
+  rotate: false
+  xy: 119, 150
+  size: 113, 101
+  orig: 128, 128
+  offset: 4, 13
+  index: -1
+321100_Eff_GlowShpere_02
+  rotate: false
+  xy: 1, 150
+  size: 117, 101
+  orig: 128, 128
+  offset: 0, 13
+  index: -1
+321100_Eff_GlowShpere_03
+  rotate: false
+  xy: 119, 55
+  size: 114, 94
+  orig: 128, 128
+  offset: 0, 16
+  index: -1
+321100_Eff_GlowShpere_04
+  rotate: false
+  xy: 234, 66
+  size: 110, 88
+  orig: 128, 128
+  offset: 0, 18
+  index: -1
+321100_Eff_GlowShpere_05
+  rotate: false
+  xy: 351, 156
+  size: 114, 95
+  orig: 128, 128
+  offset: 0, 16
+  index: -1
+321100_Eff_GlowShpere_06
+  rotate: false
+  xy: 1, 50
+  size: 117, 99
+  orig: 128, 128
+  offset: 0, 14
+  index: -1
+321100_Eff_GlowShpere_07
+  rotate: false
+  xy: 233, 155
+  size: 117, 96
+  orig: 128, 128
+  offset: 0, 15
+  index: -1
+321100_Eff_Greenpoint
+  rotate: false
+  xy: 234, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

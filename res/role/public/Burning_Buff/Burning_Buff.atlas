@@ -1,0 +1,118 @@
+
+Burning_Buff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Burning_1_00
+  rotate: false
+  xy: 1, 217
+  size: 91, 110
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_01
+  rotate: false
+  xy: 1, 1
+  size: 91, 105
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_02
+  rotate: false
+  xy: 93, 115
+  size: 91, 105
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_03
+  rotate: false
+  xy: 277, 229
+  size: 91, 104
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_04
+  rotate: false
+  xy: 185, 16
+  size: 91, 103
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_05
+  rotate: false
+  xy: 185, 226
+  size: 91, 105
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_06
+  rotate: false
+  xy: 93, 221
+  size: 91, 107
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_07
+  rotate: false
+  xy: 1, 328
+  size: 91, 111
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_08
+  rotate: false
+  xy: 93, 329
+  size: 91, 110
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_09
+  rotate: false
+  xy: 277, 334
+  size: 91, 105
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_10
+  rotate: false
+  xy: 93, 9
+  size: 91, 105
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_11
+  rotate: false
+  xy: 369, 335
+  size: 91, 104
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_12
+  rotate: false
+  xy: 277, 125
+  size: 91, 103
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_13
+  rotate: false
+  xy: 185, 120
+  size: 91, 105
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_14
+  rotate: false
+  xy: 185, 332
+  size: 91, 107
+  orig: 91, 114
+  offset: 0, 1
+  index: -1
+Burning_1_15
+  rotate: false
+  xy: 1, 107
+  size: 91, 109
+  orig: 91, 114
+  offset: 0, 1
+  index: -1

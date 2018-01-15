@@ -1,0 +1,75 @@
+{
+"skeleton": { "hash": "cXo353QJDKs2cyOuxHjZa5Ze3vs", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "10504_Hit2" },
+	{ "name": "Hit2_TX", "parent": "10504_Hit2", "x": -0.38, "y": 0.5, "scaleX": 2.5, "scaleY": 2.5 }
+],
+"slots": [
+	{ "name": "10504_Hit2_TXa_00", "bone": "Hit2_TX" }
+],
+"skins": {
+	"default": {
+		"10504_Hit2_TXa_00": {
+			"10504_Hit2_TXa_00": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_01": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_02": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_03": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_04": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_05": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_06": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_07": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_08": { "width": 170, "height": 148 },
+			"10504_Hit2_TXa_09": { "width": 170, "height": 148 }
+		}
+	}
+},
+"animations": {
+	"10504_Hit2": {
+		"slots": {
+			"10504_Hit2_TXa_00": {
+				"attachment": [
+					{ "time": 0, "name": "10504_Hit2_TXa_00" },
+					{ "time": 0.0666, "name": "10504_Hit2_TXa_01" },
+					{ "time": 0.1333, "name": "10504_Hit2_TXa_02" },
+					{ "time": 0.2, "name": "10504_Hit2_TXa_03" },
+					{ "time": 0.2666, "name": "10504_Hit2_TXa_04" },
+					{ "time": 0.3333, "name": "10504_Hit2_TXa_05" },
+					{ "time": 0.4, "name": "10504_Hit2_TXa_06" },
+					{ "time": 0.4666, "name": "10504_Hit2_TXa_07" },
+					{ "time": 0.5333, "name": "10504_Hit2_TXa_08" },
+					{ "time": 0.6, "name": "10504_Hit2_TXa_09" },
+					{ "time": 0.6666, "name": "10504_Hit2_TXa_00" },
+					{ "time": 0.7333, "name": "10504_Hit2_TXa_01" },
+					{ "time": 0.8, "name": "10504_Hit2_TXa_02" },
+					{ "time": 0.8666, "name": "10504_Hit2_TXa_03" },
+					{ "time": 0.9333, "name": "10504_Hit2_TXa_04" },
+					{ "time": 1, "name": "10504_Hit2_TXa_05" },
+					{ "time": 1.0666, "name": "10504_Hit2_TXa_06" },
+					{ "time": 1.1333, "name": "10504_Hit2_TXa_07" },
+					{ "time": 1.2, "name": "10504_Hit2_TXa_08" },
+					{ "time": 1.2666, "name": "10504_Hit2_TXa_09" }
+				]
+			}
+		},
+		"bones": {
+			"10504_Hit2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

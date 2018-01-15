@@ -1,0 +1,58 @@
+{
+"skeleton": { "hash": "qnLosMZ96qBqtOjRGG3JewDLZvs", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40502", "rotation": -0.41 },
+	{ "name": "40500_Charging_Effect1", "parent": "40502", "length": 75.46, "rotation": 90 },
+	{ "name": "40500_Charging_Effect1_01", "parent": "40500_Charging_Effect1", "length": 75.46 }
+],
+"slots": [
+	{ "name": "10012_Attack1_Hit_Loop_00001", "bone": "40500_Charging_Effect1_01" }
+],
+"skins": {
+	"default": {
+		"10012_Attack1_Hit_Loop_00001": {
+			"10012_Attack1_Hit_Loop_00001": { "rotation": -90, "width": 71, "height": 90 },
+			"10012_Attack1_Hit_Loop_00002": { "rotation": -90, "width": 71, "height": 90 },
+			"10012_Attack1_Hit_Loop_00003": { "rotation": -90, "width": 71, "height": 90 },
+			"10012_Attack1_Hit_Loop_00004": { "rotation": -90, "width": 71, "height": 90 },
+			"10012_Attack1_Hit_Loop_00005": { "rotation": -90, "width": 71, "height": 90 },
+			"10012_Attack1_Hit_Loop_00006": { "rotation": -90, "width": 71, "height": 90 },
+			"10012_Attack1_Hit_Loop_00007": { "rotation": -90, "width": 71, "height": 90 }
+		}
+	}
+},
+"animations": {
+	"Soul_hit": {
+		"slots": {
+			"10012_Attack1_Hit_Loop_00001": {
+				"attachment": [
+					{ "time": 0, "name": "10012_Attack1_Hit_Loop_00001" },
+					{ "time": 0.1, "name": "10012_Attack1_Hit_Loop_00002" },
+					{ "time": 0.2, "name": "10012_Attack1_Hit_Loop_00003" },
+					{ "time": 0.3, "name": "10012_Attack1_Hit_Loop_00004" },
+					{ "time": 0.4, "name": "10012_Attack1_Hit_Loop_00005" },
+					{ "time": 0.5, "name": "10012_Attack1_Hit_Loop_00006" },
+					{ "time": 0.6, "name": "10012_Attack1_Hit_Loop_00007" },
+					{ "time": 0.7333, "name": "10012_Attack1_Hit_Loop_00001" },
+					{ "time": 0.8333, "name": "10012_Attack1_Hit_Loop_00002" },
+					{ "time": 0.9333, "name": "10012_Attack1_Hit_Loop_00003" },
+					{ "time": 1.0333, "name": "10012_Attack1_Hit_Loop_00004" },
+					{ "time": 1.1333, "name": "10012_Attack1_Hit_Loop_00005" },
+					{ "time": 1.2333, "name": "10012_Attack1_Hit_Loop_00006" },
+					{ "time": 1.3333, "name": "10012_Attack1_Hit_Loop_00007" }
+				]
+			}
+		},
+		"bones": {
+			"40500_Charging_Effect1_01": {
+				"translate": [
+					{ "time": 0, "x": 130, "y": -30.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			}
+		}
+	}
+}
+}

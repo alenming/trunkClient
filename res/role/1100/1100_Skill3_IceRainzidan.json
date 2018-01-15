@@ -1,0 +1,56 @@
+{
+"skeleton": { "hash": "DSDWXG25OfJgwmEjjqY5mSM962w", "spine": "2.1.27", "width": 469.29, "height": 469.17, "images": "./images/" },
+"bones": [
+	{ "name": "1100_Skill3_IceRainzidan", "x": 1.41, "y": 1009.74, "scaleX": 2.8, "scaleY": 2.8, "rotation": 45 }
+],
+"slots": [
+	{ "name": "10101_Skill3_IceRain_zidan01", "bone": "1100_Skill3_IceRainzidan", "attachment": "10101_Skill3_IceRain_zidan01" }
+],
+"skins": {
+	"default": {
+		"10101_Skill3_IceRain_zidan01": {
+			"10101_Skill3_IceRain_zidan01": { "width": 43, "height": 194 },
+			"10101_Skill3_IceRain_zidan02": { "width": 43, "height": 194 },
+			"10101_Skill3_IceRain_zidan03": { "width": 43, "height": 194 },
+			"10101_Skill3_IceRain_zidan04": { "width": 43, "height": 194 },
+			"10101_Skill3_IceRain_zidan05": { "width": 43, "height": 194 },
+			"10101_Skill3_IceRain_zidan06": { "width": 43, "height": 194 },
+			"10101_Skill3_IceRain_zidan07": { "width": 43, "height": 194 },
+			"10101_Skill3_IceRain_zidan08": { "width": 43, "height": 194 }
+		}
+	}
+},
+"animations": {
+	"1100_Skill3_IceRainzidan": {
+		"slots": {
+			"10101_Skill3_IceRain_zidan01": {
+				"attachment": [
+					{ "time": 0, "name": "10101_Skill3_IceRain_zidan01" },
+					{ "time": 0.0666, "name": "10101_Skill3_IceRain_zidan02" },
+					{ "time": 0.1333, "name": "10101_Skill3_IceRain_zidan03" },
+					{ "time": 0.2, "name": "10101_Skill3_IceRain_zidan04" },
+					{ "time": 0.2666, "name": "10101_Skill3_IceRain_zidan05" },
+					{ "time": 0.3333, "name": "10101_Skill3_IceRain_zidan06" },
+					{ "time": 0.4, "name": "10101_Skill3_IceRain_zidan07" },
+					{ "time": 0.4666, "name": "10101_Skill3_IceRain_zidan08" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"1100_Skill3_IceRainzidan": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 5.1 },
+					{ "time": 0.0666, "x": 238.7, "y": -238.61 },
+					{ "time": 0.1333, "x": 470.78, "y": -470.6 },
+					{ "time": 0.2, "x": 755.31, "y": -755.02 },
+					{ "time": 0.2666, "x": 929.72, "y": -929.36 },
+					{ "time": 0.3333, "x": 1007.09, "y": -1006.71 },
+					{ "time": 0.4, "x": 1188.25, "y": -1187.79 },
+					{ "time": 0.4666, "x": 1236.54, "y": -1236.06 }
+				]
+			}
+		}
+	}
+}
+}

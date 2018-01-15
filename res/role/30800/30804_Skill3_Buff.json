@@ -1,0 +1,45 @@
+{
+"skeleton": { "hash": "wY5L820Y9SlpruQ1NdFcdaepPbM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "30804_Skill3_Buff", "parent": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "30804_Skill3_Buff_0001", "bone": "30804_Skill3_Buff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30804_Skill3_Buff_0001": {
+			"30804_Skill3_Buff_0001": { "y": 70, "width": 155, "height": 77 },
+			"30804_Skill3_Buff_0002": { "y": 70, "width": 155, "height": 77 },
+			"30804_Skill3_Buff_0003": { "y": 70, "width": 155, "height": 77 },
+			"30804_Skill3_Buff_0004": { "y": 70, "width": 155, "height": 77 },
+			"30804_Skill3_Buff_0005": { "y": 70, "width": 155, "height": 77 },
+			"30804_Skill3_Buff_0006": { "y": 70, "width": 155, "height": 77 }
+		}
+	}
+},
+"animations": {
+	"30804_Skill3_Buff": {
+		"slots": {
+			"30804_Skill3_Buff_0001": {
+				"attachment": [
+					{ "time": 0, "name": "30804_Skill3_Buff_0001" },
+					{ "time": 0.1, "name": "30804_Skill3_Buff_0002" },
+					{ "time": 0.2, "name": "30804_Skill3_Buff_0003" },
+					{ "time": 0.3, "name": "30804_Skill3_Buff_0004" },
+					{ "time": 0.4, "name": "30804_Skill3_Buff_0005" },
+					{ "time": 0.5, "name": "30804_Skill3_Buff_0006" }
+				]
+			}
+		},
+		"bones": {
+			"30804_Skill3_Buff": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

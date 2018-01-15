@@ -1,0 +1,117 @@
+{
+"skeleton": { "hash": "A3MAK8L7+UcFk0akoG8fcV6Hqao", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "30302_Attack_Bullet", "x": -72.12, "scaleX": 0.7, "scaleY": 0.7 },
+	{ "name": "30302_Attack_Bullet1", "parent": "30302_Attack_Bullet", "x": 231.37, "y": -137.62 },
+	{ "name": "30302_Attack_Bullet2", "parent": "30302_Attack_Bullet", "x": 231.37, "y": -137.62 },
+	{ "name": "30302_Attack_Bullet3", "parent": "30302_Attack_Bullet2", "x": -149.28, "y": -15.41 }
+],
+"slots": [
+	{ "name": "30302_changmao", "bone": "30302_Attack_Bullet1" },
+	{ "name": "30302_changmao2", "bone": "30302_Attack_Bullet2" },
+	{ "name": "30300_00", "bone": "30302_Attack_Bullet3", "color": "ffffff9e", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30300_00": {
+			"30300_00": { "scaleX": 1.4, "scaleY": 1.4, "width": 116, "height": 26 },
+			"30303_changmao_buff01": { "x": -24.62, "y": 45.91, "width": 278, "height": 47 },
+			"30303_changmao_buff02": { "x": -24.62, "y": 45.91, "width": 278, "height": 47 },
+			"30303_changmao_buff03": { "x": -24.62, "y": 45.91, "width": 278, "height": 47 },
+			"30303_changmao_buff04": { "x": -24.62, "y": 45.91, "width": 278, "height": 47 }
+		},
+		"30302_changmao": {
+			"30302_changmao": { "x": -77.37, "y": 46.62, "scaleX": 1.4, "scaleY": 1.4, "width": 117, "height": 71 }
+		},
+		"30302_changmao2": {
+			"30302_changmao": { "x": -77.37, "y": 46.62, "scaleX": 1.4, "scaleY": 1.4, "width": 117, "height": 71 }
+		}
+	}
+},
+"animations": {
+	"Attack_Bullet": {
+		"slots": {
+			"30300_00": {
+				"attachment": [
+					{ "time": 0, "name": "30303_changmao_buff01" },
+					{ "time": 0.0666, "name": "30303_changmao_buff02" },
+					{ "time": 0.1333, "name": "30303_changmao_buff03" },
+					{ "time": 0.2, "name": "30303_changmao_buff04" },
+					{ "time": 0.2666, "name": null }
+				]
+			},
+			"30302_changmao": {
+				"attachment": [
+					{ "time": 0, "name": "30302_changmao" }
+				]
+			}
+		},
+		"bones": {
+			"30302_Attack_Bullet1": {
+				"translate": [
+					{ "time": 0, "x": -146.99, "y": 91 }
+				]
+			},
+			"30302_Attack_Bullet": {
+				"rotate": [
+					{ "time": 0, "angle": 31.19 }
+				]
+			},
+			"30302_Attack_Bullet3": {
+				"rotate": [
+					{ "time": 0, "angle": -30.58 }
+				],
+				"translate": [
+					{ "time": 0, "x": -75.28, "y": 124.74 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.5 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"Attack_Bullet2": {
+		"slots": {
+			"30300_00": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"30302_changmao": {
+				"attachment": [
+					{ "time": 0, "name": "30302_changmao" }
+				]
+			}
+		},
+		"bones": {
+			"30302_Attack_Bullet1": {
+				"translate": [
+					{ "time": 0, "x": -146.99, "y": 91 }
+				]
+			},
+			"30302_Attack_Bullet": {
+				"rotate": [
+					{ "time": 0, "angle": 31.19 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"30302_Attack_Bullet3": {
+				"rotate": [
+					{ "time": 0, "angle": -32.44 }
+				],
+				"translate": [
+					{ "time": 0, "x": -6.66, "y": 112.85 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.542, "y": 0.748 }
+				]
+			}
+		}
+	}
+}
+}

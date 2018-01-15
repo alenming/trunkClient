@@ -1,0 +1,76 @@
+
+Dark_Loop.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40800_Talent5_Loop_01
+  rotate: false
+  xy: 169, 264
+  size: 163, 88
+  orig: 167, 88
+  offset: 4, 0
+  index: -1
+40800_Talent5_Loop_02
+  rotate: false
+  xy: 169, 179
+  size: 163, 84
+  orig: 167, 88
+  offset: 4, 4
+  index: -1
+40800_Talent5_Loop_03
+  rotate: false
+  xy: 1, 353
+  size: 167, 88
+  orig: 167, 88
+  offset: 0, 0
+  index: -1
+40800_Talent5_Loop_04
+  rotate: false
+  xy: 1, 264
+  size: 167, 88
+  orig: 167, 88
+  offset: 0, 0
+  index: -1
+40800_Talent5_Loop_05
+  rotate: false
+  xy: 337, 357
+  size: 167, 84
+  orig: 167, 88
+  offset: 0, 4
+  index: -1
+40800_Talent5_Loop_06
+  rotate: false
+  xy: 1, 86
+  size: 163, 88
+  orig: 167, 88
+  offset: 4, 0
+  index: -1
+40800_Talent5_Loop_07
+  rotate: false
+  xy: 1, 1
+  size: 163, 84
+  orig: 167, 88
+  offset: 4, 4
+  index: -1
+40800_Talent5_Loop_08
+  rotate: false
+  xy: 169, 353
+  size: 167, 88
+  orig: 167, 88
+  offset: 0, 0
+  index: -1
+40800_Talent5_Loop_09
+  rotate: false
+  xy: 1, 175
+  size: 167, 88
+  orig: 167, 88
+  offset: 0, 0
+  index: -1
+40800_Talent5_Loop_10
+  rotate: true
+  xy: 333, 185
+  size: 167, 84
+  orig: 167, 88
+  offset: 0, 4
+  index: -1

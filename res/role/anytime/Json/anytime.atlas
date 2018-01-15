@@ -1,0 +1,461 @@
+
+anytime.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Born_buff_Boom_01
+  rotate: true
+  xy: 865, 637
+  size: 154, 94
+  orig: 168, 103
+  offset: 14, 9
+  index: -1
+Born_buff_GlowPoint
+  rotate: false
+  xy: 237, 551
+  size: 28, 28
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+Born_buff_RangeGlow_01
+  rotate: false
+  xy: 674, 22
+  size: 105, 31
+  orig: 105, 133
+  offset: 0, 3
+  index: -1
+Born_buff_RangeGlow_02
+  rotate: false
+  xy: 742, 296
+  size: 105, 102
+  orig: 105, 133
+  offset: 0, 3
+  index: -1
+Born_buff_RangeGlow_03
+  rotate: false
+  xy: 630, 659
+  size: 105, 129
+  orig: 105, 133
+  offset: 0, 3
+  index: -1
+Born_buff_RangeGlow_04
+  rotate: false
+  xy: 630, 528
+  size: 105, 130
+  orig: 105, 133
+  offset: 0, 3
+  index: -1
+Born_buff_RangeGlow_05
+  rotate: false
+  xy: 759, 403
+  size: 104, 130
+  orig: 105, 133
+  offset: 1, 3
+  index: -1
+Born_buff_RangeGlow_06
+  rotate: true
+  xy: 621, 296
+  size: 102, 120
+  orig: 105, 133
+  offset: 3, 3
+  index: -1
+Born_buff_RangeGlow_07
+  rotate: false
+  xy: 789, 190
+  size: 102, 105
+  orig: 105, 133
+  offset: 3, 3
+  index: -1
+Born_buff_RangeGlow_08
+  rotate: true
+  xy: 864, 367
+  size: 102, 79
+  orig: 105, 133
+  offset: 3, 3
+  index: -1
+Born_buff_RangeGlow_09
+  rotate: false
+  xy: 232, 280
+  size: 100, 48
+  orig: 105, 133
+  offset: 4, 3
+  index: -1
+Born_buff_Test_beam_01
+  rotate: false
+  xy: 960, 825
+  size: 40, 198
+  orig: 40, 200
+  offset: 0, 1
+  index: -1
+Born_buff_Test_beam_02
+  rotate: true
+  xy: 1, 3
+  size: 40, 198
+  orig: 40, 200
+  offset: 0, 1
+  index: -1
+Born_buff_Test_beam_03
+  rotate: false
+  xy: 237, 580
+  size: 40, 198
+  orig: 40, 200
+  offset: 0, 1
+  index: -1
+Born_buff_Test_beam_04
+  rotate: false
+  xy: 960, 626
+  size: 40, 198
+  orig: 40, 200
+  offset: 0, 1
+  index: -1
+Born_buff_Test_beam_05
+  rotate: false
+  xy: 232, 329
+  size: 40, 198
+  orig: 40, 200
+  offset: 0, 1
+  index: -1
+Buff_02
+  rotate: false
+  xy: 501, 660
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Buff_06_01
+  rotate: false
+  xy: 401, 288
+  size: 109, 113
+  orig: 128, 128
+  offset: 10, 8
+  index: -1
+Buff_06_02
+  rotate: false
+  xy: 736, 663
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Buff_06_03
+  rotate: false
+  xy: 501, 531
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Buff_06_04
+  rotate: false
+  xy: 736, 534
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Burning_1_00
+  rotate: false
+  xy: 794, 57
+  size: 45, 56
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_01
+  rotate: false
+  xy: 414, 2
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_02
+  rotate: false
+  xy: 460, 2
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_03
+  rotate: false
+  xy: 848, 313
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_04
+  rotate: false
+  xy: 780, 1
+  size: 45, 52
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_05
+  rotate: false
+  xy: 894, 313
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_06
+  rotate: true
+  xy: 313, 11
+  size: 45, 54
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_07
+  rotate: false
+  xy: 333, 280
+  size: 45, 55
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_08
+  rotate: true
+  xy: 256, 11
+  size: 45, 56
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_09
+  rotate: false
+  xy: 840, 60
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_10
+  rotate: false
+  xy: 892, 259
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_11
+  rotate: false
+  xy: 892, 205
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_12
+  rotate: false
+  xy: 870, 137
+  size: 45, 52
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_13
+  rotate: false
+  xy: 938, 234
+  size: 45, 53
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_14
+  rotate: false
+  xy: 368, 1
+  size: 45, 54
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Burning_1_15
+  rotate: false
+  xy: 210, 1
+  size: 45, 55
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+Hero_Attack_Buff2_01
+  rotate: false
+  xy: 501, 402
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Hero_Attack_Buff2_04
+  rotate: false
+  xy: 630, 399
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Hero_Defend_Buff1_001
+  rotate: false
+  xy: 546, 11
+  size: 127, 125
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Hero_Defend_Buff2_001
+  rotate: false
+  xy: 273, 336
+  size: 127, 125
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Hero_Recover_Buff2_Bule01
+  rotate: false
+  xy: 511, 288
+  size: 109, 113
+  orig: 128, 128
+  offset: 10, 8
+  index: -1
+Hero_Recover_Buff2_Bule02
+  rotate: false
+  xy: 278, 462
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Hero_Speed_Buff1_00000
+  rotate: true
+  xy: 424, 616
+  size: 170, 76
+  orig: 174, 85
+  offset: 3, 4
+  index: -1
+Hero_Speed_Buff1_00001
+  rotate: true
+  xy: 424, 446
+  size: 169, 76
+  orig: 174, 85
+  offset: 4, 4
+  index: -1
+Hero_Speed_Buff1_00002
+  rotate: true
+  xy: 865, 470
+  size: 166, 80
+  orig: 174, 85
+  offset: 6, 4
+  index: -1
+Hero_Speed_Buff1_00003
+  rotate: true
+  xy: 944, 288
+  size: 167, 78
+  orig: 174, 85
+  offset: 5, 4
+  index: -1
+Hero_Speed_Buff1_00004
+  rotate: true
+  xy: 395, 118
+  size: 169, 75
+  orig: 174, 85
+  offset: 3, 5
+  index: -1
+Hero_Speed_Buff1_00005
+  rotate: true
+  xy: 471, 118
+  size: 169, 73
+  orig: 174, 85
+  offset: 2, 5
+  index: -1
+Hero_Speed_Buff1_00006
+  rotate: true
+  xy: 946, 456
+  size: 169, 77
+  orig: 174, 85
+  offset: 2, 3
+  index: -1
+Lose1_Eff_GP
+  rotate: false
+  xy: 794, 114
+  size: 75, 75
+  orig: 100, 100
+  offset: 14, 11
+  index: -1
+Lose1_Eff_GPoint_01
+  rotate: false
+  xy: 278, 591
+  size: 145, 195
+  orig: 350, 350
+  offset: 115, 92
+  index: -1
+Lose1_Eff_GPoint_02
+  rotate: false
+  xy: 210, 57
+  size: 184, 222
+  orig: 350, 350
+  offset: 92, 73
+  index: -1
+Lose1_Eff_GPoint_03
+  rotate: false
+  xy: 1, 44
+  size: 208, 235
+  orig: 350, 350
+  offset: 81, 68
+  index: -1
+Lose1_Eff_GPoint_04
+  rotate: false
+  xy: 497, 789
+  size: 230, 234
+  orig: 350, 350
+  offset: 63, 71
+  index: -1
+Lose1_Eff_GPoint_05
+  rotate: false
+  xy: 1, 280
+  size: 230, 247
+  orig: 350, 350
+  offset: 64, 58
+  index: -1
+Lose1_Eff_GPoint_06
+  rotate: false
+  xy: 1, 528
+  size: 235, 250
+  orig: 350, 350
+  offset: 62, 57
+  index: -1
+Lose1_Eff_GPoint_07
+  rotate: true
+  xy: 247, 787
+  size: 236, 249
+  orig: 350, 350
+  offset: 62, 58
+  index: -1
+Lose1_Eff_GPoint_08
+  rotate: false
+  xy: 1, 779
+  size: 245, 244
+  orig: 350, 350
+  offset: 51, 52
+  index: -1
+Lose1_Eff_GPoint_09
+  rotate: false
+  xy: 728, 792
+  size: 231, 231
+  orig: 350, 350
+  offset: 60, 56
+  index: -1
+Soldier_Attack_Buff1_FaZhen_TX
+  rotate: true
+  xy: 669, 175
+  size: 120, 119
+  orig: 128, 128
+  offset: 5, 5
+  index: -1
+Soldier_Attack_Buff1_FaZhen_TX01
+  rotate: true
+  xy: 674, 54
+  size: 120, 119
+  orig: 128, 128
+  offset: 5, 5
+  index: -1
+Soldier_Defend_Buff1_GuangQuan_Dun01
+  rotate: false
+  xy: 395, 56
+  size: 150, 61
+  orig: 150, 61
+  offset: 0, 0
+  index: -1
+Soldier_Defend_Buff1_GuangQuan_Dun02
+  rotate: true
+  xy: 545, 137
+  size: 150, 61
+  orig: 150, 61
+  offset: 0, 0
+  index: -1
+Soldier_Defend_Buff1_GuangQuan_Dun03
+  rotate: true
+  xy: 607, 137
+  size: 150, 61
+  orig: 150, 61
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "hyRjBv/SZ3YbnPIez2Q3ZQntgOw", "spine": "2.1.27", "width": 136, "height": 105.42, "images": "./images/" },
+"bones": [
+	{ "name": "20000_Skill1_BloodBuff" },
+	{ "name": "blooddrop1", "parent": "20000_Skill1_BloodBuff", "x": 34.15, "y": -35.63 },
+	{ "name": "blooddrop2", "parent": "20000_Skill1_BloodBuff", "x": 36.88, "y": 25.79 },
+	{ "name": "blooddrop3", "parent": "20000_Skill1_BloodBuff", "x": -64.12, "y": 17.05 }
+],
+"slots": [
+	{ "name": "20000_blooddrop", "bone": "blooddrop1", "attachment": "20000_blooddrop" },
+	{ "name": "20000_blooddrop2", "bone": "blooddrop2", "attachment": "20000_blooddrop" },
+	{ "name": "20000_blooddrop3", "bone": "blooddrop3", "attachment": "20000_blooddrop" }
+],
+"skins": {
+	"default": {
+		"20000_blooddrop": {
+			"20000_blooddrop": { "x": 0.32, "y": 5.16, "width": 35, "height": 44 }
+		},
+		"20000_blooddrop2": {
+			"20000_blooddrop": { "x": 0.32, "y": 5.16, "width": 35, "height": 44 }
+		},
+		"20000_blooddrop3": {
+			"20000_blooddrop": { "x": 0.32, "y": 5.16, "width": 35, "height": 44 }
+		}
+	}
+},
+"animations": {
+	"20000_Skill1_BloodBuff": {
+		"slots": {
+			"20000_blooddrop": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff89" }
+				]
+			},
+			"20000_blooddrop2": {
+				"color": [
+					{ "time": 0, "color": "ffffff95" },
+					{ "time": 0.4333, "color": "ffffff38" }
+				]
+			},
+			"20000_blooddrop3": {
+				"color": [
+					{ "time": 0, "color": "ffffff33" },
+					{ "time": 0.4333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"blooddrop2": {
+				"translate": [
+					{ "time": 0, "x": -8.2, "y": 0 },
+					{ "time": 0.0333, "x": -7.76, "y": -0.83 },
+					{ "time": 0.0666, "x": -28.42, "y": 4.78 },
+					{ "time": 0.1, "x": -27.57, "y": 3.01 },
+					{ "time": 0.1333, "x": -48.99, "y": 3.59 },
+					{ "time": 0.1666, "x": -48.65, "y": 2.55 },
+					{ "time": 0.2, "x": -68.82, "y": 0.93 },
+					{ "time": 0.2333, "x": -68.68, "y": 0.73 },
+					{ "time": 0.2666, "x": -87.88, "y": -3.57 },
+					{ "time": 0.3, "x": -87.59, "y": -4.73 },
+					{ "time": 0.3333, "x": -94.34, "y": -5.88 },
+					{ "time": 0.3666, "x": -95.51, "y": -4.99 },
+					{ "time": 0.4, "x": -100.64, "y": -7.38 },
+					{ "time": 0.4333, "x": -108.52, "y": -19.76 }
+				]
+			},
+			"blooddrop1": {
+				"translate": [
+					{ "time": 0, "x": 8.89, "y": 3.07 },
+					{ "time": 0.0333, "x": 9.47, "y": 3.61 },
+					{ "time": 0.0666, "x": 24.12, "y": 10.59 },
+					{ "time": 0.1, "x": 24.06, "y": 9.31 },
+					{ "time": 0.1333, "x": 36.9, "y": 19.75 },
+					{ "time": 0.1666, "x": 36.84, "y": 21.48 },
+					{ "time": 0.2, "x": 42.05, "y": 35.51 },
+					{ "time": 0.2333, "x": 41.65, "y": 34.55 },
+					{ "time": 0.2666, "x": 33.05, "y": 47.65 },
+					{ "time": 0.3, "x": 33.6, "y": 48.96 },
+					{ "time": 0.3333, "x": 18.33, "y": 56.13 },
+					{ "time": 0.3666, "x": 19.18, "y": 56.26 },
+					{ "time": 0.4, "x": 2.08, "y": 60.37 },
+					{ "time": 0.4333, "x": -6.54, "y": 64.12 }
+				]
+			},
+			"blooddrop3": {
+				"translate": [
+					{ "time": 0, "x": -17.78, "y": -10.94 },
+					{ "time": 0.0333, "x": -16.48, "y": -10.69 },
+					{ "time": 0.0666, "x": -7.57, "y": -33.89 },
+					{ "time": 0.1, "x": -8.3, "y": -33.18 },
+					{ "time": 0.1333, "x": 12.64, "y": -47.11 },
+					{ "time": 0.1666, "x": 12.98, "y": -47.35 },
+					{ "time": 0.2, "x": 37.92, "y": -54.63 },
+					{ "time": 0.2333, "x": 37.53, "y": -53.3 },
+					{ "time": 0.2666, "x": 59.4, "y": -54.91 },
+					{ "time": 0.3, "x": 59.51, "y": -55.05 },
+					{ "time": 0.3333, "x": 78.96, "y": -54.02 },
+					{ "time": 0.3666, "x": 79.37, "y": -56.21 },
+					{ "time": 0.4, "x": 98.17, "y": -52.52 },
+					{ "time": 0.4333, "x": 102.3, "y": -49.52 }
+				]
+			}
+		}
+	}
+}
+}

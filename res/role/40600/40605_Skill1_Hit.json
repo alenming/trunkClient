@@ -1,0 +1,37 @@
+{
+"skeleton": { "hash": "7P6xQg9nxS34G/XykAff0pbVLus", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40605_Skill1_Hit" },
+	{ "name": "Skill1_Hit", "parent": "40605_Skill1_Hit" }
+],
+"slots": [
+	{ "name": "40605_shouji01", "bone": "Skill1_Hit" }
+],
+"skins": {
+	"default": {
+		"40605_shouji01": {
+			"40605_shouji01": { "x": 7, "y": 6, "width": 168, "height": 168 },
+			"40605_shouji02": { "x": 7, "y": 6, "width": 168, "height": 168 },
+			"40605_shouji03": { "x": 7, "y": 6, "width": 168, "height": 168 },
+			"40605_shouji04": { "x": 7, "y": 6, "width": 168, "height": 168 },
+			"40605_shouji05": { "x": 7, "y": 6, "width": 168, "height": 168 }
+		}
+	}
+},
+"animations": {
+	"40605_Skill1_Hit": {
+		"slots": {
+			"40605_shouji01": {
+				"attachment": [
+					{ "time": 0, "name": "40605_shouji01" },
+					{ "time": 0.0666, "name": "40605_shouji02" },
+					{ "time": 0.1333, "name": "40605_shouji03" },
+					{ "time": 0.2, "name": "40605_shouji04" },
+					{ "time": 0.2666, "name": "40605_shouji05" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		}
+	}
+}
+}

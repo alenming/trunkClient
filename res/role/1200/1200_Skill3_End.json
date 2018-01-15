@@ -1,0 +1,486 @@
+{
+"skeleton": { "hash": "YkcAnhxXtjDItkmhthqbeM+FJTQ", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "1200_Skill3_End", "color": "9c0000ff" },
+	{
+		"name": "10301_Skill1_01",
+		"parent": "1200_Skill3_End",
+		"length": 190.01,
+		"x": -13.26,
+		"y": 3.31,
+		"rotation": 90.45,
+		"color": "9c0000ff"
+	},
+	{
+		"name": "10301_Skill1_1",
+		"parent": "1200_Skill3_End",
+		"length": 190.01,
+		"x": -13.32,
+		"y": 3.31,
+		"rotation": 90.45,
+		"color": "9c00009c"
+	},
+	{
+		"name": "10301_Skill1_2",
+		"parent": "1200_Skill3_End",
+		"length": 190.01,
+		"x": -13.26,
+		"y": 3.31,
+		"rotation": 90.45,
+		"color": "9c0000ff"
+	},
+	{
+		"name": "10301_Skill1_3",
+		"parent": "1200_Skill3_End",
+		"length": 190.01,
+		"x": -13.32,
+		"y": 3.31,
+		"rotation": 90.45,
+		"color": "9c0000ff"
+	},
+	{
+		"name": "10301_Skill1_4",
+		"parent": "1200_Skill3_End",
+		"length": 190.01,
+		"x": -13.32,
+		"y": 3.31,
+		"rotation": 90.45,
+		"color": "9c00009c"
+	},
+	{
+		"name": "10301_Skill1_5",
+		"parent": "1200_Skill3_End",
+		"length": 190.01,
+		"x": -13.26,
+		"y": 3.31,
+		"rotation": 90.45,
+		"color": "9c0000ff"
+	},
+	{ "name": "1200_Skill3_Bullet01_0001", "parent": "1200_Skill3_End", "x": 122.54, "y": 0.07, "color": "00ff08ff" },
+	{ "name": "1200_Skill3_Bullet01_1", "parent": "1200_Skill3_End", "x": 122.54, "y": 0.07, "color": "00ff08ff" },
+	{ "name": "1200_Skill3_Bullet02_0001", "parent": "1200_Skill3_End", "x": 106.53, "y": 51.9, "color": "08ff10ff" },
+	{ "name": "1200_Skill3_Bullet02_1", "parent": "1200_Skill3_End", "x": 106.53, "y": 51.9, "color": "08ff10ff" },
+	{ "name": "1200_Skill3_Bullet02_2", "parent": "1200_Skill3_End", "x": 106.53, "y": 51.9, "color": "08ff10ff" },
+	{ "name": "1200_Skill3_Bullet02_3", "parent": "1200_Skill3_End", "x": 106.53, "y": 51.9, "color": "08ff10ff" },
+	{ "name": "skill3hit", "parent": "1200_Skill3_End", "x": 169.24, "y": -45.1, "color": "9c0000ff" }
+],
+"slots": [
+	{ "name": "10301_Skill1_01", "bone": "10301_Skill1_01" },
+	{ "name": "10301_Skill1_2", "bone": "10301_Skill1_2" },
+	{ "name": "10301_Skill1_5", "bone": "10301_Skill1_5" },
+	{ "name": "10301_Skill3_1", "bone": "10301_Skill1_01" },
+	{ "name": "10301_Skill3_01", "bone": "10301_Skill1_1" },
+	{ "name": "10301_Skill3_4", "bone": "10301_Skill1_4" },
+	{ "name": "10301_Skill3_3", "bone": "10301_Skill1_2" },
+	{ "name": "10301_Skill3_5", "bone": "10301_Skill1_5" },
+	{ "name": "10301_Skill3_2", "bone": "10301_Skill1_3" },
+	{ "name": "10301_Skill1_03", "bone": "10301_Skill1_1" },
+	{ "name": "10301_Skill1_4", "bone": "10301_Skill1_4" },
+	{ "name": "10301_Skill1_3", "bone": "10301_Skill1_3" },
+	{ "name": "10300_skill3hit_01", "bone": "skill3hit" },
+	{ "name": "1200_Skill3_Bullet01_0001", "bone": "1200_Skill3_Bullet01_0001", "blend": "additive" },
+	{ "name": "1200_Skill3_Bullet01_1", "bone": "1200_Skill3_Bullet01_1", "blend": "additive" },
+	{ "name": "1200_Skill3_Bullet02_0001", "bone": "1200_Skill3_Bullet02_0001", "blend": "additive" },
+	{ "name": "1200_Skill3_Bullet02_1", "bone": "1200_Skill3_Bullet02_1", "blend": "additive" },
+	{ "name": "1200_Skill3_Bullet02_2", "bone": "1200_Skill3_Bullet02_2", "blend": "additive" },
+	{ "name": "1200_Skill3_Bullet02_3", "bone": "1200_Skill3_Bullet02_3", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10300_skill3hit_01": {
+			"10300_skill3hit_01": { "width": 204, "height": 220 },
+			"10300_skill3hit_02": { "width": 204, "height": 220 },
+			"10300_skill3hit_03": { "width": 204, "height": 220 },
+			"10300_skill3hit_04": { "width": 204, "height": 220 },
+			"10300_skill3hit_05": { "width": 204, "height": 220 },
+			"10300_skill3hit_06": { "width": 204, "height": 220 },
+			"10300_skill3hit_07": { "width": 204, "height": 220 },
+			"10300_skill3hit_08": { "width": 204, "height": 220 },
+			"10300_skill3hit_09": { "width": 204, "height": 220 },
+			"10300_skill3hit_10": { "width": 204, "height": 220 },
+			"10300_skill3hit_11": { "width": 204, "height": 220 },
+			"10300_skill3hit_12": { "width": 204, "height": 220 }
+		},
+		"10301_Skill1_01": {
+			"10301_Skill1_01": { "x": 92.71, "y": 20.24, "rotation": -90.45, "width": 193, "height": 188 }
+		},
+		"10301_Skill1_03": {
+			"10301_Skill1_03": { "x": 90.37, "y": 7.67, "rotation": -90.45, "width": 182, "height": 194 }
+		},
+		"10301_Skill1_2": {
+			"10301_Skill1_01": { "x": 92.71, "y": 20.24, "rotation": -90.45, "width": 193, "height": 188 }
+		},
+		"10301_Skill1_3": {
+			"10301_Skill1_03": { "x": 90.37, "y": 7.67, "rotation": -90.45, "width": 182, "height": 194 }
+		},
+		"10301_Skill1_4": {
+			"10301_Skill1_03": { "x": 90.37, "y": 7.67, "rotation": -90.45, "width": 182, "height": 194 }
+		},
+		"10301_Skill1_5": {
+			"10301_Skill1_01": { "x": 92.71, "y": 20.24, "rotation": -90.45, "width": 193, "height": 188 }
+		},
+		"10301_Skill3_01": {
+			"10301_Skill3_01": { "x": 81.63, "y": 10.21, "rotation": -90.45, "width": 256, "height": 219 }
+		},
+		"10301_Skill3_1": {
+			"10301_Skill3_01": { "x": 81.63, "y": 10.27, "rotation": -90.45, "width": 256, "height": 219 }
+		},
+		"10301_Skill3_2": {
+			"10301_Skill3_01": { "x": 81.63, "y": 10.21, "rotation": -90.45, "width": 256, "height": 219 }
+		},
+		"10301_Skill3_3": {
+			"10301_Skill3_01": { "x": 81.63, "y": 10.27, "rotation": -90.45, "width": 256, "height": 219 }
+		},
+		"10301_Skill3_4": {
+			"10301_Skill3_01": { "x": 81.63, "y": 10.21, "rotation": -90.45, "width": 256, "height": 219 }
+		},
+		"10301_Skill3_5": {
+			"10301_Skill3_01": { "x": 81.63, "y": 10.27, "rotation": -90.45, "width": 256, "height": 219 }
+		},
+		"1200_Skill3_Bullet01_0001": {
+			"1200_Skill3_Bullet01_0001": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0002": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0003": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0004": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0005": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0006": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0007": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0008": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 }
+		},
+		"1200_Skill3_Bullet01_1": {
+			"1200_Skill3_Bullet01_0001": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0002": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0003": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0004": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0005": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0006": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0007": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 },
+			"1200_Skill3_Bullet01_0008": { "x": -117.54, "y": -0.07, "width": 274, "height": 58 }
+		},
+		"1200_Skill3_Bullet02_0001": {
+			"1200_Skill3_Bullet02_0001": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0002": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0003": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0004": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0005": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0006": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 }
+		},
+		"1200_Skill3_Bullet02_1": {
+			"1200_Skill3_Bullet02_0001": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0002": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0003": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0004": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0005": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0006": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 }
+		},
+		"1200_Skill3_Bullet02_2": {
+			"1200_Skill3_Bullet02_0001": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0002": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0003": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0004": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0005": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0006": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 }
+		},
+		"1200_Skill3_Bullet02_3": {
+			"1200_Skill3_Bullet02_0001": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0002": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0003": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0004": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0005": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 },
+			"1200_Skill3_Bullet02_0006": { "x": -26.53, "y": -1.9, "width": 273, "height": 26 }
+		}
+	}
+},
+"animations": {
+	"1200_Skill3_End": {
+		"slots": {
+			"10300_skill3hit_01": {
+				"attachment": [
+					{ "time": 0.1333, "name": "10300_skill3hit_01" },
+					{ "time": 0.2, "name": "10300_skill3hit_02" },
+					{ "time": 0.2666, "name": "10300_skill3hit_03" },
+					{ "time": 0.3333, "name": "10300_skill3hit_04" },
+					{ "time": 0.4, "name": "10300_skill3hit_05" },
+					{ "time": 0.4666, "name": "10300_skill3hit_06" },
+					{ "time": 0.5333, "name": "10300_skill3hit_07" },
+					{ "time": 0.6, "name": "10300_skill3hit_08" },
+					{ "time": 0.6666, "name": "10300_skill3hit_09" },
+					{ "time": 0.7333, "name": "10300_skill3hit_10" },
+					{ "time": 0.8, "name": "10300_skill3hit_11" },
+					{ "time": 0.8666, "name": "10300_skill3hit_12" },
+					{ "time": 0.9333, "name": null }
+				],
+				"color": [
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"10301_Skill1_01": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"10301_Skill3_1": {
+				"attachment": [
+					{ "time": 0, "name": "10301_Skill3_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffb6", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffb6" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"10301_Skill3_01": {
+				"attachment": [
+					{ "time": 0, "name": "10301_Skill3_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffd1", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffffd1" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"10301_Skill3_2": {
+				"attachment": [
+					{ "time": 0, "name": "10301_Skill3_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.1666, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff8d" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"10301_Skill3_3": {
+				"attachment": [
+					{ "time": 0, "name": "10301_Skill3_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff98" },
+					{ "time": 0.1333, "color": "ffffff00" }
+				]
+			},
+			"10301_Skill3_4": {
+				"attachment": [
+					{ "time": 0, "name": "10301_Skill3_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffb7", "curve": "stepped" },
+					{ "time": 0.1333, "color": "ffffffb7" },
+					{ "time": 0.3, "color": "ffffff00" }
+				]
+			},
+			"10301_Skill3_5": {
+				"attachment": [
+					{ "time": 0, "name": "10301_Skill3_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffc1", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffffc1" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"1200_Skill3_Bullet01_0001": {
+				"attachment": [
+					{ "time": 0, "name": "1200_Skill3_Bullet01_0001" },
+					{ "time": 0.0666, "name": "1200_Skill3_Bullet01_0002" },
+					{ "time": 0.1333, "name": "1200_Skill3_Bullet01_0003" },
+					{ "time": 0.2, "name": "1200_Skill3_Bullet01_0004" },
+					{ "time": 0.2666, "name": "1200_Skill3_Bullet01_0005" },
+					{ "time": 0.3333, "name": "1200_Skill3_Bullet01_0006" },
+					{ "time": 0.4, "name": "1200_Skill3_Bullet01_0007" },
+					{ "time": 0.4666, "name": "1200_Skill3_Bullet01_0008" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff28" },
+					{ "time": 0.1333, "color": "ffffff8e", "curve": "stepped" },
+					{ "time": 0.3333, "color": "ffffff8e" },
+					{ "time": 0.4666, "color": "ffffff00" }
+				]
+			},
+			"1200_Skill3_Bullet01_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "1200_Skill3_Bullet01_0001" },
+					{ "time": 0.1333, "name": "1200_Skill3_Bullet01_0002" },
+					{ "time": 0.2, "name": "1200_Skill3_Bullet01_0003" },
+					{ "time": 0.2666, "name": "1200_Skill3_Bullet01_0004" },
+					{ "time": 0.3333, "name": "1200_Skill3_Bullet01_0005" },
+					{ "time": 0.4, "name": "1200_Skill3_Bullet01_0006" },
+					{ "time": 0.4666, "name": "1200_Skill3_Bullet01_0007" },
+					{ "time": 0.5333, "name": "1200_Skill3_Bullet01_0008" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff26" },
+					{ "time": 0.1333, "color": "ffffff7e", "curve": "stepped" },
+					{ "time": 0.4, "color": "ffffff7e" },
+					{ "time": 0.5333, "color": "ffffff00" }
+				]
+			},
+			"1200_Skill3_Bullet02_0001": {
+				"attachment": [
+					{ "time": 0, "name": "1200_Skill3_Bullet02_0001" },
+					{ "time": 0.1, "name": "1200_Skill3_Bullet02_0002" },
+					{ "time": 0.2, "name": "1200_Skill3_Bullet02_0003" },
+					{ "time": 0.3, "name": "1200_Skill3_Bullet02_0004" },
+					{ "time": 0.4, "name": "1200_Skill3_Bullet02_0005" },
+					{ "time": 0.5, "name": "1200_Skill3_Bullet02_0006" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff94", "curve": "stepped" },
+					{ "time": 0.3, "color": "ffffff94" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"1200_Skill3_Bullet02_2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"1200_Skill3_Bullet02_3": {
+				"attachment": [
+					{ "time": 0, "name": "1200_Skill3_Bullet02_0005" },
+					{ "time": 0.1, "name": "1200_Skill3_Bullet02_0006" },
+					{ "time": 0.2, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff84" }
+				]
+			}
+		},
+		"bones": {
+			"10301_Skill1_01": {
+				"translate": [
+					{ "time": 0, "x": 24.81, "y": 10.35 },
+					{ "time": 0.4666, "x": 24.77, "y": 15.43 },
+					{ "time": 0.5, "x": 24.77, "y": 15.07, "curve": "stepped" },
+					{ "time": 0.8666, "x": 24.77, "y": 15.07 }
+				]
+			},
+			"1200_Skill3_End": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1.25 }
+				]
+			},
+			"10301_Skill1_1": {
+				"translate": [
+					{ "time": 0, "x": 42.59, "y": 11.73 },
+					{ "time": 0.1666, "x": 55.37, "y": 11.83 },
+					{ "time": 0.5, "x": -25.48, "y": 11.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 1, "y": 0.714 },
+					{ "time": 0.5, "x": 1, "y": 1.176 }
+				]
+			},
+			"10301_Skill1_2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -48.7, "y": 13.14 },
+					{ "time": 0.1333, "x": -77.64, "y": 12.92 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1.388 },
+					{ "time": 0.1333, "x": 1, "y": 1.547 }
+				]
+			},
+			"10301_Skill1_3": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 25.68, "y": 15.62, "curve": "stepped" },
+					{ "time": 0.1666, "x": 25.68, "y": 15.62 },
+					{ "time": 0.3333, "x": 44.89, "y": 15.77 },
+					{ "time": 0.5, "x": 6.29, "y": 14.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 1, "y": 0.861 },
+					{ "time": 0.5, "x": 1, "y": 1.049 }
+				]
+			},
+			"10301_Skill1_4": {
+				"translate": [
+					{ "time": 0, "x": -14.34, "y": 13.27 },
+					{ "time": 0.3, "x": -83.16, "y": 12.73 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1.167 },
+					{ "time": 0.3, "x": 1, "y": 1.5 }
+				]
+			},
+			"10301_Skill1_5": {
+				"translate": [
+					{ "time": 0, "x": 24.14, "y": 14.21 },
+					{ "time": 0.4666, "x": -82.9, "y": 13.37 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 0.961 },
+					{ "time": 0.4666, "x": 1, "y": 1.5 }
+				]
+			},
+			"skill3hit": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 1.62 }
+				],
+				"translate": [
+					{ "time": 0, "x": -108.15, "y": 159.32, "curve": "stepped" },
+					{ "time": 0.1333, "x": -108.15, "y": 159.32 },
+					{ "time": 0.9333, "x": -143.86, "y": 155.63 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 1.493, "y": 0.916 }
+				]
+			},
+			"1200_Skill3_Bullet01_0001": {
+				"translate": [
+					{ "time": 0, "x": -42.92, "y": 29.62 },
+					{ "time": 0.4666, "x": -92.98, "y": 29.62 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.442, "y": 1.124 }
+				]
+			},
+			"1200_Skill3_Bullet01_1": {
+				"translate": [
+					{ "time": 0, "x": -99.44, "y": 115.74 },
+					{ "time": 0.5333, "x": -136.64, "y": 115.74 }
+				]
+			},
+			"1200_Skill3_Bullet02_3": {
+				"translate": [
+					{ "time": 0, "x": -131.99, "y": 83.02 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.305, "y": 0.614 }
+				],
+				"flipY": [
+					{ "time": 0, "y": true }
+				]
+			},
+			"1200_Skill3_Bullet02_0001": {
+				"translate": [
+					{ "time": 0, "x": -87.54, "y": -20.38 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.903, "y": 0.773 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.1333,
+				"offsets": [
+					{ "slot": "10300_skill3hit_01", "offset": -4 }
+				]
+			}
+		]
+	}
+}
+}

@@ -1,0 +1,51 @@
+{
+"skeleton": { "hash": "sGzZUMFnZUTRlLUPgVGdx4Xvv9E", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Tallent2_Buff", "parent": "root", "y": 103 }
+],
+"slots": [
+	{ "name": "Tallent2_Buff_01", "bone": "Tallent2_Buff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Tallent2_Buff_01": {
+			"Tallent2_Buff_01": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_02": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_03": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_04": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_05": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_06": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_07": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_08": { "y": 1, "width": 200, "height": 200 },
+			"Tallent2_Buff_09": { "y": 1, "width": 200, "height": 200 }
+		}
+	}
+},
+"animations": {
+	"Tallent2_Buff": {
+		"slots": {
+			"Tallent2_Buff_01": {
+				"attachment": [
+					{ "time": 0, "name": "Tallent2_Buff_01" },
+					{ "time": 0.1, "name": "Tallent2_Buff_02" },
+					{ "time": 0.2, "name": "Tallent2_Buff_03" },
+					{ "time": 0.3, "name": "Tallent2_Buff_04" },
+					{ "time": 0.4, "name": "Tallent2_Buff_05" },
+					{ "time": 0.5, "name": "Tallent2_Buff_06" },
+					{ "time": 0.6, "name": "Tallent2_Buff_07" },
+					{ "time": 0.7, "name": "Tallent2_Buff_08" },
+					{ "time": 0.8, "name": "Tallent2_Buff_09" }
+				]
+			}
+		},
+		"bones": {
+			"Tallent2_Buff": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

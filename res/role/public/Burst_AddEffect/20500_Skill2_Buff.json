@@ -1,0 +1,44 @@
+{
+"skeleton": { "hash": "qWmQbTKuKn15ka11I/xQnWWxujI", "spine": "2.1.27", "width": 172, "height": 330, "images": "" },
+"bones": [
+	{ "name": "20500_Skill2_Buff" },
+	{ "name": "20500_Eff_Skill2_Buff", "parent": "20500_Skill2_Buff", "length": 164.73, "scaleX": 2, "scaleY": 2, "rotation": 90 },
+	{ "name": "20500_Eff_Skill2_Buff_01", "parent": "20500_Eff_Skill2_Buff", "length": 71.52, "x": 105.92, "scaleX": 1.5 }
+],
+"slots": [
+	{ "name": "20500_Eff_LiZi_01", "bone": "20500_Eff_Skill2_Buff_01", "attachment": "20500_Eff_LiZi_05" }
+],
+"skins": {
+	"default": {
+		"20500_Eff_LiZi_01": {
+			"20500_Eff_LiZi_01": { "rotation": -90, "width": 86, "height": 110 },
+			"20500_Eff_LiZi_02": { "rotation": -90, "width": 86, "height": 110 },
+			"20500_Eff_LiZi_03": { "rotation": -90, "width": 86, "height": 110 },
+			"20500_Eff_LiZi_04": { "rotation": -90, "width": 86, "height": 110 },
+			"20500_Eff_LiZi_05": { "rotation": -90, "width": 86, "height": 110 },
+			"20500_Eff_LiZi_06": { "rotation": -90, "width": 86, "height": 110 },
+			"20500_Eff_LiZi_07": { "scaleX": 0.666, "rotation": -90, "width": 86, "height": 110 },
+			"20500_Eff_LiZi_08": { "rotation": -90, "width": 70, "height": 90 }
+		}
+	}
+},
+"animations": {
+	"Skill2_Buff": {
+		"slots": {
+			"20500_Eff_LiZi_01": {
+				"attachment": [
+					{ "time": 0, "name": "20500_Eff_LiZi_01" },
+					{ "time": 0.1, "name": "20500_Eff_LiZi_02" },
+					{ "time": 0.2, "name": "20500_Eff_LiZi_03" },
+					{ "time": 0.3, "name": "20500_Eff_LiZi_04" },
+					{ "time": 0.4, "name": "20500_Eff_LiZi_05" },
+					{ "time": 0.5, "name": "20500_Eff_LiZi_06" },
+					{ "time": 0.6, "name": "20500_Eff_LiZi_07" },
+					{ "time": 0.7, "name": "20500_Eff_LiZi_08" },
+					{ "time": 0.7666, "name": "20500_Eff_LiZi_01" }
+				]
+			}
+		}
+	}
+}
+}

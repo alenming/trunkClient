@@ -1,0 +1,20 @@
+local Cfg_Feature = {
+    [1] = { ID = 1, Name = 101, Desc = 201, Icon = "feature_28.png", },
+    [2] = { ID = 2, Name = 102, Desc = 202, Icon = "feature_29.png", },
+    [3] = { ID = 3, Name = 103, Desc = 203, Icon = "feature_03.png", },
+    [4] = { ID = 4, Name = 104, Desc = 204, Icon = "feature_04.png", },
+    [5] = { ID = 5, Name = 105, Desc = 205, Icon = "feature_06.png", },
+    [6] = { ID = 6, Name = 106, Desc = 206, Icon = "feature_08.png", },
+    [7] = { ID = 7, Name = 107, Desc = 207, Icon = "feature_09.png", },
+    [8] = { ID = 8, Name = 108, Desc = 208, Icon = "feature_10.png", },
+    [9] = { ID = 9, Name = 109, Desc = 209, Icon = "feature_11.png", },
+    [10] = { ID = 10, Name = 110, Desc = 210, Icon = "feature_13.png", },
+    [11] = { ID = 11, Name = 111, Desc = 211, Icon = "feature_14.png", },
+    [12] = { ID = 12, Name = 112, Desc = 212, Icon = "feature_15.png", },
+    [13] = { ID = 13, Name = 113, Desc = 213, Icon = "feature_27.png", },
+    [14] = { ID = 14, Name = 114, Desc = 214, Icon = "feature_21.png", },
+    [15] = { ID = 15, Name = 115, Desc = 215, Icon = "feature_22.png", },
+    [16] = { ID = 16, Name = 116, Desc = 216, Icon = "feature_23.png", },
+    [17] = { ID = 17, Name = 117, Desc = 217, Icon = "feature_25.png", },
+}
+return Cfg_Feature

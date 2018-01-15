@@ -1,0 +1,135 @@
+{
+"skeleton": { "hash": "1NIwY0U12Sm8LlWPeCCv4Rqe0I4", "spine": "2.1.27", "width": 0, "height": 0, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Spunk_chixu", "parent": "root", "x": -10.63 },
+	{ "name": "Spunk_jieshu", "parent": "root" },
+	{ "name": "Spunk_kaishi", "parent": "root", "x": -9.66 }
+],
+"slots": [
+	{ "name": "Spunk_chixu01", "bone": "Spunk_chixu", "blend": "additive" },
+	{ "name": "Spunk_jieshu01", "bone": "Spunk_jieshu", "blend": "additive" },
+	{ "name": "Spunk_kaishi02", "bone": "Spunk_kaishi", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Spunk_chixu01": {
+			"images/Spunk_chixu01": { "x": 10.63, "width": 280, "height": 84 },
+			"images/Spunk_chixu02": { "x": 10.63, "width": 280, "height": 84 },
+			"images/Spunk_chixu03": { "x": 10.63, "width": 280, "height": 84 },
+			"images/Spunk_chixu04": { "x": 10.63, "width": 280, "height": 84 },
+			"images/Spunk_chixu05": { "x": 10.63, "width": 280, "height": 84 },
+			"images/Spunk_chixu06": { "x": 10.63, "width": 280, "height": 84 },
+			"images/Spunk_chixu07": { "x": 10.63, "width": 280, "height": 84 }
+		},
+		"Spunk_jieshu01": {
+			"images/Spunk_jieshu01": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu02": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu03": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu04": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu05": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu06": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu07": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu08": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu09": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu10": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu11": { "width": 280, "height": 90 },
+			"images/Spunk_jieshu12": { "width": 280, "height": 90 }
+		},
+		"Spunk_kaishi02": {
+			"images/Spunk_kaishi01": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi02": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi03": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi04": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi05": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi06": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi07": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi08": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi09": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi10": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi11": { "x": 9.66, "width": 281, "height": 90 },
+			"images/Spunk_kaishi12": { "x": 9.66, "width": 281, "height": 90 }
+		}
+	}
+},
+"animations": {
+	"Spunk_Born": {
+		"slots": {
+			"Spunk_kaishi02": {
+				"attachment": [
+					{ "time": 0, "name": "images/Spunk_kaishi01" },
+					{ "time": 0.0666, "name": "images/Spunk_kaishi02" },
+					{ "time": 0.1333, "name": "images/Spunk_kaishi03" },
+					{ "time": 0.2, "name": "images/Spunk_kaishi04" },
+					{ "time": 0.2666, "name": "images/Spunk_kaishi05" },
+					{ "time": 0.3333, "name": "images/Spunk_kaishi06" },
+					{ "time": 0.4, "name": "images/Spunk_kaishi07" },
+					{ "time": 0.4666, "name": "images/Spunk_kaishi08" },
+					{ "time": 0.5333, "name": "images/Spunk_kaishi09" },
+					{ "time": 0.6, "name": "images/Spunk_kaishi10" },
+					{ "time": 0.6666, "name": "images/Spunk_kaishi11" },
+					{ "time": 0.7333, "name": "images/Spunk_kaishi12" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Spunk_kaishi": {
+				"translate": [
+					{ "time": 0, "x": 12.18, "y": 1.1 }
+				]
+			}
+		}
+	},
+	"Spunk_Die": {
+		"slots": {
+			"Spunk_jieshu01": {
+				"attachment": [
+					{ "time": 0, "name": "images/Spunk_jieshu01" },
+					{ "time": 0.0666, "name": "images/Spunk_jieshu02" },
+					{ "time": 0.1333, "name": "images/Spunk_jieshu03" },
+					{ "time": 0.2, "name": "images/Spunk_jieshu04" },
+					{ "time": 0.2666, "name": "images/Spunk_jieshu05" },
+					{ "time": 0.3333, "name": "images/Spunk_jieshu06" },
+					{ "time": 0.4, "name": "images/Spunk_jieshu07" },
+					{ "time": 0.4666, "name": "images/Spunk_jieshu08" },
+					{ "time": 0.5333, "name": "images/Spunk_jieshu09" },
+					{ "time": 0.6, "name": "images/Spunk_jieshu10" },
+					{ "time": 0.6666, "name": "images/Spunk_jieshu11" },
+					{ "time": 0.7333, "name": "images/Spunk_jieshu12" },
+					{ "time": 0.8, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Spunk_jieshu": {
+				"translate": [
+					{ "time": 0, "x": -3.32, "y": 2.21 }
+				]
+			}
+		}
+	},
+	"Spunk_Last": {
+		"slots": {
+			"Spunk_chixu01": {
+				"attachment": [
+					{ "time": 0, "name": "images/Spunk_chixu01" },
+					{ "time": 0.0333, "name": "images/Spunk_chixu02" },
+					{ "time": 0.1, "name": "images/Spunk_chixu03" },
+					{ "time": 0.1666, "name": "images/Spunk_chixu04" },
+					{ "time": 0.2333, "name": "images/Spunk_chixu05" },
+					{ "time": 0.3, "name": "images/Spunk_chixu06" },
+					{ "time": 0.3666, "name": "images/Spunk_chixu01" }
+				]
+			}
+		},
+		"bones": {
+			"Spunk_chixu": {
+				"translate": [
+					{ "time": 0, "x": 13.29, "y": -2.21 }
+				]
+			}
+		}
+	}
+}
+}

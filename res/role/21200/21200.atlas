@@ -1,0 +1,153 @@
+
+21200.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+21200_body
+  rotate: false
+  xy: 2, 93
+  size: 243, 161
+  orig: 243, 161
+  offset: 0, 0
+  index: -1
+21200_bz
+  rotate: true
+  xy: 692, 115
+  size: 50, 54
+  orig: 50, 54
+  offset: 0, 0
+  index: -1
+21200_ear_l
+  rotate: true
+  xy: 748, 120
+  size: 45, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+21200_ear_r
+  rotate: false
+  xy: 420, 58
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+21200_eye1_close
+  rotate: false
+  xy: 565, 102
+  size: 50, 39
+  orig: 50, 39
+  offset: 0, 0
+  index: -1
+21200_eye1_open
+  rotate: false
+  xy: 617, 102
+  size: 50, 39
+  orig: 50, 39
+  offset: 0, 0
+  index: -1
+21200_eye2_close
+  rotate: false
+  xy: 990, 193
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+21200_eye2_open
+  rotate: false
+  xy: 300, 13
+  size: 10, 18
+  orig: 10, 18
+  offset: 0, 0
+  index: -1
+21200_head
+  rotate: false
+  xy: 565, 143
+  size: 125, 111
+  orig: 125, 111
+  offset: 0, 0
+  index: -1
+21200_legl_ld
+  rotate: false
+  xy: 822, 164
+  size: 85, 45
+  orig: 85, 45
+  offset: 0, 0
+  index: -1
+21200_legl_lu
+  rotate: false
+  xy: 457, 123
+  size: 106, 131
+  orig: 106, 131
+  offset: 0, 0
+  index: -1
+21200_legl_rd
+  rotate: false
+  xy: 909, 162
+  size: 79, 45
+  orig: 79, 45
+  offset: 0, 0
+  index: -1
+21200_legl_ru
+  rotate: true
+  xy: 692, 167
+  size: 87, 128
+  orig: 87, 128
+  offset: 0, 0
+  index: -1
+21200_legr_ld
+  rotate: false
+  xy: 923, 209
+  size: 90, 45
+  orig: 90, 45
+  offset: 0, 0
+  index: -1
+21200_legr_lu
+  rotate: true
+  xy: 151, 10
+  size: 81, 147
+  orig: 81, 147
+  offset: 0, 0
+  index: -1
+21200_legr_rd
+  rotate: false
+  xy: 822, 211
+  size: 99, 43
+  orig: 99, 43
+  offset: 0, 0
+  index: -1
+21200_legr_ru
+  rotate: true
+  xy: 2, 2
+  size: 89, 147
+  orig: 89, 147
+  offset: 0, 0
+  index: -1
+21200_mao
+  rotate: false
+  xy: 247, 93
+  size: 208, 161
+  orig: 208, 161
+  offset: 0, 0
+  index: -1
+21200_mouse
+  rotate: false
+  xy: 457, 82
+  size: 84, 39
+  orig: 84, 39
+  offset: 0, 0
+  index: -1
+21200_shader
+  rotate: false
+  xy: 300, 33
+  size: 118, 58
+  orig: 118, 58
+  offset: 0, 0
+  index: -1
+21200_wb
+  rotate: false
+  xy: 801, 117
+  size: 47, 45
+  orig: 47, 45
+  offset: 0, 0
+  index: -1

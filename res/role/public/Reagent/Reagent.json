@@ -1,0 +1,47 @@
+{
+"skeleton": { "hash": "YDwEo4BI5T5bANvClHEzwD5yJjc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Reagent", "parent": "root", "y": 1 }
+],
+"slots": [
+	{ "name": "Reagent01", "bone": "Reagent" }
+],
+"skins": {
+	"default": {
+		"Reagent01": {
+			"Reagent01": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent02": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent03": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent04": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent05": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent06": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent07": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent08": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent09": { "x": -3, "y": 52.99, "width": 418, "height": 323 },
+			"Reagent10": { "x": -3, "y": 52.99, "width": 418, "height": 323 }
+		}
+	}
+},
+"animations": {
+	"Reagent_Loop": {
+		"slots": {
+			"Reagent01": {
+				"attachment": [
+					{ "time": 0, "name": "Reagent01" },
+					{ "time": 0.1, "name": "Reagent02" },
+					{ "time": 0.2, "name": "Reagent03" },
+					{ "time": 0.3, "name": "Reagent04" },
+					{ "time": 0.4, "name": "Reagent05" },
+					{ "time": 0.5, "name": "Reagent06" },
+					{ "time": 0.6, "name": "Reagent07" },
+					{ "time": 0.7, "name": "Reagent08" },
+					{ "time": 0.8, "name": "Reagent09" },
+					{ "time": 0.9, "name": "Reagent10" },
+					{ "time": 1, "name": null }
+				]
+			}
+		}
+	}
+}
+}

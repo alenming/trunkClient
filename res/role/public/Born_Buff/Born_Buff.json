@@ -1,0 +1,101 @@
+{
+"skeleton": { "hash": "94DXL4IZykhYW9d8Ynn3qqifu8E", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "Born_Buff" },
+	{ "name": "40000_Born_Smoke_0000", "parent": "Born_Buff", "x": 36.01, "y": -0.61, "color": "1f949bff" }
+],
+"slots": [
+	{ "name": "40000_Born_Smoke_0000", "bone": "40000_Born_Smoke_0000", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"40000_Born_Smoke_0000": {
+			"40000_Born_Smoke_0000": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0001": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0002": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0003": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0004": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0005": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0006": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0007": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0008": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0009": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0010": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0011": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0012": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0013": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0014": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0015": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0016": { "y": 41.3, "width": 109, "height": 118 },
+			"40000_Born_Smoke_0017": { "y": 41.3, "width": 109, "height": 118 }
+		}
+	}
+},
+"animations": {
+	"Born_Buff": {
+		"slots": {
+			"40000_Born_Smoke_0000": {
+				"attachment": [
+					{ "time": 0, "name": "40000_Born_Smoke_0000" },
+					{ "time": 0.0666, "name": "40000_Born_Smoke_0001" },
+					{ "time": 0.1333, "name": "40000_Born_Smoke_0002" },
+					{ "time": 0.2, "name": "40000_Born_Smoke_0003" },
+					{ "time": 0.2666, "name": "40000_Born_Smoke_0004" },
+					{ "time": 0.3333, "name": "40000_Born_Smoke_0005" },
+					{ "time": 0.4, "name": "40000_Born_Smoke_0006" },
+					{ "time": 0.5, "name": "40000_Born_Smoke_0007" },
+					{ "time": 0.5666, "name": "40000_Born_Smoke_0008" },
+					{ "time": 0.6666, "name": "40000_Born_Smoke_0009" },
+					{ "time": 0.7666, "name": "40000_Born_Smoke_0010" },
+					{ "time": 0.8666, "name": "40000_Born_Smoke_0011" },
+					{ "time": 0.9666, "name": "40000_Born_Smoke_0012" },
+					{ "time": 1.0666, "name": "40000_Born_Smoke_0013" },
+					{ "time": 1.1666, "name": "40000_Born_Smoke_0014" },
+					{ "time": 1.2666, "name": "40000_Born_Smoke_0015" },
+					{ "time": 1.3666, "name": "40000_Born_Smoke_0016" },
+					{ "time": 1.4666, "name": "40000_Born_Smoke_0017" },
+					{ "time": 1.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.2666, "color": "ffffffb2", "curve": "stepped" },
+					{ "time": 1.2666, "color": "ffffffb2" },
+					{ "time": 1.5666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Born_Buff": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3, "angle": 0, "curve": "stepped" },
+					{ "time": 1.4, "angle": 0, "curve": "stepped" },
+					{ "time": 1.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0, "y": 0 }
+				]
+			},
+			"40000_Born_Smoke_0000": {
+				"translate": [
+					{ "time": 0, "x": -5.56, "y": -24.84 }
+				],
+				"scale": [
+					{ "time": 0, "x": 3, "y": 3 }
+				]
+			}
+		}
+	}
+}
+}

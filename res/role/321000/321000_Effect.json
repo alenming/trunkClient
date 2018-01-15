@@ -1,0 +1,1379 @@
+{
+"skeleton": { "hash": "wq54R1QYxK/ihKHrX8tpV1HoO4U", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "321000_Eff_Change1", "parent": "root", "length": 109.34, "rotation": 90 },
+	{ "name": "321000_Eff_Change1_Bule_dz", "parent": "root", "length": 121.97, "x": -57.86, "y": 11.26, "rotation": -0.45 },
+	{
+		"name": "321000_Eff_Change1_Red_dz",
+		"parent": "root",
+		"length": 121.97,
+		"x": -57.86,
+		"y": 0.92,
+		"rotation": -0.45,
+		"color": "ff00bdff"
+	},
+	{ "name": "321000_Eff_Change2", "parent": "root", "length": 109.34, "rotation": 90 },
+	{ "name": "321000_Eff_Skill1", "parent": "root", "length": 109.34, "rotation": 90 },
+	{ "name": "321000_Eff_Skill2", "parent": "root", "length": 109.34, "rotation": 90 },
+	{ "name": "321000_blue_dz", "parent": "root", "length": 121.97, "x": -57.86, "y": 11.26, "rotation": -0.45 },
+	{ "name": "321000_red_dz2", "parent": "root", "length": 121.97, "x": -57.86, "y": 0.92, "rotation": -0.45, "color": "ff00bdff" },
+	{ "name": "321000_Eff_Change1_Bule01", "parent": "321000_Eff_Change1_Bule_dz", "length": 121.97, "x": 57.95, "y": -10.81 },
+	{ "name": "321000_Eff_Change1_Bule02", "parent": "321000_Eff_Change1_Bule_dz", "length": 121.97, "x": 57.95, "y": -10.81 },
+	{ "name": "321000_Eff_Change1_Bule03", "parent": "321000_Eff_Change1_Bule_dz", "length": 121.97, "x": 57.95, "y": -10.81 },
+	{ "name": "321000_Eff_Change1_Bule04", "parent": "321000_Eff_Change1_Bule_dz", "length": 121.97, "x": 57.95, "y": -10.81 },
+	{ "name": "321000_Eff_Change1_Glow", "parent": "321000_Eff_Change1", "length": 109.34, "y": -5.87 },
+	{ "name": "321000_Eff_Change1_Red_dz2", "parent": "321000_Eff_Change1_Red_dz", "length": 121.97, "x": 57.87, "color": "ff00bdff" },
+	{ "name": "321000_Eff_Change1_Red_dz3", "parent": "321000_Eff_Change1_Red_dz", "length": 121.97, "x": 57.87, "color": "ff00bdff" },
+	{ "name": "321000_Eff_Change1_Red_dz4", "parent": "321000_Eff_Change1_Red_dz", "length": 121.97, "x": 57.87, "color": "ff00bdff" },
+	{ "name": "321000_Eff_Change1_Red_dz5", "parent": "321000_Eff_Change1_Red_dz", "length": 121.97, "x": 57.87, "color": "ff00bdff" },
+	{ "name": "321000_Eff_Change2_Glow", "parent": "321000_Eff_Change2", "length": 109.34 },
+	{ "name": "321000_Eff_Skill1_Glow", "parent": "321000_Eff_Skill1", "length": 109.34, "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "321000_Eff_Skill1_GlowZ", "parent": "321000_Eff_Skill1", "length": 109.34 },
+	{ "name": "321000_Eff_Skill2_Glow2", "parent": "321000_Eff_Skill2", "length": 109.34 },
+	{ "name": "321000_Eff_Skill2_GlowZ2", "parent": "321000_Eff_Skill2", "length": 109.34 }
+],
+"slots": [
+	{ "name": "321000_blue_dz2", "bone": "321000_red_dz2" },
+	{ "name": "321000_blue_dz4", "bone": "321000_Eff_Change1_Red_dz" },
+	{ "name": "321000_blue_dz", "bone": "321000_blue_dz" },
+	{ "name": "321000_blue_dz3", "bone": "321000_Eff_Change1_Bule_dz" },
+	{ "name": "32100_bule_beam_01", "bone": "321000_Eff_Skill1_GlowZ" },
+	{ "name": "321000_Glow_01", "bone": "321000_Eff_Skill1_Glow", "blend": "additive" },
+	{ "name": "321000_Eff_Change1_shuijing_01", "bone": "321000_Eff_Change1_Glow" },
+	{ "name": "321000_Eff_Change1_shuijing_02", "bone": "321000_Eff_Change1_Glow", "blend": "additive" },
+	{ "name": "321000_Glow_Red_01", "bone": "321000_Eff_Skill2_Glow2", "blend": "additive" },
+	{ "name": "32100_red_beam_01", "bone": "321000_Eff_Skill2_GlowZ2" },
+	{ "name": "321000_Eff_Change2_shuijing_01", "bone": "321000_Eff_Change2_Glow" },
+	{ "name": "321000_Eff_Change2_shuijing_02", "bone": "321000_Eff_Change2_Glow", "blend": "additive" },
+	{ "name": "321000_Eff_bule_crystal_01", "bone": "321000_Eff_Change1_Bule01", "blend": "additive" },
+	{ "name": "321000_Eff_bule_crystal_1", "bone": "321000_Eff_Change1_Bule02", "blend": "additive" },
+	{ "name": "321000_Eff_bule_crystal_2", "bone": "321000_Eff_Change1_Bule03", "blend": "additive" },
+	{ "name": "321000_Eff_bule_crystal_3", "bone": "321000_Eff_Change1_Bule04", "blend": "additive" },
+	{ "name": "321000_Eff_Red_crystal_01", "bone": "321000_Eff_Change1_Red_dz2", "blend": "additive" },
+	{ "name": "321000_Eff_Red_crystal_1", "bone": "321000_Eff_Change1_Red_dz3", "blend": "additive" },
+	{ "name": "321000_Eff_Red_crystal_2", "bone": "321000_Eff_Change1_Red_dz4", "blend": "additive" },
+	{ "name": "321000_Eff_Red_crystal_3", "bone": "321000_Eff_Change1_Red_dz5", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"321000_Eff_Change1_shuijing_01": {
+			"321000_Eff_Change1_shuijing_01": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_02": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_03": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_04": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_05": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_06": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_07": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_08": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_09": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_10": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_11": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_12": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_13": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_14": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_15": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_16": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_17": { "x": 70, "rotation": -90, "width": 189, "height": 189 }
+		},
+		"321000_Eff_Change1_shuijing_02": {
+			"321000_Eff_Change1_shuijing_01": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_02": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_03": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_04": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_05": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_06": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_07": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_08": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_09": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_10": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_11": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_12": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_13": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_14": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_15": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_16": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change1_shuijing_17": { "x": 70, "rotation": -90, "width": 189, "height": 189 }
+		},
+		"321000_Eff_Change2_shuijing_01": {
+			"321000_Eff_Change2_shuijing_01": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_02": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_03": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_04": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_05": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_06": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_07": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_08": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_09": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_10": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_11": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_12": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_13": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_14": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_15": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_16": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_17": { "x": 70, "rotation": -90, "width": 189, "height": 189 }
+		},
+		"321000_Eff_Change2_shuijing_02": {
+			"321000_Eff_Change2_shuijing_01": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_02": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_03": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_04": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_05": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_06": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_07": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_08": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_09": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_10": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_11": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_12": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_13": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_14": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_15": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_16": { "x": 70, "rotation": -90, "width": 189, "height": 189 },
+			"321000_Eff_Change2_shuijing_17": { "x": 70, "rotation": -90, "width": 189, "height": 189 }
+		},
+		"321000_Eff_Red_crystal_01": {
+			"321000_Eff_Red_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Eff_Red_crystal_1": {
+			"321000_Eff_Red_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Eff_Red_crystal_2": {
+			"321000_Eff_Red_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Eff_Red_crystal_3": {
+			"321000_Eff_Red_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_Red_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Eff_bule_crystal_01": {
+			"321000_Eff_bule_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Eff_bule_crystal_1": {
+			"321000_Eff_bule_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Eff_bule_crystal_2": {
+			"321000_Eff_bule_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Eff_bule_crystal_3": {
+			"321000_Eff_bule_crystal_01": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_02": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_03": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_04": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_05": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_06": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_07": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_08": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_09": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_10": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_11": { "rotation": 0.45, "width": 128, "height": 32 },
+			"321000_Eff_bule_crystal_12": { "rotation": 0.45, "width": 128, "height": 32 }
+		},
+		"321000_Glow_01": {
+			"321000_Glow_01": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_02": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_03": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_04": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_05": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_06": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_07": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_08": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_09": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_10": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_11": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_12": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_13": { "rotation": -90, "width": 89, "height": 89 }
+		},
+		"321000_Glow_Red_01": {
+			"321000_Glow_Red_01": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_02": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_03": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_04": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_05": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_06": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_07": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_08": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_09": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_10": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_11": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_12": { "rotation": -90, "width": 89, "height": 89 },
+			"321000_Glow_Red_13": { "rotation": -90, "width": 89, "height": 89 }
+		},
+		"321000_blue_dz": {
+			"321000_blue_dz": { "x": 58.28, "y": -7.36, "rotation": 0.45, "width": 223, "height": 110 }
+		},
+		"321000_blue_dz2": {
+			"321000_red_dz": { "x": 57.21, "y": 1.96, "rotation": 0.45, "width": 222, "height": 93 }
+		},
+		"321000_blue_dz3": {
+			"321000_blue_dz1": {
+				"type": "mesh",
+				"path": "321000_blue_dz",
+				"uvs": [ 0, 0.66862, 0.34869, 1, 0.64088, 1, 1, 0.68171, 1, 0.37408, 0.64734, 0, 0.35676, 0, 0, 0.36098 ],
+				"triangles": [ 1, 0, 7, 6, 5, 4, 7, 4, 1, 6, 4, 7, 4, 2, 1, 3, 2, 4 ],
+				"vertices": [ -53.06, -26.78, 24.97, -62.62, 90.13, -62.11, 169.93, -26.47, 169.67, 7.36, 90.7, 47.89, 25.9, 47.38, -53.33, 7.05 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 223,
+				"height": 110
+			},
+			"321000_blue_dz2": {
+				"type": "mesh",
+				"path": "321000_blue_dz",
+				"uvs": [ 0.09733, 0.53455, 0.45089, 0.83239, 0.54652, 0.82632, 0.90953, 0.53171, 0.91435, 0.45884, 0.52664, 0.14983, 0.43457, 0.16775, 0.09729, 0.44786 ],
+				"triangles": [ 3, 5, 4, 0, 7, 6, 2, 5, 3, 6, 5, 2, 1, 0, 6, 2, 1, 6 ],
+				"vertices": [ -31.47, -11.86, 47.62, -44, 68.94, -43.17, 149.63, -10.13, 150.64, -2.09999, 63.92, 31.2, 43.4, 29.07, -31.56, -2.33 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 223,
+				"height": 110
+			},
+			"321000_blue_dz3": {
+				"type": "mesh",
+				"path": "321000_blue_dz",
+				"uvs": [ 0.18588, 0.53455, 0.46938, 0.77321, 0.53778, 0.7691, 0.81611, 0.53171, 0.81898, 0.45884, 0.52664, 0.21493, 0.43457, 0.23877, 0.18486, 0.44983 ],
+				"triangles": [ 3, 5, 4, 0, 7, 6, 3, 6, 5, 2, 6, 3, 1, 0, 6, 2, 1, 6 ],
+				"vertices": [ -11.73, -11.71, 51.69, -37.46, 66.94, -36.89, 128.8, -10.29, 129.37, -2.27, 63.97, 24.04, 43.46, 21.25, -12.03, -2.39 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 223,
+				"height": 110
+			},
+			"321000_blue_dz4": {
+				"type": "mesh",
+				"path": "321000_blue_dz",
+				"uvs": [ 0.27931, 0.53455, 0.46938, 0.67262, 0.53778, 0.67244, 0.72173, 0.53172, 0.7207, 0.45884, 0.52665, 0.31357, 0.47642, 0.31966, 0.2812, 0.44983 ],
+				"triangles": [ 2, 5, 4, 2, 4, 3, 6, 5, 2, 1, 0, 7, 7, 6, 1, 2, 1, 6 ],
+				"vertices": [ 9.1, -11.54, 51.6, -26.4, 66.85, -26.26, 107.75, -10.46, 107.46, -2.44, 64.06, 13.19, 52.86, 12.43, 9.43999, -2.22 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 223,
+				"height": 110
+			},
+			"321000_blue_dz5": {
+				"type": "mesh",
+				"path": "321000_blue_dz",
+				"uvs": [ 0.43792, 0.53454, 0.46938, 0.58976, 0.53778, 0.58958, 0.56992, 0.53172, 0.57279, 0.45884, 0.52665, 0.31357, 0.47642, 0.31966, 0.43786, 0.44982 ],
+				"triangles": [ 4, 6, 5, 4, 0, 7, 6, 4, 7, 3, 0, 4, 2, 0, 3, 1, 0, 2 ],
+				"vertices": [ 44.47, -11.26, 51.53, -17.28, 66.78, -17.14, 73.9, -10.72, 74.47, -2.7, 64.06, 13.19, 52.86, 12.43, 44.38, -1.95 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 223,
+				"height": 110
+			},
+			"321000_blue_dz6": {
+				"type": "mesh",
+				"path": "321000_blue_dz",
+				"uvs": [ 0.47005, 0.46355, 0.47914, 0.46154, 0.51736, 0.46528, 0.5349, 0.45279, 0.53776, 0.4312, 0.52665, 0.37472, 0.47642, 0.37686, 0.46511, 0.44982 ],
+				"triangles": [ 6, 5, 4, 7, 6, 4, 4, 1, 7, 4, 2, 1, 0, 7, 1, 3, 2, 4 ],
+				"vertices": [ 51.57, -3.4, 53.59, -3.16, 62.12, -3.51, 66.01999, -2.09999, 66.64, 0.27, 64.11, 6.46, 52.91, 6.14, 50.45, -1.9 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 223,
+				"height": 110
+			}
+		},
+		"321000_blue_dz4": {
+			"321000_red_dz01": {
+				"type": "mesh",
+				"path": "321000_red_dz",
+				"uvs": [ 0, 0.6917, 0.35772, 1, 0.6486, 1, 1, 0.69783, 1, 0.34584, 0.6469, 0, 0.35868, 0, 0, 0.3325 ],
+				"triangles": [ 1, 0, 7, 1, 6, 5, 6, 1, 7, 5, 4, 1, 4, 2, 1, 3, 2, 4 ],
+				"vertices": [ -53.64, -16.73, 25.99, -44.77, 90.56, -44.27, 168.35, -15.55, 168.09, 17.17, 89.45, 48.72, 25.47, 48.22, -53.9, 16.67 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 222,
+				"height": 93
+			},
+			"321000_red_dz02": {
+				"type": "mesh",
+				"path": "321000_red_dz",
+				"uvs": [ 0.08939, 0.53445, 0.46721, 0.89877, 0.5369, 0.89856, 0.91959, 0.53509, 0.92401, 0.44977, 0.55081, 0.08791, 0.45809, 0.09075, 0.09382, 0.43925 ],
+				"triangles": [ 3, 5, 4, 3, 2, 6, 3, 6, 5, 1, 7, 6, 1, 0, 7, 6, 2, 1 ],
+				"vertices": [ -33.91, -1.95, 50.22, -35.16999, 65.69, -35.03, 150.38, -0.56, 151.3, 7.37, 68.19, 40.37, 47.61, 39.95, -32.99, 6.9 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 222,
+				"height": 93
+			},
+			"321000_red_dz03": {
+				"type": "mesh",
+				"path": "321000_red_dz",
+				"uvs": [ 0.14413, 0.5265, 0.47504, 0.85611, 0.5302, 0.85055, 0.85145, 0.53509, 0.84805, 0.44703, 0.54186, 0.14123, 0.46143, 0.14409, 0.14632, 0.46597 ],
+				"triangles": [ 6, 4, 7, 4, 6, 5, 2, 4, 3, 2, 7, 4, 0, 7, 2, 1, 0, 2 ],
+				"vertices": [ -21.76, -1.11, 51.93, -31.19, 64.17, -30.58, 135.26, -0.68, 134.44, 7.5, 66.24, 35.4, 48.39, 34.99, -21.32, 4.51 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 222,
+				"height": 93
+			},
+			"321000_red_dz04": {
+				"type": "mesh",
+				"path": "321000_red_dz",
+				"uvs": [ 0.30052, 0.55598, 0.48289, 0.68278, 0.5347, 0.69056, 0.73415, 0.52698, 0.7341, 0.46026, 0.53402, 0.29056, 0.46029, 0.30142, 0.29712, 0.48744 ],
+				"triangles": [ 1, 0, 7, 1, 6, 5, 1, 5, 4, 2, 1, 4, 1, 7, 6, 3, 2, 4 ],
+				"vertices": [ 12.97, -3.58, 53.55, -15.06, 65.05, -15.69, 109.21, -0.13, 109.15, 6.07, 64.61, 21.5, 48.25, 20.36, 12.16, 2.78 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 222,
+				"height": 93
+			},
+			"321000_red_dz05": {
+				"type": "mesh",
+				"path": "321000_red_dz",
+				"uvs": [ 0.43491, 0.54793, 0.47422, 0.59619, 0.53873, 0.59504, 0.57142, 0.55679, 0.55414, 0.35798, 0.53058, 0.26674, 0.48114, 0.27537, 0.43462, 0.43284 ],
+				"triangles": [ 6, 5, 4, 7, 6, 4, 3, 0, 7, 3, 7, 4, 3, 1, 0, 2, 1, 3 ],
+				"vertices": [ 42.8, -2.59999, 51.56, -7.02, 65.87999, -6.8, 73.11, -3.18, 69.12999, 15.26, 63.83, 23.71, 52.86, 22.82, 42.65, 8.09 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 222,
+				"height": 93
+			},
+			"321000_red_dz06": {
+				"type": "mesh",
+				"path": "321000_red_dz",
+				"uvs": [ 0.47503, 0.44805, 0.48388, 0.44407, 0.5224, 0.44856, 0.53979, 0.43056, 0.542, 0.40933, 0.53131, 0.34096, 0.48201, 0.34333, 0.47039, 0.4308 ],
+				"triangles": [ 4, 6, 5, 4, 7, 6, 4, 1, 7, 4, 2, 1, 0, 7, 1, 3, 2, 4 ],
+				"vertices": [ 51.63, 6.75, 53.59, 7.14, 62.14, 6.79, 65.99, 8.49, 66.47, 10.47, 64.04, 16.81, 53.1, 16.5, 50.59, 8.35 ],
+				"hull": 8,
+				"edges": [ 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 0, 14 ],
+				"width": 222,
+				"height": 93
+			}
+		},
+		"32100_bule_beam_01": {
+			"32100_bule_beam_01": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_02": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_03": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_04": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_05": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_06": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_07": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_08": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_09": { "x": 100, "rotation": 90, "width": 60, "height": 300 },
+			"32100_bule_beam_10": { "x": 100, "rotation": 90, "width": 60, "height": 300 }
+		},
+		"32100_red_beam_01": {
+			"32100_red_beam_01": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_02": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_03": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_04": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_05": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_06": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_07": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_08": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_09": { "x": 110, "rotation": 90, "width": 60, "height": 300 },
+			"32100_red_beam_10": { "x": 110, "rotation": 90, "width": 60, "height": 300 }
+		}
+	}
+},
+"animations": {
+	"321000_Bule_Change1": {
+		"slots": {
+			"321000_Eff_bule_crystal_01": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_bule_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_bule_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_bule_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_bule_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_bule_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_bule_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_bule_crystal_07" }
+				]
+			},
+			"321000_Eff_bule_crystal_1": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_bule_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_bule_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_bule_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_bule_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_bule_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_bule_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_bule_crystal_07" }
+				]
+			},
+			"321000_Eff_bule_crystal_2": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_bule_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_bule_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_bule_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_bule_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_bule_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_bule_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_bule_crystal_07" }
+				]
+			},
+			"321000_Eff_bule_crystal_3": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_bule_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_bule_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_bule_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_bule_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_bule_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_bule_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_bule_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_bule_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_bule_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_bule_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_bule_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_bule_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_bule_crystal_07" }
+				]
+			},
+			"321000_blue_dz2": {
+				"attachment": [
+					{ "time": 0, "name": "321000_red_dz" }
+				]
+			},
+			"321000_blue_dz3": {
+				"attachment": [
+					{ "time": 0, "name": "321000_blue_dz1" },
+					{ "time": 0.1, "name": "321000_blue_dz2" },
+					{ "time": 0.2, "name": "321000_blue_dz3" },
+					{ "time": 0.3, "name": "321000_blue_dz4" },
+					{ "time": 0.4, "name": "321000_blue_dz5" },
+					{ "time": 0.5, "name": "321000_blue_dz6" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"321000_Eff_Change1_Bule01": {
+				"rotate": [
+					{ "time": 0, "angle": -23.03 }
+				],
+				"translate": [
+					{ "time": 0, "x": -56.81, "y": -26.06 },
+					{ "time": 0.5, "x": -10.96, "y": -2.3 },
+					{ "time": 0.6, "x": -1.2, "y": 1.57 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.3, "y": 0.7 },
+					{ "time": 0.6, "x": 0.1, "y": 0.3 }
+				]
+			},
+			"321000_Eff_Change1_Bule02": {
+				"rotate": [
+					{ "time": 0, "angle": 21.34 }
+				],
+				"translate": [
+					{ "time": 0, "x": 63.79, "y": -23.75 },
+					{ "time": 0.5, "x": 14.07, "y": -1.16 },
+					{ "time": 0.6, "x": 3.82, "y": 2.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.3, "y": 0.7 },
+					{ "time": 0.6, "x": 0.1, "y": 0.3 }
+				]
+			},
+			"321000_Eff_Change1_Bule03": {
+				"rotate": [
+					{ "time": 0, "angle": 21.77 }
+				],
+				"translate": [
+					{ "time": 0, "x": -57.68, "y": 32.47 },
+					{ "time": 0.5, "x": -11.38, "y": 9.35 },
+					{ "time": 0.6, "x": -1.07, "y": 4.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.3, "y": 0.7 },
+					{ "time": 0.6, "x": 0.1, "y": 0.3 }
+				]
+			},
+			"321000_Eff_Change1_Bule04": {
+				"rotate": [
+					{ "time": 0, "angle": -23.36 },
+					{ "time": 0.5, "angle": -32.35 },
+					{ "time": 0.6, "angle": -37.65 }
+				],
+				"translate": [
+					{ "time": 0, "x": 66.46, "y": 28.5 },
+					{ "time": 0.5, "x": 12.18, "y": 8.99 },
+					{ "time": 0.6, "x": 4.61, "y": 5.06 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.3, "y": 0.7 },
+					{ "time": 0.6, "x": 0.08, "y": 0.3 }
+				]
+			}
+		}
+	},
+	"321000_Change1": {
+		"slots": {
+			"321000_Eff_Change1_shuijing_01": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Change1_shuijing_01" },
+					{ "time": 0.0666, "name": "321000_Eff_Change1_shuijing_02" },
+					{ "time": 0.1333, "name": "321000_Eff_Change1_shuijing_03" },
+					{ "time": 0.2, "name": "321000_Eff_Change1_shuijing_04" },
+					{ "time": 0.2666, "name": "321000_Eff_Change1_shuijing_05" },
+					{ "time": 0.3333, "name": "321000_Eff_Change1_shuijing_06" },
+					{ "time": 0.4, "name": "321000_Eff_Change1_shuijing_07" },
+					{ "time": 0.4666, "name": "321000_Eff_Change1_shuijing_08" },
+					{ "time": 0.5333, "name": "321000_Eff_Change1_shuijing_09" },
+					{ "time": 0.6, "name": "321000_Eff_Change1_shuijing_10" },
+					{ "time": 0.6666, "name": "321000_Eff_Change1_shuijing_11" },
+					{ "time": 0.7333, "name": "321000_Eff_Change1_shuijing_12" },
+					{ "time": 0.8, "name": "321000_Eff_Change1_shuijing_13" },
+					{ "time": 0.8666, "name": "321000_Eff_Change1_shuijing_14" },
+					{ "time": 0.9333, "name": "321000_Eff_Change1_shuijing_15" },
+					{ "time": 1, "name": "321000_Eff_Change1_shuijing_16" },
+					{ "time": 1.0666, "name": "321000_Eff_Change1_shuijing_17" },
+					{ "time": 1.1333, "name": "321000_Eff_Change1_shuijing_01" },
+					{ "time": 1.2, "name": "321000_Eff_Change1_shuijing_02" },
+					{ "time": 1.2666, "name": "321000_Eff_Change1_shuijing_03" },
+					{ "time": 1.3333, "name": "321000_Eff_Change1_shuijing_04" },
+					{ "time": 1.4, "name": "321000_Eff_Change1_shuijing_05" },
+					{ "time": 1.4666, "name": "321000_Eff_Change1_shuijing_06" },
+					{ "time": 1.5333, "name": "321000_Eff_Change1_shuijing_07" },
+					{ "time": 1.6, "name": "321000_Eff_Change1_shuijing_08" },
+					{ "time": 1.6666, "name": "321000_Eff_Change1_shuijing_09" },
+					{ "time": 1.7333, "name": "321000_Eff_Change1_shuijing_10" },
+					{ "time": 1.8, "name": "321000_Eff_Change1_shuijing_11" },
+					{ "time": 1.8666, "name": "321000_Eff_Change1_shuijing_12" },
+					{ "time": 1.9333, "name": "321000_Eff_Change1_shuijing_13" }
+				],
+				"color": [
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"321000_Eff_Change1_shuijing_02": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Change1_shuijing_01" },
+					{ "time": 0.0666, "name": "321000_Eff_Change1_shuijing_02" },
+					{ "time": 0.1333, "name": "321000_Eff_Change1_shuijing_03" },
+					{ "time": 0.2, "name": "321000_Eff_Change1_shuijing_04" },
+					{ "time": 0.2666, "name": "321000_Eff_Change1_shuijing_05" },
+					{ "time": 0.3333, "name": "321000_Eff_Change1_shuijing_06" },
+					{ "time": 0.4, "name": "321000_Eff_Change1_shuijing_07" },
+					{ "time": 0.4666, "name": "321000_Eff_Change1_shuijing_08" },
+					{ "time": 0.5333, "name": "321000_Eff_Change1_shuijing_09" },
+					{ "time": 0.6, "name": "321000_Eff_Change1_shuijing_10" },
+					{ "time": 0.6666, "name": "321000_Eff_Change1_shuijing_11" },
+					{ "time": 0.7333, "name": "321000_Eff_Change1_shuijing_12" },
+					{ "time": 0.8, "name": "321000_Eff_Change1_shuijing_13" },
+					{ "time": 0.8666, "name": "321000_Eff_Change1_shuijing_14" },
+					{ "time": 0.9333, "name": "321000_Eff_Change1_shuijing_15" },
+					{ "time": 1, "name": "321000_Eff_Change1_shuijing_16" },
+					{ "time": 1.0666, "name": "321000_Eff_Change1_shuijing_17" },
+					{ "time": 1.1333, "name": "321000_Eff_Change1_shuijing_01" },
+					{ "time": 1.2, "name": "321000_Eff_Change1_shuijing_02" },
+					{ "time": 1.2666, "name": "321000_Eff_Change1_shuijing_03" },
+					{ "time": 1.3333, "name": "321000_Eff_Change1_shuijing_04" },
+					{ "time": 1.4, "name": "321000_Eff_Change1_shuijing_05" },
+					{ "time": 1.4666, "name": "321000_Eff_Change1_shuijing_06" },
+					{ "time": 1.5333, "name": "321000_Eff_Change1_shuijing_07" },
+					{ "time": 1.6, "name": "321000_Eff_Change1_shuijing_08" },
+					{ "time": 1.6666, "name": "321000_Eff_Change1_shuijing_09" },
+					{ "time": 1.7333, "name": "321000_Eff_Change1_shuijing_10" },
+					{ "time": 1.8, "name": "321000_Eff_Change1_shuijing_11" },
+					{ "time": 1.8666, "name": "321000_Eff_Change1_shuijing_12" },
+					{ "time": 1.9333, "name": "321000_Eff_Change1_shuijing_13" }
+				],
+				"color": [
+					{ "time": 1.1333, "color": "ffffff58" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"321000_blue_dz": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			},
+			"321000_blue_dz2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": "321000_red_dz" }
+				]
+			}
+		},
+		"bones": {
+			"321000_Eff_Change1_Glow": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 21.97,
+						"y": 5.87,
+						"curve": [ 0.331, 0, 0.848, 0.78 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 110.49,
+						"y": 2.87,
+						"curve": [ 0.138, 0.14, 0.778, 0.89 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 209.34,
+						"y": 2.87,
+						"curve": [ 0.138, 0.14, 0.778, 0.89 ]
+					},
+					{ "time": 1.5, "x": 215.96, "y": 2.87 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.1, "y": 0.1 },
+					{ "time": 0.4, "x": 0.8, "y": 0.9, "curve": "stepped" },
+					{
+						"time": 0.6666,
+						"x": 0.8,
+						"y": 0.9,
+						"curve": [ 0.531, 0, 0.75, 1 ]
+					},
+					{ "time": 1.2, "x": 0.5, "y": 0.15 }
+				]
+			}
+		}
+	},
+	"321000_Change2": {
+		"slots": {
+			"321000_Eff_Change2_shuijing_01": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Change2_shuijing_01" },
+					{ "time": 0.0666, "name": "321000_Eff_Change2_shuijing_02" },
+					{ "time": 0.1333, "name": "321000_Eff_Change2_shuijing_03" },
+					{ "time": 0.2, "name": "321000_Eff_Change2_shuijing_04" },
+					{ "time": 0.2666, "name": "321000_Eff_Change2_shuijing_05" },
+					{ "time": 0.3333, "name": "321000_Eff_Change2_shuijing_06" },
+					{ "time": 0.4, "name": "321000_Eff_Change2_shuijing_07" },
+					{ "time": 0.4666, "name": "321000_Eff_Change2_shuijing_08" },
+					{ "time": 0.5333, "name": "321000_Eff_Change2_shuijing_09" },
+					{ "time": 0.6, "name": "321000_Eff_Change2_shuijing_10" },
+					{ "time": 0.6666, "name": "321000_Eff_Change2_shuijing_11" },
+					{ "time": 0.7333, "name": "321000_Eff_Change2_shuijing_12" },
+					{ "time": 0.8, "name": "321000_Eff_Change2_shuijing_13" },
+					{ "time": 0.8666, "name": "321000_Eff_Change2_shuijing_14" },
+					{ "time": 0.9333, "name": "321000_Eff_Change2_shuijing_15" },
+					{ "time": 1, "name": "321000_Eff_Change2_shuijing_16" },
+					{ "time": 1.0666, "name": "321000_Eff_Change2_shuijing_17" },
+					{ "time": 1.1333, "name": "321000_Eff_Change2_shuijing_01" },
+					{ "time": 1.2, "name": "321000_Eff_Change2_shuijing_02" },
+					{ "time": 1.2666, "name": "321000_Eff_Change2_shuijing_03" },
+					{ "time": 1.3333, "name": "321000_Eff_Change2_shuijing_04" },
+					{ "time": 1.4, "name": "321000_Eff_Change2_shuijing_05" },
+					{ "time": 1.4666, "name": "321000_Eff_Change2_shuijing_06" },
+					{ "time": 1.5333, "name": "321000_Eff_Change2_shuijing_07" },
+					{ "time": 1.6, "name": "321000_Eff_Change2_shuijing_08" },
+					{ "time": 1.6666, "name": "321000_Eff_Change2_shuijing_09" },
+					{ "time": 1.7333, "name": "321000_Eff_Change2_shuijing_10" },
+					{ "time": 1.8, "name": "321000_Eff_Change2_shuijing_11" },
+					{ "time": 1.8666, "name": "321000_Eff_Change2_shuijing_12" },
+					{ "time": 1.9333, "name": "321000_Eff_Change2_shuijing_13" }
+				],
+				"color": [
+					{ "time": 1.1333, "color": "ffffffff" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"321000_Eff_Change2_shuijing_02": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Change2_shuijing_01" },
+					{ "time": 0.0666, "name": "321000_Eff_Change2_shuijing_02" },
+					{ "time": 0.1333, "name": "321000_Eff_Change2_shuijing_03" },
+					{ "time": 0.2, "name": "321000_Eff_Change2_shuijing_04" },
+					{ "time": 0.2666, "name": "321000_Eff_Change2_shuijing_05" },
+					{ "time": 0.3333, "name": "321000_Eff_Change2_shuijing_06" },
+					{ "time": 0.4, "name": "321000_Eff_Change2_shuijing_07" },
+					{ "time": 0.4666, "name": "321000_Eff_Change2_shuijing_08" },
+					{ "time": 0.5333, "name": "321000_Eff_Change2_shuijing_09" },
+					{ "time": 0.6, "name": "321000_Eff_Change2_shuijing_10" },
+					{ "time": 0.6666, "name": "321000_Eff_Change2_shuijing_11" },
+					{ "time": 0.7333, "name": "321000_Eff_Change2_shuijing_12" },
+					{ "time": 0.8, "name": "321000_Eff_Change2_shuijing_13" },
+					{ "time": 0.8666, "name": "321000_Eff_Change2_shuijing_14" },
+					{ "time": 0.9333, "name": "321000_Eff_Change2_shuijing_15" },
+					{ "time": 1, "name": "321000_Eff_Change2_shuijing_16" },
+					{ "time": 1.0666, "name": "321000_Eff_Change2_shuijing_17" },
+					{ "time": 1.1333, "name": "321000_Eff_Change2_shuijing_01" },
+					{ "time": 1.2, "name": "321000_Eff_Change2_shuijing_02" },
+					{ "time": 1.2666, "name": "321000_Eff_Change2_shuijing_03" },
+					{ "time": 1.3333, "name": "321000_Eff_Change2_shuijing_04" },
+					{ "time": 1.4, "name": "321000_Eff_Change2_shuijing_05" },
+					{ "time": 1.4666, "name": "321000_Eff_Change2_shuijing_06" },
+					{ "time": 1.5333, "name": "321000_Eff_Change2_shuijing_07" },
+					{ "time": 1.6, "name": "321000_Eff_Change2_shuijing_08" },
+					{ "time": 1.6666, "name": "321000_Eff_Change2_shuijing_09" },
+					{ "time": 1.7333, "name": "321000_Eff_Change2_shuijing_10" },
+					{ "time": 1.8, "name": "321000_Eff_Change2_shuijing_11" },
+					{ "time": 1.8666, "name": "321000_Eff_Change2_shuijing_12" },
+					{ "time": 1.9333, "name": "321000_Eff_Change2_shuijing_13" },
+					{ "time": 2, "name": "321000_Eff_Change2_shuijing_14" }
+				],
+				"color": [
+					{ "time": 1.1333, "color": "ffffff80" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"321000_blue_dz2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 2, "name": "321000_red_dz" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"321000_Eff_Change2_Glow": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 21.98,
+						"y": 0,
+						"curve": [ 0.656, 0.01, 1, 0.85 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 110.5,
+						"y": -3,
+						"curve": [ 0.243, 0.02, 1, 0.85 ]
+					},
+					{
+						"time": 1.1333,
+						"x": 207.14,
+						"y": -2.99,
+						"curve": [ 0.243, 0.02, 0.87, 0.92 ]
+					},
+					{ "time": 1.5, "x": 216.48, "y": -3 }
+				],
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.1,
+						"y": 0.1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.4333, "x": 0.8, "y": 0.9, "curve": "stepped" },
+					{
+						"time": 0.6666,
+						"x": 0.8,
+						"y": 0.9,
+						"curve": [ 0.25, 0, 0.884, 0.99 ]
+					},
+					{ "time": 1.2, "x": 0.4, "y": 0.15 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "321000_blue_dz2", "offset": 3 }
+				]
+			}
+		]
+	},
+	"321000_Red_Change2": {
+		"slots": {
+			"321000_Eff_Red_crystal_01": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_Red_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_Red_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_Red_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_Red_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_Red_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_Red_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_Red_crystal_07" }
+				]
+			},
+			"321000_Eff_Red_crystal_1": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_Red_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_Red_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_Red_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_Red_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_Red_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_Red_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_Red_crystal_07" }
+				]
+			},
+			"321000_Eff_Red_crystal_2": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_Red_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_Red_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_Red_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_Red_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_Red_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_Red_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_Red_crystal_07" }
+				]
+			},
+			"321000_Eff_Red_crystal_3": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.0333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.0666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.1, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.1333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.1666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.2, "name": "321000_Eff_Red_crystal_07" },
+					{ "time": 0.2333, "name": "321000_Eff_Red_crystal_08" },
+					{ "time": 0.2666, "name": "321000_Eff_Red_crystal_09" },
+					{ "time": 0.3, "name": "321000_Eff_Red_crystal_10" },
+					{ "time": 0.3333, "name": "321000_Eff_Red_crystal_11" },
+					{ "time": 0.3666, "name": "321000_Eff_Red_crystal_12" },
+					{ "time": 0.4, "name": "321000_Eff_Red_crystal_01" },
+					{ "time": 0.4333, "name": "321000_Eff_Red_crystal_02" },
+					{ "time": 0.4666, "name": "321000_Eff_Red_crystal_03" },
+					{ "time": 0.5, "name": "321000_Eff_Red_crystal_04" },
+					{ "time": 0.5333, "name": "321000_Eff_Red_crystal_05" },
+					{ "time": 0.5666, "name": "321000_Eff_Red_crystal_06" },
+					{ "time": 0.6, "name": "321000_Eff_Red_crystal_07" }
+				]
+			},
+			"321000_blue_dz": {
+				"attachment": [
+					{ "time": 0, "name": "321000_blue_dz" }
+				]
+			},
+			"321000_blue_dz4": {
+				"attachment": [
+					{ "time": 0, "name": "321000_red_dz01" },
+					{ "time": 0.1, "name": "321000_red_dz02" },
+					{ "time": 0.2, "name": "321000_red_dz03" },
+					{ "time": 0.3, "name": "321000_red_dz04" },
+					{ "time": 0.4, "name": "321000_red_dz05" },
+					{ "time": 0.5, "name": "321000_red_dz06" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"321000_Eff_Change1_Red_dz2": {
+				"rotate": [
+					{ "time": 0, "angle": 337.65 }
+				],
+				"translate": [
+					{ "time": 0, "x": -57.05, "y": -26.9 },
+					{ "time": 0.5, "x": -8.68, "y": -3 },
+					{ "time": 0.6, "x": -1.46, "y": 5.21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.2, "y": 0.7 },
+					{ "time": 0.6, "x": 0.1, "y": 0.3 }
+				]
+			},
+			"321000_Eff_Change1_Red_dz3": {
+				"rotate": [
+					{ "time": 0, "angle": 22.65 }
+				],
+				"translate": [
+					{ "time": 0, "x": 63.16, "y": -23.48 },
+					{ "time": 0.5, "x": 7.56, "y": -2.85 },
+					{ "time": 0.6, "x": 4.57, "y": 5.85 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.2, "y": 0.7 },
+					{ "time": 0.6, "x": 0.1, "y": 0.3 }
+				]
+			},
+			"321000_Eff_Change1_Red_dz4": {
+				"rotate": [
+					{ "time": 0, "angle": 23.03 }
+				],
+				"translate": [
+					{ "time": 0, "x": -58.79, "y": 30.52 },
+					{ "time": 0.5, "x": -7.93, "y": 4.72 },
+					{ "time": 0.6, "x": -1.01, "y": 9.21 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.2, "y": 0.7 },
+					{ "time": 0.6, "x": 0.1, "y": 0.3 }
+				]
+			},
+			"321000_Eff_Change1_Red_dz5": {
+				"rotate": [
+					{ "time": 0, "angle": -26.51 }
+				],
+				"translate": [
+					{ "time": 0, "x": 62.11, "y": 29.56 },
+					{ "time": 0.5, "x": 6.35, "y": 4.57 },
+					{ "time": 0.6, "x": 4.88, "y": 9 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.4, "y": 1 },
+					{ "time": 0.5, "x": 0.2, "y": 0.7 },
+					{ "time": 0.6, "x": 0.1, "y": 0.3 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "321000_blue_dz", "offset": -2 }
+				]
+			}
+		]
+	},
+	"321000_Skill1": {
+		"slots": {
+			"321000_Glow_01": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Glow_01" },
+					{ "time": 0.1, "name": "321000_Glow_02" },
+					{ "time": 0.2, "name": "321000_Glow_03" },
+					{ "time": 0.3, "name": "321000_Glow_04" },
+					{ "time": 0.4, "name": "321000_Glow_05" },
+					{ "time": 0.5, "name": "321000_Glow_06" },
+					{ "time": 0.6, "name": "321000_Glow_07" },
+					{ "time": 0.7, "name": "321000_Glow_08" },
+					{ "time": 0.8, "name": "321000_Glow_09" },
+					{ "time": 0.9, "name": "321000_Glow_10" },
+					{ "time": 1, "name": "321000_Glow_11" },
+					{ "time": 1.1, "name": "321000_Glow_12" },
+					{ "time": 1.2, "name": "321000_Glow_13" },
+					{ "time": 1.3, "name": "321000_Glow_01" },
+					{ "time": 1.4, "name": "321000_Glow_02" },
+					{ "time": 1.5, "name": "321000_Glow_03" },
+					{ "time": 1.6, "name": "321000_Glow_04" },
+					{ "time": 1.7, "name": "321000_Glow_05" },
+					{ "time": 1.8, "name": "321000_Glow_06" },
+					{ "time": 1.9, "name": "321000_Glow_07" },
+					{ "time": 2, "name": "321000_Glow_08" },
+					{ "time": 2.1, "name": "321000_Glow_09" },
+					{ "time": 2.2, "name": "321000_Glow_10" },
+					{ "time": 2.3, "name": "321000_Glow_11" },
+					{ "time": 2.4, "name": "321000_Glow_12" },
+					{ "time": 2.5, "name": "321000_Glow_13" },
+					{ "time": 2.6, "name": "321000_Glow_01" },
+					{ "time": 2.7, "name": "321000_Glow_02" },
+					{ "time": 2.8, "name": "321000_Glow_03" },
+					{ "time": 2.9, "name": "321000_Glow_04" },
+					{ "time": 3, "name": "321000_Glow_05" },
+					{ "time": 3.1, "name": "321000_Glow_06" },
+					{ "time": 3.2, "name": "321000_Glow_07" },
+					{ "time": 3.3, "name": "321000_Glow_08" },
+					{ "time": 3.4, "name": "321000_Glow_09" },
+					{ "time": 3.5, "name": "321000_Glow_10" },
+					{ "time": 3.6, "name": "321000_Glow_11" },
+					{ "time": 3.7, "name": "321000_Glow_12" },
+					{ "time": 3.8, "name": "321000_Glow_13" },
+					{ "time": 3.9, "name": "321000_Glow_02" },
+					{ "time": 4, "name": "321000_Glow_03" },
+					{ "time": 4.1, "name": "321000_Glow_04" }
+				]
+			},
+			"321000_blue_dz": {
+				"color": [
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"32100_bule_beam_01": {
+				"attachment": [
+					{ "time": 1.1666, "name": "32100_bule_beam_01" },
+					{ "time": 1.2666, "name": "32100_bule_beam_02" },
+					{ "time": 1.3666, "name": "32100_bule_beam_03" },
+					{ "time": 1.4666, "name": "32100_bule_beam_04" },
+					{ "time": 1.5666, "name": "32100_bule_beam_05" },
+					{ "time": 1.6666, "name": "32100_bule_beam_06" },
+					{ "time": 1.7666, "name": "32100_bule_beam_07" },
+					{ "time": 1.8666, "name": "32100_bule_beam_08" },
+					{ "time": 1.9666, "name": "32100_bule_beam_09" },
+					{ "time": 2.0666, "name": "32100_bule_beam_10" },
+					{ "time": 2.1666, "name": "32100_bule_beam_01" },
+					{ "time": 2.2666, "name": "32100_bule_beam_02" },
+					{ "time": 2.3666, "name": "32100_bule_beam_03" },
+					{ "time": 2.4666, "name": "32100_bule_beam_04" },
+					{ "time": 2.5666, "name": "32100_bule_beam_05" },
+					{ "time": 2.6666, "name": "32100_bule_beam_06" },
+					{ "time": 2.7666, "name": "32100_bule_beam_07" },
+					{ "time": 2.8666, "name": "32100_bule_beam_08" },
+					{ "time": 2.9666, "name": "32100_bule_beam_09" },
+					{ "time": 3.0666, "name": "32100_bule_beam_10" },
+					{ "time": 3.1666, "name": "32100_bule_beam_01" },
+					{ "time": 3.2666, "name": "32100_bule_beam_02" },
+					{ "time": 3.3666, "name": "32100_bule_beam_03" },
+					{ "time": 3.4666, "name": "32100_bule_beam_04" },
+					{ "time": 3.5666, "name": "32100_bule_beam_05" },
+					{ "time": 3.6666, "name": "32100_bule_beam_06" },
+					{ "time": 3.7666, "name": "32100_bule_beam_07" },
+					{ "time": 3.8666, "name": "32100_bule_beam_08" },
+					{ "time": 3.9666, "name": "32100_bule_beam_09" },
+					{ "time": 4.0666, "name": "32100_bule_beam_10" }
+				],
+				"color": [
+					{ "time": 3, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"321000_Eff_Skill1_Glow": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 119.82,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.872, 0.88 ]
+					},
+					{ "time": 1.1666, "x": 166.61, "y": 0, "curve": "stepped" },
+					{
+						"time": 3,
+						"x": 166.61,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.818, 0.85 ]
+					},
+					{ "time": 4, "x": 119.82, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 2.333, "y": 2.333 }
+				]
+			},
+			"321000_Eff_Skill1_GlowZ": {
+				"translate": [
+					{ "time": 1.1666, "x": 253.5, "y": -3.87 }
+				],
+				"scale": [
+					{
+						"time": 1.1666,
+						"x": 0.5,
+						"y": 3,
+						"curve": [ 0, 0.19, 0.75, 1 ]
+					},
+					{
+						"time": 1.2666,
+						"x": 2,
+						"y": 2,
+						"curve": [ 0, 0.19, 0.75, 1 ]
+					},
+					{ "time": 1.8333, "x": 2, "y": 1.2, "curve": "stepped" },
+					{ "time": 3, "x": 2, "y": 1.2 },
+					{ "time": 3.3333, "x": 2, "y": 0.8, "curve": "stepped" },
+					{ "time": 4.1666, "x": 2, "y": 0.8 }
+				]
+			}
+		}
+	},
+	"321000_Skill2": {
+		"slots": {
+			"321000_Glow_Red_01": {
+				"attachment": [
+					{ "time": 0, "name": "321000_Glow_Red_01" },
+					{ "time": 0.1, "name": "321000_Glow_Red_02" },
+					{ "time": 0.2333, "name": "321000_Glow_Red_03" },
+					{ "time": 0.3333, "name": "321000_Glow_Red_04" },
+					{ "time": 0.4333, "name": "321000_Glow_Red_05" },
+					{ "time": 0.5333, "name": "321000_Glow_Red_06" },
+					{ "time": 0.6333, "name": "321000_Glow_Red_07" },
+					{ "time": 0.7333, "name": "321000_Glow_Red_08" },
+					{ "time": 0.8333, "name": "321000_Glow_Red_09" },
+					{ "time": 0.9333, "name": "321000_Glow_Red_10" },
+					{ "time": 1.0333, "name": "321000_Glow_Red_11" },
+					{ "time": 1.1333, "name": "321000_Glow_Red_12" },
+					{ "time": 1.2333, "name": "321000_Glow_Red_13" },
+					{ "time": 1.3333, "name": "321000_Glow_Red_01" },
+					{ "time": 1.4333, "name": "321000_Glow_Red_02" },
+					{ "time": 1.5666, "name": "321000_Glow_Red_03" },
+					{ "time": 1.6666, "name": "321000_Glow_Red_04" },
+					{ "time": 1.7666, "name": "321000_Glow_Red_05" },
+					{ "time": 1.8666, "name": "321000_Glow_Red_06" },
+					{ "time": 1.9666, "name": "321000_Glow_Red_07" },
+					{ "time": 2.0666, "name": "321000_Glow_Red_08" },
+					{ "time": 2.1666, "name": "321000_Glow_Red_09" },
+					{ "time": 2.2666, "name": "321000_Glow_Red_10" },
+					{ "time": 2.3666, "name": "321000_Glow_Red_11" },
+					{ "time": 2.4666, "name": "321000_Glow_Red_12" },
+					{ "time": 2.5666, "name": "321000_Glow_Red_13" },
+					{ "time": 2.6666, "name": "321000_Glow_Red_01" },
+					{ "time": 2.7666, "name": "321000_Glow_Red_02" },
+					{ "time": 2.8666, "name": "321000_Glow_Red_03" },
+					{ "time": 2.9666, "name": "321000_Glow_Red_04" },
+					{ "time": 3.0666, "name": "321000_Glow_Red_05" },
+					{ "time": 3.1666, "name": "321000_Glow_Red_06" },
+					{ "time": 3.2666, "name": "321000_Glow_Red_07" },
+					{ "time": 3.3666, "name": "321000_Glow_Red_08" },
+					{ "time": 3.4666, "name": "321000_Glow_Red_09" },
+					{ "time": 3.5666, "name": "321000_Glow_Red_10" },
+					{ "time": 3.6666, "name": "321000_Glow_Red_11" },
+					{ "time": 3.7666, "name": "321000_Glow_Red_12" },
+					{ "time": 3.8666, "name": "321000_Glow_Red_13" },
+					{ "time": 3.9666, "name": "321000_Glow_Red_02" },
+					{ "time": 4.0666, "name": "321000_Glow_Red_03" }
+				]
+			},
+			"321000_blue_dz": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				],
+				"color": [
+					{ "time": 0.8, "color": "ffffffff" }
+				]
+			},
+			"321000_blue_dz2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"32100_red_beam_01": {
+				"attachment": [
+					{ "time": 1.1666, "name": "32100_red_beam_01" },
+					{ "time": 1.2666, "name": "32100_red_beam_02" },
+					{ "time": 1.3666, "name": "32100_red_beam_03" },
+					{ "time": 1.4666, "name": "32100_red_beam_04" },
+					{ "time": 1.5666, "name": "32100_red_beam_05" },
+					{ "time": 1.6666, "name": "32100_red_beam_06" },
+					{ "time": 1.7666, "name": "32100_red_beam_07" },
+					{ "time": 1.8666, "name": "32100_red_beam_08" },
+					{ "time": 1.9666, "name": "32100_red_beam_09" },
+					{ "time": 2.0666, "name": "32100_red_beam_10" },
+					{ "time": 2.1666, "name": "32100_red_beam_01" },
+					{ "time": 2.2666, "name": "32100_red_beam_02" },
+					{ "time": 2.3666, "name": "32100_red_beam_03" },
+					{ "time": 2.4666, "name": "32100_red_beam_04" },
+					{ "time": 2.5666, "name": "32100_red_beam_05" },
+					{ "time": 2.6666, "name": "32100_red_beam_06" },
+					{ "time": 2.7666, "name": "32100_red_beam_07" },
+					{ "time": 2.8666, "name": "32100_red_beam_08" },
+					{ "time": 2.9666, "name": "32100_red_beam_09" },
+					{ "time": 3.0666, "name": "32100_red_beam_10" },
+					{ "time": 3.1666, "name": "32100_red_beam_01" },
+					{ "time": 3.2666, "name": "32100_red_beam_02" },
+					{ "time": 3.3666, "name": "32100_red_beam_03" },
+					{ "time": 3.4666, "name": "32100_red_beam_04" },
+					{ "time": 3.5666, "name": "32100_red_beam_05" },
+					{ "time": 3.6666, "name": "32100_red_beam_06" },
+					{ "time": 3.7666, "name": "32100_red_beam_07" },
+					{ "time": 3.8666, "name": "32100_red_beam_08" },
+					{ "time": 3.9666, "name": "32100_red_beam_09" },
+					{ "time": 4.0666, "name": "32100_red_beam_10" }
+				],
+				"color": [
+					{ "time": 3, "color": "ffffffff" },
+					{ "time": 3.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"321000_Eff_Skill2_Glow2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 123.18,
+						"y": 0,
+						"curve": [ 0.315, 0.14, 1, 0.89 ]
+					},
+					{ "time": 1.1666, "x": 175.76, "y": 0, "curve": "stepped" },
+					{
+						"time": 3,
+						"x": 175.76,
+						"y": 0,
+						"curve": [ 0.291, 0.15, 0.982, 0.89 ]
+					},
+					{ "time": 4, "x": 123.18, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 4.5, "y": 3.5 }
+				]
+			},
+			"321000_Eff_Skill2_GlowZ2": {
+				"translate": [
+					{ "time": 1.1666, "x": 232.33, "y": -3.98 }
+				],
+				"scale": [
+					{ "time": 1.1666, "x": 0.5, "y": 0.3 },
+					{
+						"time": 1.2666,
+						"x": 2,
+						"y": 3,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 2, "x": 2, "y": 1.2, "curve": "stepped" },
+					{ "time": 3, "x": 2, "y": 1.2 },
+					{ "time": 3.3333, "x": 2, "y": 0.6, "curve": "stepped" },
+					{ "time": 4.1666, "x": 2, "y": 0.6 }
+				]
+			}
+		}
+	},
+	"321000_Stabd1": {
+		"slots": {
+			"321000_blue_dz": {
+				"attachment": [
+					{ "time": 0, "name": "321000_blue_dz" },
+					{ "time": 2, "name": "321000_blue_dz" }
+				]
+			}
+		}
+	},
+	"321000_Stabd2": {
+		"slots": {
+			"321000_blue_dz": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"321000_blue_dz2": {
+				"attachment": [
+					{ "time": 0, "name": "321000_red_dz" },
+					{ "time": 2, "name": "321000_red_dz" }
+				]
+			}
+		}
+	}
+}
+}

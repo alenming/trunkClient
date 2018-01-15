@@ -1,0 +1,41 @@
+{
+"skeleton": { "hash": "4kQZRG4Avg+VyVNxvtfU0FTbxsw", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "1600_Skill2_d" },
+	{ "name": "1600_Eff_Skill2_dilie", "parent": "1600_Skill2_d", "x": -6.59, "y": 2.58 }
+],
+"slots": [
+	{ "name": "1600_Eff_skill2_dile", "bone": "1600_Eff_Skill2_dilie", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"1600_Eff_skill2_dile": {
+			"1600_skill1dile": { "x": 2.04, "y": -2.04, "width": 179, "height": 79 }
+		}
+	}
+},
+"animations": {
+	"1600_Skill2_d": {
+		"slots": {
+			"1600_Eff_skill2_dile": {
+				"attachment": [
+					{ "time": 0.1333, "name": "1600_skill1dile" },
+					{ "time": 0.8, "name": "1600_skill1dile" }
+				]
+			}
+		},
+		"bones": {
+			"1600_Eff_Skill2_dilie": {
+				"scale": [
+					{ "time": 0.1333, "x": 5.5, "y": 5 }
+				]
+			},
+			"1600_Skill2_d": {
+				"scale": [
+					{ "time": 0.1333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

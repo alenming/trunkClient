@@ -1,0 +1,101 @@
+{
+"skeleton": { "hash": "ufcVBh11qCFb9VNSij74MoexuyU", "spine": "2.1.27", "width": 181.74, "height": 71.91, "images": "./images/" },
+"bones": [
+	{ "name": "100400_Skill2_Bullet" },
+	{ "name": "bone", "parent": "100400_Skill2_Bullet", "x": 56.81, "y": 22.41, "flipY": true },
+	{ "name": "skill2wuqi", "parent": "100400_Skill2_Bullet", "x": -3.49 },
+	{ "name": "skill2wuqi2", "parent": "100400_Skill2_Bullet", "x": 68.14, "y": -77.89, "scaleX": 2.5, "scaleY": 2.5, "flipX": true }
+],
+"slots": [
+	{ "name": "100400_wq", "bone": "100400_Skill2_Bullet", "attachment": "100400_wq" },
+	{ "name": "100400_wuqi_00", "bone": "skill2wuqi2", "blend": "additive" },
+	{ "name": "100400_2wuqi_00", "bone": "bone", "attachment": "100400_2wuqi_00", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"100400_2wuqi_00": {
+			"100400_2wuqi_00": { "x": 2.42, "width": 115, "height": 47 }
+		},
+		"100400_wq": {
+			"100400_wq": { "x": -14.49, "y": 9, "width": 101, "height": 70 }
+		},
+		"100400_wuqi_00": {
+			"100400_wuqi_00": { "width": 88, "height": 24 },
+			"100400_wuqi_01": { "width": 88, "height": 24 },
+			"100400_wuqi_02": { "width": 88, "height": 24 },
+			"100400_wuqi_03": { "width": 88, "height": 24 },
+			"100400_wuqi_04": { "width": 88, "height": 24 },
+			"100400_wuqi_05": { "width": 88, "height": 24 },
+			"100400_wuqi_06": { "width": 88, "height": 24 },
+			"100400_wuqi_07": { "width": 88, "height": 24 }
+		}
+	}
+},
+"animations": {
+	"Skill2_Bullet": {
+		"slots": {
+			"100400_2wuqi_00": {
+				"attachment": [
+					{ "time": 0, "name": "100400_2wuqi_00" }
+				]
+			},
+			"100400_wuqi_00": {
+				"attachment": [
+					{ "time": 0, "name": "100400_wuqi_00" },
+					{ "time": 0.0666, "name": "100400_wuqi_01" },
+					{ "time": 0.1333, "name": "100400_wuqi_02" },
+					{ "time": 0.2, "name": "100400_wuqi_03" },
+					{ "time": 0.2666, "name": "100400_wuqi_04" },
+					{ "time": 0.3333, "name": "100400_wuqi_05" },
+					{ "time": 0.4, "name": "100400_wuqi_06" },
+					{ "time": 0.4666, "name": "100400_wuqi_07" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"100400_Skill2_Bullet": {
+				"rotate": [
+					{ "time": 0, "angle": 153.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.072, "y": -1.045 }
+				]
+			},
+			"skill2wuqi2": {
+				"rotate": [
+					{ "time": 0, "angle": 27.15 }
+				],
+				"translate": [
+					{ "time": 0, "x": -4.44, "y": 45.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.398, "y": -1.434 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0, "angle": -159.67 }
+				],
+				"translate": [
+					{ "time": 0, "x": -73.73, "y": -17.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1333, "x": 1.025, "y": 1.051 },
+					{ "time": 0.2666, "x": 1, "y": 1 },
+					{ "time": 0.4, "x": 1.025, "y": 1.051 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "100400_2wuqi_00", "offset": -2 }
+				]
+			}
+		]
+	}
+}
+}

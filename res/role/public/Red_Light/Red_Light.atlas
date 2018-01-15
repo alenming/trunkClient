@@ -1,0 +1,104 @@
+
+Red_Light.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30100_Eff_Skill1_Rap112
+  rotate: false
+  xy: 239, 145
+  size: 63, 63
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+301043_Eff_Skill_Glow_01
+  rotate: false
+  xy: 236, 209
+  size: 120, 145
+  orig: 120, 186
+  offset: 0, 16
+  index: -1
+301043_Eff_Skill_Glow_02
+  rotate: true
+  xy: 357, 236
+  size: 120, 140
+  orig: 120, 186
+  offset: 0, 11
+  index: -1
+301043_Eff_Skill_Glow_03
+  rotate: true
+  xy: 239, 1
+  size: 119, 138
+  orig: 120, 186
+  offset: 1, 14
+  index: -1
+301043_Eff_Skill_Glow_04
+  rotate: true
+  xy: 378, 2
+  size: 118, 131
+  orig: 120, 186
+  offset: 1, 17
+  index: -1
+301043_Eff_Skill_Glow_05
+  rotate: false
+  xy: 237, 357
+  size: 117, 147
+  orig: 120, 186
+  offset: 0, 7
+  index: -1
+301043_Eff_Skill_Glow_06
+  rotate: false
+  xy: 118, 355
+  size: 118, 149
+  orig: 120, 186
+  offset: 0, 3
+  index: -1
+301043_Eff_Skill_Glow_07
+  rotate: false
+  xy: 117, 192
+  size: 118, 150
+  orig: 120, 186
+  offset: 0, 10
+  index: -1
+301043_Eff_Skill_Glow_08
+  rotate: false
+  xy: 121, 41
+  size: 117, 150
+  orig: 120, 186
+  offset: 1, 20
+  index: -1
+301043_Eff_Skill_Glow_09
+  rotate: true
+  xy: 357, 121
+  size: 114, 147
+  orig: 120, 186
+  offset: 2, 9
+  index: -1
+301043_Eff_Skill_Glow_10
+  rotate: false
+  xy: 1, 182
+  size: 115, 160
+  orig: 120, 186
+  offset: 1, 12
+  index: -1
+301043_Eff_Skill_Glow_11
+  rotate: false
+  xy: 1, 343
+  size: 116, 161
+  orig: 120, 186
+  offset: 1, 18
+  index: -1
+301043_Eff_Skill_Glow_12
+  rotate: false
+  xy: 355, 357
+  size: 117, 147
+  orig: 120, 186
+  offset: 1, 12
+  index: -1
+301043_Eff_Skill_Glow_13
+  rotate: false
+  xy: 1, 31
+  size: 119, 150
+  orig: 120, 186
+  offset: 0, 12
+  index: -1

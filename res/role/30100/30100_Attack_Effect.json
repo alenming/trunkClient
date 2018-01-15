@@ -1,0 +1,780 @@
+{
+"skeleton": { "hash": "/njVLFR9aIpvhlvGkVeyu3WbuFo", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "30100_Attack1_Bullet", "parent": "root", "length": 70.36, "rotation": 90 },
+	{ "name": "30100_Attack2_Effect", "parent": "root", "length": 86.55, "rotation": 90 },
+	{ "name": "30100_Skill1_Bullet", "parent": "root", "length": 70.36, "rotation": 90 },
+	{ "name": "30100_arrow01_ef_0001", "parent": "root" },
+	{ "name": "30100_arrow01_ef_1", "parent": "root" },
+	{ "name": "30100_jian2", "parent": "root", "rotation": 90 },
+	{ "name": "30100_Attack1_Bullet_Bow", "parent": "30100_Attack1_Bullet", "length": 70.36 },
+	{ "name": "30100_Attack1_Effect_GlowGreen", "parent": "30100_Attack2_Effect", "length": 86.55, "scaleX": 0.35, "scaleY": 0.35 },
+	{ "name": "30100_Attack1_Effect_SmokeGreen", "parent": "30100_Attack2_Effect", "length": 86.55 },
+	{ "name": "30100_Attack2_Effect_Clip", "parent": "30100_Attack2_Effect", "length": 86.55, "scaleX": 0.35, "scaleY": 0.35 },
+	{ "name": "30100_Attack2_Effect_GlowPoint", "parent": "30100_Attack2_Effect", "length": 86.55, "scaleX": 0.7, "scaleY": 0.7 },
+	{ "name": "30100_Attack2_Effect_GreenFire", "parent": "30100_Attack2_Effect", "length": 86.55, "scaleX": 0.35, "scaleY": 0.35 },
+	{ "name": "30100_Attack2_Effect_Quan", "parent": "30100_Attack2_Effect", "length": 86.55, "scaleX": 0.35, "scaleY": 0.35 },
+	{ "name": "30100_Skill1_Bullet_Glow", "parent": "30100_Skill1_Bullet", "length": 70.36, "x": 94.88, "scaleX": 4, "scaleY": 3 },
+	{ "name": "30100_Skill1_Bullet_GlowWP", "parent": "30100_Skill1_Bullet", "length": 70.36 },
+	{ "name": "30100_Skill1_Bullet_XianTiao", "parent": "30100_Skill1_Bullet", "length": 70.36, "x": 95.84, "scaleX": 1.5 },
+	{ "name": "30100_Attack1_Effect_Clip_01", "parent": "30100_Attack2_Effect_Clip", "length": 86.55 },
+	{ "name": "30100_Attack1_Effect_Clip_02", "parent": "30100_Attack2_Effect_Clip", "length": 86.55 },
+	{ "name": "30100_Attack1_Effect_Clip_03", "parent": "30100_Attack2_Effect_Clip", "length": 86.55 },
+	{ "name": "30100_Attack1_Effect_Quan_01", "parent": "30100_Attack2_Effect_Quan", "length": 86.55 },
+	{ "name": "30100_Attack1_Effect_Quan_02", "parent": "30100_Attack2_Effect_Quan", "length": 86.55 },
+	{ "name": "30100_Attack1_Effect_Quan_03", "parent": "30100_Attack2_Effect_Quan", "length": 86.55 }
+],
+"slots": [
+	{ "name": "30100_Eff_Skill_Weapon", "bone": "30100_Skill1_Bullet_GlowWP", "blend": "additive" },
+	{ "name": "30100_Attack1_Bullet_Bow", "bone": "30100_Attack1_Bullet_Bow" },
+	{ "name": "30100_Eff_Fire_01", "bone": "30100_Attack2_Effect_GreenFire" },
+	{ "name": "30100_Eff_fangsheguang_GlowPoint", "bone": "30100_Attack2_Effect_GlowPoint", "blend": "additive" },
+	{ "name": "30100_Eff_fangSheGuang_1", "bone": "30100_Attack1_Effect_Clip_01", "blend": "additive" },
+	{ "name": "30100_Eff_fangSheGuang_2", "bone": "30100_Attack1_Effect_Clip_02", "blend": "additive" },
+	{ "name": "30100_Eff_fangSheGuang_3", "bone": "30100_Attack1_Effect_Clip_03", "blend": "additive" },
+	{ "name": "30100_Eff_Quan_01", "bone": "30100_Attack1_Effect_Quan_01" },
+	{ "name": "30100_Eff_Quan_02", "bone": "30100_Attack1_Effect_Quan_02" },
+	{ "name": "30100_Eff_Quan_03", "bone": "30100_Attack1_Effect_Quan_03" },
+	{ "name": "30100_Eff_sFluid_01", "bone": "30100_Attack1_Effect_GlowGreen", "blend": "additive" },
+	{ "name": "30100_Eff_SmokeGreen_00000", "bone": "30100_Attack1_Effect_SmokeGreen" },
+	{ "name": "30100_Eff_Skill_Glow_01", "bone": "30100_Skill1_Bullet_XianTiao", "blend": "additive" },
+	{ "name": "30100_Eff_Skill1_Rap112", "bone": "30100_Skill1_Bullet_Glow", "color": "35ff5661", "blend": "additive" },
+	{ "name": "30100_Eff_SmokeGreen_0", "bone": "30100_Skill1_Bullet_GlowWP", "color": "0fff3dff", "blend": "additive" },
+	{ "name": "30100_jian2", "bone": "30100_jian2" },
+	{ "name": "30100_arrow01_ef_0001", "bone": "30100_arrow01_ef_0001", "blend": "additive" },
+	{ "name": "30100_arrow01_ef_1", "bone": "30100_arrow01_ef_1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30100_Attack1_Bullet_Bow": {
+			"30100_Eff_arrow01_CN": { "y": 52.28, "scaleY": 1.2, "width": 26, "height": 105 }
+		},
+		"30100_Eff_Fire_01": {
+			"30100_Eff_Fire_01": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_02": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_03": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_04": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_05": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_06": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_07": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_08": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_09": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_10": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_11": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_12": { "rotation": -90, "width": 70, "height": 90 },
+			"30100_Eff_Fire_13": { "rotation": -90, "width": 70, "height": 90 }
+		},
+		"30100_Eff_Quan_01": {
+			"30100_Eff_Quan_01": { "scaleX": 2.857, "scaleY": 2.857, "rotation": -90, "width": 66, "height": 112 }
+		},
+		"30100_Eff_Quan_02": {
+			"30100_Eff_Quan_01": { "scaleX": 2.857, "scaleY": 2.857, "rotation": -90, "width": 66, "height": 112 }
+		},
+		"30100_Eff_Quan_03": {
+			"30100_Eff_Quan_01": { "scaleX": 2.857, "scaleY": 2.857, "rotation": -90, "width": 66, "height": 112 }
+		},
+		"30100_Eff_Skill1_Rap112": {
+			"30100_Eff_Skill1_Rap112": { "rotation": -90, "width": 64, "height": 64 }
+		},
+		"30100_Eff_Skill_Glow_01": {
+			"30100_Eff_Skill_Glow_01": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_02": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_03": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_04": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_05": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_06": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_07": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_08": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_09": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_10": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_11": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_12": { "rotation": -90, "width": 120, "height": 186 },
+			"30100_Eff_Skill_Glow_13": { "rotation": -90, "width": 120, "height": 186 }
+		},
+		"30100_Eff_Skill_Weapon": {
+			"30100_Eff_Skill_Weapon": { "rotation": -90, "width": 50, "height": 140 }
+		},
+		"30100_Eff_SmokeGreen_0": {
+			"30100_Eff_SmokeGreen_00000": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00001": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00002": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00003": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00004": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00005": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00006": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00007": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00008": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00009": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00010": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00011": { "y": -10, "scaleX": 0.6, "rotation": -90, "width": 128, "height": 128 }
+		},
+		"30100_Eff_SmokeGreen_00000": {
+			"30100_Eff_SmokeGreen_00000": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00001": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00002": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00003": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00004": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00005": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00006": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00007": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00008": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00009": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00010": { "rotation": -90, "width": 128, "height": 128 },
+			"30100_Eff_SmokeGreen_00011": { "rotation": -90, "width": 128, "height": 128 }
+		},
+		"30100_Eff_fangSheGuang_1": {
+			"30100_Eff_fangSheGuang_01": { "scaleX": 2.857, "scaleY": 2.857, "rotation": -90, "width": 168, "height": 168 }
+		},
+		"30100_Eff_fangSheGuang_2": {
+			"30100_Eff_fangSheGuang_01": { "scaleX": 2.857, "scaleY": 2.857, "rotation": -90, "width": 168, "height": 168 }
+		},
+		"30100_Eff_fangSheGuang_3": {
+			"30100_Eff_fangSheGuang_01": { "scaleX": 2.857, "scaleY": 2.857, "rotation": -90, "width": 168, "height": 168 }
+		},
+		"30100_Eff_fangsheguang_GlowPoint": {
+			"30100_Eff_fangsheguang_GlowPoint": { "rotation": -90, "width": 128, "height": 128 }
+		},
+		"30100_Eff_sFluid_01": {
+			"30100_Eff_sFluid_01": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_02": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_03": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_04": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_05": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_06": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_07": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_08": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_09": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_10": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_11": { "rotation": -90, "width": 100, "height": 110 },
+			"30100_Eff_sFluid_12": { "rotation": -90, "width": 100, "height": 110 }
+		},
+		"30100_arrow01_ef_0001": {
+			"30100_arrow01_ef_0001": { "x": -15.31, "y": -3.56, "width": 164, "height": 49 },
+			"30100_arrow01_ef_0002": { "x": -15.31, "y": -3.56, "width": 164, "height": 49 },
+			"30100_arrow01_ef_0003": { "x": -15.31, "y": -3.56, "width": 164, "height": 49 }
+		},
+		"30100_arrow01_ef_1": {
+			"30100_arrow01_ef_0001": { "x": -15.31, "y": -3.56, "width": 164, "height": 49 },
+			"30100_arrow01_ef_0002": { "x": -15.31, "y": -3.56, "width": 164, "height": 49 },
+			"30100_arrow01_ef_0003": { "x": -15.31, "y": -3.56, "width": 164, "height": 49 }
+		},
+		"30100_jian2": {
+			"30100_jian": { "y": 39.4, "width": 10, "height": 90 }
+		}
+	}
+},
+"animations": {
+	"30100_Attack1_Bullet": {
+		"slots": {
+			"30100_Attack1_Bullet_Bow": {
+				"attachment": [
+					{ "time": 0, "name": "30100_Eff_arrow01_CN" }
+				]
+			},
+			"30100_arrow01_ef_0001": {
+				"attachment": [
+					{ "time": 0, "name": "30100_arrow01_ef_0001" },
+					{ "time": 0.1333, "name": "30100_arrow01_ef_0002" },
+					{ "time": 0.2666, "name": "30100_arrow01_ef_0003" },
+					{ "time": 0.4, "name": "30100_arrow01_ef_0001" }
+				],
+				"color": [
+					{ "time": 0, "color": "abffc18e" }
+				]
+			},
+			"30100_arrow01_ef_1": {
+				"attachment": [
+					{ "time": 0, "name": "30100_arrow01_ef_0002" },
+					{ "time": 0.1333, "name": "30100_arrow01_ef_0003" },
+					{ "time": 0.2666, "name": "30100_arrow01_ef_0001" },
+					{ "time": 0.4, "name": "30100_arrow01_ef_0002" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff5f" }
+				]
+			}
+		},
+		"bones": {
+			"30100_arrow01_ef_0001": {
+				"translate": [
+					{ "time": 0, "x": -17.57, "y": 3.1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.988, "y": 0.791 }
+				]
+			},
+			"30100_arrow01_ef_1": {
+				"translate": [
+					{ "time": 0, "x": -13.96, "y": 3.79 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.736, "y": 0.895 }
+				],
+				"flipY": [
+					{ "time": 0 }
+				]
+			}
+		}
+	},
+	"30100_Attack1_Effect": {
+		"slots": {
+			"30100_Attack1_Bullet_Bow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"30100_Eff_Fire_01": {
+				"attachment": [
+					{ "time": 1.0666, "name": "30100_Eff_Fire_01" },
+					{ "time": 1.1, "name": "30100_Eff_Fire_02" },
+					{ "time": 1.1333, "name": "30100_Eff_Fire_03" },
+					{ "time": 1.1666, "name": "30100_Eff_Fire_04" },
+					{ "time": 1.2, "name": "30100_Eff_Fire_05" },
+					{ "time": 1.2333, "name": "30100_Eff_Fire_06" },
+					{ "time": 1.2666, "name": "30100_Eff_Fire_07" },
+					{ "time": 1.3, "name": "30100_Eff_Fire_08" },
+					{ "time": 1.3333, "name": "30100_Eff_Fire_09" },
+					{ "time": 1.3666, "name": "30100_Eff_Fire_10" },
+					{ "time": 1.4, "name": "30100_Eff_Fire_11" },
+					{ "time": 1.4333, "name": "30100_Eff_Fire_12" },
+					{ "time": 1.4666, "name": "30100_Eff_Fire_13" },
+					{ "time": 1.5, "name": "30100_Eff_Fire_01" },
+					{ "time": 1.5333, "name": "30100_Eff_Fire_02" },
+					{ "time": 1.5666, "name": "30100_Eff_Fire_03" },
+					{ "time": 1.6, "name": "30100_Eff_Fire_04" },
+					{ "time": 1.6333, "name": "30100_Eff_Fire_05" },
+					{ "time": 1.6666, "name": "30100_Eff_Fire_06" },
+					{ "time": 1.7, "name": "30100_Eff_Fire_07" },
+					{ "time": 1.7333, "name": "30100_Eff_Fire_08" },
+					{ "time": 1.7666, "name": "30100_Eff_Fire_09" },
+					{ "time": 1.8, "name": "30100_Eff_Fire_10" },
+					{ "time": 1.8333, "name": "30100_Eff_Fire_11" },
+					{ "time": 1.8666, "name": "30100_Eff_Fire_12" },
+					{ "time": 1.9, "name": "30100_Eff_Fire_13" }
+				],
+				"color": [
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.1333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffffffff" },
+					{ "time": 1.7, "color": "ffffff00" }
+				]
+			},
+			"30100_Eff_SmokeGreen_00000": {
+				"attachment": [
+					{ "time": 1.0666, "name": "30100_Eff_SmokeGreen_00000" },
+					{ "time": 1.1666, "name": "30100_Eff_SmokeGreen_00001" },
+					{ "time": 1.2666, "name": "30100_Eff_SmokeGreen_00002" },
+					{ "time": 1.3666, "name": "30100_Eff_SmokeGreen_00003" },
+					{ "time": 1.4666, "name": "30100_Eff_SmokeGreen_00004" },
+					{ "time": 1.5666, "name": "30100_Eff_SmokeGreen_00005" },
+					{ "time": 1.6666, "name": "30100_Eff_SmokeGreen_00006" },
+					{ "time": 1.7666, "name": "30100_Eff_SmokeGreen_00007" },
+					{ "time": 1.8666, "name": "30100_Eff_SmokeGreen_00008" },
+					{ "time": 1.9333, "name": "30100_Eff_SmokeGreen_00009" },
+					{ "time": 2, "name": "30100_Eff_SmokeGreen_00010" },
+					{ "time": 2.0666, "name": "30100_Eff_SmokeGreen_00011" },
+					{ "time": 2.1333, "name": null }
+				],
+				"color": [
+					{ "time": 1.0666, "color": "1aff20ff", "curve": "stepped" },
+					{ "time": 1.7333, "color": "1aff20ff" },
+					{ "time": 1.9, "color": "1aff2000" }
+				]
+			},
+			"30100_Eff_fangsheguang_GlowPoint": {
+				"attachment": [
+					{ "time": 1.0666, "name": "30100_Eff_fangsheguang_GlowPoint" }
+				],
+				"color": [
+					{ "time": 1.0333, "color": "ffffff00" },
+					{ "time": 1.1333, "color": "ffffff94", "curve": "stepped" },
+					{ "time": 1.6, "color": "ffffff94" },
+					{ "time": 1.7, "color": "ffffff00" }
+				]
+			},
+			"30100_Eff_sFluid_01": {
+				"attachment": [
+					{ "time": 1.0666, "name": "30100_Eff_sFluid_01" },
+					{ "time": 1.1333, "name": "30100_Eff_sFluid_02" },
+					{ "time": 1.1666, "name": "30100_Eff_sFluid_03" },
+					{ "time": 1.2333, "name": "30100_Eff_sFluid_04" },
+					{ "time": 1.3, "name": "30100_Eff_sFluid_05" },
+					{ "time": 1.3666, "name": "30100_Eff_sFluid_06" },
+					{ "time": 1.4333, "name": "30100_Eff_sFluid_07" },
+					{ "time": 1.5, "name": "30100_Eff_sFluid_08" },
+					{ "time": 1.5666, "name": "30100_Eff_sFluid_09" },
+					{ "time": 1.6333, "name": "30100_Eff_sFluid_10" },
+					{ "time": 1.7, "name": "30100_Eff_sFluid_11" },
+					{ "time": 1.7666, "name": "30100_Eff_sFluid_12" },
+					{ "time": 1.8333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"30100_Attack1_Bullet_Bow": {
+				"translate": [
+					{ "time": 1.6, "x": 97.31, "y": -46.11 },
+					{ "time": 1.6333, "x": 97.31, "y": -68.97 },
+					{ "time": 1.7, "x": 97.31, "y": -495.63 },
+					{ "time": 2.1666, "x": 97.31, "y": -498.65 }
+				]
+			},
+			"30100_Attack2_Effect_GreenFire": {
+				"translate": [
+					{ "time": 0, "x": 108.94, "y": -95.09, "curve": "stepped" },
+					{ "time": 1.0666, "x": 108.94, "y": -95.09 },
+					{ "time": 1.6, "x": 108.94, "y": -89.01 }
+				]
+			},
+			"30100_Attack2_Effect_GlowPoint": {
+				"rotate": [
+					{ "time": 1.0666, "angle": 0 },
+					{ "time": 1.6, "angle": -45 }
+				],
+				"translate": [
+					{ "time": 1.0666, "x": 101.69, "y": -95.1 },
+					{ "time": 1.6, "x": 101.69, "y": -89.02 }
+				],
+				"scale": [
+					{ "time": 1.0666, "x": 0.642, "y": 0.642 }
+				]
+			},
+			"30100_Attack1_Effect_GlowGreen": {
+				"translate": [
+					{ "time": 1.0666, "x": 99.84, "y": -70.15 }
+				],
+				"scale": [
+					{ "time": 1.0666, "x": 2, "y": 0.6 }
+				]
+			},
+			"30100_Attack1_Effect_SmokeGreen": {
+				"translate": [
+					{ "time": 1.0666, "x": 100.98, "y": -74.12 }
+				],
+				"scale": [
+					{ "time": 1.0666, "x": 1.5, "y": 0.8 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.0333 },
+			{ "time": 0.3 },
+			{ "time": 0.3333 },
+			{ "time": 0.3666 },
+			{ "time": 0.4 },
+			{ "time": 0.5 },
+			{ "time": 1.1333 },
+			{ "time": 1.7333 },
+			{ "time": 1.8 },
+			{ "time": 1.9 }
+		]
+	},
+	"30100_Attack2_Bullet": {
+		"slots": {
+			"30100_jian2": {
+				"attachment": [
+					{ "time": 0, "name": "30100_jian" }
+				]
+			}
+		}
+	},
+	"30100_Attack2_Effect": {
+		"slots": {
+			"30100_Attack1_Bullet_Bow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"30100_Eff_Fire_01": {
+				"attachment": [
+					{ "time": 0.9666, "name": "30100_Eff_Fire_01" },
+					{ "time": 1, "name": "30100_Eff_Fire_02" },
+					{ "time": 1.0333, "name": "30100_Eff_Fire_03" },
+					{ "time": 1.0666, "name": "30100_Eff_Fire_04" },
+					{ "time": 1.1, "name": "30100_Eff_Fire_05" },
+					{ "time": 1.1333, "name": "30100_Eff_Fire_06" },
+					{ "time": 1.1666, "name": "30100_Eff_Fire_07" },
+					{ "time": 1.2, "name": "30100_Eff_Fire_08" },
+					{ "time": 1.2333, "name": "30100_Eff_Fire_09" },
+					{ "time": 1.2666, "name": "30100_Eff_Fire_10" },
+					{ "time": 1.3, "name": "30100_Eff_Fire_11" },
+					{ "time": 1.3333, "name": "30100_Eff_Fire_12" },
+					{ "time": 1.3666, "name": "30100_Eff_Fire_13" },
+					{ "time": 1.4, "name": "30100_Eff_Fire_01" },
+					{ "time": 1.4333, "name": "30100_Eff_Fire_02" },
+					{ "time": 1.4666, "name": "30100_Eff_Fire_03" },
+					{ "time": 1.5, "name": "30100_Eff_Fire_04" },
+					{ "time": 1.5333, "name": "30100_Eff_Fire_05" },
+					{ "time": 1.5666, "name": "30100_Eff_Fire_06" },
+					{ "time": 1.6, "name": "30100_Eff_Fire_07" },
+					{ "time": 1.6333, "name": "30100_Eff_Fire_08" },
+					{ "time": 1.6666, "name": "30100_Eff_Fire_09" },
+					{ "time": 1.7, "name": "30100_Eff_Fire_10" },
+					{ "time": 1.7333, "name": "30100_Eff_Fire_11" },
+					{ "time": 1.7666, "name": "30100_Eff_Fire_12" },
+					{ "time": 1.8, "name": "30100_Eff_Fire_13" }
+				],
+				"color": [
+					{ "time": 0.9, "color": "ffffff00" },
+					{ "time": 1.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffffff" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"30100_Eff_Quan_01": {
+				"attachment": [
+					{ "time": 0.9333, "name": "30100_Eff_Quan_01" }
+				],
+				"color": [
+					{ "time": 1.0666, "color": "ffffffff" },
+					{ "time": 1.3, "color": "ffffff00" }
+				]
+			},
+			"30100_Eff_Quan_02": {
+				"attachment": [
+					{ "time": 1.1, "name": "30100_Eff_Quan_01" }
+				],
+				"color": [
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.4666, "color": "ffffff00" }
+				]
+			},
+			"30100_Eff_Quan_03": {
+				"attachment": [
+					{ "time": 1.2666, "name": "30100_Eff_Quan_01" }
+				],
+				"color": [
+					{ "time": 1.4, "color": "ffffffff" },
+					{ "time": 1.6333, "color": "ffffff00" }
+				]
+			},
+			"30100_Eff_SmokeGreen_00000": {
+				"attachment": [
+					{ "time": 0.9666, "name": "30100_Eff_SmokeGreen_00000" },
+					{ "time": 1.0333, "name": "30100_Eff_SmokeGreen_00001" },
+					{ "time": 1.1, "name": "30100_Eff_SmokeGreen_00002" },
+					{ "time": 1.1666, "name": "30100_Eff_SmokeGreen_00003" },
+					{ "time": 1.2666, "name": "30100_Eff_SmokeGreen_00004" },
+					{ "time": 1.3, "name": "30100_Eff_SmokeGreen_00005" },
+					{ "time": 1.4, "name": "30100_Eff_SmokeGreen_00006" },
+					{ "time": 1.4333, "name": "30100_Eff_SmokeGreen_00007" },
+					{ "time": 1.5, "name": "30100_Eff_SmokeGreen_00008" },
+					{ "time": 1.6, "name": "30100_Eff_SmokeGreen_00009" },
+					{ "time": 1.6333, "name": "30100_Eff_SmokeGreen_00010" },
+					{ "time": 1.7333, "name": "30100_Eff_SmokeGreen_00011" },
+					{ "time": 1.8, "name": null }
+				],
+				"color": [
+					{ "time": 0.9666, "color": "1aff20ff", "curve": "stepped" },
+					{ "time": 1.6333, "color": "1aff20ff" },
+					{ "time": 1.8, "color": "1aff2000" }
+				]
+			},
+			"30100_Eff_fangSheGuang_1": {
+				"attachment": [
+					{ "time": 0.9333, "name": "30100_Eff_fangSheGuang_01" }
+				],
+				"color": [
+					{ "time": 0.9333, "color": "04ff0000" },
+					{ "time": 1.0666, "color": "04ff00a7" },
+					{ "time": 1.3, "color": "04ff0000" }
+				]
+			},
+			"30100_Eff_fangSheGuang_2": {
+				"attachment": [
+					{ "time": 1.1, "name": "30100_Eff_fangSheGuang_01" }
+				],
+				"color": [
+					{ "time": 1.1, "color": "0fff0000" },
+					{ "time": 1.2666, "color": "0fff008b" },
+					{ "time": 1.4666, "color": "0fff0000" }
+				]
+			},
+			"30100_Eff_fangSheGuang_3": {
+				"attachment": [
+					{ "time": 1.2666, "name": "30100_Eff_fangSheGuang_01" }
+				],
+				"color": [
+					{ "time": 1.2666, "color": "19ff0000" },
+					{ "time": 1.4333, "color": "19ff00a7" },
+					{ "time": 1.6333, "color": "19ff0000" }
+				]
+			},
+			"30100_Eff_fangsheguang_GlowPoint": {
+				"attachment": [
+					{ "time": 0.9666, "name": "30100_Eff_fangsheguang_GlowPoint" }
+				],
+				"color": [
+					{ "time": 0.9333, "color": "ffffff00" },
+					{ "time": 1.0333, "color": "ffffff94", "curve": "stepped" },
+					{ "time": 1.5, "color": "ffffff94" },
+					{ "time": 1.6, "color": "ffffff00" }
+				]
+			},
+			"30100_Eff_sFluid_01": {
+				"attachment": [
+					{ "time": 0.9666, "name": "30100_Eff_sFluid_01" },
+					{ "time": 1.0333, "name": "30100_Eff_sFluid_02" },
+					{ "time": 1.0666, "name": "30100_Eff_sFluid_03" },
+					{ "time": 1.1333, "name": "30100_Eff_sFluid_04" },
+					{ "time": 1.2, "name": "30100_Eff_sFluid_05" },
+					{ "time": 1.2666, "name": "30100_Eff_sFluid_06" },
+					{ "time": 1.3333, "name": "30100_Eff_sFluid_07" },
+					{ "time": 1.4, "name": "30100_Eff_sFluid_08" },
+					{ "time": 1.4666, "name": "30100_Eff_sFluid_09" },
+					{ "time": 1.5333, "name": "30100_Eff_sFluid_10" },
+					{ "time": 1.6, "name": "30100_Eff_sFluid_11" },
+					{ "time": 1.6666, "name": "30100_Eff_sFluid_12" },
+					{ "time": 1.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"30100_Attack1_Bullet_Bow": {
+				"translate": [
+					{ "time": 1.5, "x": 97.31, "y": -46.11 },
+					{ "time": 1.5333, "x": 97.31, "y": -68.97 },
+					{ "time": 1.6, "x": 97.31, "y": -495.63 },
+					{ "time": 2.0666, "x": 97.31, "y": -498.65 }
+				]
+			},
+			"30100_Attack2_Effect_GlowPoint": {
+				"rotate": [
+					{ "time": 0.9666, "angle": 0 },
+					{ "time": 1.5, "angle": -45 }
+				],
+				"translate": [
+					{ "time": 0.9666, "x": 101.69, "y": -81.5 },
+					{ "time": 1.5, "x": 101.69, "y": -77.5 }
+				]
+			},
+			"30100_Attack2_Effect_GreenFire": {
+				"translate": [
+					{ "time": 0.9666, "x": 108.94, "y": -81.5 },
+					{ "time": 1.5, "x": 108.94, "y": -77.5 }
+				]
+			},
+			"30100_Attack1_Effect_Quan_01": {
+				"translate": [
+					{ "time": 0.9333, "x": 0, "y": 0 },
+					{ "time": 1.3, "x": 0, "y": 150 }
+				],
+				"scale": [
+					{ "time": 0.9333, "x": 0.3, "y": -0.3 },
+					{ "time": 1.3, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"30100_Attack2_Effect_Quan": {
+				"translate": [
+					{ "time": 0, "x": 100.21, "y": -95 }
+				]
+			},
+			"30100_Attack1_Effect_Quan_02": {
+				"translate": [
+					{ "time": 1.1, "x": 0, "y": 0 },
+					{ "time": 1.4666, "x": 0, "y": 150 }
+				],
+				"scale": [
+					{ "time": 1.1, "x": 0.3, "y": -0.3 },
+					{ "time": 1.4666, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"30100_Attack1_Effect_Quan_03": {
+				"translate": [
+					{ "time": 1.2666, "x": 0, "y": 0 },
+					{ "time": 1.6333, "x": 0, "y": 150 }
+				],
+				"scale": [
+					{ "time": 1.2666, "x": 0.3, "y": -0.3 },
+					{ "time": 1.6333, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"30100_Attack2_Effect_Clip": {
+				"translate": [
+					{ "time": 0, "x": 100.12, "y": -81.5, "curve": "stepped" },
+					{ "time": 1.0666, "x": 100.12, "y": -81.5 },
+					{ "time": 1.6, "x": 100.12, "y": -77.5 }
+				]
+			},
+			"30100_Attack1_Effect_Clip_02": {
+				"rotate": [
+					{ "time": 1.1, "angle": 36 }
+				],
+				"scale": [
+					{ "time": 1.1, "x": 2, "y": 2 },
+					{ "time": 1.4666, "x": 0, "y": 0 }
+				]
+			},
+			"30100_Attack1_Effect_Clip_01": {
+				"scale": [
+					{ "time": 0.9333, "x": 2, "y": 2 },
+					{ "time": 1.3, "x": 0, "y": 0 }
+				]
+			},
+			"30100_Attack1_Effect_Clip_03": {
+				"rotate": [
+					{ "time": 1.2666, "angle": 270 }
+				],
+				"scale": [
+					{ "time": 1.2666, "x": 2, "y": 2 },
+					{ "time": 1.6333, "x": 0, "y": 0 }
+				]
+			},
+			"30100_Attack1_Effect_GlowGreen": {
+				"translate": [
+					{ "time": 0.9666, "x": 99.84, "y": -57.95 }
+				],
+				"scale": [
+					{ "time": 0.9666, "x": 2, "y": 0.6 }
+				]
+			},
+			"30100_Attack1_Effect_SmokeGreen": {
+				"translate": [
+					{ "time": 0.9666, "x": 100.98, "y": -58.74 }
+				],
+				"scale": [
+					{ "time": 0.9666, "x": 1.5, "y": 0.8 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{ "time": 0.2 },
+			{ "time": 0.2333 },
+			{ "time": 0.3 },
+			{ "time": 0.4 },
+			{ "time": 1.0333 },
+			{ "time": 1.6333 },
+			{ "time": 1.7 },
+			{ "time": 1.8 }
+		]
+	},
+	"30100_Skill1_Effect": {
+		"slots": {
+			"30100_Eff_Skill1_Rap112": {
+				"attachment": [
+					{ "time": 0, "name": "30100_Eff_Skill1_Rap112" }
+				],
+				"color": [
+					{ "time": 0, "color": "35ff562d" },
+					{ "time": 0.1666, "color": "35ff5661", "curve": "stepped" },
+					{ "time": 0.9333, "color": "35ff5661" },
+					{ "time": 1.1, "color": "35ff562d" }
+				]
+			},
+			"30100_Eff_Skill_Glow_01": {
+				"attachment": [
+					{ "time": 0, "name": "30100_Eff_Skill_Glow_01" },
+					{ "time": 0.1, "name": "30100_Eff_Skill_Glow_02" },
+					{ "time": 0.1666, "name": "30100_Eff_Skill_Glow_03" },
+					{ "time": 0.2666, "name": "30100_Eff_Skill_Glow_04" },
+					{ "time": 0.3666, "name": "30100_Eff_Skill_Glow_05" },
+					{ "time": 0.4666, "name": "30100_Eff_Skill_Glow_06" },
+					{ "time": 0.5333, "name": "30100_Eff_Skill_Glow_07" },
+					{ "time": 0.6333, "name": "30100_Eff_Skill_Glow_08" },
+					{ "time": 0.7333, "name": "30100_Eff_Skill_Glow_09" },
+					{ "time": 0.8, "name": "30100_Eff_Skill_Glow_10" },
+					{ "time": 0.9, "name": "30100_Eff_Skill_Glow_11" },
+					{ "time": 1, "name": "30100_Eff_Skill_Glow_12" },
+					{ "time": 1.1, "name": "30100_Eff_Skill_Glow_13" }
+				]
+			}
+		}
+	},
+	"30100_Skill1_Weapon": {
+		"slots": {
+			"30100_Eff_Skill_Weapon": {
+				"attachment": [
+					{ "time": 0, "name": "30100_Eff_Skill_Weapon" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff80" },
+					{ "time": 0.1666, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1.1, "color": "ffffff80" }
+				]
+			},
+			"30100_Eff_SmokeGreen_0": {
+				"attachment": [
+					{ "time": 0, "name": "30100_Eff_SmokeGreen_00000" },
+					{ "time": 0.0333, "name": "30100_Eff_SmokeGreen_00001" },
+					{ "time": 0.0666, "name": "30100_Eff_SmokeGreen_00002" },
+					{ "time": 0.1333, "name": "30100_Eff_SmokeGreen_00003" },
+					{ "time": 0.1666, "name": "30100_Eff_SmokeGreen_00004" },
+					{ "time": 0.2, "name": "30100_Eff_SmokeGreen_00005" },
+					{ "time": 0.3, "name": "30100_Eff_SmokeGreen_00006" },
+					{ "time": 0.3333, "name": "30100_Eff_SmokeGreen_00007" },
+					{ "time": 0.4, "name": "30100_Eff_SmokeGreen_00008" },
+					{ "time": 0.4333, "name": "30100_Eff_SmokeGreen_00009" },
+					{ "time": 0.5, "name": "30100_Eff_SmokeGreen_00010" },
+					{ "time": 0.5333, "name": "30100_Eff_SmokeGreen_00011" },
+					{ "time": 0.5666, "name": "30100_Eff_SmokeGreen_00000" },
+					{ "time": 0.6, "name": "30100_Eff_SmokeGreen_00001" },
+					{ "time": 0.6333, "name": "30100_Eff_SmokeGreen_00002" },
+					{ "time": 0.7, "name": "30100_Eff_SmokeGreen_00003" },
+					{ "time": 0.7666, "name": "30100_Eff_SmokeGreen_00004" },
+					{ "time": 0.8, "name": "30100_Eff_SmokeGreen_00005" },
+					{ "time": 0.8666, "name": "30100_Eff_SmokeGreen_00006" },
+					{ "time": 0.9, "name": "30100_Eff_SmokeGreen_00007" },
+					{ "time": 0.9666, "name": "30100_Eff_SmokeGreen_00008" },
+					{ "time": 1, "name": "30100_Eff_SmokeGreen_00009" },
+					{ "time": 1.0666, "name": "30100_Eff_SmokeGreen_00010" },
+					{ "time": 1.1, "name": "30100_Eff_SmokeGreen_00011" }
+				],
+				"color": [
+					{ "time": 0, "color": "0fff3d80" },
+					{ "time": 0.1666, "color": "0fff3dff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "0fff3dff" },
+					{ "time": 1.1, "color": "0fff3d80" }
+				]
+			}
+		},
+		"bones": {
+			"30100_Skill1_Bullet_GlowWP": {
+				"rotate": [
+					{ "time": 0, "angle": -41.45 },
+					{ "time": 0.1, "angle": 1.76 },
+					{ "time": 0.2666, "angle": 75.18 },
+					{ "time": 0.4666, "angle": 79.08 },
+					{ "time": 0.6333, "angle": 73.41 },
+					{ "time": 0.9, "angle": 7.49 },
+					{ "time": 0.9333, "angle": 1.76 },
+					{ "time": 1.1, "angle": -41.45 }
+				],
+				"translate": [
+					{ "time": 0, "x": 52.01, "y": -33.63 },
+					{ "time": 0.0333, "x": 60.48, "y": -40.85 },
+					{ "time": 0.0666, "x": 70.48, "y": -45.79 },
+					{ "time": 0.1, "x": 80.89, "y": -47.81 },
+					{ "time": 0.1333, "x": 92.76, "y": -48.65 },
+					{ "time": 0.1666, "x": 105.06, "y": -46.32 },
+					{ "time": 0.2, "x": 115.68, "y": -41.77 },
+					{ "time": 0.2333, "x": 125.35, "y": -32.94 },
+					{ "time": 0.2666, "x": 132.56, "y": -22.69 },
+					{ "time": 0.4666, "x": 134.43, "y": -18.54 },
+					{ "time": 0.6333, "x": 133.2, "y": -21.89 },
+					{ "time": 0.6666, "x": 130.11, "y": -28.84 },
+					{ "time": 0.7, "x": 125.42, "y": -35.18 },
+					{ "time": 0.7333, "x": 119.67, "y": -40.61 },
+					{ "time": 0.7666, "x": 114.89, "y": -45.13 },
+					{ "time": 0.8, "x": 108.58, "y": -49.14 },
+					{ "time": 0.8333, "x": 101.72, "y": -51.71 },
+					{ "time": 0.8666, "x": 93.47, "y": -53.56 },
+					{ "time": 0.9, "x": 86.48, "y": -53.88 },
+					{ "time": 0.9333, "x": 78.69, "y": -52.85 },
+					{ "time": 1, "x": 65.26, "y": -48.9 },
+					{ "time": 1.0333, "x": 58.64, "y": -46.34 },
+					{ "time": 1.0666, "x": 53.03, "y": -41.62 },
+					{ "time": 1.1, "x": 48.78, "y": -35.72 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1, "y": 1 },
+					{ "time": 0.2666, "x": 1.1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

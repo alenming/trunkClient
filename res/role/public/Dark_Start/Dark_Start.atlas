@@ -1,0 +1,13 @@
+
+Dark_Start.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40800_Talent5_Start_01
+  rotate: false
+  xy: 1, 1
+  size: 163, 88
+  orig: 163, 88
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,23 @@
+local Cfg_PVP_ChestPrice = {
+    [1] = { Num = 1, Price = 12, },
+    [2] = { Num = 2, Price = 12, },
+    [3] = { Num = 3, Price = 24, },
+    [4] = { Num = 4, Price = 36, },
+    [5] = { Num = 5, Price = 48, },
+    [6] = { Num = 6, Price = 60, },
+    [7] = { Num = 7, Price = 72, },
+    [8] = { Num = 8, Price = 84, },
+    [9] = { Num = 9, Price = 96, },
+    [10] = { Num = 10, Price = 108, },
+    [11] = { Num = 11, Price = 108, },
+    [12] = { Num = 12, Price = 108, },
+    [13] = { Num = 13, Price = 108, },
+    [14] = { Num = 14, Price = 108, },
+    [15] = { Num = 15, Price = 216, },
+    [16] = { Num = 16, Price = 216, },
+    [17] = { Num = 17, Price = 216, },
+    [18] = { Num = 18, Price = 216, },
+    [19] = { Num = 19, Price = 216, },
+    [20] = { Num = 20, Price = 432, },
+}
+return Cfg_PVP_ChestPrice

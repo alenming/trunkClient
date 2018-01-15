@@ -1,0 +1,134 @@
+{
+"skeleton": { "hash": "oNokUyJN8BhaDAsLX0dyGRiSH1g", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "11600_Attack_Effect", "flipX": true },
+	{ "name": "11600_Attack_Effect_attack1_ef", "parent": "11600_Attack_Effect", "x": -190.75, "y": -6.73, "flipX": true },
+	{
+		"name": "11600_Attack_Effect_attack2_ef",
+		"parent": "11600_Attack_Effect",
+		"x": -256.6,
+		"y": -0.24,
+		"scaleX": 1.1,
+		"scaleY": 1.1,
+		"flipX": true
+	}
+],
+"slots": [
+	{ "name": "11600_Attack_Effect_attack1_01", "bone": "11600_Attack_Effect_attack1_ef", "blend": "additive" },
+	{ "name": "11600_Attack_Effect_attack2_0001", "bone": "11600_Attack_Effect_attack2_ef", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"11600_Attack_Effect_attack1_01": {
+			"11600_attack1_01": { "x": -69.53, "y": 56.73, "width": 202, "height": 213 },
+			"11600_attack1_02": { "x": -69.53, "y": 56.73, "width": 202, "height": 213 },
+			"11600_attack1_03": { "x": -69.53, "y": 56.73, "width": 202, "height": 213 },
+			"11600_attack1_04": { "x": -69.53, "y": 56.73, "width": 202, "height": 213 }
+		},
+		"11600_Attack_Effect_attack2_0001": {
+			"11600_attack2_0001": { "x": 79.13, "y": -0.52, "width": 183, "height": 45 },
+			"11600_attack2_0002": { "x": 73.42, "y": -0.71, "width": 183, "height": 45 }
+		}
+	}
+},
+"animations": {
+	"11600_Attack1_Effect1": {
+		"slots": {
+			"11600_Attack_Effect_attack1_01": {
+				"attachment": [
+					{ "time": 0.6, "name": "11600_attack1_01" },
+					{ "time": 0.6333, "name": "11600_attack1_02" },
+					{ "time": 0.6666, "name": "11600_attack1_03" },
+					{ "time": 0.7, "name": "11600_attack1_04" },
+					{ "time": 0.7333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"11600_Attack_Effect": {
+				"rotate": [
+					{ "time": 0.1333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6, "angle": 0, "curve": "stepped" },
+					{ "time": 0.7333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.9333, "angle": 0, "curve": "stepped" },
+					{ "time": 1.0666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.1333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.7333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.9333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.0666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.7333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.9333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.0666, "x": 1, "y": 1 }
+				]
+			},
+			"11600_Attack_Effect_attack1_ef": {
+				"rotate": [
+					{ "time": 0.6, "angle": -2.41 }
+				],
+				"translate": [
+					{ "time": 0.6, "x": 32.1, "y": 21.5 }
+				],
+				"scale": [
+					{ "time": 0.6, "x": 1.206, "y": 1.109 }
+				]
+			}
+		}
+	},
+	"11600_Attack2_Effect1": {
+		"slots": {
+			"11600_Attack_Effect_attack2_0001": {
+				"attachment": [
+					{ "time": 0.4, "name": "11600_attack2_0001" },
+					{ "time": 0.4666, "name": "11600_attack2_0002" },
+					{ "time": 0.5666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"11600_Attack_Effect": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.1666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.2666, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.1666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.2666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"11600_Attack_Effect_attack2_ef": {
+				"translate": [
+					{ "time": 0.4, "x": 211.45, "y": 70.55 },
+					{ "time": 0.4333, "x": 171.88, "y": 70.49 },
+					{ "time": 0.5333, "x": 164.39, "y": 70.32 }
+				],
+				"scale": [
+					{ "time": 0.4, "x": 1.084, "y": 1.005 },
+					{ "time": 0.4333, "x": 1.127, "y": 0.752 },
+					{ "time": 0.4666, "x": 1.217, "y": 1.205 },
+					{ "time": 0.5333, "x": 1.397, "y": 0.866 }
+				]
+			}
+		}
+	}
+}
+}

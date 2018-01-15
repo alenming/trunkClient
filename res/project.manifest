@@ -1,0 +1,52 @@
+{
+    "packageUrl": "http://cdn-zhs.fanhougame.com/releaseQQHall/1.0.8",
+    "remoteManifestUrl": "http://zhsGA-manifest.fanhougame.com/releaseQQHall/project.manifest",
+    "version": "1.0.8",
+    "groupVersions": {
+        "1": "1.0.2",
+        "2": "1.0.3",
+        "3": "1.0.4",
+        "4": "1.0.6",
+        "5": "1.0.7",
+        "6": "1.0.8"
+    },
+    "assets": {
+        "1.0.2": {
+            "path": "release1.0.2.zip",
+            "md5": "67ABCB71F0D23FEBEC1A8D44A8989A28",
+            "compressed": true,
+            "size": 751304
+        },
+        "1.0.3": {
+            "path": "release1.0.3.zip",
+            "md5": "67ABCD71F0D23FEBEC1A8D44A8989A27",
+            "compressed": true,
+            "size": 1870
+        },
+        "1.0.4": {
+            "path": "release1.0.4.zip",
+            "md5": "67ABCD71F0D23FEBEC1A8D44A8989A25",
+            "compressed": true,
+            "size": 1156797
+        },
+        "1.0.6": {
+            "path": "release1.0.6.zip",
+            "md5": "67ABCD71F0D23FEBEC178D44A8989A21",
+            "compressed": true,
+            "size": 14577
+        },
+		"1.0.7": {
+            "path": "release1.0.7.zip",
+            "md5": "67ABCD71F0D23FEBEC1A8D44A8959V27",
+            "compressed": true,
+            "size": 1157
+        },
+		"1.0.8": {
+            "path": "release1.0.8.zip",
+            "md5": "67ABCD71F0D23FEBEC1A8D44A8959V17",
+            "compressed": true,
+            "size": 1157
+        }
+    },	
+    "buildTime": 1486605555
+}

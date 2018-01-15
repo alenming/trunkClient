@@ -1,0 +1,971 @@
+{
+"skeleton": { "hash": "Dy6g2PIMqPmSgooOjPBY++RQ4Lo", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Born_buff_Boom", "parent": "root", "y": -30.49 },
+	{ "name": "Born_buff_GlowPoint", "parent": "root" },
+	{ "name": "Born_buff_RangeGlow", "parent": "root" },
+	{ "name": "Born_buff_Test_beam", "parent": "root", "y": -90.78 },
+	{ "name": "Burning_1", "parent": "root", "y": 0.15 },
+	{ "name": "Hero_Attack_Buff1_Yellow", "parent": "root" },
+	{ "name": "Hero_Attack_Buff2_Bule", "parent": "root" },
+	{ "name": "Hero_Attack_Buff3_Violet", "parent": "root" },
+	{ "name": "Hero_Defend_Buff1_Yellow", "parent": "root", "scaleX": 2 },
+	{ "name": "Hero_Defend_DeBuff2_Bule", "parent": "root", "scaleX": 2 },
+	{ "name": "Hero_Export_Buff1_Violet", "parent": "root" },
+	{ "name": "Hero_Export_Buff2_Yellow", "parent": "root" },
+	{ "name": "Hero_Recover_Buff1_Bule", "parent": "root" },
+	{ "name": "Hero_Recover_Buff2_Green", "parent": "root" },
+	{ "name": "Hero_Speed_Buff1_White", "parent": "root", "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "Lose1_Eff_GP", "parent": "root" },
+	{ "name": "Lose1_Eff_GPoint", "parent": "root" },
+	{ "name": "Soldier_Defend_Buff2_Bule01", "parent": "root", "scaleX": 1.95, "scaleY": 1.95 },
+	{ "name": "Soldier_Defend_Buff3_Violet01", "parent": "root", "scaleX": 1.95, "scaleY": 1.95 },
+	{ "name": "Soldier_Defend_Buff4_Violet02", "parent": "root", "scaleX": 1.95, "scaleY": 1.95 },
+	{ "name": "Soldier_Export_Buff1_Violet01", "parent": "root", "scaleX": 1.52, "scaleY": 1.52 },
+	{ "name": "Tallent2_Buff", "parent": "root", "scaleX": 1.52, "scaleY": 1.52 },
+	{ "name": "Hero_Recover_Buff1_Bule01", "parent": "Hero_Recover_Buff1_Bule", "scaleX": 2, "scaleY": 2 },
+	{ "name": "Hero_Recover_Buff1_Bule02", "parent": "Hero_Recover_Buff1_Bule", "scaleX": 2, "scaleY": 2 },
+	{ "name": "Hero_Recover_Buff2_Green01", "parent": "Hero_Recover_Buff2_Green", "scaleX": 2, "scaleY": 2 },
+	{ "name": "Hero_Recover_Buff2_Green02", "parent": "Hero_Recover_Buff2_Green", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "Lose1_Eff_GPoint", "bone": "Lose1_Eff_GPoint", "blend": "additive" },
+	{ "name": "Lose1_Eff_GP", "bone": "Lose1_Eff_GP", "blend": "additive" },
+	{ "name": "Burning_1_00", "bone": "Burning_1", "blend": "additive" },
+	{ "name": "Born_buff_Boom_01", "bone": "Born_buff_Boom", "blend": "additive" },
+	{ "name": "Born_buff_GlowPoint", "bone": "Born_buff_GlowPoint", "blend": "additive" },
+	{ "name": "Born_buff_RangeGlow_01", "bone": "Born_buff_RangeGlow", "blend": "additive" },
+	{ "name": "Born_buff_Test_beam_01", "bone": "Born_buff_Test_beam", "blend": "additive" },
+	{ "name": "Hero_Attack_Buff1_Yellow", "bone": "Hero_Attack_Buff1_Yellow", "blend": "additive" },
+	{ "name": "Hero_Attack_Buff2_Bule", "bone": "Hero_Attack_Buff2_Bule", "blend": "additive" },
+	{ "name": "Hero_Attack_Buff3_Violet", "bone": "Hero_Attack_Buff3_Violet", "blend": "additive" },
+	{ "name": "Hero_Defend_Buff1_Yellow", "bone": "Hero_Defend_Buff1_Yellow", "blend": "additive" },
+	{ "name": "Hero_Defend_DeBuff2_Bule", "bone": "Hero_Defend_DeBuff2_Bule", "blend": "additive" },
+	{ "name": "Hero_Export_Buff1_Violet01", "bone": "Hero_Export_Buff1_Violet", "blend": "screen" },
+	{ "name": "Hero_Export_Buff1_Viole02", "bone": "Hero_Export_Buff1_Violet" },
+	{ "name": "Hero_Export_Buff2_Yellow02", "bone": "Hero_Export_Buff2_Yellow" },
+	{ "name": "Hero_Export_Buff2_Yellow01", "bone": "Hero_Export_Buff2_Yellow", "blend": "screen" },
+	{ "name": "Hero_Recover_Buff1_Bule02", "bone": "Hero_Recover_Buff1_Bule02", "blend": "additive" },
+	{ "name": "Hero_Recover_Buff2_Green02", "bone": "Hero_Recover_Buff2_Green02", "blend": "additive" },
+	{ "name": "Hero_Recover_Buff1_Bule01", "bone": "Hero_Recover_Buff1_Bule01", "blend": "additive" },
+	{ "name": "Hero_Recover_Buff2_Green01", "bone": "Hero_Recover_Buff2_Green01", "blend": "additive" },
+	{ "name": "Hero_Speed_Buff1_White", "bone": "Hero_Speed_Buff1_White", "blend": "screen" },
+	{ "name": "Soldier_Defend_Buff2_Bule01", "bone": "Soldier_Defend_Buff2_Bule01", "blend": "additive" },
+	{ "name": "Soldier_Defend_Buff3_Violet01", "bone": "Soldier_Defend_Buff3_Violet01" },
+	{ "name": "Soldier_Defend_Buff4_Violet02", "bone": "Soldier_Defend_Buff4_Violet02" },
+	{ "name": "Soldier_Export_Buff1_Violet01", "bone": "Soldier_Export_Buff1_Violet01", "blend": "additive" },
+	{ "name": "Soldier_Export_DeBuff2_Yellow01", "bone": "Tallent2_Buff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Born_buff_Boom_01": {
+			"Born_buff_Boom_01": { "y": 30.49, "width": 168, "height": 103 }
+		},
+		"Born_buff_GlowPoint": {
+			"Born_buff_GlowPoint": { "width": 32, "height": 32 }
+		},
+		"Born_buff_RangeGlow_01": {
+			"Born_buff_RangeGlow_01": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_02": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_03": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_04": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_05": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_06": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_07": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_08": { "width": 105, "height": 133 },
+			"Born_buff_RangeGlow_09": { "width": 105, "height": 133 }
+		},
+		"Born_buff_Test_beam_01": {
+			"Born_buff_Test_beam_01": { "y": 90.78, "width": 40, "height": 200 },
+			"Born_buff_Test_beam_02": { "y": 90.78, "width": 40, "height": 200 },
+			"Born_buff_Test_beam_03": { "y": 90.78, "width": 40, "height": 200 },
+			"Born_buff_Test_beam_04": { "y": 90.78, "width": 40, "height": 200 },
+			"Born_buff_Test_beam_05": { "y": 90.78, "width": 40, "height": 200 }
+		},
+		"Burning_1_00": {
+			"Burning_1_00": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_01": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_02": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_03": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_04": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_05": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_06": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_07": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_08": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_09": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_10": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_11": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_12": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_13": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_14": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 },
+			"Burning_1_15": { "x": 1.75, "y": 23.31, "width": 45, "height": 57 }
+		},
+		"Hero_Attack_Buff1_Yellow": {
+			"Buff_02": { "scaleX": 2.6, "scaleY": 1.2, "width": 128, "height": 128 }
+		},
+		"Hero_Attack_Buff2_Bule": {
+			"Hero_Attack_Buff2_01": { "scaleX": 2.6, "scaleY": 1.2, "width": 128, "height": 128 }
+		},
+		"Hero_Attack_Buff3_Violet": {
+			"Hero_Attack_Buff2_04": { "scaleX": 2.6, "scaleY": 1.2, "width": 128, "height": 128 }
+		},
+		"Hero_Defend_Buff1_Yellow": {
+			"Hero_Defend_Buff1_001": { "width": 128, "height": 128 }
+		},
+		"Hero_Defend_DeBuff2_Bule": {
+			"Hero_Defend_Buff2_001": { "width": 128, "height": 128 }
+		},
+		"Hero_Export_Buff1_Viole02": {
+			"Buff_06_03": { "scaleX": 2, "width": 128, "height": 128 }
+		},
+		"Hero_Export_Buff1_Violet01": {
+			"Buff_06_03": { "scaleX": 2, "width": 128, "height": 128 }
+		},
+		"Hero_Export_Buff2_Yellow01": {
+			"Buff_06_04": { "scaleX": 2, "width": 128, "height": 128 }
+		},
+		"Hero_Export_Buff2_Yellow02": {
+			"Buff_06_04": { "scaleX": 2, "width": 128, "height": 128 }
+		},
+		"Hero_Recover_Buff1_Bule01": {
+			"Hero_Recover_Buff2_Bule02": { "scaleY": 0.5, "width": 128, "height": 128 }
+		},
+		"Hero_Recover_Buff1_Bule02": {
+			"Hero_Recover_Buff2_Bule01": { "scaleY": 0.5, "width": 128, "height": 128 }
+		},
+		"Hero_Recover_Buff2_Green01": {
+			"Buff_06_02": { "scaleY": 0.5, "width": 128, "height": 128 }
+		},
+		"Hero_Recover_Buff2_Green02": {
+			"Buff_06_01": { "scaleY": 0.5, "width": 128, "height": 128 }
+		},
+		"Hero_Speed_Buff1_White": {
+			"Hero_Speed_Buff1_00000": { "width": 174, "height": 85 },
+			"Hero_Speed_Buff1_00001": { "width": 174, "height": 85 },
+			"Hero_Speed_Buff1_00002": { "width": 174, "height": 85 },
+			"Hero_Speed_Buff1_00003": { "width": 174, "height": 85 },
+			"Hero_Speed_Buff1_00004": { "width": 174, "height": 85 },
+			"Hero_Speed_Buff1_00005": { "width": 174, "height": 85 },
+			"Hero_Speed_Buff1_00006": { "width": 174, "height": 85 }
+		},
+		"Lose1_Eff_GP": {
+			"Lose1_Eff_GP": { "width": 100, "height": 100 }
+		},
+		"Lose1_Eff_GPoint": {
+			"Lose1_Eff_GPoint_01": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_02": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_03": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_04": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_05": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_06": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_07": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_08": { "width": 350, "height": 350 },
+			"Lose1_Eff_GPoint_09": { "width": 350, "height": 350 }
+		},
+		"Soldier_Defend_Buff2_Bule01": {
+			"Soldier_Defend_Buff1_GuangQuan_Dun01": { "width": 150, "height": 61 }
+		},
+		"Soldier_Defend_Buff3_Violet01": {
+			"Soldier_Defend_Buff1_GuangQuan_Dun02": { "width": 150, "height": 61 }
+		},
+		"Soldier_Defend_Buff4_Violet02": {
+			"Soldier_Defend_Buff1_GuangQuan_Dun03": { "width": 150, "height": 61 }
+		},
+		"Soldier_Export_Buff1_Violet01": {
+			"Soldier_Attack_Buff1_FaZhen_TX": { "scaleY": 0.41, "width": 128, "height": 128 }
+		},
+		"Soldier_Export_DeBuff2_Yellow01": {
+			"Soldier_Attack_Buff1_FaZhen_TX01": { "scaleY": 0.41, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"Born_Buff": {
+		"slots": {
+			"Born_buff_Boom_01": {
+				"attachment": [
+					{ "time": 0.2, "name": "Born_buff_Boom_01" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"Born_buff_GlowPoint": {
+				"attachment": [
+					{ "time": 0.2, "name": "Born_buff_GlowPoint" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffff40", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffff40" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"Born_buff_RangeGlow_01": {
+				"attachment": [
+					{ "time": 0.2, "name": "Born_buff_RangeGlow_01" },
+					{ "time": 0.2333, "name": "Born_buff_RangeGlow_02" },
+					{ "time": 0.3, "name": "Born_buff_RangeGlow_03" },
+					{ "time": 0.4, "name": "Born_buff_RangeGlow_04" },
+					{ "time": 0.5, "name": "Born_buff_RangeGlow_05" },
+					{ "time": 0.6666, "name": "Born_buff_RangeGlow_06" },
+					{ "time": 0.7666, "name": "Born_buff_RangeGlow_07" },
+					{ "time": 0.8666, "name": "Born_buff_RangeGlow_08" },
+					{ "time": 0.9333, "name": "Born_buff_RangeGlow_09" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"Born_buff_Test_beam_01": {
+				"attachment": [
+					{ "time": 0, "name": "Born_buff_Test_beam_01" },
+					{ "time": 0.0666, "name": "Born_buff_Test_beam_02" },
+					{ "time": 0.1333, "name": "Born_buff_Test_beam_03" },
+					{ "time": 0.2, "name": "Born_buff_Test_beam_04" },
+					{ "time": 0.2666, "name": "Born_buff_Test_beam_05" },
+					{ "time": 0.3333, "name": "Born_buff_Test_beam_01" },
+					{ "time": 0.4, "name": "Born_buff_Test_beam_02" },
+					{ "time": 0.4666, "name": "Born_buff_Test_beam_03" },
+					{ "time": 0.5333, "name": "Born_buff_Test_beam_04" },
+					{ "time": 0.6, "name": "Born_buff_Test_beam_05" },
+					{ "time": 0.6666, "name": "Born_buff_Test_beam_01" },
+					{ "time": 0.7333, "name": "Born_buff_Test_beam_02" },
+					{ "time": 0.8, "name": "Born_buff_Test_beam_03" },
+					{ "time": 0.8666, "name": "Born_buff_Test_beam_04" },
+					{ "time": 0.9333, "name": "Born_buff_Test_beam_05" },
+					{ "time": 1, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Born_buff_Test_beam": {
+				"rotate": [
+					{ "time": 0, "angle": 180 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1088.31 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 4, "y": 5.6, "curve": "stepped" },
+					{ "time": 0.7333, "x": 4, "y": 5.6 },
+					{ "time": 1, "x": 0, "y": 5.6 }
+				]
+			},
+			"Born_buff_RangeGlow": {
+				"translate": [
+					{ "time": 0.2, "x": -7.17, "y": 166.27 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 3, "y": 3.75 }
+				]
+			},
+			"Born_buff_GlowPoint": {
+				"translate": [
+					{ "time": 0.2, "x": 0, "y": 71.92 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 18, "y": 22 }
+				]
+			},
+			"Born_buff_Boom": {
+				"translate": [
+					{ "time": 0.2, "x": -15.42, "y": 10.85 }
+				],
+				"scale": [
+					{ "time": 0.2, "x": 3.605, "y": 5.151 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "Born_buff_Boom_01", "offset": -1 },
+					{ "slot": "Born_buff_GlowPoint", "offset": -4 },
+					{ "slot": "Born_buff_RangeGlow_01", "offset": -2 },
+					{ "slot": "Born_buff_Test_beam_01", "offset": -5 }
+				]
+			}
+		]
+	},
+	"Burning_Buff": {
+		"slots": {
+			"Burning_1_00": {
+				"attachment": [
+					{ "time": 0, "name": "Burning_1_00" },
+					{ "time": 0.0666, "name": "Burning_1_01" },
+					{ "time": 0.1333, "name": "Burning_1_02" },
+					{ "time": 0.2, "name": "Burning_1_03" },
+					{ "time": 0.2666, "name": "Burning_1_04" },
+					{ "time": 0.3333, "name": "Burning_1_05" },
+					{ "time": 0.4, "name": "Burning_1_06" },
+					{ "time": 0.4666, "name": "Burning_1_07" },
+					{ "time": 0.5333, "name": "Burning_1_08" },
+					{ "time": 0.6, "name": "Burning_1_09" },
+					{ "time": 0.6666, "name": "Burning_1_10" },
+					{ "time": 0.7333, "name": "Burning_1_11" },
+					{ "time": 0.8, "name": "Burning_1_12" },
+					{ "time": 0.8666, "name": "Burning_1_13" },
+					{ "time": 0.9333, "name": "Burning_1_14" },
+					{ "time": 1, "name": "Burning_1_15" }
+				]
+			}
+		},
+		"bones": {
+			"Burning_1": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	},
+	"Hero_Attack_Buff1": {
+		"slots": {
+			"Hero_Attack_Buff1_Yellow": {
+				"attachment": [
+					{ "time": 0, "name": "Buff_02" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Attack_Buff1_Yellow": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.95 }
+				]
+			}
+		}
+	},
+	"Hero_Attack_Buff2": {
+		"slots": {
+			"Hero_Attack_Buff2_Bule": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Attack_Buff2_01" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Attack_Buff2_Bule": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.95 }
+				]
+			}
+		}
+	},
+	"Hero_Attack_Buff4": {
+		"slots": {
+			"Hero_Attack_Buff3_Violet": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Attack_Buff2_04" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Attack_Buff3_Violet": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.95 }
+				]
+			}
+		}
+	},
+	"Hero_Defend_Buff1": {
+		"slots": {
+			"Hero_Defend_Buff1_Yellow": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Defend_Buff1_001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffa7" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Defend_Buff1_Yellow": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.975,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.025,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.975 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"Hero_Defend_DeBuff2": {
+		"slots": {
+			"Hero_Defend_DeBuff2_Bule": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Defend_Buff2_001" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffa7" },
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Defend_DeBuff2_Bule": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.975,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.025,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.975 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"Hero_Export_Buff1": {
+		"slots": {
+			"Hero_Export_Buff1_Viole02": {
+				"attachment": [
+					{ "time": 0, "name": "Buff_06_03" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "2200ff80",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "2200ff80" }
+				]
+			},
+			"Hero_Export_Buff1_Violet01": {
+				"attachment": [
+					{ "time": 0, "name": "Buff_06_03" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Export_Buff1_Violet": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.95 }
+				]
+			}
+		}
+	},
+	"Hero_Export_Buff2": {
+		"slots": {
+			"Hero_Export_Buff2_Yellow01": {
+				"attachment": [
+					{ "time": 0, "name": "Buff_06_04" }
+				]
+			},
+			"Hero_Export_Buff2_Yellow02": {
+				"attachment": [
+					{ "time": 0, "name": "Buff_06_04" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ff6e5880",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ff8ab680" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Export_Buff2_Yellow": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 1.05,
+						"y": 1.05,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 0.95, "y": 0.95 }
+				]
+			}
+		}
+	},
+	"Hero_Recover_Buff1": {
+		"slots": {
+			"Hero_Recover_Buff1_Bule01": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Recover_Buff2_Bule02" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			},
+			"Hero_Recover_Buff1_Bule02": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Recover_Buff2_Bule01" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Recover_Buff1_Bule01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 0.75,
+						"y": 0.75,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Hero_Recover_Buff1_Bule02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Hero_Recover_Buff2": {
+		"slots": {
+			"Hero_Recover_Buff2_Green01": {
+				"attachment": [
+					{ "time": 0, "name": "Buff_06_02" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			},
+			"Hero_Recover_Buff2_Green02": {
+				"attachment": [
+					{ "time": 0, "name": "Buff_06_01" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Recover_Buff2_Green01": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 0.75,
+						"y": 0.75,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Hero_Recover_Buff2_Green02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Hero_Recover_Buff4": {
+		"slots": {
+			"Hero_Recover_Buff1_Bule02": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Recover_Buff2_Bule01" }
+				],
+				"color": [
+					{
+						"time": 0,
+						"color": "ffffffa7",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.5,
+						"color": "ffffffff",
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "color": "ffffffa7" }
+				]
+			}
+		},
+		"bones": {
+			"Hero_Recover_Buff1_Bule02": {
+				"scale": [
+					{
+						"time": 0,
+						"x": 1,
+						"y": 1,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{
+						"time": 0.6666,
+						"x": 0.95,
+						"y": 0.95,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Hero_Speed_Buff1": {
+		"slots": {
+			"Hero_Speed_Buff1_White": {
+				"attachment": [
+					{ "time": 0, "name": "Hero_Speed_Buff1_00000" },
+					{ "time": 0.1, "name": "Hero_Speed_Buff1_00001" },
+					{ "time": 0.2, "name": "Hero_Speed_Buff1_00002" },
+					{ "time": 0.3, "name": "Hero_Speed_Buff1_00003" },
+					{ "time": 0.4, "name": "Hero_Speed_Buff1_00004" },
+					{ "time": 0.5, "name": "Hero_Speed_Buff1_00005" },
+					{ "time": 0.6, "name": "Hero_Speed_Buff1_00006" }
+				]
+			}
+		}
+	},
+	"Lose1": {
+		"slots": {
+			"Lose1_Eff_GP": {
+				"attachment": [
+					{ "time": 0, "name": "Lose1_Eff_GP" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.3666, "color": "ffffff00" }
+				]
+			},
+			"Lose1_Eff_GPoint": {
+				"attachment": [
+					{ "time": 0, "name": "Lose1_Eff_GPoint_01" },
+					{ "time": 0.0666, "name": "Lose1_Eff_GPoint_02" },
+					{ "time": 0.1333, "name": "Lose1_Eff_GPoint_03" },
+					{ "time": 0.2, "name": "Lose1_Eff_GPoint_04" },
+					{ "time": 0.2666, "name": "Lose1_Eff_GPoint_05" },
+					{ "time": 0.3333, "name": "Lose1_Eff_GPoint_06" },
+					{ "time": 0.4, "name": "Lose1_Eff_GPoint_07" },
+					{ "time": 0.4666, "name": "Lose1_Eff_GPoint_08" },
+					{ "time": 0.5333, "name": "Lose1_Eff_GPoint_09" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Lose1_Eff_GP": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 42.62 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.5, "y": 0.5 },
+					{ "time": 0.1666, "x": 1, "y": 2 }
+				]
+			},
+			"Lose1_Eff_GPoint": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 37.49 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.3, "y": 0.3 },
+					{ "time": 0.1333, "x": 0.5, "y": 0.5 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "Lose1_Eff_GPoint", "offset": 1 }
+				]
+			}
+		]
+	},
+	"Soldier_Defend_Buff2": {
+		"slots": {
+			"Soldier_Defend_Buff2_Bule01": {
+				"attachment": [
+					{ "time": 0, "name": "Soldier_Defend_Buff1_GuangQuan_Dun01" }
+				]
+			}
+		},
+		"bones": {
+			"Soldier_Defend_Buff2_Bule01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1.154, "y": 1.154 },
+					{ "time": 1.3333, "x": 1.001, "y": 1.001 }
+				]
+			}
+		}
+	},
+	"Soldier_Defend_Buff3": {
+		"slots": {
+			"Soldier_Defend_Buff3_Violet01": {
+				"attachment": [
+					{ "time": 0, "name": "Soldier_Defend_Buff1_GuangQuan_Dun02" }
+				]
+			}
+		},
+		"bones": {
+			"Soldier_Defend_Buff3_Violet01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1.154, "y": 1.154 },
+					{ "time": 1.3333, "x": 1.001, "y": 1.001 }
+				]
+			}
+		}
+	},
+	"Soldier_Defend_Buff4": {
+		"slots": {
+			"Soldier_Defend_Buff4_Violet02": {
+				"attachment": [
+					{ "time": 0, "name": "Soldier_Defend_Buff1_GuangQuan_Dun03" }
+				]
+			}
+		},
+		"bones": {
+			"Soldier_Defend_Buff4_Violet02": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1.154, "y": 1.154 },
+					{ "time": 1.3333, "x": 1.001, "y": 1.001 }
+				]
+			}
+		}
+	},
+	"Soldier_Export_Buff1": {
+		"slots": {
+			"Soldier_Export_Buff1_Violet01": {
+				"attachment": [
+					{ "time": 0, "name": "Soldier_Attack_Buff1_FaZhen_TX" }
+				]
+			}
+		},
+		"bones": {
+			"Soldier_Export_Buff1_Violet01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1.143, "y": 1.143 },
+					{ "time": 1.3333, "x": 0.997, "y": 0.997 }
+				]
+			}
+		}
+	},
+	"Tallent2_Buff": {
+		"slots": {
+			"Soldier_Export_DeBuff2_Yellow01": {
+				"attachment": [
+					{ "time": 0, "name": "Soldier_Attack_Buff1_FaZhen_TX01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff0018ff" },
+					{ "time": 0.3333, "color": "ff001885" },
+					{ "time": 1, "color": "ff030a00" }
+				]
+			}
+		},
+		"bones": {
+			"Tallent2_Buff": {
+				"scale": [
+					{ "time": 0, "x": 1.641, "y": 1.313 },
+					{ "time": 0.3333, "x": 1.116, "y": 0.984 },
+					{ "time": 1, "x": 0.525, "y": 0.328 }
+				]
+			}
+		}
+	}
+}
+}

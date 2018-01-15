@@ -1,0 +1,71 @@
+{
+"skeleton": { "hash": "W9y58NYBzXaRx6iMjK2iyMMqvFQ", "spine": "2.1.27", "width": 182, "height": 228, "images": "./images/" },
+"bones": [
+	{ "name": "Burning_Buff" },
+	{ "name": "Burning", "parent": "Burning_Buff" }
+],
+"slots": [
+	{ "name": "Burning_1_00", "bone": "Burning", "attachment": "Burning_1_15", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Burning_1_00": {
+			"Burning_1_00": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_01": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_02": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_03": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_04": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_05": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_06": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_07": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_08": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_09": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_10": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_11": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_12": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_13": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_14": { "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 },
+			"Burning_1_15": { "x": -1, "y": 80, "scaleX": 2, "scaleY": 2, "width": 91, "height": 114 }
+		}
+	}
+},
+"animations": {
+	"Burning_Buff": {
+		"slots": {
+			"Burning_1_00": {
+				"attachment": [
+					{ "time": 0, "name": "Burning_1_00" },
+					{ "time": 0.0666, "name": "Burning_1_01" },
+					{ "time": 0.1333, "name": "Burning_1_02" },
+					{ "time": 0.2, "name": "Burning_1_03" },
+					{ "time": 0.2666, "name": "Burning_1_04" },
+					{ "time": 0.3333, "name": "Burning_1_05" },
+					{ "time": 0.4, "name": "Burning_1_06" },
+					{ "time": 0.4666, "name": "Burning_1_07" },
+					{ "time": 0.5333, "name": "Burning_1_08" },
+					{ "time": 0.6, "name": "Burning_1_09" },
+					{ "time": 0.6666, "name": "Burning_1_10" },
+					{ "time": 0.7333, "name": "Burning_1_11" },
+					{ "time": 0.8, "name": "Burning_1_12" },
+					{ "time": 0.8666, "name": "Burning_1_13" },
+					{ "time": 0.9333, "name": "Burning_1_14" },
+					{ "time": 1, "name": "Burning_1_15" }
+				]
+			}
+		},
+		"bones": {
+			"Burning": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

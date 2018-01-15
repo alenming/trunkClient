@@ -1,0 +1,107 @@
+{
+"skeleton": { "hash": "/2v6EjxNJZcZ8TtAAI55YJeKkT0", "spine": "2.1.27", "width": 334, "height": 237.57, "images": "./images/" },
+"bones": [
+	{ "name": "1400_Skill2_Bullet_Explosion" },
+	{ "name": "1400_skill2baozha_01", "parent": "1400_Skill2_Bullet_Explosion", "y": 6.93 },
+	{ "name": "1400_skill2quan2_01", "parent": "1400_Skill2_Bullet_Explosion", "y": 20.54 },
+	{ "name": "1400_skill2quan_01", "parent": "1400_Skill2_Bullet_Explosion" }
+],
+"slots": [
+	{ "name": "1400_skill2baozha_01", "bone": "1400_skill2baozha_01", "attachment": "1400_skill2baozha_01", "blend": "additive" },
+	{ "name": "1400_skill2quan2_01", "bone": "1400_skill2quan2_01", "attachment": "1400_skill2quan2_01", "blend": "additive" },
+	{ "name": "1400_skill2quan_01", "bone": "1400_skill2quan_01", "attachment": "1400_skill2quan_01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"1400_skill2baozha_01": {
+			"1400_skill2baozha_01": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_02": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_03": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_04": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_05": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_06": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_07": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_08": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_09": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_10": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_11": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 },
+			"1400_skill2baozha_12": { "x": 4.66, "y": -16.09, "width": 334, "height": 169 }
+		},
+		"1400_skill2quan2_01": {
+			"1400_skill2quan2_01": { "y": 50.87, "width": 190, "height": 145 }
+		},
+		"1400_skill2quan_01": {
+			"1400_skill2quan_01": { "width": 256, "height": 126 }
+		}
+	}
+},
+"animations": {
+	"1400_Skill2_Bullet_Explosion": {
+		"slots": {
+			"1400_skill2baozha_01": {
+				"attachment": [
+					{ "time": 0, "name": "1400_skill2baozha_01" },
+					{ "time": 0.0666, "name": "1400_skill2baozha_02" },
+					{ "time": 0.1333, "name": "1400_skill2baozha_03" },
+					{ "time": 0.2, "name": "1400_skill2baozha_04" },
+					{ "time": 0.2666, "name": "1400_skill2baozha_05" },
+					{ "time": 0.3333, "name": "1400_skill2baozha_06" },
+					{ "time": 0.4, "name": "1400_skill2baozha_07" },
+					{ "time": 0.4666, "name": "1400_skill2baozha_08" },
+					{ "time": 0.5333, "name": "1400_skill2baozha_09" },
+					{ "time": 0.6, "name": "1400_skill2baozha_10" },
+					{ "time": 0.6666, "name": "1400_skill2baozha_11" },
+					{ "time": 0.7333, "name": "1400_skill2baozha_12" },
+					{ "time": 0.8, "name": null }
+				]
+			},
+			"1400_skill2quan2_01": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "1400_skill2quan2_01" }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.9, "color": "ffffff00" }
+				]
+			},
+			"1400_skill2quan_01": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.1666, "name": "1400_skill2quan_01" }
+				],
+				"color": [
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 1.2666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"1400_skill2quan2_01": {
+				"translate": [
+					{ "time": 0.1666, "x": 0, "y": 33.03 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1, "y": 1 },
+					{ "time": 0.9, "x": 2, "y": 2 }
+				]
+			},
+			"1400_skill2quan_01": {
+				"scale": [
+					{ "time": 0.1666, "x": 1, "y": 1 },
+					{ "time": 1.2666, "x": 2.5, "y": 2.5 }
+				]
+			},
+			"1400_skill2baozha_01": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1333, "x": 0, "y": 46.1 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.8, "y": 1.8 }
+				]
+			}
+		}
+	}
+}
+}

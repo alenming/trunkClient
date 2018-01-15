@@ -1,0 +1,14 @@
+local Cfg_Story_2 = {
+    [1] = { Step_ID = 1, TouchScreen_Skip = 0, Bg_Res = "ui_new/s_story/Chapter1/Chapter1_Act_1.csb", Tag = "0", RoleHead = "0", HeadPos = 0, Dialogue_ID = 0, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 1500, },
+    [2] = { Step_ID = 2, TouchScreen_Skip = 0, Bg_Res = "ui_new/s_story/Chapter1/Chapter1_Act_2.csb", Tag = "0", RoleHead = "0", HeadPos = 0, Dialogue_ID = 0, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 1500, },
+    [3] = { Step_ID = 3, TouchScreen_Skip = 0, Bg_Res = "1", Tag = "0", RoleHead = "0", HeadPos = 0, Dialogue_ID = 0, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 10, },
+    [4] = { Step_ID = 4, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_01.png", HeadPos = 1, Dialogue_ID = 70006, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [5] = { Step_ID = 5, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_02.png", HeadPos = 2, Dialogue_ID = 70007, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 2000, },
+    [6] = { Step_ID = 6, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_01.png", HeadPos = 1, Dialogue_ID = 70008, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3500, },
+    [7] = { Step_ID = 7, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_02.png", HeadPos = 2, Dialogue_ID = 70009, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [8] = { Step_ID = 8, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_01.png", HeadPos = 1, Dialogue_ID = 70010, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [9] = { Step_ID = 9, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_02.png", HeadPos = 2, Dialogue_ID = 70011, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [10] = { Step_ID = 10, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_01.png", HeadPos = 1, Dialogue_ID = 70012, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [11] = { Step_ID = 11, TouchScreen_Skip = 1, Bg_Res = "0", Tag = "0", RoleHead = "story_icon_02.png", HeadPos = 2, Dialogue_ID = 70013, TipPanel = "0", TipContent = 0, Hide_Ui = 1, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+}
+return Cfg_Story_2

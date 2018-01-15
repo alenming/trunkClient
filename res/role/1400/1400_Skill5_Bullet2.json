@@ -1,0 +1,47 @@
+{
+"skeleton": { "hash": "+kruWOlcLXkycapWsPAi3uAXNyg", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "1400_Skill5_Bullet2", "parent": "root" }
+],
+"slots": [
+	{ "name": "1400_Skill5_Bullet2_cjb01", "bone": "1400_Skill5_Bullet2", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"1400_Skill5_Bullet2_cjb01": {
+			"1400_Skill5_Bullet2_cjb01": { "width": 347, "height": 251 },
+			"1400_Skill5_Bullet2_cjb02": { "width": 347, "height": 251 },
+			"1400_Skill5_Bullet2_cjb03": { "width": 347, "height": 251 },
+			"1400_Skill5_Bullet2_cjb04": { "width": 347, "height": 251 },
+			"1400_Skill5_Bullet2_cjb05": { "width": 347, "height": 251 },
+			"1400_Skill5_Bullet2_cjb06": { "width": 347, "height": 251 }
+		}
+	}
+},
+"animations": {
+	"1400_Skill5_Bullet2": {
+		"slots": {
+			"1400_Skill5_Bullet2_cjb01": {
+				"attachment": [
+					{ "time": 0, "name": "1400_Skill5_Bullet2_cjb01" },
+					{ "time": 0.1, "name": "1400_Skill5_Bullet2_cjb02" },
+					{ "time": 0.2, "name": "1400_Skill5_Bullet2_cjb03" },
+					{ "time": 0.3, "name": "1400_Skill5_Bullet2_cjb04" },
+					{ "time": 0.4, "name": "1400_Skill5_Bullet2_cjb05" },
+					{ "time": 0.5, "name": "1400_Skill5_Bullet2_cjb06" },
+					{ "time": 0.5333, "name": "1400_Skill5_Bullet2_cjb06" },
+					{ "time": 0.5666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"1400_Skill5_Bullet2": {
+				"scale": [
+					{ "time": 0, "x": 2.5, "y": 2.5 }
+				]
+			}
+		}
+	}
+}
+}

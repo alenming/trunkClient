@@ -1,0 +1,49 @@
+{
+"skeleton": { "hash": "Er0+NS4djn55Hl0H2KKfKpGjUDU", "spine": "2.1.27", "width": 123, "height": 164, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "10903_Talent3_Buff", "parent": "root", "y": -0.27 }
+],
+"slots": [
+	{ "name": "10903_Talent3_Buff1_01", "bone": "10903_Talent3_Buff", "attachment": "10903_Talent3_Buff1_01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10903_Talent3_Buff1_01": {
+			"10903_Talent3_Buff1_01": { "y": 28.27, "width": 123, "height": 164 },
+			"10903_Talent3_Buff1_02": { "y": 28.27, "width": 123, "height": 164 },
+			"10903_Talent3_Buff1_03": { "y": 28.27, "width": 123, "height": 164 },
+			"10903_Talent3_Buff1_04": { "y": 28.27, "width": 123, "height": 164 },
+			"10903_Talent3_Buff1_05": { "y": 28.27, "width": 123, "height": 164 },
+			"10903_Talent3_Buff1_06": { "y": 28.27, "width": 123, "height": 164 },
+			"10903_Talent3_Buff1_07": { "y": 28.27, "width": 123, "height": 164 },
+			"10903_Talent3_Buff1_08": { "y": 28.27, "width": 123, "height": 164 }
+		}
+	}
+},
+"animations": {
+	"10903_Talent3_Buff1": {
+		"slots": {
+			"10903_Talent3_Buff1_01": {
+				"attachment": [
+					{ "time": 0, "name": "10903_Talent3_Buff1_01" },
+					{ "time": 0.1, "name": "10903_Talent3_Buff1_02" },
+					{ "time": 0.2, "name": "10903_Talent3_Buff1_03" },
+					{ "time": 0.3, "name": "10903_Talent3_Buff1_04" },
+					{ "time": 0.4, "name": "10903_Talent3_Buff1_05" },
+					{ "time": 0.5, "name": "10903_Talent3_Buff1_06" },
+					{ "time": 0.6, "name": "10903_Talent3_Buff1_07" },
+					{ "time": 0.7, "name": "10903_Talent3_Buff1_08" }
+				]
+			}
+		},
+		"bones": {
+			"10903_Talent3_Buff": {
+				"scale": [
+					{ "time": 0, "x": 2.8, "y": 2.8 }
+				]
+			}
+		}
+	}
+}
+}

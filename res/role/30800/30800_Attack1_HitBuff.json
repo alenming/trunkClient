@@ -1,0 +1,122 @@
+{
+"skeleton": { "hash": "eghOQPO0/+fzYwCf2k6+bRl/gnM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "hitbuff", "parent": "root", "length": 20, "x": 97.6, "y": 77.68, "scaleX": 1.5, "scaleY": 1.5 },
+	{ "name": "hitbuff2", "parent": "root" }
+],
+"slots": [
+	{ "name": "10020_hitbuff_00", "bone": "hitbuff" },
+	{ "name": "10020_hitbuff_1", "bone": "hitbuff2" }
+],
+"skins": {
+	"default": {
+		"10020_hitbuff_00": {
+			"10020_hitbuff_00": { "x": -4.78, "y": 5.48, "width": 80, "height": 80 },
+			"10020_hitbuff_01": { "x": -4.78, "y": 5.48, "width": 80, "height": 80 },
+			"10020_hitbuff_02": { "x": -4.78, "y": 5.48, "width": 80, "height": 80 },
+			"10020_hitbuff_03": { "x": -4.78, "y": 5.48, "width": 80, "height": 80 },
+			"10020_hitbuff_04": { "x": -4.78, "y": 5.48, "width": 80, "height": 80 },
+			"10020_hitbuff_05": { "x": -4.78, "y": 5.48, "width": 80, "height": 80 }
+		},
+		"10020_hitbuff_1": {
+			"10020_hitbuff_0": { "width": 80, "height": 80 },
+			"10020_hitbuff_1": { "width": 80, "height": 80 },
+			"10020_hitbuff_2": { "width": 80, "height": 80 },
+			"10020_hitbuff_3": { "width": 80, "height": 80 },
+			"10020_hitbuff_4": { "width": 80, "height": 80 },
+			"10020_hitbuff_5": { "width": 80, "height": 80 }
+		}
+	}
+},
+"animations": {
+	"Attack1_HitBuff1": {
+		"slots": {
+			"10020_hitbuff_00": {
+				"attachment": [
+					{ "time": 0, "name": "10020_hitbuff_01" },
+					{ "time": 0.0333, "name": "10020_hitbuff_02" },
+					{ "time": 0.0666, "name": "10020_hitbuff_03" },
+					{ "time": 0.1, "name": "10020_hitbuff_04" },
+					{ "time": 0.1333, "name": "10020_hitbuff_05" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.2, "name": "10020_hitbuff_00" },
+					{ "time": 0.2333, "name": "10020_hitbuff_01" },
+					{ "time": 0.2666, "name": "10020_hitbuff_02" },
+					{ "time": 0.3, "name": "10020_hitbuff_03" },
+					{ "time": 0.3333, "name": "10020_hitbuff_04" },
+					{ "time": 0.3666, "name": "10020_hitbuff_05" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0.3, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4333, "x": 1, "y": 1 }
+				]
+			},
+			"hitbuff": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 144.86, "curve": "stepped" },
+					{ "time": 0.2, "angle": -54.88 }
+				],
+				"translate": [
+					{ "time": 0.1666, "x": 40.35, "y": 23.99, "curve": "stepped" },
+					{ "time": 0.2, "x": 25.33, "y": -26.49 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Attack1_HitBuff2": {
+		"slots": {
+			"10020_hitbuff_1": {
+				"attachment": [
+					{ "time": 0, "name": "10020_hitbuff_1" },
+					{ "time": 0.0333, "name": "10020_hitbuff_2" },
+					{ "time": 0.0666, "name": "10020_hitbuff_3" },
+					{ "time": 0.1, "name": "10020_hitbuff_4" },
+					{ "time": 0.1333, "name": "10020_hitbuff_5" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.2, "name": "10020_hitbuff_0" },
+					{ "time": 0.2333, "name": "10020_hitbuff_1" },
+					{ "time": 0.2666, "name": "10020_hitbuff_2" },
+					{ "time": 0.3, "name": "10020_hitbuff_3" },
+					{ "time": 0.3333, "name": "10020_hitbuff_4" },
+					{ "time": 0.3666, "name": "10020_hitbuff_5" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hitbuff2": {
+				"rotate": [
+					{ "time": 0.1666, "angle": 144.87 },
+					{ "time": 0.2, "angle": 305.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 90.91, "y": 87.22, "curve": "stepped" },
+					{ "time": 0.1666, "x": 90.91, "y": 87.22 },
+					{ "time": 0.2, "x": 123.83, "y": 61.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 0.2, "x": 1.5, "y": 1.5 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,74 @@
+{
+"skeleton": { "hash": "UDJP3sU86ZGTUuOCuEBWytmfNz8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "10000" },
+	{ "name": "10000_Skill1_dg", "parent": "10000" }
+],
+"slots": [
+	{ "name": "10000_Skill1_dg01", "bone": "10000_Skill1_dg", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10000_Skill1_dg01": {
+			"10000_Skill1_dg01": { "width": 206, "height": 107 },
+			"10000_Skill1_dg02": { "width": 206, "height": 107 },
+			"10000_Skill1_dg03": { "width": 206, "height": 107 },
+			"10000_Skill1_dg04": { "width": 206, "height": 107 }
+		}
+	}
+},
+"animations": {
+	"10000_Attack2": {
+		"slots": {
+			"10000_Skill1_dg01": {
+				"attachment": [
+					{ "time": 0.3666, "name": "10000_Skill1_dg01" },
+					{ "time": 0.4, "name": "10000_Skill1_dg02" },
+					{ "time": 0.4333, "name": "10000_Skill1_dg03" },
+					{ "time": 0.4666, "name": "10000_Skill1_dg04" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"10000": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.0666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3333, "angle": 0, "curve": "stepped" },
+					{ "time": 0.3666, "angle": 0, "curve": "stepped" },
+					{ "time": 0.4, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.0666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3666, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3333, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"10000_Skill1_dg": {
+				"translate": [
+					{ "time": 0.3666, "x": 31.68, "y": 87.6 }
+				],
+				"scale": [
+					{ "time": 0.3666, "x": 2, "y": 2 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.0666 }
+		]
+	}
+}
+}

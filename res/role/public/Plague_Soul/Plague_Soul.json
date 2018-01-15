@@ -1,0 +1,55 @@
+{
+"skeleton": { "hash": "p1TVjSVedcy5Td+EUV9W6at7sao", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "321100_Eff_Attack_Bullet", "parent": "root", "length": 175.6, "rotation": 90 },
+	{ "name": "321100_Eff_Attack_Bullet_bule", "parent": "321100_Eff_Attack_Bullet", "length": 175.6 }
+],
+"slots": [
+	{ "name": "321100_Eff_GlowShpere_01", "bone": "321100_Eff_Attack_Bullet_bule" },
+	{ "name": "321100_Eff_Attack_Bullet_bule", "bone": "321100_Eff_Attack_Bullet_bule", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"321100_Eff_Attack_Bullet_bule": {
+			"321100_Eff_Greenpoint": { "scaleX": 4, "scaleY": 4, "rotation": -90, "width": 64, "height": 64 }
+		},
+		"321100_Eff_GlowShpere_01": {
+			"321100_Eff_GlowShpere_01": { "rotation": -90, "width": 128, "height": 128 },
+			"321100_Eff_GlowShpere_02": { "rotation": -90, "width": 128, "height": 128 },
+			"321100_Eff_GlowShpere_03": { "rotation": -90, "width": 128, "height": 128 },
+			"321100_Eff_GlowShpere_04": { "rotation": -90, "width": 128, "height": 128 },
+			"321100_Eff_GlowShpere_05": { "rotation": -90, "width": 128, "height": 128 },
+			"321100_Eff_GlowShpere_06": { "rotation": -90, "width": 128, "height": 128 },
+			"321100_Eff_GlowShpere_07": { "rotation": -90, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"Plague_Soul": {
+		"slots": {
+			"321100_Eff_Attack_Bullet_bule": {
+				"attachment": [
+					{ "time": 0, "name": "321100_Eff_Greenpoint" }
+				],
+				"color": [
+					{ "time": 0, "color": "4173ffa3" },
+					{ "time": 0.3333, "color": "4173ffff" },
+					{ "time": 0.6, "color": "4173ffa3" }
+				]
+			},
+			"321100_Eff_GlowShpere_01": {
+				"attachment": [
+					{ "time": 0, "name": "321100_Eff_GlowShpere_01" },
+					{ "time": 0.1, "name": "321100_Eff_GlowShpere_02" },
+					{ "time": 0.2, "name": "321100_Eff_GlowShpere_03" },
+					{ "time": 0.3, "name": "321100_Eff_GlowShpere_04" },
+					{ "time": 0.4, "name": "321100_Eff_GlowShpere_05" },
+					{ "time": 0.5, "name": "321100_Eff_GlowShpere_06" },
+					{ "time": 0.6, "name": "321100_Eff_GlowShpere_07" }
+				]
+			}
+		}
+	}
+}
+}

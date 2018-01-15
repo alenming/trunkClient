@@ -1,0 +1,67 @@
+{
+"skeleton": { "hash": "3BZMsrTKg3z4TMdV6xYVyG5Uo7U", "spine": "2.1.27", "width": 168, "height": 140, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "10400_Attack1_Hit", "parent": "root", "y": 42 }
+],
+"slots": [
+	{ "name": "10400_Attack1_Hit_0001", "bone": "10400_Attack1_Hit" },
+	{ "name": "10400_Attack1_Hit_0002", "bone": "10400_Attack1_Hit", "attachment": "10400_Attack1_Hit_0002" },
+	{ "name": "10400_Attack1_Hit_0003", "bone": "10400_Attack1_Hit" },
+	{ "name": "10400_Attack1_Hit_0004", "bone": "10400_Attack1_Hit" }
+],
+"skins": {
+	"default": {
+		"10400_Attack1_Hit_0001": {
+			"10400_Attack1_Hit_0001": { "x": 12.56, "y": 11.26, "width": 168, "height": 140 }
+		},
+		"10400_Attack1_Hit_0002": {
+			"10400_Attack1_Hit_0002": { "x": 7.19, "y": 13.36, "width": 168, "height": 140 }
+		},
+		"10400_Attack1_Hit_0003": {
+			"10400_Attack1_Hit_0003": { "x": 5.13, "y": 8.22, "width": 168, "height": 140 }
+		},
+		"10400_Attack1_Hit_0004": {
+			"10400_Attack1_Hit_0004": { "x": 7.7, "y": 6.16, "width": 168, "height": 140 }
+		}
+	}
+},
+"animations": {
+	"Bear_hit": {
+		"slots": {
+			"10400_Attack1_Hit_0001": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"10400_Attack1_Hit_0002": {
+				"attachment": [
+					{ "time": 0, "name": "10400_Attack1_Hit_0002" },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"10400_Attack1_Hit_0003": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": "10400_Attack1_Hit_0003" },
+					{ "time": 0.1333, "name": null },
+					{ "time": 0.2, "name": null }
+				]
+			},
+			"10400_Attack1_Hit_0004": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0666, "name": null },
+					{ "time": 0.1333, "name": "10400_Attack1_Hit_0004" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,68 @@
+{
+"skeleton": { "hash": "7eIrO7HRwkX/PhtFOHpj3btEIT4", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "GeneralShield_Break" },
+	{ "name": "GeneralShield_break", "parent": "GeneralShield_Break", "x": -1.91, "y": 100.18, "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "GeneralShield_Break0001", "bone": "GeneralShield_break", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"GeneralShield_Break0001": {
+			"GeneralShield_Break0001": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "rotation": -0.18, "width": 165, "height": 166 },
+			"GeneralShield_Break0002": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "width": 165, "height": 166 },
+			"GeneralShield_Break0003": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "width": 165, "height": 166 },
+			"GeneralShield_Break0004": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "width": 165, "height": 166 },
+			"GeneralShield_Break0005": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "width": 165, "height": 166 },
+			"GeneralShield_Break0006": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "width": 165, "height": 166 },
+			"GeneralShield_Break0007": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "width": 165, "height": 166 },
+			"GeneralShield_Break0008": { "x": -1.19, "y": 0.57, "scaleX": 2, "scaleY": 2, "width": 165, "height": 166 }
+		}
+	}
+},
+"animations": {
+	"GeneralShield_Break": {
+		"slots": {
+			"GeneralShield_Break0001": {
+				"attachment": [
+					{ "time": 0, "name": "GeneralShield_Break0001" },
+					{ "time": 0.0666, "name": "GeneralShield_Break0002" },
+					{ "time": 0.1333, "name": "GeneralShield_Break0003" },
+					{ "time": 0.2, "name": "GeneralShield_Break0004" },
+					{ "time": 0.2666, "name": "GeneralShield_Break0005" },
+					{ "time": 0.3333, "name": "GeneralShield_Break0006" },
+					{ "time": 0.4, "name": "GeneralShield_Break0007" },
+					{ "time": 0.4666, "name": "GeneralShield_Break0008" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"GeneralShield_Break": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -93, "curve": "stepped" },
+					{ "time": 0.5666, "x": 0, "y": -93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"GeneralShield_break": {
+				"rotate": [
+					{ "time": 0, "angle": -0.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.51, "y": 10.53 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.25, "y": 1.25 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,132 @@
+
+Born_Buff.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40000_Born_Smoke_0000
+  rotate: true
+  xy: 298, 238
+  size: 77, 54
+  orig: 109, 118
+  offset: 11, 9
+  index: -1
+40000_Born_Smoke_0001
+  rotate: false
+  xy: 178, 170
+  size: 82, 67
+  orig: 109, 118
+  offset: 9, 6
+  index: -1
+40000_Born_Smoke_0002
+  rotate: true
+  xy: 102, 118
+  size: 85, 75
+  orig: 109, 118
+  offset: 8, 6
+  index: -1
+40000_Born_Smoke_0003
+  rotate: false
+  xy: 209, 238
+  size: 88, 77
+  orig: 109, 118
+  offset: 6, 8
+  index: -1
+40000_Born_Smoke_0004
+  rotate: true
+  xy: 93, 5
+  size: 96, 82
+  orig: 109, 118
+  offset: 6, 11
+  index: -1
+40000_Born_Smoke_0005
+  rotate: true
+  xy: 1, 1
+  size: 100, 91
+  orig: 109, 118
+  offset: 5, 7
+  index: -1
+40000_Born_Smoke_0006
+  rotate: false
+  xy: 315, 318
+  size: 101, 94
+  orig: 109, 118
+  offset: 5, 5
+  index: -1
+40000_Born_Smoke_0007
+  rotate: false
+  xy: 210, 316
+  size: 103, 95
+  orig: 109, 118
+  offset: 3, 5
+  index: -1
+40000_Born_Smoke_0008
+  rotate: true
+  xy: 417, 408
+  size: 103, 94
+  orig: 109, 118
+  offset: 3, 7
+  index: -1
+40000_Born_Smoke_0009
+  rotate: true
+  xy: 417, 304
+  size: 103, 94
+  orig: 109, 118
+  offset: 3, 9
+  index: -1
+40000_Born_Smoke_0010
+  rotate: false
+  xy: 210, 412
+  size: 104, 99
+  orig: 109, 118
+  offset: 1, 4
+  index: -1
+40000_Born_Smoke_0011
+  rotate: false
+  xy: 106, 308
+  size: 102, 100
+  orig: 109, 118
+  offset: 0, 5
+  index: -1
+40000_Born_Smoke_0012
+  rotate: false
+  xy: 1, 102
+  size: 100, 101
+  orig: 109, 118
+  offset: 2, 6
+  index: -1
+40000_Born_Smoke_0013
+  rotate: false
+  xy: 106, 409
+  size: 103, 102
+  orig: 109, 118
+  offset: 2, 5
+  index: -1
+40000_Born_Smoke_0014
+  rotate: false
+  xy: 1, 204
+  size: 103, 101
+  orig: 109, 118
+  offset: 1, 7
+  index: -1
+40000_Born_Smoke_0015
+  rotate: false
+  xy: 1, 409
+  size: 104, 102
+  orig: 109, 118
+  offset: 1, 11
+  index: -1
+40000_Born_Smoke_0016
+  rotate: false
+  xy: 1, 306
+  size: 104, 102
+  orig: 109, 118
+  offset: 1, 14
+  index: -1
+40000_Born_Smoke_0017
+  rotate: false
+  xy: 315, 413
+  size: 101, 98
+  orig: 109, 118
+  offset: 4, 20
+  index: -1

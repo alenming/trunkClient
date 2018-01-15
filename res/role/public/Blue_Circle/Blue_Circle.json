@@ -1,0 +1,33 @@
+{
+"skeleton": { "hash": "ACMtt00uTFzORc96L51dJyFY7ts", "spine": "2.1.27", "width": 384, "height": 384, "images": "./images/" },
+"bones": [
+	{ "name": "40400_Buff1" },
+	{ "name": "40400_Eff_Buff1", "parent": "40400_Buff1", "length": 101.05, "rotation": 90 },
+	{ "name": "40400_Eff_Buff1_01", "parent": "40400_Eff_Buff1", "length": 127.77, "scaleX": 3, "scaleY": 3 }
+],
+"slots": [
+	{ "name": "40400_Eff_FaZhen", "bone": "40400_Eff_Buff1_01", "attachment": "40400_Eff_FaZhen", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"40400_Eff_FaZhen": {
+			"40400_Eff_FaZhen": { "x": 2.25, "y": 0.45, "rotation": -90, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"Blue_Circle": {
+		"bones": {
+			"40400_Eff_Buff1_01": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 270 },
+					{ "time": 0.5, "angle": -180 },
+					{ "time": 0.8, "angle": 90 },
+					{ "time": 1.1, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

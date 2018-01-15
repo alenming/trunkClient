@@ -1,0 +1,135 @@
+{
+"skeleton": { "hash": "fVDV2bVpn7JiSNhpd29Pr3QFONA", "spine": "2.1.27", "width": 333.19, "height": 128.98, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "30900_Skill4_floor", "parent": "root", "x": -3.13, "y": 3.73, "color": "ff1500ff" },
+	{ "name": "30900_Skill4_floor01", "parent": "root", "x": -0.38, "y": 2.28, "color": "00019bff" },
+	{ "name": "30900_Skill4_floor2", "parent": "root", "x": -3.13, "y": 3.73, "color": "ff1500ff" },
+	{ "name": "30900_Skill5_circle", "parent": "root", "x": -0.16, "y": 13.38, "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "30900_Skill5_circle", "bone": "30900_Skill5_circle", "attachment": "30900_Skill5_circle", "blend": "additive" },
+	{ "name": "30900_Skill4_floor_0001", "bone": "30900_Skill4_floor01" },
+	{ "name": "30900_Skill4_floor", "bone": "30900_Skill4_floor", "attachment": "30900_Skill4_floor" },
+	{ "name": "30900_Skill4_floor2", "bone": "30900_Skill4_floor2", "attachment": "30900_Skill4_floor" }
+],
+"skins": {
+	"default": {
+		"30900_Skill4_floor": {
+			"30900_Skill4_floor": { "x": 6.24, "y": -0.44, "width": 227, "height": 85 }
+		},
+		"30900_Skill4_floor2": {
+			"30900_Skill4_floor": { "x": 6.24, "y": -0.44, "width": 227, "height": 85 }
+		},
+		"30900_Skill4_floor_0001": {
+			"30900_Skill4_floor_0001": { "x": -2.67, "y": 6.65, "width": 235, "height": 122 },
+			"30900_Skill4_floor_0002": { "x": -2.67, "y": 6.65, "width": 235, "height": 122 },
+			"30900_Skill4_floor_0003": { "x": -2.67, "y": 6.65, "width": 235, "height": 122 },
+			"30900_Skill4_floor_0004": { "x": -2.67, "y": 6.65, "width": 235, "height": 122 },
+			"30900_Skill4_floor_0005": { "x": -2.67, "y": 6.65, "width": 235, "height": 122 },
+			"30900_Skill4_floor_0006": { "x": -2.67, "y": 6.65, "width": 235, "height": 122 }
+		},
+		"30900_Skill5_circle": {
+			"30900_Skill5_circle": { "x": 0.16, "y": -17.57, "scaleX": 2.18, "scaleY": 2.336, "width": 191, "height": 69 }
+		}
+	}
+},
+"animations": {
+	"30900_Skill5_d": {
+		"slots": {
+			"30900_Skill4_floor": {
+				"color": [
+					{ "time": 0, "color": "ffffff21" },
+					{ "time": 0.5, "color": "ffffffa2", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffa2" },
+					{ "time": 1.5666, "color": "ffffff00" }
+				]
+			},
+			"30900_Skill4_floor2": {
+				"color": [
+					{ "time": 0, "color": "ffffff19" },
+					{ "time": 0.5, "color": "ffffffa2", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffa2" },
+					{ "time": 1.5666, "color": "ffffff00" }
+				]
+			},
+			"30900_Skill4_floor_0001": {
+				"attachment": [
+					{ "time": 0, "name": "30900_Skill4_floor_0001" },
+					{ "time": 0.1, "name": "30900_Skill4_floor_0002" },
+					{ "time": 0.2, "name": "30900_Skill4_floor_0003" },
+					{ "time": 0.3, "name": "30900_Skill4_floor_0004" },
+					{ "time": 0.4, "name": "30900_Skill4_floor_0005" },
+					{ "time": 0.5, "name": "30900_Skill4_floor_0006" },
+					{ "time": 1.1666, "name": "30900_Skill4_floor_0006" },
+					{ "time": 1.2333, "name": "30900_Skill4_floor_0005" },
+					{ "time": 1.3, "name": "30900_Skill4_floor_0004" },
+					{ "time": 1.3666, "name": "30900_Skill4_floor_0003" },
+					{ "time": 1.4333, "name": "30900_Skill4_floor_0002" },
+					{ "time": 1.5, "name": "30900_Skill4_floor_0001" },
+					{ "time": 1.5666, "name": null }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffb7" }
+				]
+			},
+			"30900_Skill5_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.6333, "color": "ffffffff" },
+					{ "time": 1.2666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"30900_Skill5_circle": {
+				"translate": [
+					{ "time": 0, "x": 2.98, "y": -5.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.812, "y": 0.812 },
+					{ "time": 1.2666, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"30900_Skill4_floor": {
+				"translate": [
+					{ "time": 0, "x": -41.71, "y": -0.18 },
+					{ "time": 0.5, "x": -54.96, "y": -2.14, "curve": "stepped" },
+					{ "time": 1.2333, "x": -54.96, "y": -2.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.723, "y": 0.723 },
+					{ "time": 0.5, "x": 1.083, "y": 1.053, "curve": "stepped" },
+					{ "time": 1.2333, "x": 1.083, "y": 1.053 }
+				]
+			},
+			"30900_Skill4_floor2": {
+				"translate": [
+					{ "time": 0, "x": 42.55, "y": 0 },
+					{ "time": 0.5, "x": 56.2, "y": -0.58, "curve": "stepped" },
+					{ "time": 1.2333, "x": 56.2, "y": -0.58 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.77, "y": 0.77 },
+					{ "time": 0.5, "x": 1.131, "y": 1.126, "curve": "stepped" },
+					{ "time": 1.2333, "x": 1.131, "y": 1.126 }
+				]
+			},
+			"30900_Skill4_floor01": {
+				"translate": [
+					{ "time": 0, "x": 2.34, "y": -4.17 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.268, "y": 0.826 },
+					{ "time": 0.5, "x": 1.718, "y": 1.087 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0.4333 },
+			{ "time": 0.8666 },
+			{ "time": 1.1666 }
+		]
+	}
+}
+}

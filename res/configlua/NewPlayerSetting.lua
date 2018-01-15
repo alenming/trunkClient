@@ -1,0 +1,4 @@
+local Cfg_NewPlayerSetting = {
+    [1] = { NewbieID = 1, HeadId = 1, UserLv = 1, UserExp = 0, Gold = 0, Diamond = 0, InitialBagCapacity = 100, MaxBagCapacity = 300, MaxHeroCapacity = 300, Summoners = {[1]=1500,}, Items = {}, Equips = {}, Heros = {[1]={[1]=10000,[2]=1,},[2]={[1]=10200,[2]=1,},[3]={[1]=10300,[2]=1,},}, SummonerInGroup = 1500, Task = {[1]=1,[2]=1001,[3]=1002,[4]=1003,[5]=1004,[6]=1005,[7]=1006,[8]=1007,[9]=1008,[10]=1009,[11]=2101,}, Achievement = {[1]=1,[2]=4,[3]=7,[4]=10,[5]=13,[6]=17,[7]=20,[8]=23,[9]=26,[10]=29,[11]=32,[12]=35,[13]=38,[14]=1001,}, OpenChapter = {[1]=1,[2]=101,}, OpenGuide = {[1]=1,[2]=2,[3]=3,}, HeadID = {[1]=6,[2]=8,[3]=9,[4]=10,[5]=11,[6]=12,}, UserName = "Leo", ChestID = {[1]=1,[2]=2,[3]=3,[4]=4,[5]=5,}, RobotID = {[1]=100,[2]=101,[3]=102,[4]=103,}, },
+}
+return Cfg_NewPlayerSetting

@@ -1,0 +1,11 @@
+local Cfg_Story_1 = {
+    [1] = { Story_ID = 1, TouchScreen_Skip = 0, Bg_Res = "ui_new/s_story/Act_1/Scene_1.csb", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 70000, TipPanel = "0", TipContent = 0, Hide_Ui = 0, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 2000, },
+    [2] = { Story_ID = 2, TouchScreen_Skip = 0, Bg_Res = "-1", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 70001, TipPanel = "0", TipContent = 0, Hide_Ui = 0, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [3] = { Story_ID = 3, TouchScreen_Skip = 0, Bg_Res = "-1", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 70002, TipPanel = "0", TipContent = 0, Hide_Ui = 0, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [4] = { Story_ID = 4, TouchScreen_Skip = 0, Bg_Res = "-1", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 0, TipPanel = "TalkBar_1.csb", TipContent = 70004, Hide_Ui = 0, Screen_Effect = 2, EffectTime = 3000, Effect_Para = 0, Lasting_Time = 3000, },
+    [5] = { Story_ID = 5, TouchScreen_Skip = 0, Bg_Res = "-1", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 0, TipPanel = "-1", TipContent = 70005, Hide_Ui = 0, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 3000, },
+    [6] = { Story_ID = 6, TouchScreen_Skip = 0, Bg_Res = "-1", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 0, TipPanel = "1", TipContent = 0, Hide_Ui = 0, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 10, },
+    [7] = { Story_ID = 7, TouchScreen_Skip = 0, Bg_Res = "-1", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 70003, TipPanel = "0", TipContent = 0, Hide_Ui = 0, Screen_Effect = 1, EffectTime = 2000, Effect_Para = 3, Lasting_Time = 4000, },
+    [8] = { Story_ID = 8, TouchScreen_Skip = 0, Bg_Res = "1", Tag = "0", RoleHead = "0", Pos = 0, Dialogue_ID = 0, TipPanel = "0", TipContent = 0, Hide_Ui = 0, Screen_Effect = 0, EffectTime = 0, Effect_Para = 0, Lasting_Time = 1, },
+}
+return Cfg_Story_1

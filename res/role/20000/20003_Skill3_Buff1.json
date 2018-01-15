@@ -1,0 +1,38 @@
+{
+"skeleton": { "hash": "ckHq/pYPNXxmneT33eRA/xuJ0Ro", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "20003_Skill3_Buff1" }
+],
+"slots": [
+	{ "name": "20004_skill3gantan_01", "bone": "20003_Skill3_Buff1" }
+],
+"skins": {
+	"default": {
+		"20004_skill3gantan_01": {
+			"20004_skill3gantan_01": { "x": 10, "y": -5.99, "width": 115, "height": 103 }
+		}
+	}
+},
+"animations": {
+	"20003_Skill3_Buff1": {
+		"slots": {
+			"20004_skill3gantan_01": {
+				"attachment": [
+					{ "time": 0, "name": "20004_skill3gantan_01" }
+				]
+			}
+		},
+		"bones": {
+			"20003_Skill3_Buff1": {
+				"translate": [
+					{ "time": 0, "x": -13.99, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1, "x": 0.8, "y": 0.8 },
+					{ "time": 0.2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

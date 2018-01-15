@@ -1,0 +1,160 @@
+
+101200_Skill2_Bullet1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+101200_bigleg_01
+  rotate: false
+  xy: 338, 67
+  size: 247, 135
+  orig: 247, 135
+  offset: 0, 0
+  index: -1
+101200_bigleg_02
+  rotate: true
+  xy: 586, 38
+  size: 167, 94
+  orig: 167, 94
+  offset: 0, 0
+  index: -1
+101200_bigleg_03
+  rotate: true
+  xy: 1, 28
+  size: 103, 236
+  orig: 138, 236
+  offset: 2, 0
+  index: -1
+101200_bigleg_04
+  rotate: true
+  xy: 785, 73
+  size: 163, 92
+  orig: 163, 92
+  offset: 0, 0
+  index: -1
+101200_bigleg_05
+  rotate: false
+  xy: 681, 9
+  size: 103, 227
+  orig: 103, 227
+  offset: 0, 0
+  index: -1
+101200_bigleg_shadow
+  rotate: true
+  xy: 785, 1
+  size: 71, 35
+  orig: 73, 38
+  offset: 1, 1
+  index: -1
+101200_jineng2baozha_01
+  rotate: true
+  xy: 878, 122
+  size: 129, 121
+  orig: 327, 195
+  offset: 83, 74
+  index: -1
+101200_jineng2baozha_02
+  rotate: true
+  xy: 830, 252
+  size: 265, 142
+  orig: 327, 195
+  offset: 9, 44
+  index: -1
+101200_jineng2baozha_03
+  rotate: true
+  xy: 680, 237
+  size: 280, 149
+  orig: 327, 195
+  offset: 9, 33
+  index: -1
+101200_jineng2baozha_04
+  rotate: false
+  xy: 649, 518
+  size: 299, 168
+  orig: 327, 195
+  offset: 9, 17
+  index: -1
+101200_jineng2baozha_05
+  rotate: true
+  xy: 338, 203
+  size: 313, 183
+  orig: 327, 195
+  offset: 6, 8
+  index: -1
+101200_jineng2baozha_06
+  rotate: false
+  xy: 1, 460
+  size: 319, 187
+  orig: 327, 195
+  offset: 3, 2
+  index: -1
+101200_jineng2baozha_07
+  rotate: false
+  xy: 1, 833
+  size: 327, 190
+  orig: 327, 195
+  offset: 0, 0
+  index: -1
+101200_jineng2baozha_08
+  rotate: false
+  xy: 1, 648
+  size: 326, 184
+  orig: 327, 195
+  offset: 0, 0
+  index: -1
+101200_jineng2baozha_09
+  rotate: false
+  xy: 329, 840
+  size: 325, 183
+  orig: 327, 195
+  offset: 0, 1
+  index: -1
+101200_jineng2baozha_10
+  rotate: false
+  xy: 655, 851
+  size: 326, 172
+  orig: 327, 195
+  offset: 0, 11
+  index: -1
+101200_jineng2baozha_11
+  rotate: true
+  xy: 1, 132
+  size: 327, 170
+  orig: 327, 195
+  offset: 0, 12
+  index: -1
+101200_jineng2baozha_12
+  rotate: true
+  xy: 172, 134
+  size: 325, 165
+  orig: 327, 195
+  offset: 2, 16
+  index: -1
+101200_jineng2baozha_13
+  rotate: false
+  xy: 655, 687
+  size: 322, 163
+  orig: 327, 195
+  offset: 4, 17
+  index: -1
+101200_jineng2baozha_14
+  rotate: false
+  xy: 329, 677
+  size: 319, 162
+  orig: 327, 195
+  offset: 5, 17
+  index: -1
+101200_jineng2baozha_15
+  rotate: false
+  xy: 328, 517
+  size: 315, 159
+  orig: 327, 195
+  offset: 6, 18
+  index: -1
+101200_jineng2baozha_16
+  rotate: true
+  xy: 522, 206
+  size: 310, 157
+  orig: 327, 195
+  offset: 9, 19
+  index: -1

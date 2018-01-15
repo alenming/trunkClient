@@ -1,0 +1,78 @@
+{
+"skeleton": { "hash": "QDQoHcE3V3Mvtws8y/1koJ720ZE", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "50004" },
+	{ "name": "50004_xuanfeng", "parent": "50004" }
+],
+"slots": [
+	{ "name": "50000_Skill2_xuanfeng_01", "bone": "50004_xuanfeng" }
+],
+"skins": {
+	"default": {
+		"50000_Skill2_xuanfeng_01": {
+			"50000_Skill2_xuanfeng_01": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_02": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_03": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_04": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_05": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_06": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_07": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_08": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_09": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_10": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_11": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_12": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_13": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_14": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_15": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_16": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_17": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_18": { "width": 213, "height": 98 },
+			"50000_Skill2_xuanfeng_19": { "width": 213, "height": 98 }
+		}
+	}
+},
+"animations": {
+	"50004_Skill2_Hit1": {
+		"slots": {
+			"50000_Skill2_xuanfeng_01": {
+				"attachment": [
+					{ "time": 2.6333, "name": "50000_Skill2_xuanfeng_01" },
+					{ "time": 2.6666, "name": "50000_Skill2_xuanfeng_02" },
+					{ "time": 2.7, "name": "50000_Skill2_xuanfeng_03" },
+					{ "time": 2.7333, "name": "50000_Skill2_xuanfeng_04" },
+					{ "time": 2.7666, "name": "50000_Skill2_xuanfeng_05" },
+					{ "time": 2.8, "name": "50000_Skill2_xuanfeng_06" },
+					{ "time": 2.8333, "name": "50000_Skill2_xuanfeng_07" },
+					{ "time": 2.8666, "name": "50000_Skill2_xuanfeng_08" },
+					{ "time": 2.9, "name": "50000_Skill2_xuanfeng_09" },
+					{ "time": 2.9333, "name": "50000_Skill2_xuanfeng_10" },
+					{ "time": 2.9666, "name": "50000_Skill2_xuanfeng_11" },
+					{ "time": 3, "name": "50000_Skill2_xuanfeng_12" },
+					{ "time": 3.0333, "name": "50000_Skill2_xuanfeng_13" },
+					{ "time": 3.0666, "name": "50000_Skill2_xuanfeng_14" },
+					{ "time": 3.1, "name": "50000_Skill2_xuanfeng_15" },
+					{ "time": 3.1333, "name": "50000_Skill2_xuanfeng_16" },
+					{ "time": 3.1666, "name": "50000_Skill2_xuanfeng_17" },
+					{ "time": 3.2, "name": "50000_Skill2_xuanfeng_18" },
+					{ "time": 3.2333, "name": "50000_Skill2_xuanfeng_19" },
+					{ "time": 3.2666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"50004_xuanfeng": {
+				"translate": [
+					{ "time": 2.6333, "x": 553.27, "y": 113.51 }
+				],
+				"scale": [
+					{ "time": 2.6333, "x": 4, "y": 4 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 2.6333 }
+		]
+	}
+}
+}

@@ -1,0 +1,66 @@
+{
+"skeleton": { "hash": "KfaXsS8PElPSnxuOA/YRAvpPSXc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "10900_Talent3_Buff1", "parent": "root", "y": -130.45 }
+],
+"slots": [
+	{ "name": "10900_Talent3_Buff1_01", "bone": "10900_Talent3_Buff1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10900_Talent3_Buff1_01": {
+			"10900_Talent3_Buff1_02": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_03": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_04": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_05": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_06": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_07": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_08": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_09": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_10": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_11": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_12": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_13": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_14": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_15": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_16": { "y": 74.12, "width": 62, "height": 104 },
+			"10900_Talent3_Buff1_17": { "y": 74.12, "width": 62, "height": 104 }
+		}
+	}
+},
+"animations": {
+	"10900_Talent3_Buff1": {
+		"slots": {
+			"10900_Talent3_Buff1_01": {
+				"attachment": [
+					{ "time": 0, "name": "10900_Talent3_Buff1_02" },
+					{ "time": 0.1, "name": "10900_Talent3_Buff1_03" },
+					{ "time": 0.2, "name": "10900_Talent3_Buff1_04" },
+					{ "time": 0.3, "name": "10900_Talent3_Buff1_05" },
+					{ "time": 0.4, "name": "10900_Talent3_Buff1_06" },
+					{ "time": 0.5, "name": "10900_Talent3_Buff1_07" },
+					{ "time": 0.6, "name": "10900_Talent3_Buff1_08" },
+					{ "time": 0.7, "name": "10900_Talent3_Buff1_09" },
+					{ "time": 0.8, "name": "10900_Talent3_Buff1_10" },
+					{ "time": 0.9, "name": "10900_Talent3_Buff1_11" },
+					{ "time": 1, "name": "10900_Talent3_Buff1_12" },
+					{ "time": 1.1, "name": "10900_Talent3_Buff1_13" },
+					{ "time": 1.2, "name": "10900_Talent3_Buff1_14" },
+					{ "time": 1.3, "name": "10900_Talent3_Buff1_15" },
+					{ "time": 1.4, "name": "10900_Talent3_Buff1_16" },
+					{ "time": 1.5, "name": "10900_Talent3_Buff1_17" },
+					{ "time": 1.6, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"10900_Talent3_Buff1": {
+				"scale": [
+					{ "time": 0, "x": 3.2, "y": 3.2 }
+				]
+			}
+		}
+	}
+}
+}

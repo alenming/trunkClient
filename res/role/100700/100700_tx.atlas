@@ -1,0 +1,384 @@
+
+100700_tx.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100700B_Watermasses_001
+  rotate: false
+  xy: 1965, 205
+  size: 63, 64
+  orig: 80, 80
+  offset: 8, 5
+  index: -1
+100700B_Watermasses_003
+  rotate: false
+  xy: 528, 2
+  size: 66, 60
+  orig: 80, 80
+  offset: 7, 8
+  index: -1
+100700B_Watermasses_005
+  rotate: false
+  xy: 1312, 388
+  size: 69, 70
+  orig: 80, 80
+  offset: 6, 5
+  index: -1
+100700B_Watermasses_007
+  rotate: false
+  xy: 1964, 340
+  size: 70, 67
+  orig: 80, 80
+  offset: 4, 6
+  index: -1
+100700B_Watermasses_009
+  rotate: false
+  xy: 1814, 342
+  size: 73, 65
+  orig: 80, 80
+  offset: 3, 6
+  index: -1
+100700B_Watermasses_011
+  rotate: false
+  xy: 1685, 232
+  size: 71, 69
+  orig: 80, 80
+  offset: 8, 3
+  index: -1
+100700B_Watermasses_013
+  rotate: true
+  xy: 1829, 205
+  size: 64, 66
+  orig: 80, 80
+  offset: 7, 5
+  index: -1
+100700B_springwater
+  rotate: false
+  xy: 2, 129
+  size: 257, 150
+  orig: 257, 150
+  offset: 0, 0
+  index: -1
+100700R_Watermasses_001
+  rotate: true
+  xy: 818, 395
+  size: 63, 64
+  orig: 80, 80
+  offset: 8, 5
+  index: -1
+100700R_Watermasses_003
+  rotate: true
+  xy: 1902, 274
+  size: 66, 60
+  orig: 80, 80
+  offset: 7, 8
+  index: -1
+100700R_Watermasses_005
+  rotate: false
+  xy: 1758, 231
+  size: 69, 70
+  orig: 80, 80
+  offset: 6, 5
+  index: -1
+100700R_Watermasses_007
+  rotate: false
+  xy: 1964, 271
+  size: 70, 67
+  orig: 80, 80
+  offset: 4, 6
+  index: -1
+100700R_Watermasses_009
+  rotate: false
+  xy: 1889, 342
+  size: 73, 65
+  orig: 80, 80
+  offset: 3, 6
+  index: -1
+100700R_Watermasses_011
+  rotate: false
+  xy: 1829, 271
+  size: 71, 69
+  orig: 80, 80
+  offset: 8, 3
+  index: -1
+100700R_Watermasses_013
+  rotate: true
+  xy: 1897, 205
+  size: 64, 66
+  orig: 80, 80
+  offset: 7, 5
+  index: -1
+100700R_springwater
+  rotate: false
+  xy: 367, 381
+  size: 252, 129
+  orig: 257, 150
+  offset: 5, 13
+  index: -1
+100700_BtoR_01
+  rotate: true
+  xy: 1383, 327
+  size: 88, 116
+  orig: 105, 116
+  offset: 13, 0
+  index: -1
+100700_BtoR_02
+  rotate: true
+  xy: 261, 157
+  size: 122, 113
+  orig: 124, 116
+  offset: 2, 0
+  index: -1
+100700_BtoR_03
+  rotate: false
+  xy: 376, 216
+  size: 122, 108
+  orig: 124, 116
+  offset: 0, 2
+  index: -1
+100700_BtoR_04
+  rotate: false
+  xy: 261, 57
+  size: 113, 98
+  orig: 124, 116
+  offset: 0, 10
+  index: -1
+100700_BtoR_05
+  rotate: true
+  xy: 1501, 314
+  size: 101, 83
+  orig: 111, 116
+  offset: 7, 9
+  index: -1
+100700_spring01
+  rotate: false
+  xy: 621, 251
+  size: 116, 102
+  orig: 116, 102
+  offset: 0, 0
+  index: -1
+100700_spring02
+  rotate: false
+  xy: 2, 281
+  size: 363, 229
+  orig: 363, 229
+  offset: 0, 0
+  index: -1
+100700_watersplash2_0002
+  rotate: false
+  xy: 1685, 303
+  size: 81, 39
+  orig: 115, 72
+  offset: 19, 18
+  index: -1
+100700_watersplash2_0003
+  rotate: false
+  xy: 1586, 298
+  size: 97, 46
+  orig: 115, 72
+  offset: 7, 13
+  index: -1
+100700_watersplash2_0004
+  rotate: true
+  xy: 567, 276
+  size: 103, 52
+  orig: 115, 72
+  offset: 6, 11
+  index: -1
+100700_watersplash2_0005
+  rotate: true
+  xy: 500, 216
+  size: 108, 59
+  orig: 115, 72
+  offset: 4, 6
+  index: -1
+100700_watersplash2_0006
+  rotate: true
+  xy: 739, 242
+  size: 111, 63
+  orig: 115, 72
+  offset: 3, 6
+  index: -1
+100700_watersplash2_0007
+  rotate: false
+  xy: 1586, 346
+  size: 114, 70
+  orig: 115, 72
+  offset: 1, 1
+  index: -1
+100700_watersplash2_0008
+  rotate: false
+  xy: 1702, 344
+  size: 110, 72
+  orig: 115, 72
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0001
+  rotate: false
+  xy: 376, 160
+  size: 150, 54
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0002
+  rotate: false
+  xy: 1854, 409
+  size: 150, 54
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0003
+  rotate: false
+  xy: 376, 104
+  size: 150, 54
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0004
+  rotate: false
+  xy: 194, 2
+  size: 150, 53
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0005
+  rotate: false
+  xy: 376, 48
+  size: 150, 54
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0006
+  rotate: false
+  xy: 1161, 404
+  size: 149, 54
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0007
+  rotate: true
+  xy: 528, 64
+  size: 150, 54
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave1_0008
+  rotate: false
+  xy: 1009, 405
+  size: 150, 54
+  orig: 150, 55
+  offset: 0, 0
+  index: -1
+100700_waterwave2_0001
+  rotate: false
+  xy: 1541, 465
+  size: 155, 45
+  orig: 157, 49
+  offset: 2, 0
+  index: -1
+100700_waterwave2_0002
+  rotate: false
+  xy: 1698, 465
+  size: 155, 45
+  orig: 157, 49
+  offset: 2, 0
+  index: -1
+100700_waterwave2_0003
+  rotate: false
+  xy: 1855, 465
+  size: 155, 45
+  orig: 157, 49
+  offset: 2, 0
+  index: -1
+100700_waterwave2_0004
+  rotate: false
+  xy: 1383, 465
+  size: 156, 45
+  orig: 157, 49
+  offset: 1, 0
+  index: -1
+100700_waterwave2_0005
+  rotate: false
+  xy: 621, 355
+  size: 155, 45
+  orig: 157, 49
+  offset: 2, 0
+  index: -1
+100700_waterwave2_0006
+  rotate: false
+  xy: 1383, 417
+  size: 155, 46
+  orig: 157, 49
+  offset: 2, 0
+  index: -1
+100700_waterwave2_0007
+  rotate: false
+  xy: 1540, 418
+  size: 155, 45
+  orig: 157, 49
+  offset: 2, 0
+  index: -1
+100700_waterwave2_0008
+  rotate: false
+  xy: 1697, 418
+  size: 155, 45
+  orig: 157, 49
+  offset: 2, 0
+  index: -1
+20008_waterwave_00
+  rotate: false
+  xy: 1009, 461
+  size: 187, 49
+  orig: 213, 74
+  offset: 13, 14
+  index: -1
+20008_waterwave_01
+  rotate: false
+  xy: 818, 460
+  size: 189, 50
+  orig: 213, 74
+  offset: 12, 13
+  index: -1
+20008_waterwave_02
+  rotate: false
+  xy: 621, 459
+  size: 195, 51
+  orig: 213, 74
+  offset: 8, 12
+  index: -1
+20008_waterwave_03
+  rotate: false
+  xy: 367, 326
+  size: 198, 53
+  orig: 213, 74
+  offset: 7, 11
+  index: -1
+20008_waterwave_04
+  rotate: false
+  xy: 2, 73
+  size: 200, 54
+  orig: 213, 74
+  offset: 6, 10
+  index: -1
+20008_waterwave_05
+  rotate: false
+  xy: 621, 402
+  size: 186, 55
+  orig: 213, 74
+  offset: 20, 10
+  index: -1
+20008_waterwave_06
+  rotate: false
+  xy: 2, 16
+  size: 190, 55
+  orig: 213, 74
+  offset: 17, 10
+  index: -1
+20008_waterwave_07
+  rotate: false
+  xy: 1198, 460
+  size: 183, 50
+  orig: 213, 74
+  offset: 15, 15
+  index: -1

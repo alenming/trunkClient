@@ -1,0 +1,76 @@
+
+Draw.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Draw_001
+  rotate: false
+  xy: 1, 250
+  size: 250, 256
+  orig: 256, 256
+  offset: 6, 0
+  index: -1
+Draw_002
+  rotate: false
+  xy: 1, 1
+  size: 227, 248
+  orig: 256, 256
+  offset: 16, 8
+  index: -1
+Draw_003
+  rotate: false
+  xy: 252, 273
+  size: 206, 233
+  orig: 256, 256
+  offset: 25, 18
+  index: -1
+Draw_004
+  rotate: false
+  xy: 459, 289
+  size: 192, 217
+  orig: 256, 256
+  offset: 31, 25
+  index: -1
+Draw_005
+  rotate: false
+  xy: 652, 301
+  size: 179, 205
+  orig: 256, 256
+  offset: 38, 32
+  index: -1
+Draw_006
+  rotate: false
+  xy: 832, 311
+  size: 167, 195
+  orig: 256, 256
+  offset: 43, 38
+  index: -1
+Draw_007
+  rotate: false
+  xy: 229, 68
+  size: 154, 181
+  orig: 256, 256
+  offset: 46, 45
+  index: -1
+Draw_008
+  rotate: false
+  xy: 384, 105
+  size: 139, 167
+  orig: 256, 256
+  offset: 50, 51
+  index: -1
+Draw_009
+  rotate: false
+  xy: 524, 148
+  size: 115, 140
+  orig: 256, 256
+  offset: 59, 65
+  index: -1
+Draw_010
+  rotate: true
+  xy: 524, 62
+  size: 85, 99
+  orig: 256, 256
+  offset: 73, 79
+  index: -1

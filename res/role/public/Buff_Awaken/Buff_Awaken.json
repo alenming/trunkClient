@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "iHtglsfdh67k2ZS7zEu5mjDQKVI", "spine": "2.1.27", "width": 273.6, "height": 232.8, "images": "" },
+"bones": [
+	{ "name": "10500_Skill1_Buff1", "scaleX": 2.4, "scaleY": 2.4 },
+	{ "name": "10500_skill3_1_01", "parent": "10500_Skill1_Buff1" }
+],
+"slots": [
+	{ "name": "10500_skill3_1_01", "bone": "10500_skill3_1_01", "attachment": "10500_skill1_1_03", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10500_skill3_1_01": {
+			"10500_skill1_1_01": { "y": 60, "width": 114, "height": 97 },
+			"10500_skill1_1_02": { "y": 60, "width": 114, "height": 97 },
+			"10500_skill1_1_03": { "y": 60, "width": 114, "height": 97 },
+			"10500_skill1_1_04": { "y": 60, "width": 114, "height": 97 },
+			"10500_skill1_1_05": { "y": 60, "width": 114, "height": 97 },
+			"10500_skill1_1_06": { "y": 60, "width": 114, "height": 97 },
+			"10500_skill1_1_07": { "y": 60, "width": 114, "height": 97 },
+			"10500_skill1_1_08": { "y": 60, "width": 114, "height": 97 }
+		}
+	}
+},
+"animations": {
+	"Buff_Awaken": {
+		"slots": {
+			"10500_skill3_1_01": {
+				"attachment": [
+					{ "time": 0, "name": "10500_skill1_1_01" },
+					{ "time": 0.0666, "name": "10500_skill1_1_02" },
+					{ "time": 0.1333, "name": "10500_skill1_1_03" },
+					{ "time": 0.2, "name": "10500_skill1_1_04" },
+					{ "time": 0.2666, "name": "10500_skill1_1_05" },
+					{ "time": 0.3333, "name": "10500_skill1_1_06" },
+					{ "time": 0.4, "name": "10500_skill1_1_07" },
+					{ "time": 0.4666, "name": "10500_skill1_1_08" }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,56 @@
+{
+"skeleton": { "hash": "WyUx2dk4jM/qUpG8qGBhsKFDcx4", "spine": "2.1.27", "width": 290, "height": 191, "images": "./images/" },
+"bones": [
+	{ "name": "30404_Attack1_Hit" },
+	{ "name": "Attack1_Hit", "parent": "30404_Attack1_Hit", "x": 0.06, "y": 118.15, "scaleX": 1.1, "scaleY": 1.1 }
+],
+"slots": [
+	{ "name": "30404_Attack1_Hit", "bone": "Attack1_Hit", "attachment": "30400_Attack1_Hit_0001", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30404_Attack1_Hit": {
+			"30400_Attack1_Hit_0001": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 },
+			"30400_Attack1_Hit_0002": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 },
+			"30400_Attack1_Hit_0003": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 },
+			"30400_Attack1_Hit_0004": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 },
+			"30400_Attack1_Hit_0005": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 },
+			"30400_Attack1_Hit_0006": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 },
+			"30400_Attack1_Hit_0007": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 },
+			"30400_Attack1_Hit_0008": { "x": 36.3, "y": 1.68, "scaleX": 0.909, "scaleY": 0.909, "width": 290, "height": 191 }
+		}
+	}
+},
+"animations": {
+	"30404_Attack1_Hit": {
+		"slots": {
+			"30404_Attack1_Hit": {
+				"attachment": [
+					{ "time": 0, "name": "30400_Attack1_Hit_0001" },
+					{ "time": 0.0666, "name": "30400_Attack1_Hit_0002" },
+					{ "time": 0.1333, "name": "30400_Attack1_Hit_0003" },
+					{ "time": 0.2, "name": "30400_Attack1_Hit_0004" },
+					{ "time": 0.2666, "name": "30400_Attack1_Hit_0005" },
+					{ "time": 0.3333, "name": "30400_Attack1_Hit_0006" },
+					{ "time": 0.4, "name": "30400_Attack1_Hit_0007" },
+					{ "time": 0.4666, "name": "30400_Attack1_Hit_0008" },
+					{ "time": 0.5333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Attack1_Hit": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -16.38, "y": -103.48 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.454, "y": 1.454 }
+				]
+			}
+		}
+	}
+}
+}

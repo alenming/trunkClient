@@ -1,0 +1,41 @@
+{
+"skeleton": { "hash": "suwrkIBwqsFj/EpB2mVsNT4F99s", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "40800_Talent5_Start", "parent": "root", "y": 2 }
+],
+"slots": [
+	{ "name": "40800_Talent5_Start_01", "bone": "40800_Talent5_Start" }
+],
+"skins": {
+	"default": {
+		"40800_Talent5_Start_01": {
+			"40800_Talent5_Start_01": { "y": -7, "width": 163, "height": 88 }
+		}
+	}
+},
+"animations": {
+	"Dark_Start": {
+		"slots": {
+			"40800_Talent5_Start_01": {
+				"attachment": [
+					{ "time": 0, "name": "40800_Talent5_Start_01" },
+					{ "time": 0.4, "name": "40800_Talent5_Start_01" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"40800_Talent5_Start": {
+				"scale": [
+					{ "time": 0, "x": 0.8, "y": 0.8 },
+					{ "time": 0.4, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

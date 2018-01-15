@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "hkUqSNME4HfW92/033Ekdr6P/VU", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "30999_Help", "flipX": true },
+	{ "name": "30999_Help_JiaIcon", "parent": "30999_Help", "length": 148.31, "rotation": 90 },
+	{ "name": "30999_Help_JiaIcon2", "parent": "30999_Help_JiaIcon", "length": 148.31, "rotation": 180 }
+],
+"slots": [
+	{ "name": "30999_Eff_JiaIcon", "bone": "30999_Help_JiaIcon2" },
+	{ "name": "30999_Eff_JiaIcon_2", "bone": "30999_Help_JiaIcon2", "color": "ff000fff", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30999_Eff_JiaIcon": {
+			"30999_Eff_JiaIcon": { "scaleX": 0.4, "scaleY": 0.4, "rotation": -90, "width": 128, "height": 128 }
+		},
+		"30999_Eff_JiaIcon_2": {
+			"30999_Eff_JiaIcon_1": { "scaleX": 0.8, "scaleY": 0.8, "rotation": -90, "width": 128, "height": 128 }
+		}
+	}
+},
+"animations": {
+	"30999_Help": {
+		"slots": {
+			"30999_Eff_JiaIcon": {
+				"attachment": [
+					{ "time": 0, "name": "30999_Eff_JiaIcon" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffff80" },
+					{ "time": 0.1666, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff80" }
+				]
+			},
+			"30999_Eff_JiaIcon_2": {
+				"attachment": [
+					{ "time": 0, "name": "30999_Eff_JiaIcon_1" }
+				],
+				"color": [
+					{ "time": 0, "color": "ff000f80" },
+					{ "time": 0.1666, "color": "ff000fff" },
+					{ "time": 0.5, "color": "ff000f80" }
+				]
+			}
+		},
+		"bones": {
+			"30999_Help_JiaIcon2": {
+				"rotate": [
+					{ "time": 0.2666, "angle": -359.76 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 1.05, "y": 1.05 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "PKCAP321YPPhBEA7dhG8OPc5J0Q", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40400_Buff1_Up" },
+	{ "name": "40400_Eff_Buff1_Up", "parent": "40400_Buff1_Up", "length": 101.05, "rotation": 90 },
+	{
+		"name": "40400_Eff_Buff1_Up_04",
+		"parent": "40400_Eff_Buff1_Up",
+		"length": 73.81,
+		"x": 23.33,
+		"y": -4.1,
+		"scaleX": 2,
+		"scaleY": 2.8,
+		"rotation": 0.48
+	}
+],
+"slots": [
+	{ "name": "40400_Eff_Buff1_Up_04", "bone": "40400_Eff_Buff1_Up_04", "color": "ffffffc7", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"40400_Eff_Buff1_Up_04": {
+			"40400_Eff_FaZhenGuan_01": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_02": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_03": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_04": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_05": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_06": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_07": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_08": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_09": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_10": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_11": { "rotation": -90, "width": 128, "height": 117 },
+			"40400_Eff_FaZhenGuan_12": { "rotation": -90, "width": 128, "height": 117 }
+		}
+	}
+},
+"animations": {
+	"Circle_Light": {
+		"slots": {
+			"40400_Eff_Buff1_Up_04": {
+				"attachment": [
+					{ "time": 0, "name": "40400_Eff_FaZhenGuan_01" },
+					{ "time": 0.1, "name": "40400_Eff_FaZhenGuan_02" },
+					{ "time": 0.2, "name": "40400_Eff_FaZhenGuan_03" },
+					{ "time": 0.3, "name": "40400_Eff_FaZhenGuan_04" },
+					{ "time": 0.4, "name": "40400_Eff_FaZhenGuan_05" },
+					{ "time": 0.5, "name": "40400_Eff_FaZhenGuan_06" },
+					{ "time": 0.6, "name": "40400_Eff_FaZhenGuan_07" },
+					{ "time": 0.7, "name": "40400_Eff_FaZhenGuan_08" },
+					{ "time": 0.8, "name": "40400_Eff_FaZhenGuan_09" },
+					{ "time": 0.9, "name": "40400_Eff_FaZhenGuan_10" },
+					{ "time": 1, "name": "40400_Eff_FaZhenGuan_11" },
+					{ "time": 1.1, "name": "40400_Eff_FaZhenGuan_12" }
+				]
+			}
+		}
+	}
+}
+}

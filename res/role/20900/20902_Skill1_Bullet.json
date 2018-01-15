@@ -1,0 +1,32 @@
+{
+"skeleton": { "hash": "ifiUr604NvEgo0L32ZdgfL1IX9k", "spine": "2.1.27", "width": 94, "height": 96, "images": "" },
+"bones": [
+	{ "name": "20902_Skill1_Bullet", "rotation": 90 },
+	{ "name": "20902_Skill1_Bullet—", "parent": "20902_Skill1_Bullet" }
+],
+"slots": [
+	{ "name": "20902_bullet", "bone": "20902_Skill1_Bullet—", "attachment": "20902_bullet" }
+],
+"skins": {
+	"default": {
+		"20902_bullet": {
+			"20902_bullet": { "width": 96, "height": 94 }
+		}
+	}
+},
+"animations": {
+	"20902_Skill1_Bullet": {
+		"bones": {
+			"20902_Skill1_Bullet—": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 90 },
+					{ "time": 0.3333, "angle": 180 },
+					{ "time": 0.5, "angle": 260 },
+					{ "time": 0.6666, "angle": 360 }
+				]
+			}
+		}
+	}
+}
+}

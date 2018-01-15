@@ -1,0 +1,9 @@
+local Cfg_ArenaTask = {
+    [1] = { PVPTask_ID = 1, PVPTask_Type = 0, PVPTask_Pic = "icon_task_13.png", PVPTask_Text = 54051, Complete_Times = 5, Award_Exp = 0, Award_coin = 2000, Award_Diamond = 50, Award_Energy = 0, Award_PvPCoin = 0, Award_Flashcard = 0, Award_Items = {}, DropID = 182007, IsOpen = 1, End_StartID = {}, IsReset = 0, },
+    [11] = { PVPTask_ID = 11, PVPTask_Type = 1, PVPTask_Pic = "icon_task_13.png", PVPTask_Text = 54001, Complete_Times = 3, Award_Exp = 0, Award_coin = 6000, Award_Diamond = 0, Award_Energy = 0, Award_PvPCoin = 100, Award_Flashcard = 1, Award_Items = {}, DropID = 182001, IsOpen = 1, End_StartID = {[1]=12,}, IsReset = 0, },
+    [12] = { PVPTask_ID = 12, PVPTask_Type = 1, PVPTask_Pic = "icon_task_13.png", PVPTask_Text = 54002, Complete_Times = 3, Award_Exp = 0, Award_coin = 5000, Award_Diamond = 0, Award_Energy = 0, Award_PvPCoin = 75, Award_Flashcard = 0, Award_Items = {}, DropID = 182002, IsOpen = 0, End_StartID = {[1]=13,}, IsReset = 0, },
+    [13] = { PVPTask_ID = 13, PVPTask_Type = 1, PVPTask_Pic = "icon_task_13.png", PVPTask_Text = 54003, Complete_Times = 3, Award_Exp = 0, Award_coin = 4000, Award_Diamond = 0, Award_Energy = 0, Award_PvPCoin = 50, Award_Flashcard = 0, Award_Items = {}, DropID = 182003, IsOpen = 0, End_StartID = {[1]=14,}, IsReset = 0, },
+    [14] = { PVPTask_ID = 14, PVPTask_Type = 1, PVPTask_Pic = "icon_task_13.png", PVPTask_Text = 54004, Complete_Times = 3, Award_Exp = 0, Award_coin = 2000, Award_Diamond = 0, Award_Energy = 0, Award_PvPCoin = 25, Award_Flashcard = 0, Award_Items = {}, DropID = 182004, IsOpen = 0, End_StartID = {[1]=15,}, IsReset = 0, },
+    [15] = { PVPTask_ID = 15, PVPTask_Type = 1, PVPTask_Pic = "icon_task_13.png", PVPTask_Text = 54005, Complete_Times = 3, Award_Exp = 0, Award_coin = 1000, Award_Diamond = 0, Award_Energy = 0, Award_PvPCoin = 0, Award_Flashcard = 0, Award_Items = {}, DropID = 182005, IsOpen = 0, End_StartID = {}, IsReset = 1, },
+}
+return Cfg_ArenaTask

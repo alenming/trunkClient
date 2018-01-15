@@ -1,0 +1,170 @@
+{
+"skeleton": { "hash": "wkKs/R7iL46XOCLYlIO1kcpdzB8", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40000_Hit_Debuff" },
+	{ "name": "40000_Eff_YunXun", "parent": "40000_Hit_Debuff", "length": 94.29, "rotation": 90 },
+	{
+		"name": "40000_Eff_YunXun2",
+		"parent": "40000_Hit_Debuff",
+		"length": 94.29,
+		"y": -70,
+		"scaleX": 2.5,
+		"scaleY": 2,
+		"rotation": 90
+	}
+],
+"slots": [
+	{ "name": "40000_YouLing_01", "bone": "40000_Eff_YunXun" },
+	{ "name": "40000_YouLing_02", "bone": "40000_Eff_YunXun", "blend": "additive" },
+	{ "name": "40000_Eff_Smoke2_01", "bone": "40000_Eff_YunXun2" }
+],
+"skins": {
+	"default": {
+		"40000_Eff_Smoke2_01": {
+			"40000_Eff_Smoke2_01": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_02": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_03": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_04": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_05": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_06": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_07": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_08": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_09": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_10": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_11": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_12": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_13": { "x": 25, "rotation": -90, "width": 148, "height": 110 },
+			"40000_Eff_Smoke2_14": { "x": 25, "rotation": -90, "width": 148, "height": 110 }
+		},
+		"40000_YouLing_01": {
+			"40000_YouLing_01": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_02": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_03": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_04": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_05": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_06": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_07": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_08": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_09": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_10": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_11": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_12": { "rotation": -90, "width": 200, "height": 256 }
+		},
+		"40000_YouLing_02": {
+			"40000_YouLing_01": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_02": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_03": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_04": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_05": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_06": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_07": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_08": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_09": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_10": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_11": { "rotation": -90, "width": 200, "height": 256 },
+			"40000_YouLing_12": { "rotation": -90, "width": 200, "height": 256 }
+		}
+	}
+},
+"animations": {
+	"40000_Hit_Debuff": {
+		"slots": {
+			"40000_YouLing_01": {
+				"attachment": [
+					{ "time": 0, "name": "40000_YouLing_01" },
+					{ "time": 0.1666, "name": "40000_YouLing_02" },
+					{ "time": 0.3, "name": "40000_YouLing_03" },
+					{ "time": 0.4666, "name": "40000_YouLing_04" },
+					{ "time": 0.6, "name": "40000_YouLing_05" },
+					{ "time": 0.7666, "name": "40000_YouLing_06" },
+					{ "time": 0.9, "name": "40000_YouLing_07" },
+					{ "time": 1.0666, "name": "40000_YouLing_08" },
+					{ "time": 1.2, "name": "40000_YouLing_09" },
+					{ "time": 1.3666, "name": "40000_YouLing_10" },
+					{ "time": 1.5, "name": "40000_YouLing_11" },
+					{ "time": 1.6666, "name": "40000_YouLing_12" }
+				]
+			},
+			"40000_YouLing_02": {
+				"attachment": [
+					{ "time": 0, "name": "40000_YouLing_01" },
+					{ "time": 0.1666, "name": "40000_YouLing_02" },
+					{ "time": 0.3, "name": "40000_YouLing_03" },
+					{ "time": 0.4666, "name": "40000_YouLing_04" },
+					{ "time": 0.6, "name": "40000_YouLing_05" },
+					{ "time": 0.7666, "name": "40000_YouLing_06" },
+					{ "time": 0.9, "name": "40000_YouLing_07" },
+					{ "time": 1.0666, "name": "40000_YouLing_08" },
+					{ "time": 1.2, "name": "40000_YouLing_09" },
+					{ "time": 1.3666, "name": "40000_YouLing_10" },
+					{ "time": 1.5, "name": "40000_YouLing_11" },
+					{ "time": 1.6666, "name": "40000_YouLing_12" }
+				]
+			}
+		}
+	},
+	"40000_Hit_Debuff2": {
+		"slots": {
+			"40000_Eff_Smoke2_01": {
+				"attachment": [
+					{ "time": 0, "name": "40000_Eff_Smoke2_01" },
+					{ "time": 0.1333, "name": "40000_Eff_Smoke2_02" },
+					{ "time": 0.2666, "name": "40000_Eff_Smoke2_03" },
+					{ "time": 0.4, "name": "40000_Eff_Smoke2_04" },
+					{ "time": 0.5, "name": "40000_Eff_Smoke2_05" },
+					{ "time": 0.6333, "name": "40000_Eff_Smoke2_06" },
+					{ "time": 0.7333, "name": "40000_Eff_Smoke2_07" },
+					{ "time": 0.8666, "name": "40000_Eff_Smoke2_08" },
+					{ "time": 0.9666, "name": "40000_Eff_Smoke2_09" },
+					{ "time": 1.1, "name": "40000_Eff_Smoke2_10" },
+					{ "time": 1.2333, "name": "40000_Eff_Smoke2_11" },
+					{ "time": 1.3666, "name": "40000_Eff_Smoke2_12" },
+					{ "time": 1.4666, "name": "40000_Eff_Smoke2_13" },
+					{ "time": 1.5666, "name": "40000_Eff_Smoke2_14" },
+					{ "time": 1.6666, "name": null }
+				]
+			},
+			"40000_YouLing_01": {
+				"attachment": [
+					{ "time": 0, "name": "40000_YouLing_01" },
+					{ "time": 0.1666, "name": "40000_YouLing_02" },
+					{ "time": 0.3, "name": "40000_YouLing_03" },
+					{ "time": 0.4666, "name": "40000_YouLing_04" },
+					{ "time": 0.6, "name": "40000_YouLing_05" },
+					{ "time": 0.7666, "name": "40000_YouLing_06" },
+					{ "time": 0.9, "name": "40000_YouLing_07" },
+					{ "time": 1.0666, "name": "40000_YouLing_08" },
+					{ "time": 1.2, "name": "40000_YouLing_09" },
+					{ "time": 1.3666, "name": "40000_YouLing_10" },
+					{ "time": 1.5, "name": "40000_YouLing_11" },
+					{ "time": 1.6666, "name": "40000_YouLing_12" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"40000_YouLing_02": {
+				"attachment": [
+					{ "time": 0, "name": "40000_YouLing_01" },
+					{ "time": 0.1666, "name": "40000_YouLing_02" },
+					{ "time": 0.3, "name": "40000_YouLing_03" },
+					{ "time": 0.4666, "name": "40000_YouLing_04" },
+					{ "time": 0.6, "name": "40000_YouLing_05" },
+					{ "time": 0.7666, "name": "40000_YouLing_06" },
+					{ "time": 0.9, "name": "40000_YouLing_07" },
+					{ "time": 1.0666, "name": "40000_YouLing_08" },
+					{ "time": 1.2, "name": "40000_YouLing_09" },
+					{ "time": 1.3666, "name": "40000_YouLing_10" },
+					{ "time": 1.5, "name": "40000_YouLing_11" },
+					{ "time": 1.6666, "name": "40000_YouLing_12" }
+				],
+				"color": [
+					{ "time": 0.5, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

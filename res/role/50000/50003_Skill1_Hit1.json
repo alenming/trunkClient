@@ -1,0 +1,116 @@
+{
+"skeleton": { "hash": "//mflTi5j4wiOCtnNu+qWqjqgbg", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "50003" },
+	{ "name": "50003_huoyan", "parent": "50003", "x": -202.26, "y": -41.9 },
+	{ "name": "50003_shifa", "parent": "50003", "color": "9b0004ff" }
+],
+"slots": [
+	{ "name": "50000_Skill1_huoyan_01", "bone": "50003_huoyan", "blend": "additive" },
+	{ "name": "50000_Skill1_shifa_01", "bone": "50003_shifa", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"50000_Skill1_huoyan_01": {
+			"50000_Skill1_huoyan_01": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_02": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_03": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_05": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_07": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_09": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_11": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_13": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_15": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_17": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 },
+			"50000_Skill1_huoyan_19": { "x": 202.26, "y": 41.9, "width": 217, "height": 115 }
+		},
+		"50000_Skill1_shifa_01": {
+			"50000_Skill1_shifa_01": { "width": 125, "height": 183 },
+			"50000_Skill1_shifa_02": { "width": 125, "height": 183 },
+			"50000_Skill1_shifa_03": { "width": 125, "height": 183 },
+			"50000_Skill1_shifa_04": { "width": 125, "height": 183 },
+			"50000_Skill1_shifa_05": { "width": 125, "height": 183 },
+			"50000_Skill1_shifa_06": { "width": 125, "height": 183 }
+		}
+	}
+},
+"animations": {
+	"50003_Skill1_Hit1": {
+		"slots": {
+			"50000_Skill1_huoyan_01": {
+				"attachment": [
+					{ "time": 1.7666, "name": "50000_Skill1_huoyan_01" },
+					{ "time": 1.8, "name": "50000_Skill1_huoyan_02" },
+					{ "time": 1.8333, "name": "50000_Skill1_huoyan_03" },
+					{ "time": 1.9, "name": "50000_Skill1_huoyan_05" },
+					{ "time": 1.9666, "name": "50000_Skill1_huoyan_07" },
+					{ "time": 2.0333, "name": "50000_Skill1_huoyan_09" },
+					{ "time": 2.1, "name": "50000_Skill1_huoyan_11" },
+					{ "time": 2.1666, "name": "50000_Skill1_huoyan_13" },
+					{ "time": 2.2333, "name": "50000_Skill1_huoyan_15" },
+					{ "time": 2.3, "name": "50000_Skill1_huoyan_17" },
+					{ "time": 2.3666, "name": "50000_Skill1_huoyan_19" },
+					{ "time": 2.4, "name": "50000_Skill1_huoyan_19" },
+					{ "time": 2.4333, "name": null }
+				]
+			},
+			"50000_Skill1_shifa_01": {
+				"attachment": [
+					{ "time": 1.7666, "name": "50000_Skill1_shifa_01" },
+					{ "time": 1.8333, "name": "50000_Skill1_shifa_02" },
+					{ "time": 1.9, "name": "50000_Skill1_shifa_03" },
+					{ "time": 1.9666, "name": "50000_Skill1_shifa_04" },
+					{ "time": 2.0333, "name": "50000_Skill1_shifa_05" },
+					{ "time": 2.1, "name": "50000_Skill1_shifa_06" },
+					{ "time": 2.1666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"50003_shifa": {
+				"rotate": [
+					{ "time": 1.1333, "angle": 42.2, "curve": "stepped" },
+					{ "time": 1.2333, "angle": 42.2 },
+					{ "time": 1.5, "angle": -2.46 },
+					{ "time": 1.5333, "angle": -5.49, "curve": "stepped" },
+					{ "time": 1.6666, "angle": -5.49 },
+					{ "time": 1.7, "angle": -25.82 },
+					{ "time": 1.7333, "angle": -50.98 },
+					{ "time": 1.7666, "angle": -25.44 }
+				],
+				"translate": [
+					{ "time": 1.1333, "x": -29.3, "y": 237.93 },
+					{ "time": 1.2333, "x": -24.05, "y": 237.35 },
+					{ "time": 1.3333, "x": -14.14, "y": 242.31 },
+					{ "time": 1.5, "x": 3.64, "y": 242.02 },
+					{ "time": 1.5333, "x": 5.1, "y": 237.64 },
+					{ "time": 1.5666, "x": 7.14, "y": 233.56, "curve": "stepped" },
+					{ "time": 1.6666, "x": 7.14, "y": 233.56 },
+					{ "time": 1.7, "x": 36.94, "y": 208.96 },
+					{ "time": 1.7333, "x": 58.61, "y": 184.84 },
+					{ "time": 1.7666, "x": 107, "y": 167.33 }
+				],
+				"scale": [
+					{ "time": 1.1333, "x": 0.582, "y": 0.582, "curve": "stepped" },
+					{ "time": 1.6666, "x": 0.582, "y": 0.582 },
+					{ "time": 1.7666, "x": 0.871, "y": 0.871 }
+				]
+			},
+			"50003_huoyan": {
+				"rotate": [
+					{ "time": 1.7666, "angle": -21.34 }
+				],
+				"translate": [
+					{ "time": 1.7666, "x": 113.81, "y": 237.15 }
+				],
+				"scale": [
+					{ "time": 1.7666, "x": 1.84, "y": 1.84 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 1.4666 }
+		]
+	}
+}
+}

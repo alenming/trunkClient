@@ -1,0 +1,51 @@
+{
+"skeleton": { "hash": "3aLf8d6phKkus4c18dca7PRdVrM", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40703_Skill1_Buff" },
+	{ "name": "40700_Eff_Skill1_Buff", "parent": "40703_Skill1_Buff", "length": 76.66, "rotation": 90 },
+	{ "name": "40700_Eff_Skill1_Buff_01", "parent": "40700_Eff_Skill1_Buff", "length": 95.78, "scaleX": 3.2, "scaleY": 3.2 }
+],
+"slots": [
+	{ "name": "40700_Eff_ShpereLigth_01", "bone": "40700_Eff_Skill1_Buff_01" }
+],
+"skins": {
+	"default": {
+		"40700_Eff_ShpereLigth_01": {
+			"40700_Eff_ShpereLigth_01": { "rotation": -90, "width": 85, "height": 85 },
+			"40700_Eff_ShpereLigth_02": { "rotation": -90, "width": 85, "height": 85 },
+			"40700_Eff_ShpereLigth_03": { "rotation": -90, "width": 85, "height": 85 },
+			"40700_Eff_ShpereLigth_04": { "rotation": -90, "width": 85, "height": 85 },
+			"40700_Eff_ShpereLigth_05": { "rotation": -90, "width": 85, "height": 85 },
+			"40700_Eff_ShpereLigth_06": { "rotation": -90, "width": 85, "height": 85 },
+			"40700_Eff_ShpereLigth_07": { "rotation": -90, "width": 85, "height": 85 }
+		}
+	}
+},
+"animations": {
+	"40703_Skill1_Buff": {
+		"slots": {
+			"40700_Eff_ShpereLigth_01": {
+				"attachment": [
+					{ "time": 0, "name": "40700_Eff_ShpereLigth_01" },
+					{ "time": 0.1, "name": "40700_Eff_ShpereLigth_02" },
+					{ "time": 0.2333, "name": "40700_Eff_ShpereLigth_03" },
+					{ "time": 0.3666, "name": "40700_Eff_ShpereLigth_04" },
+					{ "time": 0.5, "name": "40700_Eff_ShpereLigth_05" },
+					{ "time": 0.6333, "name": "40700_Eff_ShpereLigth_06" },
+					{ "time": 0.7666, "name": "40700_Eff_ShpereLigth_07" },
+					{ "time": 0.9, "name": "40700_Eff_ShpereLigth_01" }
+				]
+			}
+		},
+		"bones": {
+			"40700_Eff_Skill1_Buff_01": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.5, "x": 1.05, "y": 1.05 },
+					{ "time": 0.9, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

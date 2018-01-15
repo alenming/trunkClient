@@ -1,0 +1,41 @@
+
+Blood_Hit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+40605_shouji01
+  rotate: false
+  xy: 1, 1
+  size: 136, 124
+  orig: 168, 168
+  offset: 12, 24
+  index: -1
+40605_shouji02
+  rotate: false
+  xy: 1, 126
+  size: 157, 146
+  orig: 168, 168
+  offset: 0, 14
+  index: -1
+40605_shouji03
+  rotate: false
+  xy: 168, 285
+  size: 157, 146
+  orig: 168, 168
+  offset: 0, 14
+  index: -1
+40605_shouji04
+  rotate: false
+  xy: 1, 273
+  size: 166, 158
+  orig: 168, 168
+  offset: 0, 6
+  index: -1
+40605_shouji05
+  rotate: false
+  xy: 326, 351
+  size: 128, 80
+  orig: 168, 168
+  offset: 20, 33
+  index: -1

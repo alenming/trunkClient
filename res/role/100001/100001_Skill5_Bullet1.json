@@ -1,0 +1,47 @@
+{
+"skeleton": { "hash": "iaBsbn2jVA96fbDDoBOrbPLdhbw", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "100001_Skill5_Bullet1", "parent": "root", "scaleX": 2, "scaleY": 2 }
+],
+"slots": [
+	{ "name": "100001_Skill5_Bullet1_ldxz_01", "bone": "100001_Skill5_Bullet1" }
+],
+"skins": {
+	"default": {
+		"100001_Skill5_Bullet1_ldxz_01": {
+			"100001_Skill5_Bullet1_ldxz_01": { "scaleX": 0.5, "scaleY": 0.5, "width": 218, "height": 91 },
+			"100001_Skill5_Bullet1_ldxz_02": { "scaleX": 0.5, "scaleY": 0.5, "width": 218, "height": 91 },
+			"100001_Skill5_Bullet1_ldxz_03": { "scaleX": 0.5, "scaleY": 0.5, "width": 218, "height": 91 },
+			"100001_Skill5_Bullet1_ldxz_04": { "scaleX": 0.5, "scaleY": 0.5, "width": 218, "height": 91 },
+			"100001_Skill5_Bullet1_ldxz_05": { "scaleX": 0.5, "scaleY": 0.5, "width": 218, "height": 91 },
+			"100001_Skill5_Bullet1_ldxz_06": { "scaleX": 0.5, "scaleY": 0.5, "width": 218, "height": 91 },
+			"100001_Skill5_Bullet1_ldxz_07": { "scaleX": 0.5, "scaleY": 0.5, "width": 218, "height": 91 }
+		}
+	}
+},
+"animations": {
+	"100001_Skill5_Bullet1": {
+		"slots": {
+			"100001_Skill5_Bullet1_ldxz_01": {
+				"attachment": [
+					{ "time": 0, "name": "100001_Skill5_Bullet1_ldxz_01" },
+					{ "time": 0.0333, "name": "100001_Skill5_Bullet1_ldxz_02" },
+					{ "time": 0.0666, "name": "100001_Skill5_Bullet1_ldxz_03" },
+					{ "time": 0.1, "name": "100001_Skill5_Bullet1_ldxz_04" },
+					{ "time": 0.1333, "name": "100001_Skill5_Bullet1_ldxz_05" },
+					{ "time": 0.1666, "name": "100001_Skill5_Bullet1_ldxz_06" },
+					{ "time": 0.2, "name": "100001_Skill5_Bullet1_ldxz_07" }
+				]
+			}
+		},
+		"bones": {
+			"100001_Skill5_Bullet1": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

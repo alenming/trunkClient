@@ -1,0 +1,86 @@
+{
+"skeleton": { "hash": "ylngONYl7vovRJSYykr88CV679k", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root", "x": 0.75, "scaleX": 0.7, "scaleY": 0.7 },
+	{ "name": "30300_Eff_Skill1_Charging", "parent": "root", "length": 116.57, "rotation": 90 },
+	{ "name": "30300_Eff_Skill1_Charging_LineGlow", "parent": "30300_Eff_Skill1_Charging", "length": 116.57, "scaleX": 4, "scaleY": 4 }
+],
+"slots": [
+	{ "name": "30300_Eff_GlowLine_01", "bone": "30300_Eff_Skill1_Charging_LineGlow", "color": "ffffffa7", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"30300_Eff_GlowLine_01": {
+			"30300_Eff_GlowLine_01": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_02": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_03": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_04": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_05": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_06": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_07": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_08": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_09": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_10": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_11": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_12": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_13": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_14": { "x": 25, "rotation": -90, "width": 64, "height": 64 },
+			"30300_Eff_GlowLine_15": { "x": 25, "rotation": -90, "width": 64, "height": 64 }
+		}
+	}
+},
+"animations": {
+	"30300_Skill1_Effect1": {
+		"slots": {
+			"30300_Eff_GlowLine_01": {
+				"attachment": [
+					{ "time": 0, "name": "30300_Eff_GlowLine_01" },
+					{ "time": 0.0333, "name": "30300_Eff_GlowLine_02" },
+					{ "time": 0.1, "name": "30300_Eff_GlowLine_03" },
+					{ "time": 0.1333, "name": "30300_Eff_GlowLine_04" },
+					{ "time": 0.2, "name": "30300_Eff_GlowLine_05" },
+					{ "time": 0.2333, "name": "30300_Eff_GlowLine_06" },
+					{ "time": 0.3, "name": "30300_Eff_GlowLine_07" },
+					{ "time": 0.3333, "name": "30300_Eff_GlowLine_08" },
+					{ "time": 0.3666, "name": "30300_Eff_GlowLine_09" },
+					{ "time": 0.4, "name": "30300_Eff_GlowLine_10" },
+					{ "time": 0.4333, "name": "30300_Eff_GlowLine_11" },
+					{ "time": 0.5, "name": "30300_Eff_GlowLine_12" },
+					{ "time": 0.5333, "name": "30300_Eff_GlowLine_13" },
+					{ "time": 0.6, "name": "30300_Eff_GlowLine_14" },
+					{ "time": 0.6333, "name": "30300_Eff_GlowLine_15" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"30300_Eff_Skill1_Charging_LineGlow": {
+				"rotate": [
+					{ "time": 0, "angle": 325 }
+				],
+				"translate": [
+					{ "time": 0, "x": 227.88, "y": -113.78 },
+					{ "time": 0.3333, "x": 218.18, "y": -127.64 },
+					{ "time": 0.6666, "x": 227.88, "y": -113.78 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 }
+				]
+			}
+		}
+	}
+}
+}

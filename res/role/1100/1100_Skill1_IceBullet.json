@@ -1,0 +1,36 @@
+{
+"skeleton": { "hash": "VWM0yJ+tuCd1nuyWqIH66uaTClc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "1100_Skill1_IceBullet", "x": -116.99, "y": 3 }
+],
+"slots": [
+	{ "name": "10101_zidan01", "bone": "1100_Skill1_IceBullet" }
+],
+"skins": {
+	"default": {
+		"10101_zidan01": {
+			"10101_zidan01": { "width": 242, "height": 88 },
+			"10101_zidan02": { "width": 242, "height": 88 },
+			"10101_zidan03": { "width": 242, "height": 88 },
+			"10101_zidan04": { "width": 242, "height": 88 },
+			"10101_zidan05": { "width": 242, "height": 88 }
+		}
+	}
+},
+"animations": {
+	"1100_Skill1_IceBullet": {
+		"slots": {
+			"10101_zidan01": {
+				"attachment": [
+					{ "time": 0, "name": "10101_zidan01" },
+					{ "time": 0.0666, "name": "10101_zidan02" },
+					{ "time": 0.1333, "name": "10101_zidan03" },
+					{ "time": 0.2, "name": "10101_zidan04" },
+					{ "time": 0.2666, "name": "10101_zidan05" },
+					{ "time": 0.3333, "name": "10101_zidan05" }
+				]
+			}
+		}
+	}
+}
+}

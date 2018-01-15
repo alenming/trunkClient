@@ -1,0 +1,69 @@
+
+Attack_Effect.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100100_zhua201
+  rotate: true
+  xy: 1, 131
+  size: 241, 123
+  orig: 241, 148
+  offset: 0, 4
+  index: -1
+100100_zhua202
+  rotate: false
+  xy: 241, 393
+  size: 241, 111
+  orig: 241, 148
+  offset: 0, 5
+  index: -1
+100100_zhua203
+  rotate: false
+  xy: 1, 373
+  size: 239, 131
+  orig: 241, 148
+  offset: 2, 9
+  index: -1
+100100_zhua204
+  rotate: true
+  xy: 175, 13
+  size: 173, 143
+  orig: 241, 148
+  offset: 68, 5
+  index: -1
+21200_attack1_zhua2_01
+  rotate: true
+  xy: 1, 1
+  size: 129, 173
+  orig: 189, 198
+  offset: 58, 24
+  index: -1
+21200_attack1_zhua2_02
+  rotate: false
+  xy: 319, 36
+  size: 101, 174
+  orig: 189, 198
+  offset: 83, 11
+  index: -1
+21200_attack1_zhua2_03
+  rotate: false
+  xy: 292, 211
+  size: 158, 181
+  orig: 189, 198
+  offset: 27, 0
+  index: -1
+21200_attack1_zhua2_04
+  rotate: true
+  xy: 125, 187
+  size: 185, 166
+  orig: 189, 198
+  offset: 0, 2
+  index: -1
+21200_attack1_zhua2_05
+  rotate: true
+  xy: 421, 31
+  size: 179, 89
+  orig: 189, 198
+  offset: 0, 0
+  index: -1

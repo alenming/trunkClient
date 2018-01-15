@@ -1,0 +1,59 @@
+{
+"skeleton": {
+	"hash": "mUgy78ckS2DmgxKoKSNdNDeZf68",
+	"spine": "2.1.27",
+	"width": 0,
+	"height": 0,
+	"images": "../../../影舞者/30800影舞者/30800影舞者三个星级/images/"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "30803_Skill2_Hit", "parent": "root" }
+],
+"slots": [
+	{ "name": "30800_Skill2_dgshouji01", "bone": "30803_Skill2_Hit" }
+],
+"skins": {
+	"default": {
+		"30800_Skill2_dgshouji01": {
+			"30800_Skill2_dgshouji01": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji02": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji03": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji04": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji05": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji06": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji07": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji08": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji09": { "width": 71, "height": 174 },
+			"30800_Skill2_dgshouji10": { "width": 71, "height": 174 }
+		}
+	}
+},
+"animations": {
+	"30803_Skill2_Hit": {
+		"slots": {
+			"30800_Skill2_dgshouji01": {
+				"attachment": [
+					{ "time": 0, "name": "30800_Skill2_dgshouji01" },
+					{ "time": 0.0333, "name": "30800_Skill2_dgshouji02" },
+					{ "time": 0.0666, "name": "30800_Skill2_dgshouji03" },
+					{ "time": 0.1, "name": "30800_Skill2_dgshouji04" },
+					{ "time": 0.1333, "name": "30800_Skill2_dgshouji05" },
+					{ "time": 0.1666, "name": "30800_Skill2_dgshouji06" },
+					{ "time": 0.2, "name": "30800_Skill2_dgshouji07" },
+					{ "time": 0.2333, "name": "30800_Skill2_dgshouji08" },
+					{ "time": 0.2666, "name": "30800_Skill2_dgshouji09" },
+					{ "time": 0.3, "name": "30800_Skill2_dgshouji10" }
+				]
+			}
+		},
+		"bones": {
+			"30803_Skill2_Hit": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,118 @@
+{
+"skeleton": { "hash": "hdWNTUFPr+6i3kEO1mrVDAbIMPY", "spine": "2.1.27", "width": 254.44, "height": 111.31, "images": "./images/" },
+"bones": [
+	{ "name": "40000_Hit_Debuff" },
+	{ "name": "40000_Eff_YunXun", "parent": "40000_Hit_Debuff", "length": 94.29, "scaleX": 3.5, "scaleY": 4, "rotation": 90 },
+	{ "name": "40000_Eff_kuLou", "parent": "40000_Hit_Debuff", "length": 45.96, "rotation": 90.9, "color": "4d189bff" },
+	{ "name": "40000_KuLou", "parent": "40000_Eff_kuLou", "x": -22.32, "y": 2.69 },
+	{ "name": "40000_KuLou2", "parent": "40000_Eff_kuLou", "x": 11.76, "y": 67.45, "scaleX": 0.8, "scaleY": 0.8 },
+	{ "name": "40000_KuLou3", "parent": "40000_Eff_kuLou", "x": 30.62, "y": -0.64, "scaleX": 0.6, "scaleY": 0.6 },
+	{ "name": "40000_KuLou4", "parent": "40000_Eff_kuLou", "x": 6.38, "y": -67.68, "scaleX": 0.8, "scaleY": 0.8 }
+],
+"slots": [
+	{ "name": "40000_Eff_Vertigo_01", "bone": "40000_Eff_YunXun", "color": "bd51ffa7", "attachment": "40000_Eff_Vertigo_01" },
+	{ "name": "40000_KuLou", "bone": "40000_KuLou", "attachment": "40000_KuLou" },
+	{ "name": "40000_KuLou2", "bone": "40000_KuLou2", "attachment": "40000_KuLou" },
+	{ "name": "40000_KuLou3", "bone": "40000_KuLou3", "attachment": "40000_KuLou" },
+	{ "name": "40000_KuLou4", "bone": "40000_KuLou4", "attachment": "40000_KuLou" }
+],
+"skins": {
+	"default": {
+		"40000_Eff_Vertigo_01": {
+			"40000_Eff_Vertigo_01": { "scaleX": 0.496, "scaleY": 0.496, "rotation": -90, "width": 128, "height": 64 },
+			"40000_Eff_Vertigo_02": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90, "width": 128, "height": 64 },
+			"40000_Eff_Vertigo_03": { "scaleX": 0.5, "scaleY": 0.5, "rotation": -90, "width": 128, "height": 64 }
+		},
+		"40000_KuLou": {
+			"40000_KuLou": { "x": 0.99, "y": -0.34, "rotation": -90.9, "width": 37, "height": 38 }
+		},
+		"40000_KuLou2": {
+			"40000_KuLou": { "x": 0.99, "y": -0.34, "rotation": -90.9, "width": 37, "height": 38 }
+		},
+		"40000_KuLou3": {
+			"40000_KuLou": { "x": 0.99, "y": -0.34, "rotation": -90.9, "width": 37, "height": 38 }
+		},
+		"40000_KuLou4": {
+			"40000_KuLou": { "x": 0.99, "y": -0.34, "rotation": -90.9, "width": 37, "height": 38 }
+		}
+	}
+},
+"animations": {
+	"Curse": {
+		"slots": {
+			"40000_Eff_Vertigo_01": {
+				"attachment": [
+					{ "time": 0, "name": "40000_Eff_Vertigo_01" },
+					{ "time": 0.2, "name": "40000_Eff_Vertigo_02" },
+					{ "time": 0.4, "name": "40000_Eff_Vertigo_03" },
+					{ "time": 0.6, "name": "40000_Eff_Vertigo_01" },
+					{ "time": 0.8, "name": "40000_Eff_Vertigo_02" },
+					{ "time": 1, "name": "40000_Eff_Vertigo_03" }
+				]
+			}
+		},
+		"bones": {
+			"40000_KuLou2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1666, "x": 6.93, "y": -9.87 },
+					{ "time": 0.3333, "x": 11.33, "y": -21.38 },
+					{ "time": 0.5, "x": 15.92, "y": -34.15 },
+					{ "time": 0.6666, "x": 18.83, "y": -47.17 },
+					{ "time": 0.8333, "x": 20.23, "y": -57.66 },
+					{ "time": 1, "x": 21.09, "y": -68.13 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.75, "y": 0.75 }
+				]
+			},
+			"40000_KuLou3": {
+				"translate": [
+					{ "time": 0, "x": 2.23, "y": -0.03 },
+					{ "time": 0.1666, "x": 1.11, "y": -12.37 },
+					{ "time": 0.3333, "x": -0.85, "y": -24.69 },
+					{ "time": 0.5, "x": -4.26, "y": -36.02 },
+					{ "time": 0.6666, "x": -8.8, "y": -47.88 },
+					{ "time": 0.8333, "x": -15.71, "y": -59.15 },
+					{ "time": 1, "x": -24.24, "y": -67.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.333, "y": 1.333 }
+				]
+			},
+			"40000_KuLou4": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.1666, "x": -10.18, "y": 5.94 },
+					{ "time": 0.3333, "x": -18.34, "y": 16.33 },
+					{ "time": 0.5, "x": -25.28, "y": 28.72 },
+					{ "time": 0.6666, "x": -29.96, "y": 42.76 },
+					{ "time": 0.8333, "x": -30.87, "y": 56.59 },
+					{ "time": 1, "x": -31.22, "y": 70.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.25, "y": 1.25 }
+				]
+			},
+			"40000_KuLou": {
+				"translate": [
+					{ "time": 0, "x": -2.51, "y": 0.04 },
+					{ "time": 0.1666, "x": -0.12, "y": 14.66 },
+					{ "time": 0.3333, "x": 4.21, "y": 29.24 },
+					{ "time": 0.5, "x": 8.42, "y": 39.78 },
+					{ "time": 0.6666, "x": 15.15, "y": 50.28 },
+					{ "time": 0.8333, "x": 23.8, "y": 58.65 },
+					{ "time": 1, "x": 34.08, "y": 64.75 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 1, "x": 0.8, "y": 0.8 }
+				]
+			}
+		}
+	}
+}
+}

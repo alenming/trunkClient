@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "C8d8c3T0g2wH6IhlzC91tAHaiBo", "spine": "2.1.27", "width": 250, "height": 104, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "10700_huoqiu01", "parent": "root" }
+],
+"slots": [
+	{ "name": "10700_huoqiu01", "bone": "10700_huoqiu01", "attachment": "10700_huoqiu08" }
+],
+"skins": {
+	"default": {
+		"10700_huoqiu01": {
+			"10700_huoqiu01": { "x": -112, "y": 4, "width": 250, "height": 104 },
+			"10700_huoqiu02": { "x": -112, "y": 4, "width": 250, "height": 104 },
+			"10700_huoqiu03": { "x": -112, "y": 4, "width": 250, "height": 104 },
+			"10700_huoqiu04": { "x": -112, "y": 4, "width": 250, "height": 104 },
+			"10700_huoqiu05": { "x": -112, "y": 4, "width": 250, "height": 104 },
+			"10700_huoqiu06": { "x": -112, "y": 4, "width": 250, "height": 104 },
+			"10700_huoqiu07": { "x": -112, "y": 4, "width": 250, "height": 104 },
+			"10700_huoqiu08": { "x": -112, "y": 4, "width": 250, "height": 104 }
+		}
+	}
+},
+"animations": {
+	"huoqiu_Bullet": {
+		"slots": {
+			"10700_huoqiu01": {
+				"attachment": [
+					{ "time": 0, "name": "10700_huoqiu01" },
+					{ "time": 0.0333, "name": "10700_huoqiu02" },
+					{ "time": 0.0666, "name": "10700_huoqiu03" },
+					{ "time": 0.1, "name": "10700_huoqiu04" },
+					{ "time": 0.1333, "name": "10700_huoqiu05" },
+					{ "time": 0.1666, "name": "10700_huoqiu06" },
+					{ "time": 0.2, "name": "10700_huoqiu07" },
+					{ "time": 0.2333, "name": "10700_huoqiu08" }
+				]
+			}
+		}
+	}
+}
+}

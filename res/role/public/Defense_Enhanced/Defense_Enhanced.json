@@ -1,0 +1,92 @@
+{
+"skeleton": { "hash": "k2aSukf+3psi7CLdbqX2/dhdzA0", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "dun", "parent": "root" },
+	{ "name": "shexian", "parent": "root" },
+	{ "name": "yanwu", "parent": "root" }
+],
+"slots": [
+	{ "name": "Defense_Enhanced_03_01", "bone": "yanwu", "blend": "additive" },
+	{ "name": "Defense_Enhanced_02_01", "bone": "dun" },
+	{ "name": "Defense_Enhanced_01_01", "bone": "shexian", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"Defense_Enhanced_01_01": {
+			"Defense_Enhanced_01_01": { "width": 240, "height": 240 },
+			"Defense_Enhanced_01_02": { "width": 240, "height": 240 },
+			"Defense_Enhanced_01_03": { "width": 240, "height": 240 },
+			"Defense_Enhanced_01_04": { "width": 240, "height": 240 },
+			"Defense_Enhanced_01_05": { "width": 240, "height": 240 },
+			"Defense_Enhanced_01_06": { "width": 240, "height": 240 }
+		},
+		"Defense_Enhanced_02_01": {
+			"Defense_Enhanced_02_01": { "width": 480, "height": 480 }
+		},
+		"Defense_Enhanced_03_01": {
+			"Defense_Enhanced_03_01": { "width": 240, "height": 240 },
+			"Defense_Enhanced_03_02": { "width": 240, "height": 240 },
+			"Defense_Enhanced_03_03": { "width": 240, "height": 240 },
+			"Defense_Enhanced_03_04": { "width": 240, "height": 240 },
+			"Defense_Enhanced_03_05": { "width": 240, "height": 240 }
+		}
+	}
+},
+"animations": {
+	"Defense_Enhanced": {
+		"slots": {
+			"Defense_Enhanced_01_01": {
+				"attachment": [
+					{ "time": 0, "name": "Defense_Enhanced_01_01" },
+					{ "time": 0.1, "name": "Defense_Enhanced_01_02" },
+					{ "time": 0.2, "name": "Defense_Enhanced_01_03" },
+					{ "time": 0.3, "name": "Defense_Enhanced_01_04" },
+					{ "time": 0.4, "name": "Defense_Enhanced_01_05" },
+					{ "time": 0.5, "name": "Defense_Enhanced_01_06" },
+					{ "time": 0.6, "name": null }
+				]
+			},
+			"Defense_Enhanced_02_01": {
+				"attachment": [
+					{ "time": 0.2, "name": "Defense_Enhanced_02_01" }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffff78" },
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffffff" },
+					{ "time": 0.8666, "color": "ffffff00" }
+				]
+			},
+			"Defense_Enhanced_03_01": {
+				"attachment": [
+					{ "time": 0.3666, "name": "Defense_Enhanced_03_01" },
+					{ "time": 0.4666, "name": "Defense_Enhanced_03_02" },
+					{ "time": 0.5666, "name": "Defense_Enhanced_03_03" },
+					{ "time": 0.6666, "name": "Defense_Enhanced_03_04" },
+					{ "time": 0.7666, "name": "Defense_Enhanced_03_05" },
+					{ "time": 0.8666, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"shexian": {
+				"scale": [
+					{ "time": 0, "x": 2, "y": 2 }
+				]
+			},
+			"yanwu": {
+				"scale": [
+					{ "time": 0.3666, "x": 2, "y": 2 }
+				]
+			},
+			"dun": {
+				"scale": [
+					{ "time": 0.2, "x": 0.5, "y": 0.5 },
+					{ "time": 0.3, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

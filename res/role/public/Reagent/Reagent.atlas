@@ -1,0 +1,76 @@
+
+Reagent.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Reagent01
+  rotate: false
+  xy: 1550, 645
+  size: 395, 239
+  orig: 418, 323
+  offset: 9, 10
+  index: -1
+Reagent06
+  rotate: false
+  xy: 1550, 645
+  size: 395, 239
+  orig: 418, 323
+  offset: 9, 10
+  index: -1
+Reagent02
+  rotate: false
+  xy: 786, 617
+  size: 381, 267
+  orig: 418, 323
+  offset: 17, 7
+  index: -1
+Reagent03
+  rotate: false
+  xy: 406, 592
+  size: 379, 292
+  orig: 418, 323
+  offset: 24, 3
+  index: -1
+Reagent04
+  rotate: false
+  xy: 1, 294
+  size: 402, 290
+  orig: 418, 323
+  offset: 7, 9
+  index: -1
+Reagent05
+  rotate: false
+  xy: 1550, 365
+  size: 358, 279
+  orig: 418, 323
+  offset: 57, 11
+  index: -1
+Reagent07
+  rotate: false
+  xy: 1168, 617
+  size: 381, 267
+  orig: 418, 323
+  offset: 17, 7
+  index: -1
+Reagent08
+  rotate: false
+  xy: 1, 1
+  size: 379, 292
+  orig: 418, 323
+  offset: 24, 3
+  index: -1
+Reagent09
+  rotate: false
+  xy: 1, 585
+  size: 404, 299
+  orig: 418, 323
+  offset: 6, 0
+  index: -1
+Reagent10
+  rotate: false
+  xy: 786, 329
+  size: 358, 287
+  orig: 418, 323
+  offset: 57, 10
+  index: -1

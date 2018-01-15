@@ -1,0 +1,97 @@
+
+Burst.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+20000_skill_effect_00
+  rotate: false
+  xy: 1, 1
+  size: 99, 118
+  orig: 128, 121
+  offset: 16, 3
+  index: -1
+20000_skill_effect_01
+  rotate: true
+  xy: 234, 375
+  size: 103, 117
+  orig: 128, 121
+  offset: 13, 4
+  index: -1
+20000_skill_effect_02
+  rotate: false
+  xy: 1, 122
+  size: 105, 116
+  orig: 128, 121
+  offset: 12, 5
+  index: -1
+20000_skill_effect_03
+  rotate: false
+  xy: 121, 362
+  size: 110, 116
+  orig: 128, 121
+  offset: 10, 5
+  index: -1
+20000_skill_effect_04
+  rotate: false
+  xy: 1, 241
+  size: 113, 116
+  orig: 128, 121
+  offset: 8, 5
+  index: -1
+20000_skill_effect_05
+  rotate: false
+  xy: 1, 360
+  size: 117, 118
+  orig: 128, 121
+  offset: 5, 3
+  index: -1
+20000_skill_effect_06
+  rotate: false
+  xy: 354, 395
+  size: 112, 83
+  orig: 128, 121
+  offset: 11, 14
+  index: -1
+20000_skill_effect_07
+  rotate: false
+  xy: 354, 305
+  size: 103, 87
+  orig: 128, 121
+  offset: 12, 15
+  index: -1
+20000_skill_effect_08
+  rotate: false
+  xy: 234, 282
+  size: 101, 90
+  orig: 128, 121
+  offset: 14, 15
+  index: -1
+20000_skill_effect_09
+  rotate: true
+  xy: 109, 141
+  size: 97, 93
+  orig: 128, 121
+  offset: 14, 15
+  index: -1
+20000_skill_effect_10
+  rotate: false
+  xy: 205, 184
+  size: 96, 95
+  orig: 128, 121
+  offset: 14, 15
+  index: -1
+20000_skill_effect_11
+  rotate: false
+  xy: 205, 99
+  size: 92, 82
+  orig: 128, 121
+  offset: 17, 29
+  index: -1
+20000_skill_effect_12
+  rotate: true
+  xy: 304, 195
+  size: 84, 83
+  orig: 128, 121
+  offset: 25, 30
+  index: -1

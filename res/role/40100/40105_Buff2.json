@@ -1,0 +1,30 @@
+{
+"skeleton": { "hash": "KSq2NKjkm5T0wofYHnK84Yi1mGY", "spine": "2.1.27", "width": 80, "height": 109, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" }
+],
+"slots": [
+	{ "name": "40105_KuLouTou_TX", "bone": "root", "attachment": "40105_KuLouTou_TX" }
+],
+"skins": {
+	"default": {
+		"40105_KuLouTou_TX": {
+			"40105_KuLouTou_TX": { "width": 80, "height": 109 }
+		}
+	}
+},
+"animations": {
+	"Buff2": {
+		"slots": {
+			"40105_KuLouTou_TX": {
+				"color": [
+					{ "time": 0, "color": "ffffff35" },
+					{ "time": 0.6666, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff35" }
+				]
+			}
+		}
+	}
+}
+}

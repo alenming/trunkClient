@@ -1,0 +1,52 @@
+{
+"skeleton": { "hash": "AYsR/6KU7tB5xeFbwqSRQed6lww", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "1000_Skill1_FireBullet", "x": -132.99 },
+	{ "name": "FireBullet", "parent": "1000_Skill1_FireBullet", "length": 47.01, "x": 132.96, "y": 0.91, "rotation": -0.9 }
+],
+"slots": [
+	{ "name": "10700_huoqiu_00", "bone": "FireBullet" }
+],
+"skins": {
+	"default": {
+		"10700_huoqiu_00": {
+			"10700_huoqiu_00": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_01": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_02": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_03": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_04": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_05": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_06": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_07": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 },
+			"10700_huoqiu_08": { "x": -132.98, "y": -2.06, "rotation": 0.9, "width": 307, "height": 140 }
+		}
+	}
+},
+"animations": {
+	"1000_Skill1_FireBullet": {
+		"slots": {
+			"10700_huoqiu_00": {
+				"attachment": [
+					{ "time": 0, "name": "10700_huoqiu_00" },
+					{ "time": 0.0666, "name": "10700_huoqiu_01" },
+					{ "time": 0.1333, "name": "10700_huoqiu_02" },
+					{ "time": 0.2, "name": "10700_huoqiu_03" },
+					{ "time": 0.2666, "name": "10700_huoqiu_04" },
+					{ "time": 0.3333, "name": "10700_huoqiu_05" },
+					{ "time": 0.4, "name": "10700_huoqiu_06" },
+					{ "time": 0.4666, "name": "10700_huoqiu_07" },
+					{ "time": 0.5333, "name": "10700_huoqiu_08" },
+					{ "time": 0.6, "name": "10700_huoqiu_08" }
+				]
+			}
+		},
+		"bones": {
+			"1000_Skill1_FireBullet": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

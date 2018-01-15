@@ -1,0 +1,46 @@
+{
+"skeleton": { "hash": "wBQUcSpKSDyEuFKZZgSCXmAbDoc", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "40304_Death_Hit" },
+	{ "name": "40304_Death_Hit1", "parent": "40304_Death_Hit", "x": 51, "y": -66 }
+],
+"slots": [
+	{ "name": "40304_shouji01", "bone": "40304_Death_Hit1", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"40304_shouji01": {
+			"40304_shouji01": { "width": 136, "height": 142 },
+			"40304_shouji02": { "width": 136, "height": 142 },
+			"40304_shouji03": { "width": 136, "height": 142 },
+			"40304_shouji04": { "width": 136, "height": 142 },
+			"40304_shouji05": { "width": 136, "height": 142 },
+			"40304_shouji06": { "width": 136, "height": 142 }
+		}
+	}
+},
+"animations": {
+	"Death_Hit": {
+		"slots": {
+			"40304_shouji01": {
+				"attachment": [
+					{ "time": 0, "name": "40304_shouji01" },
+					{ "time": 0.0666, "name": "40304_shouji02" },
+					{ "time": 0.1333, "name": "40304_shouji03" },
+					{ "time": 0.2, "name": "40304_shouji04" },
+					{ "time": 0.2666, "name": "40304_shouji05" },
+					{ "time": 0.3333, "name": "40304_shouji06" },
+					{ "time": 0.4, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"40304_Death_Hit1": {
+				"translate": [
+					{ "time": 0, "x": -43, "y": 89.99 }
+				]
+			}
+		}
+	}
+}
+}

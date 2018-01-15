@@ -1,0 +1,20 @@
+
+Defense_reduction.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Defense_reduction_01
+  rotate: false
+  xy: 131, 16
+  size: 86, 104
+  orig: 250, 269
+  offset: 81, 84
+  index: -1
+Defense_reduction_02
+  rotate: true
+  xy: 1, 1
+  size: 119, 129
+  orig: 250, 269
+  offset: 65, 74
+  index: -1

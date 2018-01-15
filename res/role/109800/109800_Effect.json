@@ -1,0 +1,536 @@
+{
+"skeleton": { "hash": "Ry55yQGng16XitUfI8fpK/Pa6Xo", "spine": "2.1.27", "width": 0, "height": 0, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "109800_Eff_Attak1", "parent": "root", "length": 89.82, "rotation": 90 },
+	{ "name": "109800_Eff_Hit1", "parent": "root", "length": 89.82, "rotation": 90 },
+	{ "name": "109800_Eff_Skill1", "parent": "root", "length": 89.82, "rotation": 90 },
+	{ "name": "109800_Eff_Skill2", "parent": "root", "length": 89.82, "rotation": 90 },
+	{ "name": "109800_Eff_Attak1_B_01", "parent": "109800_Eff_Attak1", "length": 89.82 },
+	{ "name": "109800_Eff_Attak1_Trial_01", "parent": "109800_Eff_Attak1", "length": 89.82 },
+	{ "name": "109800_Eff_Hit1_hit", "parent": "109800_Eff_Hit1", "length": 89.82 },
+	{ "name": "109800_Eff_Skill1_BookGlow", "parent": "109800_Eff_Skill1", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_fazhen", "parent": "109800_Eff_Skill2", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_kuansan_01", "parent": "109800_Eff_Skill2", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_01", "parent": "109800_Eff_Skill2", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_02", "parent": "109800_Eff_Skill2", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_03", "parent": "109800_Eff_Skill2", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_04", "parent": "109800_Eff_Skill2", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_xueben", "parent": "109800_Eff_Skill2", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_TU_01", "parent": "109800_Eff_Skill2_weapons_04", "length": 89.82, "x": -11.51, "y": 5.67 },
+	{ "name": "109800_Eff_Skill2_weapons_Trial1", "parent": "109800_Eff_Skill2_weapons_01", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_Trial2", "parent": "109800_Eff_Skill2_weapons_02", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_Trial3", "parent": "109800_Eff_Skill2_weapons_03", "length": 89.82 },
+	{ "name": "109800_Eff_Skill2_weapons_Trial4", "parent": "109800_Eff_Skill2_weapons_04", "length": 89.82 }
+],
+"slots": [
+	{ "name": "109800_Eff_fazhen_01", "bone": "109800_Eff_Skill2_fazhen" },
+	{ "name": "109800_Eff_Kuansan_01", "bone": "109800_Eff_Skill2_kuansan_01" },
+	{ "name": "109800_Eff_Skill1_Glow_01", "bone": "109800_Eff_Skill1_BookGlow" },
+	{ "name": "109800_Eff_Tiral_01", "bone": "109800_Eff_Attak1_Trial_01" },
+	{ "name": "109800_Eff_shpere_01", "bone": "109800_Eff_Attak1_B_01" },
+	{ "name": "109800_Eff_hit_01", "bone": "109800_Eff_Hit1_hit" },
+	{ "name": "109800_Eff_weapons_01", "bone": "109800_Eff_Skill2_weapons_01" },
+	{ "name": "109800_Eff_weapons_1", "bone": "109800_Eff_Skill2_weapons_02" },
+	{ "name": "109800_Eff_weapons_2", "bone": "109800_Eff_Skill2_weapons_03" },
+	{ "name": "109800_Eff_weapons_3", "bone": "109800_Eff_Skill2_weapons_04" },
+	{ "name": "109800_Eff_Skill_Trial_01", "bone": "109800_Eff_Skill2_weapons_Trial1", "color": "ff0105a7", "blend": "additive" },
+	{ "name": "109800_Eff_Skill_Trial_1", "bone": "109800_Eff_Skill2_weapons_Trial2", "color": "ff0105a7", "blend": "additive" },
+	{ "name": "109800_Eff_Skill_Trial_2", "bone": "109800_Eff_Skill2_weapons_Trial3", "color": "ff0105a7", "blend": "additive" },
+	{ "name": "109800_Eff_Skill_Trial_3", "bone": "109800_Eff_Skill2_weapons_Trial4", "color": "ff0105a7", "blend": "additive" },
+	{ "name": "109800_Eff_Skill2_weapons_TU_01", "bone": "109800_Eff_Skill2_weapons_TU_01" },
+	{ "name": "109800_Eff_skill2_xuebenButton_01", "bone": "109800_Eff_Skill2_xueben" },
+	{ "name": "109800_Eff_skill2_xueben_01", "bone": "109800_Eff_Skill2_xueben" }
+],
+"skins": {
+	"default": {
+		"109800_Eff_Kuansan_01": {
+			"109800_Eff_Kuansan_01": { "rotation": -90, "width": 189, "height": 189 }
+		},
+		"109800_Eff_Skill1_Glow_01": {
+			"109800_Eff_Skill1_Glow_01": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_02": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_03": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_04": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_05": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_06": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_07": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_08": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_09": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_10": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_11": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_12": { "x": 12, "rotation": -90, "width": 164, "height": 136 },
+			"109800_Eff_Skill1_Glow_13": { "x": 12, "rotation": -90, "width": 164, "height": 136 }
+		},
+		"109800_Eff_Skill2_weapons_TU_01": {
+			"109800_Eff_TU_01": { "x": 21.94, "scaleX": 0.55, "scaleY": 0.55, "rotation": -90, "width": 128, "height": 128 }
+		},
+		"109800_Eff_Skill_Trial_01": {
+			"109800_Eff_Skill_Trial_01": { "x": -89.27, "rotation": 180, "width": 256, "height": 64 }
+		},
+		"109800_Eff_Skill_Trial_1": {
+			"109800_Eff_Skill_Trial_01": { "x": -89.27, "rotation": 180, "width": 256, "height": 64 }
+		},
+		"109800_Eff_Skill_Trial_2": {
+			"109800_Eff_Skill_Trial_01": { "x": -89.27, "rotation": 180, "width": 256, "height": 64 }
+		},
+		"109800_Eff_Skill_Trial_3": {
+			"109800_Eff_Skill_Trial_01": { "x": -89.27, "rotation": 180, "width": 256, "height": 64 }
+		},
+		"109800_Eff_Tiral_01": {
+			"109800_Eff_Tiral_01": { "x": 50, "rotation": -90, "width": 128, "height": 128 },
+			"109800_Eff_Tiral_02": { "x": 50, "rotation": -51.29, "width": 128, "height": 128 },
+			"109800_Eff_Tiral_03": { "x": 60, "rotation": -27.04, "width": 128, "height": 128 },
+			"109800_Eff_Tiral_04": { "x": 60, "rotation": 1.16, "width": 128, "height": 128 }
+		},
+		"109800_Eff_fazhen_01": {
+			"109800_Eff_fazhen_01": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_02": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_03": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_04": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_05": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_06": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_07": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_08": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_09": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_10": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_11": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_12": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_13": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_14": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_15": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_16": { "rotation": -90, "width": 198, "height": 80 },
+			"109800_Eff_fazhen_17": { "rotation": -90, "width": 198, "height": 80 }
+		},
+		"109800_Eff_hit_01": {
+			"109800_Eff_hit_01": { "rotation": -90, "width": 148, "height": 148 },
+			"109800_Eff_hit_02": { "rotation": -90, "width": 148, "height": 148 },
+			"109800_Eff_hit_03": { "rotation": -90, "width": 148, "height": 148 },
+			"109800_Eff_hit_04": { "rotation": -90, "width": 148, "height": 148 },
+			"109800_Eff_hit_05": { "rotation": -90, "width": 148, "height": 148 },
+			"109800_Eff_hit_06": { "rotation": -90, "width": 148, "height": 148 },
+			"109800_Eff_hit_07": { "rotation": -90, "width": 148, "height": 148 },
+			"109800_Eff_hit_08": { "rotation": -90, "width": 148, "height": 148 }
+		},
+		"109800_Eff_shpere_01": {
+			"109800_Eff_shpere_01": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_02": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_03": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_04": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_05": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_06": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_07": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_08": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_09": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_10": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_11": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_12": { "y": 70, "rotation": -90, "width": 189, "height": 86 },
+			"109800_Eff_shpere_13": { "y": 70, "rotation": -90, "width": 189, "height": 86 }
+		},
+		"109800_Eff_skill2_xuebenButton_01": {
+			"109800_Eff_skill2_xuebenButton_01": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_02": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_03": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_04": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_05": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_06": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_07": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_08": { "x": 10, "rotation": -90, "width": 200, "height": 100 },
+			"109800_Eff_skill2_xuebenButton_09": { "x": 10, "rotation": -90, "width": 200, "height": 100 }
+		},
+		"109800_Eff_skill2_xueben_01": {
+			"109800_Eff_skill2_xueben_01": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_02": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_03": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_04": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_05": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_06": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_07": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_08": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 },
+			"109800_Eff_skill2_xueben_09": { "x": 88.14, "y": 3.51, "rotation": -90, "width": 123, "height": 220 }
+		},
+		"109800_Eff_weapons_01": {
+			"109800_Eff_weapons_01": { "x": 42.85, "rotation": 90, "width": 44, "height": 168 }
+		},
+		"109800_Eff_weapons_1": {
+			"109800_Eff_weapons_01": { "x": 42.85, "rotation": 90, "width": 44, "height": 168 }
+		},
+		"109800_Eff_weapons_2": {
+			"109800_Eff_weapons_01": { "x": 42.85, "rotation": 90, "width": 44, "height": 168 }
+		},
+		"109800_Eff_weapons_3": {
+			"109800_Eff_weapons_01": { "x": 68.49, "y": 14.94, "rotation": 280, "width": 44, "height": 168 }
+		}
+	}
+},
+"animations": {
+	"Attack1_Bullet1": {
+		"slots": {
+			"109800_Eff_shpere_01": {
+				"attachment": [
+					{ "time": 0, "name": "109800_Eff_shpere_01" },
+					{ "time": 0.0666, "name": "109800_Eff_shpere_02" },
+					{ "time": 0.1333, "name": "109800_Eff_shpere_03" },
+					{ "time": 0.2, "name": "109800_Eff_shpere_04" },
+					{ "time": 0.2666, "name": "109800_Eff_shpere_05" },
+					{ "time": 0.3333, "name": "109800_Eff_shpere_06" },
+					{ "time": 0.4, "name": "109800_Eff_shpere_07" },
+					{ "time": 0.4666, "name": "109800_Eff_shpere_08" },
+					{ "time": 0.5333, "name": "109800_Eff_shpere_09" },
+					{ "time": 0.6, "name": "109800_Eff_shpere_10" },
+					{ "time": 0.6666, "name": "109800_Eff_shpere_11" },
+					{ "time": 0.7333, "name": "109800_Eff_shpere_12" },
+					{ "time": 0.8, "name": "109800_Eff_shpere_13" }
+				]
+			}
+		}
+	},
+	"Attack1_Effect1": {
+		"slots": {
+			"109800_Eff_Tiral_01": {
+				"attachment": [
+					{ "time": 0.3, "name": "109800_Eff_Tiral_01" },
+					{ "time": 0.3666, "name": "109800_Eff_Tiral_02" },
+					{ "time": 0.4333, "name": "109800_Eff_Tiral_03" },
+					{ "time": 0.5, "name": "109800_Eff_Tiral_04" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 0.8, "name": "109800_Eff_Tiral_01" },
+					{ "time": 0.8666, "name": "109800_Eff_Tiral_02" },
+					{ "time": 0.9333, "name": "109800_Eff_Tiral_03" },
+					{ "time": 1, "name": "109800_Eff_Tiral_04" },
+					{ "time": 1.0666, "name": null },
+					{ "time": 1.2, "name": "109800_Eff_Tiral_01" },
+					{ "time": 1.2666, "name": "109800_Eff_Tiral_02" },
+					{ "time": 1.3333, "name": "109800_Eff_Tiral_03" },
+					{ "time": 1.4, "name": "109800_Eff_Tiral_04" },
+					{ "time": 1.4666, "name": null },
+					{ "time": 2.2333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"109800_Eff_Attak1_Trial_01": {
+				"rotate": [
+					{ "time": 0.3, "angle": 90, "curve": "stepped" },
+					{ "time": 0.7666, "angle": 90 },
+					{ "time": 0.8, "angle": 31.56 },
+					{ "time": 0.8333, "angle": -25.46 },
+					{ "time": 0.8666, "angle": -71.05, "curve": "stepped" },
+					{ "time": 1.1666, "angle": -71.05 },
+					{ "time": 1.2, "angle": 137.62 }
+				],
+				"translate": [
+					{ "time": 0.3, "x": 62.36, "y": -22.94 },
+					{ "time": 0.3333, "x": 81.11, "y": -47.94, "curve": "stepped" },
+					{ "time": 0.7666, "x": 81.11, "y": -47.94 },
+					{ "time": 0.8, "x": 54.18, "y": -56.91 },
+					{ "time": 0.8333, "x": 16.76, "y": -7.05 },
+					{ "time": 0.8666, "x": 61.94, "y": 25.22, "curve": "stepped" },
+					{ "time": 1.1666, "x": 61.94, "y": 25.22 },
+					{ "time": 1.2, "x": 134.52, "y": -18.48 }
+				],
+				"scale": [
+					{ "time": 0.3, "x": 1, "y": -0.5 },
+					{ "time": 0.5666, "x": 1.5, "y": -0.75, "curve": "stepped" },
+					{ "time": 0.7666, "x": 1.5, "y": -0.75 },
+					{ "time": 0.8, "x": 1.5, "y": 1.5, "curve": "stepped" },
+					{ "time": 1.1666, "x": 1.5, "y": 1.5 },
+					{ "time": 1.2, "x": 1.5, "y": -1.5 }
+				]
+			}
+		}
+	},
+	"Attack1_Hit1": {
+		"slots": {
+			"109800_Eff_hit_01": {
+				"attachment": [
+					{ "time": 0, "name": "109800_Eff_hit_01" },
+					{ "time": 0.0666, "name": "109800_Eff_hit_02" },
+					{ "time": 0.1333, "name": "109800_Eff_hit_03" },
+					{ "time": 0.2, "name": "109800_Eff_hit_04" },
+					{ "time": 0.2666, "name": "109800_Eff_hit_05" },
+					{ "time": 0.3333, "name": "109800_Eff_hit_06" },
+					{ "time": 0.4, "name": "109800_Eff_hit_07" },
+					{ "time": 0.4666, "name": "109800_Eff_hit_08" }
+				]
+			}
+		}
+	},
+	"Skill1_Effect1": {
+		"slots": {
+			"109800_Eff_Skill1_Glow_01": {
+				"attachment": [
+					{ "time": 0, "name": "109800_Eff_Skill1_Glow_01" },
+					{ "time": 0.1, "name": "109800_Eff_Skill1_Glow_02" },
+					{ "time": 0.2, "name": "109800_Eff_Skill1_Glow_03" },
+					{ "time": 0.3, "name": "109800_Eff_Skill1_Glow_04" },
+					{ "time": 0.4, "name": "109800_Eff_Skill1_Glow_05" },
+					{ "time": 0.5, "name": "109800_Eff_Skill1_Glow_06" },
+					{ "time": 0.6, "name": "109800_Eff_Skill1_Glow_07" },
+					{ "time": 0.7, "name": "109800_Eff_Skill1_Glow_08" },
+					{ "time": 0.8, "name": "109800_Eff_Skill1_Glow_09" },
+					{ "time": 0.9, "name": "109800_Eff_Skill1_Glow_10" },
+					{ "time": 1, "name": "109800_Eff_Skill1_Glow_11" },
+					{ "time": 1.1, "name": "109800_Eff_Skill1_Glow_12" },
+					{ "time": 1.2, "name": "109800_Eff_Skill1_Glow_13" }
+				]
+			}
+		},
+		"bones": {
+			"109800_Eff_Skill1_BookGlow": {
+				"rotate": [
+					{ "time": 0, "angle": 30.31 }
+				],
+				"translate": [
+					{ "time": 0, "x": 113.21, "y": -63.4 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.4 }
+				]
+			}
+		}
+	},
+	"Skill2_Bullet1": {
+		"slots": {
+			"109800_Eff_Skill2_weapons_TU_01": {
+				"attachment": [
+					{ "time": 0.1666, "name": "109800_Eff_TU_01" }
+				],
+				"color": [
+					{ "time": 0.8666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"109800_Eff_weapons_3": {
+				"attachment": [
+					{ "time": 0, "name": "109800_Eff_weapons_01" }
+				],
+				"color": [
+					{ "time": 0.8666, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"109800_Eff_Skill2_weapons_TU_01": {
+				"scale": [
+					{ "time": 0.1666, "x": 1, "y": 1.2 },
+					{ "time": 0.3333, "x": 1.2, "y": 1.2 }
+				]
+			},
+			"109800_Eff_Skill2_weapons_04": {
+				"translate": [
+					{ "time": 0, "x": 375.89, "y": 69.41 },
+					{ "time": 0.1666, "x": -17.13, "y": 0 },
+					{ "time": 0.2, "x": 8.65, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.1666, "x": 1.02, "y": 1 }
+				]
+			}
+		}
+	},
+	"Skill2_Bullet2": {
+		"slots": {
+			"109800_Eff_skill2_xuebenButton_01": {
+				"attachment": [
+					{ "time": 0, "name": "109800_Eff_skill2_xuebenButton_01" },
+					{ "time": 0.1, "name": "109800_Eff_skill2_xuebenButton_02" },
+					{ "time": 0.2, "name": "109800_Eff_skill2_xuebenButton_03" },
+					{ "time": 0.3, "name": "109800_Eff_skill2_xuebenButton_04" },
+					{ "time": 0.4, "name": "109800_Eff_skill2_xuebenButton_05" },
+					{ "time": 0.5, "name": "109800_Eff_skill2_xuebenButton_06" },
+					{ "time": 0.6, "name": "109800_Eff_skill2_xuebenButton_07" },
+					{ "time": 0.7, "name": "109800_Eff_skill2_xuebenButton_08" },
+					{ "time": 0.8, "name": "109800_Eff_skill2_xuebenButton_09" },
+					{ "time": 0.9, "name": null }
+				]
+			},
+			"109800_Eff_skill2_xueben_01": {
+				"attachment": [
+					{ "time": 0, "name": "109800_Eff_skill2_xueben_01" },
+					{ "time": 0.1, "name": "109800_Eff_skill2_xueben_02" },
+					{ "time": 0.2, "name": "109800_Eff_skill2_xueben_03" },
+					{ "time": 0.3, "name": "109800_Eff_skill2_xueben_04" },
+					{ "time": 0.4, "name": "109800_Eff_skill2_xueben_05" },
+					{ "time": 0.5, "name": "109800_Eff_skill2_xueben_06" },
+					{ "time": 0.6, "name": "109800_Eff_skill2_xueben_07" },
+					{ "time": 0.7, "name": "109800_Eff_skill2_xueben_08" },
+					{ "time": 0.8, "name": "109800_Eff_skill2_xueben_09" },
+					{ "time": 0.9, "name": null }
+				]
+			}
+		}
+	},
+	"Skill2_Effect1": {
+		"slots": {
+			"109800_Eff_Kuansan_01": {
+				"attachment": [
+					{ "time": 1.5, "name": "109800_Eff_Kuansan_01" }
+				],
+				"color": [
+					{ "time": 1.6, "color": "ffffffff" },
+					{ "time": 1.6666, "color": "ffffff00" }
+				]
+			},
+			"109800_Eff_Skill_Trial_1": {
+				"attachment": [
+					{ "time": 1.5, "name": "109800_Eff_Skill_Trial_01" }
+				],
+				"color": [
+					{ "time": 1.9333, "color": "ff010560" },
+					{ "time": 2.0666, "color": "ff010500" }
+				]
+			},
+			"109800_Eff_Skill_Trial_01": {
+				"attachment": [
+					{ "time": 1.5, "name": "109800_Eff_Skill_Trial_01" }
+				],
+				"color": [
+					{ "time": 1.9, "color": "ff010561" },
+					{ "time": 2.1, "color": "ff010500" }
+				]
+			},
+			"109800_Eff_Skill_Trial_2": {
+				"attachment": [
+					{ "time": 1.5, "name": "109800_Eff_Skill_Trial_01" }
+				],
+				"color": [
+					{ "time": 1.9333, "color": "ff010561" },
+					{ "time": 2.0666, "color": "ff010500" }
+				]
+			},
+			"109800_Eff_fazhen_01": {
+				"attachment": [
+					{ "time": 0.2, "name": "109800_Eff_fazhen_01" },
+					{ "time": 0.3, "name": "109800_Eff_fazhen_02" },
+					{ "time": 0.4, "name": "109800_Eff_fazhen_03" },
+					{ "time": 0.5, "name": "109800_Eff_fazhen_04" },
+					{ "time": 0.6, "name": "109800_Eff_fazhen_05" },
+					{ "time": 0.7, "name": "109800_Eff_fazhen_06" },
+					{ "time": 0.8, "name": "109800_Eff_fazhen_07" },
+					{ "time": 0.9, "name": "109800_Eff_fazhen_08" },
+					{ "time": 1, "name": "109800_Eff_fazhen_09" },
+					{ "time": 1.1, "name": "109800_Eff_fazhen_10" },
+					{ "time": 1.2, "name": "109800_Eff_fazhen_11" },
+					{ "time": 1.3, "name": "109800_Eff_fazhen_12" },
+					{ "time": 1.4, "name": "109800_Eff_fazhen_13" },
+					{ "time": 1.5, "name": "109800_Eff_fazhen_14" },
+					{ "time": 1.6, "name": "109800_Eff_fazhen_15" },
+					{ "time": 1.7, "name": "109800_Eff_fazhen_16" },
+					{ "time": 1.8, "name": "109800_Eff_fazhen_17" },
+					{ "time": 1.9, "name": null }
+				],
+				"color": [
+					{ "time": 0.2, "color": "ffffff00" },
+					{ "time": 0.5, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.7, "color": "ffffffff" },
+					{ "time": 1.9, "color": "ffffff00" }
+				]
+			},
+			"109800_Eff_weapons_1": {
+				"attachment": [
+					{ "time": 1.5, "name": "109800_Eff_weapons_01" }
+				],
+				"color": [
+					{ "time": 1.9333, "color": "ffffffff" },
+					{ "time": 2.0666, "color": "ffffff00" }
+				]
+			},
+			"109800_Eff_weapons_01": {
+				"attachment": [
+					{ "time": 1.5, "name": "109800_Eff_weapons_01" }
+				],
+				"color": [
+					{ "time": 1.9, "color": "ffffffff" },
+					{ "time": 2.0333, "color": "ffffff00" }
+				]
+			},
+			"109800_Eff_weapons_2": {
+				"attachment": [
+					{ "time": 1.5, "name": "109800_Eff_weapons_01" }
+				],
+				"color": [
+					{ "time": 1.9333, "color": "ffffffff" },
+					{ "time": 2.0666, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"109800_Eff_Skill2_fazhen": {
+				"scale": [
+					{ "time": 0.2, "x": 1.5, "y": 1.5 }
+				]
+			},
+			"109800_Eff_Skill2_kuansan_01": {
+				"scale": [
+					{ "time": 1.5, "x": 0.5, "y": 1 },
+					{ "time": 1.6333, "x": 1, "y": 2.5 }
+				]
+			},
+			"109800_Eff_Skill2_weapons_02": {
+				"translate": [
+					{
+						"time": 1.5,
+						"x": 0,
+						"y": -108.69,
+						"curve": [ 0, 0.21, 0.75, 1 ]
+					},
+					{ "time": 2, "x": 477.03, "y": -108.7 }
+				]
+			},
+			"109800_Eff_Skill2_weapons_Trial2": {
+				"scale": [
+					{
+						"time": 1.5,
+						"x": 0.5,
+						"y": 1,
+						"curve": [ 0.207, 0.04, 0.965, 0.91 ]
+					},
+					{ "time": 1.9, "x": 3, "y": 0.5 }
+				]
+			},
+			"109800_Eff_Skill2_weapons_03": {
+				"translate": [
+					{ "time": 1.5, "x": 99.68, "y": -36.13 },
+					{ "time": 2, "x": 526.79, "y": -36.13 }
+				],
+				"scale": [
+					{ "time": 1.5, "x": 0.8, "y": 0.8 }
+				]
+			},
+			"109800_Eff_Skill2_weapons_Trial3": {
+				"scale": [
+					{ "time": 1.5, "x": 0.5, "y": -1 },
+					{ "time": 1.9333, "x": 3, "y": -0.5 }
+				]
+			},
+			"109800_Eff_Skill2_weapons_01": {
+				"translate": [
+					{
+						"time": 1.5,
+						"x": -7.49,
+						"y": 80.56,
+						"curve": [ 0, 0.19, 0.75, 1 ]
+					},
+					{ "time": 2, "x": 422.75, "y": 80.56 }
+				],
+				"scale": [
+					{ "time": 1.5, "x": 0.9, "y": 0.9 }
+				]
+			},
+			"109800_Eff_Skill2_weapons_Trial1": {
+				"scale": [
+					{
+						"time": 1.5,
+						"x": 0.5,
+						"y": 1,
+						"curve": [ 0.612, 0, 0.75, 1 ]
+					},
+					{ "time": 1.9333, "x": 3, "y": 0.7 }
+				]
+			}
+		}
+	}
+}
+}

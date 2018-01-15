@@ -1,0 +1,46 @@
+{
+"skeleton": { "hash": "IJVO/+TbL3uTC50k4WLtw2Gkmi4", "spine": "2.1.27", "width": 225, "height": 270, "images": "./images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "10015_xian01", "parent": "root", "x": 0.48, "y": -22.7, "scaleX": 1.5, "scaleY": 1.5 }
+],
+"slots": [
+	{ "name": "10015_xian01", "bone": "10015_xian01", "attachment": "10015_xian01", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"10015_xian01": {
+			"10015_xian01": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian02": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian03": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian04": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian05": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian06": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian07": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian08": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian09": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 },
+			"10015_xian10": { "x": 1.11, "y": 67.5, "width": 150, "height": 180 }
+		}
+	}
+},
+"animations": {
+	"Tree_Cure": {
+		"slots": {
+			"10015_xian01": {
+				"attachment": [
+					{ "time": 0, "name": "10015_xian01" },
+					{ "time": 0.0666, "name": "10015_xian02" },
+					{ "time": 0.1333, "name": "10015_xian03" },
+					{ "time": 0.2, "name": "10015_xian04" },
+					{ "time": 0.2666, "name": "10015_xian05" },
+					{ "time": 0.3333, "name": "10015_xian06" },
+					{ "time": 0.4, "name": "10015_xian07" },
+					{ "time": 0.4666, "name": "10015_xian08" },
+					{ "time": 0.5333, "name": "10015_xian09" },
+					{ "time": 0.6, "name": null }
+				]
+			}
+		}
+	}
+}
+}

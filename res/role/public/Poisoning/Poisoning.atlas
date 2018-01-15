@@ -1,0 +1,62 @@
+
+Poisoning.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+100200_duqi01
+  rotate: true
+  xy: 254, 3
+  size: 109, 115
+  orig: 131, 167
+  offset: 4, 3
+  index: -1
+100200_duqi02
+  rotate: false
+  xy: 370, 13
+  size: 121, 124
+  orig: 131, 167
+  offset: 3, 3
+  index: -1
+100200_duqi03
+  rotate: true
+  xy: 370, 138
+  size: 117, 134
+  orig: 131, 167
+  offset: 2, 3
+  index: -1
+100200_duqi04
+  rotate: false
+  xy: 249, 113
+  size: 120, 142
+  orig: 131, 167
+  offset: 1, 3
+  index: -1
+100200_duqi05
+  rotate: false
+  xy: 126, 109
+  size: 122, 146
+  orig: 131, 167
+  offset: 0, 3
+  index: -1
+100200_duqi06
+  rotate: false
+  xy: 1, 104
+  size: 124, 151
+  orig: 131, 167
+  offset: 1, 14
+  index: -1
+100200_duqi07
+  rotate: false
+  xy: 126, 1
+  size: 127, 107
+  orig: 131, 167
+  offset: 3, 22
+  index: -1
+100200_duqi08
+  rotate: false
+  xy: 1, 9
+  size: 114, 94
+  orig: 131, 167
+  offset: 17, 46
+  index: -1
