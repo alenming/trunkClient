@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commonFrame">
+      <UniqueIdentifier>{5d85fb0c-4c14-4359-af03-22a6111cac74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commonFrame\mixedCode">
+      <UniqueIdentifier>{75b02738-1168-4e55-82fa-ca11df079cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commonFrame\resManager">
+      <UniqueIdentifier>{5b3003f9-a873-483d-8116-5fef740bfdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle">
+      <UniqueIdentifier>{875b9680-5380-40dc-9108-f49270254a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle\display">
+      <UniqueIdentifier>{be16e58e-1a70-4b73-9694-df3730bfda01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle\logic">
+      <UniqueIdentifier>{b7ba6935-9df8-4b8d-aad5-48a0735d59ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameConfig">
+      <UniqueIdentifier>{0c1252f5-f136-465c-881c-023e86c1d367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameMain">
+      <UniqueIdentifier>{0b868a47-3fb5-4d46-9963-d10502be35b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kxdebuger">
+      <UniqueIdentifier>{da7ee152-5fc2-4312-a84e-ada0d4b8c15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="networkNode">
+      <UniqueIdentifier>{895eb8ce-78a0-4ca5-810a-6c5e38c31059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{5cb94b6b-a274-4445-809a-34bc72bb6d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle\display\effect">
+      <UniqueIdentifier>{91890f33-17ed-4b56-abac-0bf23aa4c650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle\display\object">
+      <UniqueIdentifier>{4574867d-33e5-4fa7-a87f-258c6d72b51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle\display\ui">
+      <UniqueIdentifier>{773e724a-c051-4222-8be9-f44b50b3e315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameFrame">
+      <UniqueIdentifier>{1717304e-0ce1-4031-b4dd-14cef24e58e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern">
+      <UniqueIdentifier>{6997e584-e76d-49f3-ac23-0b0ee89f7106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\kxServer">
+      <UniqueIdentifier>{c3792918-f0b8-4432-8408-a47c6259b457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\protobuf-lite">
+      <UniqueIdentifier>{6f49a067-7d56-4673-8a65-95465d50ed85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\quicklib">
+      <UniqueIdentifier>{27110430-1e4c-4b7b-b29a-6e9f1903632a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\kxServer\commnication">
+      <UniqueIdentifier>{e4540b82-0d15-459b-af47-96633dfae885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\kxServer\core">
+      <UniqueIdentifier>{498f0c27-a76c-40b3-8965-58440bb28589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\kxServer\helper">
+      <UniqueIdentifier>{f618595b-6234-415d-9510-10f3e674aea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\kxServer\pulgins">
+      <UniqueIdentifier>{3ced225b-9f7c-4bb6-942c-e663a04a8a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\protobuf-lite\google">
+      <UniqueIdentifier>{5bfba1fd-e709-40c2-8104-91b5b6e5154c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\quicklib\quick">
+      <UniqueIdentifier>{33d83b40-7e35-4c79-b350-c1b3c3f85e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\protobuf-lite\google\protobuf">
+      <UniqueIdentifier>{af6b0671-cd25-470b-a24e-71ce87893060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\protobuf-lite\google\protobuf\io">
+      <UniqueIdentifier>{b0a1878f-9174-4eda-b127-b54e8c7d1c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\protobuf-lite\google\protobuf\stubs">
+      <UniqueIdentifier>{d752008b-6fd1-4184-a620-259908611f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle\common">
+      <UniqueIdentifier>{28a4e71d-9adc-4174-9548-fe53b3c0eeda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameToLua">
+      <UniqueIdentifier>{f883daa4-7c3f-40b2-ac12-8865d1763faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameToLua\model">
+      <UniqueIdentifier>{94d5cbc5-763f-4340-ada8-04b25951122d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commonFrame\fmodAudioEngine">
+      <UniqueIdentifier>{8229f457-cfc3-43a8-9b7f-82335b110f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\md5">
+      <UniqueIdentifier>{6c8e06dc-9c28-4691-be6e-be72917064a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="networkNode\chatNetwork">
+      <UniqueIdentifier>{96142ce6-c052-429d-8f2d-05e1459e1548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extern\qqHall">
+      <UniqueIdentifier>{5ab62411-bd39-455c-9a8c-3614a0c81060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameBattle\display\ui\replay">
+      <UniqueIdentifier>{63628a99-8752-45fb-ac1c-32a04a8a4607}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\ArmatureLoader.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameMain\AppDelegate.cpp">
+      <Filter>gameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\AIActions.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\AIComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\AIConditions.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfLanguage.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfManager.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfOther.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfRole.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfStage.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfAnalytic.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfFight.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfGameSetting.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfHall.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\AnimateComponent.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\ArmatureComponent.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\effect\ArmatureEffect.cpp">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\BufferData.cpp">
+      <Filter>commonFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\CsbTool.cpp">
+      <Filter>commonFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\CsvLoader.cpp">
+      <Filter>commonFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\RandomNumber.cpp">
+      <Filter>commonFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\TimeCalcTool.cpp">
+      <Filter>commonFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\NumberScrollLabel.cpp">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\Shake.cpp">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\CsbLoader.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\IResLoader.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\MusicLoader.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\ResManager.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\SpineLoader.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\TextureLoader.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\BattleHelper.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\BattleScene.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\BattleSerialize.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\Boss.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\Bullet.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\CallSoldier.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\GameObject.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\Hero.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\Monster.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\Role.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\Soldier.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\BattleDragLayer.cpp">
+      <Filter>gameBattle\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\DisplayCommon.cpp">
+      <Filter>gameBattle\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\effect\BlinkAction.cpp">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\effect\CsbEffect.cpp">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\effect\Effect.cpp">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\effect\EffectFactory.cpp">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\effect\SpineEffect.cpp">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\effect\UIEffect.cpp">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\DisplayComponent.cpp">
+      <Filter>gameBattle\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\BulletDisplayComponent.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\HPBar.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\RoleDisplayComponent.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\SpriteComponent.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\SpineComponent.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIActionTipsBar.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIBattleMain.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UICrystal.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIHeroCard.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkill.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameFrame\BattleModels.cpp">
+      <Filter>gameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameFrame\Game.cpp">
+      <Filter>gameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameFrame\GameModel.cpp">
+      <Filter>gameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameFrame\GameComm.cpp">
+      <Filter>gameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameFrame\ModelData.cpp">
+      <Filter>gameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameMain\HelloWorldScene.cpp">
+      <Filter>gameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\BaseService.cpp">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\DebugerModule.cpp">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\IService.cpp">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\KxDebuger.cpp">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\KxPollNode.cpp">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\ListenerModule.cpp">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\message.pb.cc">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\kxdebuger\NodeService.cpp">
+      <Filter>kxdebuger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\BaseModule.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\BaseProxy.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\CommonProxy.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\EventProxy.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\GameModule.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\GameNetworkNode.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\GameSingleNode.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\NetBattleProxy.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\ProxyManager.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\SingleBattleProxy.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\SingleStageProxy.cpp">
+      <Filter>networkNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\quicklib\quick\LuaTouchEventManager.cpp">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\quicklib\quick\LuaTouchTargetNode.cpp">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\quicklib\quick\LuaNodeManager.cpp">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\quicklib\quick\LuaEventNode.cpp">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\quicklib\quick\lua_cocos2dx_quick_manual.cpp">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_gcc.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\common.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\once.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\stringprintf.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\io\coded_stream.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream.cc">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\extension_set.cc">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\generated_message_util.cc">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\message_lite.cc">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\repeated_field.cc">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\wire_format_lite.cc">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxBufferList.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxSelectPoller.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxSock.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPClienter.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPConnector.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPListener.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPUnit.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\commnication\KxUDPUnit.cpp">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\core\KxLog.cpp">
+      <Filter>extern\kxServer\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\core\KxMemPool.cpp">
+      <Filter>extern\kxServer\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\core\KxObject.cpp">
+      <Filter>extern\kxServer\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\core\KxTimerManager.cpp">
+      <Filter>extern\kxServer\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\helper\LogConsoleHandler.cpp">
+      <Filter>extern\kxServer\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\helper\LogFileHandler.cpp">
+      <Filter>extern\kxServer\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\Buff.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\BuffComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\BulletComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\CallComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\Count.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\Dispatch.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\HeroComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\LogicComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\RoleComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\Skill.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\SkillComponent.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\State.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\logic\TargetSearcher.cpp">
+      <Filter>gameBattle\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\BattleLogic.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfGuide.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIPause.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameMain\LogCocosHandler.cpp">
+      <Filter>gameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\PVPSerialize.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfMusic.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\FluxayAction.cpp">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\SuperRichText.cpp">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkillRange.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkillScreen.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfActive.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaBufferData.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaConfigFunc.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaResManager.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaShake.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaSummonerBase.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaSummonerExtend.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaSuperRichText.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaTools.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaAchieveModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaActivityInstanceModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaBagModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaEquipModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaGameModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaGoldTestModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaGuideModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeroCardBagModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeroCardModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeroTestModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaMailModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaPersonalTaskModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaPvpModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaRoomModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaShopModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaStageModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaSummonersModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTaskModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTeamModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTeamTaskModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTowerTestModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaUnionModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaUserModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaOperateActiveModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISummoner.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\sha1.cpp">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\fmodAudioEngine\FMODAudioEngine.cpp">
+      <Filter>commonFrame\fmodAudioEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\LuaFMODAudioEngine.cpp">
+      <Filter>gameToLua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\SimpleShader.cpp">
+      <Filter>gameBattle\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeadModel.cpp">
+      <Filter>gameToLua\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\md5\MD5.cpp">
+      <Filter>extern\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameMain\LogUiHandler.cpp">
+      <Filter>gameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameMain\UILogLayer.cpp">
+      <Filter>gameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\kxServer\helper\LogBattleHandler.cpp">
+      <Filter>extern\kxServer\helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfUnion.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\commonFrame\resManager\CsbLoader_.cpp">
+      <Filter>commonFrame\resManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkillPoint.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\networkNode\ChatModule.cpp">
+      <Filter>networkNode\chatNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UITouchInfo.cpp">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameMain\CsvCheck.cpp">
+      <Filter>gameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\qqHall\QQHallManager.cpp">
+      <Filter>extern\qqHall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ResPool.cpp">
+      <Filter>gameBattle\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\common\ComponentCache.cpp">
+      <Filter>gameBattle\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\object\TipBloodNode.cpp">
+      <Filter>gameBattle\display\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameConfig\ConfArena.cpp">
+      <Filter>gameConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplayBattleMain.cpp">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplayCrystal.cpp">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplayHeroCard.cpp">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplaySkill.cpp">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\AchievementProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\ArmatureLoader.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameMain\AppDelegate.h">
+      <Filter>gameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\AIActions.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\AIComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\AIConditions.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfLanguage.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfManager.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfOther.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfRole.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfStage.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfHall.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfAnalytic.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfFight.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfGameSetting.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\AnimateComponent.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\ArmatureComponent.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\effect\ArmatureEffect.h">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\BagProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\BufferData.h">
+      <Filter>commonFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\CsbTool.h">
+      <Filter>commonFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\CsvLoader.h">
+      <Filter>commonFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\EventManager.h">
+      <Filter>commonFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\RandomNumber.h">
+      <Filter>commonFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\NumberScrollLabel.h">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\Shake.h">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\TimeCalcTool.h">
+      <Filter>commonFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\CsbLoader.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\IResLoader.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\MusicLoader.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\ResManager.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\SpineLoader.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\TextureLoader.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\BattleHelper.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\BattleScene.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\Boss.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\Bullet.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\CallSoldier.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\GameObject.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\Hero.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\Monster.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\Role.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\RoleComm.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\Soldier.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\BattleDragLayer.h">
+      <Filter>gameBattle\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\DisplayCommon.h">
+      <Filter>gameBattle\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\DisplayComponent.h">
+      <Filter>gameBattle\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\effect\BlinkAction.h">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\effect\CsbEffect.h">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\effect\Effect.h">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\effect\EffectFactory.h">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\effect\SpineEffect.h">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\effect\UIEffect.h">
+      <Filter>gameBattle\display\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\BulletDisplayComponent.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\HPBar.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\RoleDisplayComponent.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\SpriteComponent.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\SpineComponent.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIActionTipsBar.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIBattleMain.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UICrystal.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIHeroCard.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkill.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\BattleModels.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\CommStructs.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\CommTools.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\Events.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\Game.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\GameModel.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\GameComm.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\KxCSComm.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameFrame\ModelData.h">
+      <Filter>gameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameMain\HelloWorldScene.h">
+      <Filter>gameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\BaseService.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\DebugerModule.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\IService.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\KxDebuger.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\KxDebugerProtocol.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\KxPollNode.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\ListenerModule.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\message.pb.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\kxdebuger\NodeService.h">
+      <Filter>kxdebuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\BaseModule.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\BaseProxy.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\CommonProxy.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\EventProxy.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\GameModule.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\GameNetworkNode.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\GameSingleNode.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\NetBattleProxy.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\ProxyManager.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\SingleBattleProxy.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\SingleStageProxy.h">
+      <Filter>networkNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\BattleProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\GoldTestProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\HeroProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\HeroTestProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\InstanceProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\ServerProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\SummonerProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\TowerTestProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\UnionProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\UserProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\quicklib\quick\LuaTouchTargetNode.h">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\quicklib\quick\LuaTouchEventManager.h">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\quicklib\quick\LuaNodeManager.h">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\quicklib\quick\LuaEventNode.h">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\quicklib\quick\lua_cocos2dx_quick_manual.hpp">
+      <Filter>extern\quicklib\quick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\config.h">
+      <Filter>extern\protobuf-lite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_arm_gcc.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_atomicword_compat.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_generic_gcc.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_macosx.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_gcc.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\common.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\hash.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\map-util.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\once.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\platform_macros.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\stl_util.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\stringprintf.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\template_util.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\type_traits.h">
+      <Filter>extern\protobuf-lite\google\protobuf\stubs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\coded_stream.h">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\coded_stream_inl.h">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.h">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream_impl.h">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream.h">
+      <Filter>extern\protobuf-lite\google\protobuf\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\extension_set.h">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\generated_message_util.h">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\message_lite.h">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\repeated_field.h">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\wire_format_lite.h">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\wire_format_lite_inl.h">
+      <Filter>extern\protobuf-lite\google\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\KXServer.h">
+      <Filter>extern\kxServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxBufferList.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxCommInterfaces.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxSelectPoller.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxSock.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPClienter.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPConnector.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPListener.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPUnit.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\commnication\KxUDPUnit.h">
+      <Filter>extern\kxServer\commnication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\core\KxTimeVal.h">
+      <Filter>extern\kxServer\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\core\KxCore.h">
+      <Filter>extern\kxServer\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\core\KxLog.h">
+      <Filter>extern\kxServer\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\core\KxMemPool.h">
+      <Filter>extern\kxServer\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\core\KxObject.h">
+      <Filter>extern\kxServer\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\core\KxPlatform.h">
+      <Filter>extern\kxServer\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\core\KxTimerManager.h">
+      <Filter>extern\kxServer\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\helper\LogConsoleHandler.h">
+      <Filter>extern\kxServer\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\helper\LogFileHandler.h">
+      <Filter>extern\kxServer\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\Buff.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\BuffComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\BulletComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\CallComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\Count.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\Dispatch.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\HeroComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\LogicComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\RoleComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\Skill.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\SkillComponent.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\State.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\logic\TargetSearcher.h">
+      <Filter>gameBattle\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\LoginProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\MailProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\Protocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\PvpProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\StageProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\TaskProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\TeamProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfGuide.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\ShopProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIPause.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameMain\LogCocosHandler.h">
+      <Filter>gameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\GuideProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\PVPSerialize.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\RankProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfMusic.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\ChatProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\FluxayAction.h">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\SuperRichText.h">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkillRange.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkillScreen.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\ActiveProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfActive.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\lua_summoner_module_register.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaBufferData.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaConfigFunc.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaResManager.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaShake.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaSummonerBase.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaSummonerExtend.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaSuperRichText.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaTools.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaAchieveModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaActivityInstanceModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaBagModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaEquipModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaGameModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaGoldTestModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaGuideModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeroCardBagModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeroCardModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeroTestModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaMailModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaPersonalTaskModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaPvpModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaRoomModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaShopModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaStageModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaSummonersModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTaskModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTeamModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTeamTaskModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTowerTestModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaUnionModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaUserModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaOperateActiveModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISummoner.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\ErrorCodeProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\sha1.h">
+      <Filter>commonFrame\mixedCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\fmodAudioEngine\FMODAudioEngine.h">
+      <Filter>commonFrame\fmodAudioEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\LuaFMODAudioEngine.h">
+      <Filter>gameToLua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\SimpleShader.h">
+      <Filter>gameBattle\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeadModel.h">
+      <Filter>gameToLua\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\md5\MD5.h">
+      <Filter>extern\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameMain\LogUiHandler.h">
+      <Filter>gameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameMain\UILogLayer.h">
+      <Filter>gameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\kxServer\helper\LogBattleHandler.h">
+      <Filter>extern\kxServer\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameConfig\ConfUnion.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\UnionExpiditionProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\commonFrame\resManager\CsbLoader_.h">
+      <Filter>commonFrame\resManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkillPoint.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\networkNode\ChatModule.h">
+      <Filter>networkNode\chatNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UITouchInfo.h">
+      <Filter>gameBattle\display\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameMain\CsvCheck.h">
+      <Filter>gameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\InternalProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\NoticeProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\PayProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\protocol\SessionProtocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\qqHall\ClientProcMsgObject_i.h">
+      <Filter>extern\qqHall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\qqHall\Define.h">
+      <Filter>extern\qqHall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\qqHall\QQHallManager.h">
+      <Filter>extern\qqHall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ResPool.h">
+      <Filter>gameBattle\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\common\ComponentCache.h">
+      <Filter>gameBattle\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\object\TipBloodNode.h">
+      <Filter>gameBattle\display\object</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfArena.h">
+      <Filter>gameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplayBattleMain.h">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplayCrystal.h">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplayHeroCard.h">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplaySkill.h">
+      <Filter>gameBattle\display\ui\replay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="summoner.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

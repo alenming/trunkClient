@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0'">v120</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '12.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v120_xp</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0'">v140</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '14.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v140_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2dx.props" />
+    <Import Project="..\cocos2d\cocos\2d\cocos2d_headers.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\scripting\lua-bindings\auto;$(EngineRoot)cocos\scripting\lua-bindings\manual;$(EngineRoot)cocos\audio\include;$(EngineRoot)external;$(EngineRoot)external\lua\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)extensions;..;..\extern\protobuf-lite;..\extern\quicklib\quick;..\extern\kxServer;..\extern\kxServer\core;..\extern\kxServer\commnication;..\extern\kxServer\helper;..\Classes\kxdebuger;..\Classes\networkNode;..\Classes\protocol;..\Classes;..\Classes\commonFrame;..\Classes\commonFrame\mixedCode;..\Classes\commonFrame\fmodAudioEngine;..\Classes\commonFrame\resManager;..\Classes\gameBattle;..\Classes\gameBattle\common;..\Classes\gameBattle\display;..\Classes\gameBattle\display\effect;..\Classes\gameBattle\display\ui;..\Classes\gameBattle\display\object;..\Classes\gameBattle\logic;..\Classes\gameConfig;..\Classes\gameFrame;..\Classes\gameMain;..\Classes\gameToLua;..\Classes\gameToLua\model;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=0;CC_USE_PHYSICS=0;CC_USE_3D_PHYSICS=0;CC_USE_NAVMESH=0;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_USRLUASTATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END);fmod_vc.lib;fmodstudio_vc.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(ProjectName).exe $(ProjectDir)\..\bin\</Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+      <Outputs>
+      </Outputs>
+      <Inputs>
+      </Inputs>
+    </CustomBuildStep>
+    <Link>
+      <IgnoreSpecificDefaultLibraries Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy new target to bin directory</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(EngineRoot)cocos\scripting\lua-bindings\auto;$(EngineRoot)cocos\scripting\lua-bindings\manual;$(EngineRoot)cocos\audio\include;$(EngineRoot)external\lua\lua;$(EngineRoot)external\lua\tolua;$(EngineRoot)extensions;..;..\extern\protobuf-lite;..\extern\quicklib\quick;..\extern\kxServer;..\extern\kxServer\core;..\extern\kxServer\commnication;..\extern\kxServer\helper;..\Classes\kxdebuger;..\Classes\networkNode;..\Classes\protocol;..\Classes;..\Classes\commonFrame;..\Classes\commonFrame\mixedCode;..\Classes\commonFrame\fmodAudioEngine;..\Classes\commonFrame\resManager;..\Classes\gameBattle;..\Classes\gameBattle\common;..\Classes\gameBattle\display;..\Classes\gameBattle\display\effect;..\Classes\gameBattle\display\ui;..\Classes\gameBattle\display\object;..\Classes\gameBattle\logic;..\Classes\gameConfig;..\Classes\gameFrame;..\Classes\gameMain;..\Classes\gameToLua;..\Classes\gameToLua\model;%(AdditionalIncludeDirectories);$(_COCOS_HEADER_WIN32_BEGIN);$(_COCOS_HEADER_WIN32_END)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=0;CC_USE_PHYSICS=0;CC_USE_3D_PHYSICS=0;CC_USE_NAVMESH=0;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;websockets.lib;%(AdditionalDependencies);$(_COCOS_LIB_WIN32_BEGIN);$(_COCOS_LIB_WIN32_END);fmod_vc.lib;fmodstudio_vc.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories);$(_COCOS_LIB_PATH_WIN32_BEGIN);$(_COCOS_LIB_PATH_WIN32_END)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\commonFrame\BufferData.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\CsbTool.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\CsvLoader.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\fmodAudioEngine\FMODAudioEngine.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\FluxayAction.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\NumberScrollLabel.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\sha1.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\Shake.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\mixedCode\SuperRichText.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\RandomNumber.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\ArmatureLoader.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\CsbLoader.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\CsbLoader_.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\IResLoader.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\MusicLoader.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\ResManager.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\SpineLoader.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\resManager\TextureLoader.cpp" />
+    <ClCompile Include="..\Classes\commonFrame\TimeCalcTool.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\BattleHelper.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\BattleLogic.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\BattleScene.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\BattleSerialize.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\Boss.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\Bullet.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\CallSoldier.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\GameObject.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\Hero.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\Monster.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\ComponentCache.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\PVPSerialize.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\Role.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\common\Soldier.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\BattleDragLayer.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\DisplayCommon.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\DisplayComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\effect\ArmatureEffect.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\effect\BlinkAction.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\effect\CsbEffect.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\effect\Effect.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\effect\EffectFactory.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\effect\SpineEffect.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\effect\UIEffect.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\AnimateComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\ArmatureComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\BulletDisplayComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\HPBar.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\RoleDisplayComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\SpineComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\SpriteComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\object\TipBloodNode.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ResPool.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\SimpleShader.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIActionTipsBar.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIBattleMain.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UICrystal.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIHeroCard.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplayBattleMain.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplayCrystal.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplayHeroCard.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIReplaySkill.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkillPoint.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISummoner.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UIPause.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkill.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkillRange.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UISkillScreen.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\display\ui\UITouchInfo.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\AIActions.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\AIComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\AIConditions.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\Buff.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\BuffComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\BulletComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\CallComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\Count.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\Dispatch.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\HeroComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\LogicComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\RoleComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\Skill.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\SkillComponent.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\State.cpp" />
+    <ClCompile Include="..\Classes\gameBattle\logic\TargetSearcher.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfActive.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfAnalytic.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfArena.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfFight.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfGameSetting.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfGuide.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfHall.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfLanguage.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfManager.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfMusic.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfOther.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfRole.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfStage.cpp" />
+    <ClCompile Include="..\Classes\gameConfig\ConfUnion.cpp" />
+    <ClCompile Include="..\Classes\gameFrame\BattleModels.cpp" />
+    <ClCompile Include="..\Classes\gameFrame\Game.cpp" />
+    <ClCompile Include="..\Classes\gameFrame\GameComm.cpp" />
+    <ClCompile Include="..\Classes\gameFrame\GameModel.cpp" />
+    <ClCompile Include="..\Classes\gameFrame\ModelData.cpp" />
+    <ClCompile Include="..\Classes\gameMain\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\gameMain\CsvCheck.cpp" />
+    <ClCompile Include="..\Classes\gameMain\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\gameMain\LogCocosHandler.cpp" />
+    <ClCompile Include="..\Classes\gameMain\LogUiHandler.cpp" />
+    <ClCompile Include="..\Classes\gameMain\UILogLayer.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaBufferData.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaConfigFunc.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaFMODAudioEngine.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaResManager.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaShake.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaSummonerBase.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaSummonerExtend.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaSuperRichText.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\LuaTools.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaAchieveModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaActivityInstanceModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaBagModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaEquipModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaGameModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaGoldTestModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaGuideModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeadModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeroCardBagModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeroCardModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaHeroTestModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaMailModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaOperateActiveModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaPersonalTaskModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaPvpModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaRoomModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaShopModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaStageModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaSummonersModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTaskModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTeamModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTeamTaskModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaTowerTestModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaUnionModel.cpp" />
+    <ClCompile Include="..\Classes\gameToLua\model\LuaUserModel.cpp" />
+    <ClCompile Include="..\Classes\kxdebuger\BaseService.cpp" />
+    <ClCompile Include="..\Classes\kxdebuger\DebugerModule.cpp" />
+    <ClCompile Include="..\Classes\kxdebuger\IService.cpp" />
+    <ClCompile Include="..\Classes\kxdebuger\KxDebuger.cpp" />
+    <ClCompile Include="..\Classes\kxdebuger\KxPollNode.cpp" />
+    <ClCompile Include="..\Classes\kxdebuger\ListenerModule.cpp" />
+    <ClCompile Include="..\Classes\kxdebuger\message.pb.cc" />
+    <ClCompile Include="..\Classes\kxdebuger\NodeService.cpp" />
+    <ClCompile Include="..\Classes\networkNode\BaseModule.cpp" />
+    <ClCompile Include="..\Classes\networkNode\BaseProxy.cpp" />
+    <ClCompile Include="..\Classes\networkNode\ChatModule.cpp" />
+    <ClCompile Include="..\Classes\networkNode\CommonProxy.cpp" />
+    <ClCompile Include="..\Classes\networkNode\EventProxy.cpp" />
+    <ClCompile Include="..\Classes\networkNode\GameModule.cpp" />
+    <ClCompile Include="..\Classes\networkNode\GameNetworkNode.cpp" />
+    <ClCompile Include="..\Classes\networkNode\GameSingleNode.cpp" />
+    <ClCompile Include="..\Classes\networkNode\NetBattleProxy.cpp" />
+    <ClCompile Include="..\Classes\networkNode\ProxyManager.cpp" />
+    <ClCompile Include="..\Classes\networkNode\SingleBattleProxy.cpp" />
+    <ClCompile Include="..\Classes\networkNode\SingleStageProxy.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxBufferList.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxSelectPoller.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxSock.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPClienter.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPConnector.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPListener.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxTCPUnit.cpp" />
+    <ClCompile Include="..\extern\kxServer\commnication\KxUDPUnit.cpp" />
+    <ClCompile Include="..\extern\kxServer\core\KxLog.cpp" />
+    <ClCompile Include="..\extern\kxServer\core\KxMemPool.cpp" />
+    <ClCompile Include="..\extern\kxServer\core\KxObject.cpp" />
+    <ClCompile Include="..\extern\kxServer\core\KxTimerManager.cpp" />
+    <ClCompile Include="..\extern\kxServer\helper\LogBattleHandler.cpp" />
+    <ClCompile Include="..\extern\kxServer\helper\LogConsoleHandler.cpp" />
+    <ClCompile Include="..\extern\kxServer\helper\LogFileHandler.cpp" />
+    <ClCompile Include="..\extern\md5\MD5.cpp" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\extension_set.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\generated_message_util.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\io\coded_stream.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\message_lite.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\repeated_field.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\common.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\once.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\stubs\stringprintf.cc" />
+    <ClCompile Include="..\extern\protobuf-lite\google\protobuf\wire_format_lite.cc" />
+    <ClCompile Include="..\extern\qqHall\QQHallManager.cpp" />
+    <ClCompile Include="..\extern\quicklib\quick\LuaEventNode.cpp" />
+    <ClCompile Include="..\extern\quicklib\quick\LuaNodeManager.cpp" />
+    <ClCompile Include="..\extern\quicklib\quick\LuaTouchEventManager.cpp" />
+    <ClCompile Include="..\extern\quicklib\quick\LuaTouchTargetNode.cpp" />
+    <ClCompile Include="..\extern\quicklib\quick\lua_cocos2dx_quick_manual.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\commonFrame\BufferData.h" />
+    <ClInclude Include="..\Classes\commonFrame\CsbTool.h" />
+    <ClInclude Include="..\Classes\commonFrame\CsvLoader.h" />
+    <ClInclude Include="..\Classes\commonFrame\EventManager.h" />
+    <ClInclude Include="..\Classes\commonFrame\fmodAudioEngine\FMODAudioEngine.h" />
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\FluxayAction.h" />
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\NumberScrollLabel.h" />
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\sha1.h" />
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\Shake.h" />
+    <ClInclude Include="..\Classes\commonFrame\mixedCode\SuperRichText.h" />
+    <ClInclude Include="..\Classes\commonFrame\RandomNumber.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\ArmatureLoader.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\CsbLoader.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\CsbLoader_.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\IResLoader.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\MusicLoader.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\ResManager.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\SpineLoader.h" />
+    <ClInclude Include="..\Classes\commonFrame\resManager\TextureLoader.h" />
+    <ClInclude Include="..\Classes\commonFrame\TimeCalcTool.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\BattleHelper.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\BattleScene.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\Boss.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\Bullet.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\CallSoldier.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\GameObject.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\Hero.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\Monster.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\ComponentCache.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\PVPSerialize.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\Role.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\RoleComm.h" />
+    <ClInclude Include="..\Classes\gameBattle\common\Soldier.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\BattleDragLayer.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\DisplayCommon.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\DisplayComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\effect\ArmatureEffect.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\effect\BlinkAction.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\effect\CsbEffect.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\effect\Effect.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\effect\EffectFactory.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\effect\SpineEffect.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\effect\UIEffect.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\AnimateComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\ArmatureComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\BulletDisplayComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\HPBar.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\RoleDisplayComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\SpineComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\SpriteComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\object\TipBloodNode.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ResPool.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\SimpleShader.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIActionTipsBar.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIBattleMain.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UICrystal.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIHeroCard.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplayBattleMain.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplayCrystal.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplayHeroCard.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIReplaySkill.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkillPoint.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISummoner.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UIPause.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkill.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkillRange.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UISkillScreen.h" />
+    <ClInclude Include="..\Classes\gameBattle\display\ui\UITouchInfo.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\AIActions.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\AIComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\AIConditions.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\Buff.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\BuffComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\BulletComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\CallComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\Count.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\Dispatch.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\HeroComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\LogicComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\RoleComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\Skill.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\SkillComponent.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\State.h" />
+    <ClInclude Include="..\Classes\gameBattle\logic\TargetSearcher.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfActive.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfAnalytic.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfArena.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfFight.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfGameSetting.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfGuide.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfHall.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfLanguage.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfManager.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfMusic.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfOther.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfRole.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfStage.h" />
+    <ClInclude Include="..\Classes\gameConfig\ConfUnion.h" />
+    <ClInclude Include="..\Classes\gameFrame\BattleModels.h" />
+    <ClInclude Include="..\Classes\gameFrame\CommStructs.h" />
+    <ClInclude Include="..\Classes\gameFrame\CommTools.h" />
+    <ClInclude Include="..\Classes\gameFrame\Events.h" />
+    <ClInclude Include="..\Classes\gameFrame\Game.h" />
+    <ClInclude Include="..\Classes\gameFrame\GameComm.h" />
+    <ClInclude Include="..\Classes\gameFrame\GameModel.h" />
+    <ClInclude Include="..\Classes\gameFrame\KxCSComm.h" />
+    <ClInclude Include="..\Classes\gameFrame\ModelData.h" />
+    <ClInclude Include="..\Classes\gameMain\AppDelegate.h" />
+    <ClInclude Include="..\Classes\gameMain\CsvCheck.h" />
+    <ClInclude Include="..\Classes\gameMain\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\gameMain\LogCocosHandler.h" />
+    <ClInclude Include="..\Classes\gameMain\LogUiHandler.h" />
+    <ClInclude Include="..\Classes\gameMain\UILogLayer.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaBufferData.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaConfigFunc.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaFMODAudioEngine.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaResManager.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaShake.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaSummonerBase.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaSummonerExtend.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaSuperRichText.h" />
+    <ClInclude Include="..\Classes\gameToLua\LuaTools.h" />
+    <ClInclude Include="..\Classes\gameToLua\lua_summoner_module_register.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaAchieveModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaActivityInstanceModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaBagModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaEquipModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaGameModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaGoldTestModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaGuideModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeadModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeroCardBagModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeroCardModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaHeroTestModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaMailModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaOperateActiveModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaPersonalTaskModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaPvpModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaRoomModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaShopModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaStageModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaSummonersModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTaskModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTeamModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTeamTaskModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaTowerTestModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaUnionModel.h" />
+    <ClInclude Include="..\Classes\gameToLua\model\LuaUserModel.h" />
+    <ClInclude Include="..\Classes\kxdebuger\BaseService.h" />
+    <ClInclude Include="..\Classes\kxdebuger\DebugerModule.h" />
+    <ClInclude Include="..\Classes\kxdebuger\IService.h" />
+    <ClInclude Include="..\Classes\kxdebuger\KxDebuger.h" />
+    <ClInclude Include="..\Classes\kxdebuger\KxDebugerProtocol.h" />
+    <ClInclude Include="..\Classes\kxdebuger\KxPollNode.h" />
+    <ClInclude Include="..\Classes\kxdebuger\ListenerModule.h" />
+    <ClInclude Include="..\Classes\kxdebuger\message.pb.h" />
+    <ClInclude Include="..\Classes\kxdebuger\NodeService.h" />
+    <ClInclude Include="..\Classes\networkNode\BaseModule.h" />
+    <ClInclude Include="..\Classes\networkNode\BaseProxy.h" />
+    <ClInclude Include="..\Classes\networkNode\ChatModule.h" />
+    <ClInclude Include="..\Classes\networkNode\CommonProxy.h" />
+    <ClInclude Include="..\Classes\networkNode\EventProxy.h" />
+    <ClInclude Include="..\Classes\networkNode\GameModule.h" />
+    <ClInclude Include="..\Classes\networkNode\GameNetworkNode.h" />
+    <ClInclude Include="..\Classes\networkNode\GameSingleNode.h" />
+    <ClInclude Include="..\Classes\networkNode\NetBattleProxy.h" />
+    <ClInclude Include="..\Classes\networkNode\ProxyManager.h" />
+    <ClInclude Include="..\Classes\networkNode\SingleBattleProxy.h" />
+    <ClInclude Include="..\Classes\networkNode\SingleStageProxy.h" />
+    <ClInclude Include="..\Classes\protocol\AchievementProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\ActiveProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\BagProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\BattleProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\ChatProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\ErrorCodeProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\GoldTestProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\HeroProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\HeroTestProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\InstanceProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\InternalProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\LoginProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\MailProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\NoticeProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\PayProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\Protocol.h" />
+    <ClInclude Include="..\Classes\protocol\PvpProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\RankProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\ServerProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\SessionProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\ShopProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\StageProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\GuideProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\SummonerProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\TaskProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\TeamProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\TowerTestProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\UnionExpiditionProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\UnionProtocol.h" />
+    <ClInclude Include="..\Classes\protocol\UserProtocol.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxBufferList.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxCommInterfaces.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxSelectPoller.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxSock.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPClienter.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPConnector.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPListener.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxTCPUnit.h" />
+    <ClInclude Include="..\extern\kxServer\commnication\KxUDPUnit.h" />
+    <ClInclude Include="..\extern\kxServer\core\KxCore.h" />
+    <ClInclude Include="..\extern\kxServer\core\KxLog.h" />
+    <ClInclude Include="..\extern\kxServer\core\KxMemPool.h" />
+    <ClInclude Include="..\extern\kxServer\core\KxObject.h" />
+    <ClInclude Include="..\extern\kxServer\core\KxPlatform.h" />
+    <ClInclude Include="..\extern\kxServer\core\KxTimerManager.h" />
+    <ClInclude Include="..\extern\kxServer\core\KxTimeVal.h" />
+    <ClInclude Include="..\extern\kxServer\helper\LogBattleHandler.h" />
+    <ClInclude Include="..\extern\kxServer\helper\LogConsoleHandler.h" />
+    <ClInclude Include="..\extern\kxServer\helper\LogFileHandler.h" />
+    <ClInclude Include="..\extern\kxServer\KXServer.h" />
+    <ClInclude Include="..\extern\md5\MD5.h" />
+    <ClInclude Include="..\extern\protobuf-lite\config.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\extension_set.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\generated_message_util.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\coded_stream.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\coded_stream_inl.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream_impl.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\message_lite.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\repeated_field.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_arm_gcc.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_atomicword_compat.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_generic_gcc.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_macosx.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_gcc.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\common.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\hash.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\map-util.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\once.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\platform_macros.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\stl_util.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\stringprintf.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\template_util.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\stubs\type_traits.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\wire_format_lite.h" />
+    <ClInclude Include="..\extern\protobuf-lite\google\protobuf\wire_format_lite_inl.h" />
+    <ClInclude Include="..\extern\qqHall\ClientProcMsgObject_i.h" />
+    <ClInclude Include="..\extern\qqHall\Define.h" />
+    <ClInclude Include="..\extern\qqHall\QQHallManager.h" />
+    <ClInclude Include="..\extern\quicklib\quick\LuaEventNode.h" />
+    <ClInclude Include="..\extern\quicklib\quick\LuaNodeManager.h" />
+    <ClInclude Include="..\extern\quicklib\quick\LuaTouchEventManager.h" />
+    <ClInclude Include="..\extern\quicklib\quick\LuaTouchTargetNode.h" />
+    <ClInclude Include="..\extern\quicklib\quick\lua_cocos2dx_quick_manual.hpp" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\cocos2d\cocos\2d\libcocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\editor-support\spine\proj_win32\libSpine.vcxproj">
+      <Project>{b7c2a162-dec9-4418-972e-240ab3cbfcae}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\cocos\scripting\lua-bindings\proj_win32\libluacocos2d.vcxproj">
+      <Project>{9f2d6ce6-c893-4400-b50c-6db70cc2562f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\Box2D\proj_win32\libbox2d.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\bullet\proj_win32\libbullet.vcxproj">
+      <Project>{012dff48-a13f-4f52-b07b-f8b9d21ce95b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\cocos2d\external\recast\proj_win32\librecast.vcxproj">
+      <Project>{41e34993-647e-4282-8384-4ab1ae31a452}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="summoner.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
