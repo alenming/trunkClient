@@ -4,3 +4,16 @@
 .svn/format
 .svn/wc.db
 .svn/wc.db-journal
+*.log
+*.obj
+*.tlog
+*.idb
+*.pdb
+*.sdf
+*.opensdf
+*.dll
+*.lib
+*.ilk
+*.exp
+*.res
+proj_win32/Debug.win32/summoner.exe

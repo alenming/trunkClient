@@ -622,15 +622,6 @@
     <ProjectReference Include="..\cocos2d\cocos\scripting\lua-bindings\proj_win32\libluacocos2d.vcxproj">
       <Project>{9f2d6ce6-c893-4400-b50c-6db70cc2562f}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\cocos2d\external\Box2D\proj_win32\libbox2d.vcxproj">
-      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\cocos2d\external\bullet\proj_win32\libbullet.vcxproj">
-      <Project>{012dff48-a13f-4f52-b07b-f8b9d21ce95b}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\cocos2d\external\recast\proj_win32\librecast.vcxproj">
-      <Project>{41e34993-647e-4282-8384-4ab1ae31a452}</Project>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="summoner.rc" />
