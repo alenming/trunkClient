@@ -22,10 +22,10 @@
     ----[[
     ServerConfig = 
     {
-        {Id = "1区", Name = "内网linux", Status = "火爆", Ip = "192.168.9.8", Port = 5555, WorldId = 2, ServerId = 1},
-        {Id = "2区", Name = "外网linux", Status = "新服", Ip = "120.76.166.234", Port = 9999, WorldId = 2, ServerId = 10009},
-        {Id = "3区", Name = "外网windows", Status = "火爆", Ip = "112.74.208.214", Port = 5555, WorldId = 3, ServerId = 3},
-        {Id = "4区", Name = "自己服务器", Status = "新服", Ip = "127.0.0.1", Port = 5555, WorldId = 3, ServerId = 4},
+        {Id = "1区", Name = "自己服务器", Status = "新服", Ip = "127.0.0.1", Port = 5555, WorldId = 3, ServerId = 4},
+        {Id = "2区", Name = "内网linux", Status = "火爆", Ip = "192.168.9.8", Port = 5555, WorldId = 2, ServerId = 1},
+        {Id = "3区", Name = "外网linux", Status = "新服", Ip = "120.76.166.234", Port = 9999, WorldId = 2, ServerId = 10009},
+        {Id = "4区", Name = "外网windows", Status = "火爆", Ip = "112.74.208.214", Port = 5555, WorldId = 3, ServerId = 3},
         {Id = "5区", Name = "宝爷的服务器", Status = "新服", Ip = "192.168.0.29", Port = 5555, WorldId = 3, ServerId = 5},
         {Id = "6区", Name = "穗勇的服务器", Status = "火爆", Ip = "192.168.3.86", Port = 5555, WorldId = 3, ServerId = 6},
         {Id = "7区", Name = "黄成的服务器", Status = "火爆", Ip = "192.168.0.40", Port = 5555, WorldId = 3, ServerId = 7},

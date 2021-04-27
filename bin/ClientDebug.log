@@ -8,7 +8,7 @@
 [Debug] [LUA-print] [INFO] # device.platform              = windows
 [Debug] [LUA-print] [INFO] # device.model                 = unknown
 [Debug] [LUA-print] [INFO] # device.language              = cn
-[Debug] [LUA-print] [INFO] # device.writablePath          = C:/Users/pc/AppData/Local/summoner/
+[Debug] [LUA-print] [INFO] # device.writablePath          = C:/Users/Administrator/AppData/Local/summoner/
 [Debug] [LUA-print] [INFO] # device.directorySeparator    = \
 [Debug] [LUA-print] [INFO] # device.pathSeparator         = ;
 [Debug] [LUA-print] [INFO] #
@@ -111,7 +111,7 @@
 [Debug] performance: CTextureLoader load ui_new/l_loading/loading.plist
 [Debug] [LUA-print] Resloader allcount is 26
 [Debug] CResManager::setFinishCallback
-[Debug] [LUA-print] dump from: [string "D:/trunkClient/bin/../res/scripts/summoner.lua"]:53: in main chunk
+[Debug] [LUA-print] dump from: [string "F:/myCode/trunkClient/bin/../res/scripts/summoner.lua"]:53: in main chunk
 [Debug] [LUA-print] - "<var>" = {
 [Debug] [LUA-print] -     "ID"       = ""
 [Debug] [LUA-print] -     "Key"      = ""
@@ -120,32 +120,32 @@
 [Debug] [LUA-print] gClearPush
 [Debug] [LUA-print] PushManager:ctor, on=true
 [Debug] [LUA-print] PushManager:ctor, key=RegisterTime, date=1970-1-1 8:0
-[Debug] performance: CTextureLoader onFinish 90494948
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/l_login/Login_Test.csb -- D:/trunkClient/bin/../res/ui_new/l_login/l_login.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/l_login/Login_Test.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/BuygoldPanel.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/f_fight/WifiTips.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/l_login/UserAgreement.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/l_login/Login.csb -- D:/trunkClient/bin/../res/ui_new/l_login/l_login.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/l_login/Login.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/TopTips.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/l_login/Loading.csb -- D:/trunkClient/bin/../res/ui_new/l_loading/loading.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/l_login/Loading.csb -- D:/trunkClient/bin/../res/ui_new/l_login/l_login.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/f_fight/ConnectTips.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/g_gamehall/c_chat/RecordTimeButton.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- D:/trunkClient/bin/../res/ui_new/i_icon/i_icon.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- D:/trunkClient/bin/../res/ui_new/i_icon/icon_head.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- D:/trunkClient/bin/../res/ui_new/i_icon/icon_prop.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public2.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/TipPanel.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] csblink D:/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/BuyEnergyPanel.csb -- D:/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] performance: CNewCsbLoader onLoadFinish 90495216
+[Debug] performance: CTextureLoader onFinish 5446344
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Login_Test.csb -- F:/myCode/trunkClient/bin/../res/ui_new/l_login/l_login.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Login_Test.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/BuygoldPanel.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/f_fight/WifiTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/UserAgreement.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Login.csb -- F:/myCode/trunkClient/bin/../res/ui_new/l_login/l_login.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Login.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/TopTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Loading.csb -- F:/myCode/trunkClient/bin/../res/ui_new/l_loading/loading.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Loading.csb -- F:/myCode/trunkClient/bin/../res/ui_new/l_login/l_login.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/f_fight/ConnectTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/c_chat/RecordTimeButton.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/i_icon/i_icon.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/i_icon/icon_head.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/i_icon/icon_prop.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public2.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/TipPanel.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/BuyEnergyPanel.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] performance: CNewCsbLoader onLoadFinish 5446653
 [Debug] CResManager::checkLoading start call m_FinishCallback
 [Debug] [LUA-print] ResLoader.onFinish()
 [Debug] CResManager::setFinishCallback
 [Debug] [LUA-print] SceneManager.changeScene 1 prev nil
-[Debug] CResManager::checkLoading call m_FinishCallback over 2.199268
+[Debug] CResManager::checkLoading call m_FinishCallback over 2.000496
 [Debug] [LUA-print] SceneLogin:onEnter()
 [Debug] [LUA-print] UIManager.open 67stack traceback:
 	[string "common/UIManager.lua"]:326: in function 'open'
@@ -175,9 +175,6 @@
 [Debug] [LUA-print] setEventListener -100
 [Debug] [LUA-print] setEventListener -101
 [Debug] [LUA-print] setEventListener -103
-[Debug] [LUA-print] 获取userId0
-[Debug] [LUA-print] 随机userId7578148
+[Debug] [LUA-print] 获取userId1205285
 [Debug] [LUA-print] openCallback
 [Debug] [LUA-print] =================== Lua raiseEvent !!!!
-[Debug] [LUA-print] gCheckPush
-[Debug] [LUA-print] PushManager:checkPush, today=0
