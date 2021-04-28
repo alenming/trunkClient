@@ -120,7 +120,7 @@
 [Debug] [LUA-print] gClearPush
 [Debug] [LUA-print] PushManager:ctor, on=true
 [Debug] [LUA-print] PushManager:ctor, key=RegisterTime, date=1970-1-1 8:0
-[Debug] performance: CTextureLoader onFinish 5446344
+[Debug] performance: CTextureLoader onFinish 18487792
 [Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Login_Test.csb -- F:/myCode/trunkClient/bin/../res/ui_new/l_login/l_login.png
 [Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/Login_Test.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
 [Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/BuygoldPanel.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
@@ -140,12 +140,12 @@
 [Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/w_worldmap/AwradItemTips.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public2.png
 [Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/TipPanel.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
 [Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/g_gamehall/g_gpub/BuyEnergyPanel.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
-[Debug] performance: CNewCsbLoader onLoadFinish 5446653
+[Debug] performance: CNewCsbLoader onLoadFinish 18487999
 [Debug] CResManager::checkLoading start call m_FinishCallback
 [Debug] [LUA-print] ResLoader.onFinish()
 [Debug] CResManager::setFinishCallback
 [Debug] [LUA-print] SceneManager.changeScene 1 prev nil
-[Debug] CResManager::checkLoading call m_FinishCallback over 2.000496
+[Debug] CResManager::checkLoading call m_FinishCallback over 1.613050
 [Debug] [LUA-print] SceneLogin:onEnter()
 [Debug] [LUA-print] UIManager.open 67stack traceback:
 	[string "common/UIManager.lua"]:326: in function 'open'
@@ -177,4 +177,70 @@
 [Debug] [LUA-print] setEventListener -103
 [Debug] [LUA-print] 获取userId1205285
 [Debug] [LUA-print] openCallback
+[Debug] [LUA-print] =================== Lua raiseEvent !!!!
+[Debug] [LUA-print] UIManager.open 68stack traceback:
+	[string "common/UIManager.lua"]:326: in function 'open'
+	[string "game/login/UILogin.lua"]:154: in function <[string "game/login/UILogin.lua"]:122>
+[Debug] [LUA-print] ui idx -1
+[Debug] [LUA-print] UIStack 2 addChild UIServerList
+[Debug] performance: CNewCsbLoader Load ui_new/l_login/OnlineMode.csb
+[Debug] CResManager::setFinishCallback
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/OnlineMode.csb -- F:/myCode/trunkClient/bin/../res/ui_new/l_login/l_login.png
+[Debug] csblink F:/myCode/trunkClient/bin/../res/ui_new/l_login/OnlineMode.csb -- F:/myCode/trunkClient/bin/../res/ui_new/p_public/p_public.png
+[Debug] performance: CNewCsbLoader onLoadFinish 18491660
+[Debug] CResManager::checkLoading start call m_FinishCallback
+[Debug] CResManager::setFinishCallback
+[Debug] [LUA-print] open Callback stack traceback:
+	[string "common/UIManager.lua"]:356: in function 'finishCallback'
+	[string "common/UIManager.lua"]:273: in function <[string "common/UIManager.lua"]:271>
+[Debug] [LUA-print] getOrCreateUI 68
+[Debug] [LUA-print] game/login/
+[Debug] [LUA-print] updateUI hide ui 1
+[Debug] [LUA-print] =================== Lua raiseEvent !!!!
+[Debug] [LUA-print] ===== raise event begin =====708
+[Debug] [LUA-print] ----------------- execute callback ------------- begin708
+[Debug] [LUA-print] ----------------- execute callback ------------- end708
+[Debug] [LUA-print] ===== raise event end =====708
+[Debug] [LUA-print] execute uiNode:onOpen(fromUIID, ...)
+[Debug] [LUA-print] playAnimate
+[Debug] CResManager::checkLoading call m_FinishCallback over 0.029042
+[Debug] [LUA-print] =================== Lua raiseEvent !!!!
+[Debug] [LUA-print] close ui 68 ui Name UIServerList
+[Debug] [LUA-print] UIStack 1
+[Debug] [LUA-print] =================== Lua raiseEvent !!!!
+[Debug] [LUA-print] ===== raise event begin =====704
+[Debug] [LUA-print] ----------------- execute callback ------------- begin704
+[Debug] [LUA-print] ----------------- execute callback ------------- end704
+[Debug] [LUA-print] ===== raise event end =====704
+[Debug] [LUA-print] 请求连接服务器127.0.0.1
+[Debug] debug: KxSock::connect 127.0.0.1 : 5555 socket -1
+[Error] error: KxTCPConnector::onSend sock 564 errno 10061
+[Debug] [LUA-print] =================== Lua raiseEvent !!!!
+[Debug] [LUA-print] ===== raise event begin =====-101
+[Debug] [LUA-print] ----------------- execute callback ------------- begin-101
+[Debug] [LUA-print] UIManager.open 69stack traceback:
+	[string "common/UIManager.lua"]:326: in function 'open'
+	[string "game/login/UILogin.lua"]:246: in function 'callback'
+	[string "common/EventManager.lua"]:57: in function <[string "common/EventManager.lua"]:49>
+[Debug] [LUA-print] ui idx -1
+[Debug] [LUA-print] UIStack 2 addChild UIDialogBox
+[Debug] [LUA-print] #loadRes == 0
+[Debug] [LUA-print] open Callback stack traceback:
+	[string "common/UIManager.lua"]:356: in function 'finishCallback'
+	[string "common/UIManager.lua"]:278: in function 'prepareUIRes'
+	[string "common/UIManager.lua"]:375: in function 'open'
+	[string "game/login/UILogin.lua"]:246: in function 'callback'
+	[string "common/EventManager.lua"]:57: in function <[string "common/EventManager.lua"]:49>
+[Debug] [LUA-print] getOrCreateUI 69
+[Debug] [LUA-print] game/comm/
+[Debug] [LUA-print] =================== Lua raiseEvent !!!!
+[Debug] [LUA-print] ===== raise event begin =====708
+[Debug] [LUA-print] ----------------- execute callback ------------- begin708
+[Debug] [LUA-print] ----------------- execute callback ------------- end708
+[Debug] [LUA-print] ===== raise event end =====708
+[Debug] [LUA-print] execute uiNode:onOpen(fromUIID, ...)
+[Debug] [LUA-print] playAnimate
+[Debug] [LUA-print] 连接失败
+[Debug] [LUA-print] ----------------- execute callback ------------- end-101
+[Debug] [LUA-print] ===== raise event end =====-101
 [Debug] [LUA-print] =================== Lua raiseEvent !!!!
