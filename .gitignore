@@ -20,3 +20,4 @@ proj_win32/Debug.win32/summoner.exe
 *.log
 *.suo
 *.suo
+*.exe
